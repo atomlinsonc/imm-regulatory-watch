@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-12 01:12",
+ "fetched": "2026-10-12 15:25",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -23,20 +23,20 @@
   {
    "date": "2026-10-14",
    "time": "9:30 AM",
-   "name": "PDCWG Meeting - Webex Only",
-   "body": "Performance, Disturbance, Compliance Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/10142026-PDCWG-Meeting-_-Webex",
-   "key": false
-  },
-  {
-   "date": "2026-10-14",
-   "time": "9:30 AM",
    "name": "PRS Meeting",
    "body": "Protocol Revisions Subcommittee",
    "location": "ERCOT Austin and Webex",
    "url": "https://www.ercot.com/calendar/10142026-PRS-Meeting",
    "key": true
+  },
+  {
+   "date": "2026-10-14",
+   "time": "9:30 AM",
+   "name": "PDCWG Meeting - Webex Only",
+   "body": "Performance, Disturbance, Compliance Working Group",
+   "location": "(CANCELLED) Thursday, Oct 15, 2026",
+   "url": "https://www.ercot.com/calendar/10142026-PDCWG-Meeting-_-Webex",
+   "key": false
   },
   {
    "date": "2026-10-15",
@@ -50,15 +50,6 @@
   {
    "date": "2026-10-15",
    "time": "9:30 AM",
-   "name": "PUCT Meeting",
-   "body": "The Public Utility Commission of Texas",
-   "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
-   "url": "https://www.ercot.com/calendar/10152026-PUCT-Meeting",
-   "key": true
-  },
-  {
-   "date": "2026-10-15",
-   "time": "9:30 AM",
    "name": "LLWG Meeting",
    "body": "Large Load Working Group",
    "location": "ERCOT Austin and Webex",
@@ -67,29 +58,11 @@
   },
   {
    "date": "2026-10-16",
-   "time": "9:30 AM",
+   "time": "1:00 PM",
    "name": "IBRWG Meeting - Webex Only",
    "body": "IBRWG Inverter-Based Resource Working Group",
    "location": "(CANCELLED) Monday, Oct 19, 2026",
    "url": "https://www.ercot.com/calendar/10162026-IBRWG-Meeting-_-Webex",
-   "key": false
-  },
-  {
-   "date": "2026-10-19",
-   "time": "10:00 AM",
-   "name": "CMWG Meeting - Webex Only",
-   "body": "Congestion Management Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/10192026-CMWG-Meeting-_-Webex",
-   "key": true
-  },
-  {
-   "date": "2026-10-19",
-   "time": "1:00 PM",
-   "name": "DSWG Meeting - Webex Only",
-   "body": "Demand Side Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/10192026-DSWG-Meeting-_-Webex",
    "key": false
   },
   {

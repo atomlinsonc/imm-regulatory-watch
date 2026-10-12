@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-12 01:11",
+ "fetched": "2026-10-12 15:24",
  "projects": {
   "34677": {
    "control": "34677",
@@ -10556,7 +10556,7 @@
      "item": 15,
      "date": "2026-06-08",
      "party": "TEXAS NEW MEXICO POWER COMPANY",
-     "type": "MISC",
+     "type": "PL",
      "description": "TNMP’s Protective Order Certifications",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=15"
     },
@@ -11327,6 +11327,14 @@
      "type": "PL",
      "description": "PROPOSED ORDER WITH MEMORANDUM",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=111"
+    },
+    {
+     "item": 112,
+     "date": "2026-10-12",
+     "party": "PUC MARKET ANALYSIS",
+     "type": "PL",
+     "description": "Commission Staff's Corrections to Proposed Order",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=112"
     }
    ],
    "style": "Joint Application for West Texas Solar Project II LLC and Silver Basin Digital Infrastructure LLC for Approval of a Net Metering Arrangement"
@@ -11627,7 +11635,7 @@
      "item": 37,
      "date": "2026-06-12",
      "party": "Crusoe Technologies, LLC",
-     "type": "COM",
+     "type": "PL",
      "description": "Crusoe Technologies, LLC Comments on Recommended Approval of PGRR 145 by the ERCOT Board of Directors",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=37"
     },
@@ -12388,6 +12396,22 @@
      "type": "PL",
      "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S PROTECTIVE ORDER CERTIFICATIONS",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=49"
+    },
+    {
+     "item": 50,
+     "date": "2026-10-12",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=50"
+    },
+    {
+     "item": 51,
+     "date": "2026-10-12",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=51"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
