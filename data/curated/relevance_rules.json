@@ -1,0 +1,20 @@
+{
+  "_about": "Sorting rules for PUCT open meeting agenda items. Rules are tried in order and the first match wins. A reviewed entry in agenda_judgments.json overrides them. Tiers: action = the IMM has a filing, position or decision in play; watch = in the IMM's subject area but no IMM action identified from the public record; none = outside the ERCOT wholesale market.",
+  "rules": [
+    {"tier": "none", "when": {"section": "Public Comment"}, "reason": "Public comment period."},
+    {"tier": "none", "when": {"title": "^Adjournment for closed session"}, "reason": "Closed session."},
+    {"tier": "none", "when": {"subsection": "Water"}, "reason": "Water and sewer matter."},
+    {"tier": "none", "when": {"subsection": "Communications"}, "reason": "Telecommunications matter."},
+    {"tier": "action", "when": {"imm_has_filed": true}, "reason": "The IMM has filed in this project, so it has a position on the record here."},
+    {"tier": "none", "when": {"title": "Entergy|MISO|Southwest Power Pool|Western Energy Imbalance|El Paso Electric|Southwestern Electric Power|Southwestern Public Service"}, "reason": "Outside the ERCOT region."},
+    {"tier": "watch", "when": {"title": "^Discussion and possible action on electric reliability; electric market development"}, "reason": "Standing item that covers ERCOT oversight and market development. Commissioners can raise market issues here without a separate filing."},
+    {"tier": "watch", "when": {"title": "legislation affecting electricity markets"}, "reason": "Standing legislative item. Bill pre-filing for the 2027 session opens in November."},
+    {"tier": "none", "when": {"title": "Emergency Operations Plan|\\bEOP\\b"}, "reason": "Emergency operations plan paperwork, not market conduct."},
+    {"tier": "none", "when": {"title": "^Complaint of|Opt-Out List|§\\s?25\\.107|Retail Services|customer service"}, "reason": "Retail customer or retail provider matter."},
+    {"tier": "none", "when": {"title": "Certificate[s]? of Convenience and Necessity|Transmission Line|Authority to Change Rates|Tariff|Pole |Ordinance"}, "reason": "Utility rates or transmission siting."},
+    {"tier": "watch", "when": {"title": "Net Metering Arrangement|Large Load|Large Computational|Data Cent"}, "reason": "Large load siting or co-location with generation, which changes the supply available to the market."},
+    {"tier": "watch", "when": {"title": "ERCOT|Ancillary|Wholesale|Market Power|Offer Cap|Reliability Standard|Energy Storage|Texas Energy Fund|Firm Fuel|Dispatchable"}, "reason": "Names ERCOT or a wholesale market topic."},
+    {"tier": "none", "when": {"subsection": "General"}, "reason": "Agency administration."},
+    {"tier": "watch", "when": {}, "reason": "Not matched by any rule. Needs a person to look at it."}
+  ]
+}

@@ -1,0 +1,2073 @@
+{
+ "fetched": "2026-10-12 00:44",
+ "source": "https://www.ercot.com/mktrules/issues/nprr",
+ "nprrs": [
+  {
+   "id": "NPRR956",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR956",
+   "title": "Designation of Providers of Transmission Additions",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2019-07-02",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) modifies Section 3.11.4.8 to align with section 37.056 of the Texas Utilities Code, as amended by SB1938 86(R), which became effective on May 16, 2019. As amended, section 37.056 authorizes the Public Utility Commission of Texas (PUCT) to grant a Certificate of Convenience and Necessity (CCN) only to a Transmission Service Provider (TSP) that owns the Facilities to which a proposed Transmission Facility addition will interconnect, or to the lawful designee of such a TSP. If more than one TSP owns Facilities to which a proposed addition will interconnect, the PUCT may issue a CCN to each such TSP to construct the needed Facilities in “separate and discrete equal parts,” unless the TSPs agree to a different allocation of responsibility. SB1938’s allocation of project responsibility based on ownership of the Facilities to which an addition interconnects is consistent with the Protocols’ longstanding assignment of responsibility based on ownership of the Facility endpoints. For the sake of consistency, however, ERCOT proposes to revise Section 3.11.4.8 to more closely comport with the language of the statute. ERCOT notes that revised Section 3.11.4.8 applies not only to those projects requiring a CCN, but also to other Tier 1 projects that may not require a CCN and therefore do not come within the coverage of section 37.056. This is consistent with the Protocols’ existing allocation rules, which have long assigned responsibility for all Tier 1 and 2 projects. ERCOT proposes to incorporate section 37.056’s assignment rules into a new paragraph (2). ERCOT proposes to modify paragraph (1) to recognize that ERCOT’s role, upon completing an independent review, is simply to identify the owners of the existing facilities, rather than to formally designate transmission providers. ERCOT also proposes to remove language from paragraph (1) which contemplates that ERCOT may determine project responsibility in the event of a disagreement between TSPs and may assign responsibility to a new TSP when the originally assigned TSP has not diligently pursued the project. Both of these provisions are inconsistent with SB1938, which contemplates no such role for ERCOT. ERCOT also proposes new paragraph (3), which would establish an explicit mandate that the TSP diligenty pursue the project. Although such a mandate is already implicit in provisions that establish the designation of providers, ERCOT suggests that stating this more explicitly will provide greater transparency that responsibility for a project entails a duty to pursue the completion of that project. ERCOT notes that “TSP” as used in the Protocols includes Municipally Owned Utilities (MOUs) and Electric Cooperatives (ECs). Finally, ERCOT proposes revisions to Section 3.11.4.9, Regional Planning Group Acceptance and ERCOT Endorsement, to provide that ERCOT will issue a Market Notice instead of sending an acceptance letter or endorsement letter, following Regional Planning Group (RPG) acceptance of Tier 3 projects, and ERCOT’s endorsement of Tier 1 and Tier 2 projects. This change will ensure that all TSPs (and other Market Participants) receive documentation showing completion of the ERCOT review process. ERCOT notes that because SB1938 is already effective, ERCOT must comply with the amended statute irrespective of the status of this NPRR. Thus, to the limited extent ERCOT’s existing Protocols conflict with the statute, ERCOT is already precluded from complying with those provisions. ERCOT is currently developing independent review reports for several projects and will ensure that its processes comport with the amended statute as it develops those reports over the next few months.",
+   "actions": [
+    {
+     "date": "2019-07-17",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 5,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "956NPRR-05 ERCOT Comments 092122",
+     "url": "https://www.ercot.com/files/docs/2022/09/21/956NPRR-05%20ERCOT%20Comments%20092122.docx",
+     "posted": "2022-09-21"
+    },
+    {
+     "name": "956NPRR-04 ERCOT Comments 111219",
+     "url": "https://www.ercot.com/files/docs/2019/11/12/956NPRR-04_ERCOT_Comments_111219.doc",
+     "posted": "2019-11-12"
+    },
+    {
+     "name": "956NPRR-03 PRS Report 071719",
+     "url": "https://www.ercot.com/files/docs/2019/07/22/956NPRR-03_PRS_Report_071719.doc",
+     "posted": "2019-07-22"
+    },
+    {
+     "name": "956NPRR-01 Designation of Providers of Transmission Additions 070219",
+     "url": "https://www.ercot.com/files/docs/2019/07/05/956NPRR-01_Designation_of_Providers_of_Transmission_Additions_070219.doc",
+     "posted": "2019-07-05"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1214",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1214",
+   "title": "Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
+   "next_group": "PUCT",
+   "next_step": "PUCT for consideration",
+   "status": "Pending",
+   "posted": "2023-12-07",
+   "sponsor": "Joint Sponsors",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) revises the Real-Time On-Line Reliability Deployment Price Adder (RTRDPA) to: send appropriate locational price signals to avoid counterproductive Load and Resource responses to RTRDPA price signals under Real-Time Co-optimization (RTC); limit Resource payment to the actual “indifference payment” (consistent with its definition), thereby reducing associated uplift by eliminating the future need for RTRDPA payments to Resources that exacerbate constraints and eliminating payments to available capacity not requiring an indifference payment; eliminate any future need for the Ancillary Service Imbalance Payments or Charges (ASIP/C) type of indifference payment associated with RTRDPA, thereby reducing the risk associated with providing Ancillary Services; provide Resources an indifference payment under RTC to eliminate the potentially large incentive to ignore Base Point instructions that would likely cause serious reliability issues; and provide a stronger locational price signal around Resources committed by the Reliability Unit Commitment (RUC) process or other reliability actions for congestion, thereby reducing RUC Make-Whole Payment-related charges and uplifts and appropriately compensating impacted Qualified Scheduling Entities (QSEs).",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "PUCT for consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Board for consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "TAC for consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "PRS for consideration"
+    },
+    {
+     "date": "2025-05-14",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    },
+    {
+     "date": "2025-04-09",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    },
+    {
+     "date": "2025-03-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "PRS for Impact Analysis consideration"
+    },
+    {
+     "date": "2024-01-11",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 33,
+   "imm_documents": [
+    {
+     "name": "1214NPRR-24 IMM Comments 062226",
+     "url": "https://www.ercot.com/files/docs/2026/06/22/1214NPRR-24-IMM-Comments-062226.docx",
+     "posted": "2026-06-22"
+    }
+   ],
+   "latest_documents": [
+    {
+     "name": "1214NPRR-33 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/15/1214NPRR-33-Board-Report-091526.docx",
+     "posted": "2026-09-15"
+    },
+    {
+     "name": "1214NPRR-31 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/27/1214NPRR-31-TAC-Ballot-082626.xls",
+     "posted": "2026-08-27"
+    },
+    {
+     "name": "1214NPRR-32 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/27/1214NPRR-32-TAC-Report-082626.docx",
+     "posted": "2026-08-27"
+    },
+    {
+     "name": "1214NPRR-29 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/13/1214NPRR-29-PRS-Ballot-081226.xls",
+     "posted": "2026-08-13"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1255",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1255",
+   "title": "Introduction of Mitigation of ESRs",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2024-10-02",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) introduces Mitigated Offer Cap (MOC) curves below the System-Wide Offer Cap (SWCAP) for Energy Storage Resources (ESRs) when the Resource, through its Qualified Scheduling Entity (QSE), has the potential to exploit market power, as evaluated in the Security-Constrained Economic Dispatch (SCED) Constraint Competitiveness Test (CCT) process.",
+   "actions": [
+    {
+     "date": "2024-10-17",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 8,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1255NPRR-07 WMS Ballot 050725",
+     "url": "https://www.ercot.com/files/docs/2025/05/13/1255NPRR-07-WMS-Ballot-050725.xls",
+     "posted": "2025-05-13"
+    },
+    {
+     "name": "1255NPRR-08 WMS Comments 051325",
+     "url": "https://www.ercot.com/files/docs/2025/05/13/1255NPRR-08-WMS-Comments-051325.docx",
+     "posted": "2025-05-13"
+    },
+    {
+     "name": "1255NPRR-06 Jupiter Comments 040325",
+     "url": "https://www.ercot.com/files/docs/2025/04/03/1255NPRR-06-Jupiter-Comments-040325.docx",
+     "posted": "2025-04-03"
+    },
+    {
+     "name": "1255NPRR-05 ERCOT Comments 040225",
+     "url": "https://www.ercot.com/files/docs/2025/04/02/1255NPRR-05-ERCOT-Comments-040225.docx",
+     "posted": "2025-04-02"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1278",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1278",
+   "title": "Establishing Advanced Grid Support Service as an Ancillary Service",
+   "next_group": "PRS",
+   "next_step": "PRS for consideration",
+   "status": "Pending",
+   "posted": "2025-03-30",
+   "sponsor": "Joint Sponsors",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) creates an Advanced Grid Support Service (AGSS), which will incent Inverter-Based Resources (IBRs), particularly Energy Storage Resources (ESRs), to provide valuable stability support to the ERCOT grid and will do so more quickly and efficiently than a mandate, as qualifications are clearly stated, without punitive and unclear compliance mechanisms, which may slow technology growth altogether. This NPRR defines Resource capabilities and provides for compensation based on an annual bidding process, similar to Black Start Service (BSS).",
+   "actions": [
+    {
+     "date": "2025-05-14",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 11,
+   "imm_documents": [
+    {
+     "name": "1278NPRR-03 IMM Comments 051325",
+     "url": "https://www.ercot.com/files/docs/2025/05/13/1278NPRR-03-IMM-Comments-051325.docx",
+     "posted": "2025-05-13"
+    }
+   ],
+   "latest_documents": [
+    {
+     "name": "1278NPRR-10 ROS Ballot 060525",
+     "url": "https://www.ercot.com/files/docs/2025/06/06/1278NPRR-10-ROS-Ballot-060525.xls",
+     "posted": "2025-06-06"
+    },
+    {
+     "name": "1278NPRR-11 ROS Comments 060625",
+     "url": "https://www.ercot.com/files/docs/2025/06/06/1278NPRR-11-ROS-Comments-060625.docx",
+     "posted": "2025-06-06"
+    },
+    {
+     "name": "1278NPRR-07 ERCOT Comments 060425",
+     "url": "https://www.ercot.com/files/docs/2025/06/04/1278NPRR-07-ERCOT-Comments-060425.docx",
+     "posted": "2025-06-04"
+    },
+    {
+     "name": "1278NPRR-08 WMS Ballot 060425",
+     "url": "https://www.ercot.com/files/docs/2025/06/04/1278NPRR-08-WMS-Ballot-060425.xls",
+     "posted": "2025-06-04"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1286",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1286",
+   "title": "Establish Multi-Value Criteria for Resiliency-Related Transmission Project Evaluation",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2025-05-21",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) establishes new planning criteria to address the process for determining whether a project that addresses a resiliency issue provides sufficient benefit balanced with economic savings or reliability benefits, in accordance with 16 Texas Administrative Code (TAC) § 25.101(b)(3)(A)(iii). Cleanups are also included in Section 3.11.2 to address the inconsistent use of terminology and delete certain obsolete language.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-29",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2025-06-11",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 22,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1286NPRR-22 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1286NPRR-22-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1286NPRR-20 TAC Ballot 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/31/1286NPRR-20-TAC-Ballot-072926.xls",
+     "posted": "2026-07-31"
+    },
+    {
+     "name": "1286NPRR-21 TAC Report 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/31/1286NPRR-21-TAC-Report-072926.docx",
+     "posted": "2026-07-31"
+    },
+    {
+     "name": "1286NPRR-18 PRS Ballot 071526",
+     "url": "https://www.ercot.com/files/docs/2026/07/16/1286NPRR-18-PRS-Ballot-071526.xls",
+     "posted": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1292",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1292",
+   "title": "Granular Product Type for CRR TOU",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2025-07-22",
+   "sponsor": "Vistra",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) creates the granular Congestion Revenue Right (CRR) Time Of Use (TOU) blocks to align with the current resource mix and improve auction speed and efficiency. Currently, CRRs are traded as weekday/weekend peak and off-peak, with no opportunity to further shape hedges. More granular CRR TOU blocks will divide weekday/weekend peak between solar and non-solar hours, providing a more targeted hedging product.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-29",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-04-15",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2026-03-11",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2025-08-13",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 23,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1292NPRR-23 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1292NPRR-23-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1292NPRR-21 TAC Ballot 072926",
+     "url": "https://www.ercot.com/files/docs/2026/08/03/1292NPRR-21-TAC-Ballot-072926.xls",
+     "posted": "2026-08-03"
+    },
+    {
+     "name": "1292NPRR-22 TAC Report 072926",
+     "url": "https://www.ercot.com/files/docs/2026/08/03/1292NPRR-22-TAC-Report-072926.docx",
+     "posted": "2026-08-03"
+    },
+    {
+     "name": "1292NPRR-19 PRS Ballot 061026",
+     "url": "https://www.ercot.com/files/docs/2026/06/15/1292NPRR-19-PRS-Ballot-061026.xls",
+     "posted": "2026-06-15"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1295",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1295",
+   "title": "GTC Exit Solutions",
+   "next_group": "TAC",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2025-08-19",
+   "sponsor": "Joint Sponsors",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) requires ERCOT to review Generic Transmission Constraint (GTC) exit alternatives filed on or after January 1, 2025 at least once every three years and to update the exit alternatives for the GTC if appropriate. ERCOT will review reports filed before January 1, 2025 at its discretion.",
+   "actions": [
+    {
+     "date": "2026-09-16",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2025-09-17",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 15,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1295NPRR-14 PRS Ballot 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/18/1295NPRR-14-PRS-Ballot-091626.xls",
+     "posted": "2026-09-18"
+    },
+    {
+     "name": "1295NPRR-15 PRS Report 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/18/1295NPRR-15-PRS-Report-091626.docx",
+     "posted": "2026-09-18"
+    },
+    {
+     "name": "1295NPRR-13 Impact Analysis 090826",
+     "url": "https://www.ercot.com/files/docs/2026/09/08/1295NPRR-13-Impact-Analysis-090826.docx",
+     "posted": "2026-09-08"
+    },
+    {
+     "name": "1295NPRR-11 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/17/1295NPRR-11-PRS-Ballot-081226.xls",
+     "posted": "2026-08-17"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1296",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1296",
+   "title": "Residential Demand Response Program",
+   "next_group": "PRS",
+   "next_step": "PRS for consideration",
+   "status": "Pending",
+   "posted": "2025-08-26",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) implements a Residential Demand Response (RDR) Program for Retail Electric Providers (REPs) and Non-Opt-In Entities (NOIEs).",
+   "actions": [
+    {
+     "date": "2025-09-17",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 19,
+   "imm_documents": [
+    {
+     "name": "1296NPRR-11 IMM Comments 110325",
+     "url": "https://www.ercot.com/files/docs/2025/11/03/1296NPRR-11-IMM-Comments-110325.docx",
+     "posted": "2025-11-03"
+    },
+    {
+     "name": "1296NPRR-16 IMM Comments 022426",
+     "url": "https://www.ercot.com/files/docs/2026/02/24/1296NPRR-16-IMM-Comments-022426.docx",
+     "posted": "2026-02-24"
+    }
+   ],
+   "latest_documents": [
+    {
+     "name": "1296NPRR-19 NEC Co-op Energy Comments 072126",
+     "url": "https://www.ercot.com/files/docs/2026/07/21/1296NPRR-19-NEC-Co-op-Energy-Comments-072126.docx",
+     "posted": "2026-07-21"
+    },
+    {
+     "name": "1296NPRR-18 Vistra Comments 060226",
+     "url": "https://www.ercot.com/files/docs/2026/06/02/1296NPRR-18-Vistra-Comments-060226.docx",
+     "posted": "2026-06-02"
+    },
+    {
+     "name": "1296NPRR-17 Reliant Comments 052726",
+     "url": "https://www.ercot.com/files/docs/2026/05/27/1296NPRR-17-Reliant-Comments-052726.docx",
+     "posted": "2026-05-27"
+    },
+    {
+     "name": "1296NPRR-16 IMM Comments 022426",
+     "url": "https://www.ercot.com/files/docs/2026/02/24/1296NPRR-16-IMM-Comments-022426.docx",
+     "posted": "2026-02-24"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1301",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1301",
+   "title": "Align Protocols to Constraint Activation Procedure",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2025-09-12",
+   "sponsor": "LCRA",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) aligns the Protocols to ERCOT’s Transmission Security and Operating Procedure for constraint activation.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-29",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2025-10-08",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 22,
+   "imm_documents": [
+    {
+     "name": "1301NPRR-17 IMM Comments 070926",
+     "url": "https://www.ercot.com/files/docs/2026/07/09/1301NPRR-17-IMM-Comments-070926.docx",
+     "posted": "2026-07-09"
+    }
+   ],
+   "latest_documents": [
+    {
+     "name": "1301NPRR-22 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1301NPRR-22-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1301NPRR-20 TAC Ballot 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/31/1301NPRR-20-TAC-Ballot-072926.xls",
+     "posted": "2026-07-31"
+    },
+    {
+     "name": "1301NPRR-21 TAC Report 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/31/1301NPRR-21-TAC-Report-072926.docx",
+     "posted": "2026-07-31"
+    },
+    {
+     "name": "1301NPRR-18 PRS Ballot 071526",
+     "url": "https://www.ercot.com/files/docs/2026/07/16/1301NPRR-18-PRS-Ballot-071526.xls",
+     "posted": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1310",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1310",
+   "title": "Dispatchable Reliability Reserve Service Plus Energy Storage Resource Participation and Release Factor",
+   "next_group": "PRS",
+   "next_step": "PRS for consideration",
+   "status": "Pending",
+   "posted": "2025-11-20",
+   "sponsor": "ERCOT",
+   "urgent": "Yes",
+   "description": "This Nodal Protocol Revision Request (NPRR) develops Dispatchable Reliability Reserve Service (DRRS) as a new Ancillary Service.",
+   "actions": [
+    {
+     "date": "2025-12-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 30,
+   "imm_documents": [
+    {
+     "name": "1310NPRR-12 IMM Comments 020326",
+     "url": "https://www.ercot.com/files/docs/2026/02/03/1310NPRR-12-IMM-Comments-020326.docx",
+     "posted": "2026-02-03"
+    }
+   ],
+   "latest_documents": [
+    {
+     "name": "1310NPRR-24 Eolian Comments 030626",
+     "url": "https://www.ercot.com/files/docs/2026/03/06/1310NPRR-24-Eolian-Comments-030626.docx",
+     "posted": "2026-03-06"
+    },
+    {
+     "name": "1310NPRR-25 TCPA Comments 030626",
+     "url": "https://www.ercot.com/files/docs/2026/03/06/1310NPRR-25-TCPA-Comments-030626.docx",
+     "posted": "2026-03-06"
+    },
+    {
+     "name": "1310NPRR-26 Joint Commenters Comments 030626",
+     "url": "https://www.ercot.com/files/docs/2026/03/06/1310NPRR-26-Joint-Commenters-Comments-030626.docx",
+     "posted": "2026-03-06"
+    },
+    {
+     "name": "1310NPRR-27 Sierra Club Comments 030626",
+     "url": "https://www.ercot.com/files/docs/2026/03/06/1310NPRR-27-Sierra-Club-Comments-030626.docx",
+     "posted": "2026-03-06"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1312",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1312",
+   "title": "Revisions to the Standard Form Agreement (SFA)",
+   "next_group": "PRS",
+   "next_step": "Impact Analysis Consideration",
+   "status": "Pending",
+   "posted": "2025-11-26",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) amends the Standard Form Market Participant Agreement (“SFA”) for several reasons (see Justification for Revision below) and transfers certain sections of the SFA to the Protocols. Specifically, this NPRR: • Clarifies the definition of the ERCOT Protocols; • Establishes a new section regarding Notice, and modernizes the Notice language; • Transfers Breach and Default language from the SFA to the Protocols; • Amends the definition of a Force Majeure Event; • Amends sections in the SFA to conform with the Texas Supreme Court’s rulings in CPS Energy v. ERCOT; and • Amends the Standard Form Black Start Agreement and Standard Form Must Run Agreement to algin with revisions to the SFA by eliminating any duplicative language.",
+   "actions": [
+    {
+     "date": "2026-09-16",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2026-01-14",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 11,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1312NPRR-10 PRS Ballot 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/21/1312NPRR-10-PRS-Ballot-091626.xls",
+     "posted": "2026-09-21"
+    },
+    {
+     "name": "1312NPRR-11 PRS Report 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/21/1312NPRR-11-PRS-Report-091626.docx",
+     "posted": "2026-09-21"
+    },
+    {
+     "name": "1312NPRR-09 ERCOT Comments 090926",
+     "url": "https://www.ercot.com/files/docs/2026/09/09/1312NPRR-09-ERCOT-Comments-090926.docx",
+     "posted": "2026-09-09"
+    },
+    {
+     "name": "1312NPRR-08 ERCOT Comments 060426",
+     "url": "https://www.ercot.com/files/docs/2026/06/04/1312NPRR-08-ERCOT-Comments-060426.docx",
+     "posted": "2026-06-04"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1317",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1317",
+   "title": "Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
+   "next_group": "TAC",
+   "next_step": "TAC for consideration",
+   "status": "Pending",
+   "posted": "2025-12-19",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This NPRR clarifies the term “Distributed Generator” (DG) and, introduces the categories of “Distributed Generator,” which include: Unregistered Distributed Generator; Distribution Generation Resource; Settlement Only Distribution Energy Storage System; Settlement Only Distribution Generator; and Non-Settled Distribution Generator. This NPRR also clarifies the Resource Registration process for Resource Entities. Additionally, this NPRR updates DG interconnection, registration, and reporting requirements to ensure consistency throughout the ERCOT System as it relates to DG.",
+   "actions": [
+    {
+     "date": "2026-09-16",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "TAC for consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "PRS for Impact Analysis consideration"
+    },
+    {
+     "date": "2026-01-14",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 20,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1317NPRR-19 PRS Ballot 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/16/1317NPRR-19-PRS-Ballot-091626.xls",
+     "posted": "2026-09-16"
+    },
+    {
+     "name": "1317NPRR-20 PRS Report 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/16/1317NPRR-20-PRS-Report-091626.docx",
+     "posted": "2026-09-16"
+    },
+    {
+     "name": "1317NPRR-17 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/13/1317NPRR-17-PRS-Ballot-081226.xls",
+     "posted": "2026-08-13"
+    },
+    {
+     "name": "1317NPRR-18 PRS Report 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/13/1317NPRR-18-PRS-Report-081226.docx",
+     "posted": "2026-08-13"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1319",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1319",
+   "title": "Clarification to Seasonal Mothball Evaluation Process",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2025-12-29",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) clarifies ERCOT’s next steps after a Generation Resource proposal to be placed on seasonal mothball status has been evaluated. The current language in some cases requires ERCOT to prepare and post a Must-Run Alternative (MRA) “Request for Proposal” (RFP). Given that a request to seasonally mothball a Resource can be submitted as little as 90 days before the season begins, if ERCOT studies indicate a reliability concern of the seasonal mothball request, in most cases there is not enough time to effectively go through the MRA process and receive operational alternatives in a timely manner. This NPRR clarifies that ERCOT may, but is not required to, go through the MRA RFP process when it receives notice to place a unit on seasonal mothball status.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-29",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2026-01-14",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 20,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1319NPRR-20 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1319NPRR-20-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1319NPRR-18 TAC Ballot 072926",
+     "url": "https://www.ercot.com/files/docs/2026/08/03/1319NPRR-18-TAC-Ballot-072926.xls",
+     "posted": "2026-08-03"
+    },
+    {
+     "name": "1319NPRR-19 TAC Report 072926",
+     "url": "https://www.ercot.com/files/docs/2026/08/03/1319NPRR-19-TAC-Report-072926.docx",
+     "posted": "2026-08-03"
+    },
+    {
+     "name": "1319NPRR-16 PRS Ballot 071526",
+     "url": "https://www.ercot.com/files/docs/2026/07/20/1319NPRR-16-PRS-Ballot-071526.xls",
+     "posted": "2026-07-20"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1320",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1320",
+   "title": "Reserve Margin Reporting and Miscellaneous Changes for the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR)",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-01-27",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) formalizes reporting of alternative Planning Reserve Margin (PRM) forecasts in the Report on Capacity, Demand, and Reserves in the ERCOT Region (CDR). The current Protocol language requires estimating only “expected” future PRMs by risk period, season, and year. Reliance on single point forecasts fails to recognize key uncertainties that can yield a range of potential PRM outcomes, thereby downplaying the extent of risks to resource adequacy. In recognition of this shortcoming, ERCOT has in past CDRs included alternative PRM scenarios as supplemental information. This NPRR would require a range of PRM scenarios to be included in future CDRs. Formally requiring the reporting of a range of PRM scenarios, as opposed to singling out one potential future, reflects a best practice for resource adequacy risk assessment and promotes appropriate messaging regarding potential resource adequacy futures.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-29",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2026-02-11",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 17,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1320NPRR-17 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1320NPRR-17-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1320NPRR-15 TAC Ballot 072926",
+     "url": "https://www.ercot.com/files/docs/2026/08/03/1320NPRR-15-TAC-Ballot-072926.xls",
+     "posted": "2026-08-03"
+    },
+    {
+     "name": "1320NPRR-16 TAC Report 072926",
+     "url": "https://www.ercot.com/files/docs/2026/08/03/1320NPRR-16-TAC-Report-072926.docx",
+     "posted": "2026-08-03"
+    },
+    {
+     "name": "1320NPRR-13 PRS Ballot 071526",
+     "url": "https://www.ercot.com/files/docs/2026/07/20/1320NPRR-13-PRS-Ballot-071526.xls",
+     "posted": "2026-07-20"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1326",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1326",
+   "title": "Add Energy Storage Resource (ESR) State of Charge (SOC) Information to the Ancillary Services Capacity Monitor",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-03-06",
+   "sponsor": "Reliant Energy Retail Solutions",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) adds State of Charge (SOC) information for Energy Storage Resources (ESRs) in the ERCOT region to the Ancillary Services Capacity Monitor.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-29",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2026-05-06",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2026-04-15",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 14,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1326NPRR-14 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/18/1326NPRR-14-Board-Report-091526.docx",
+     "posted": "2026-09-18"
+    },
+    {
+     "name": "1326NPRR-12 TAC Ballot 072926",
+     "url": "https://www.ercot.com/files/docs/2026/08/03/1326NPRR-12-TAC-Ballot-072926.xls",
+     "posted": "2026-08-03"
+    },
+    {
+     "name": "1326NPRR-13 TAC Report 072926",
+     "url": "https://www.ercot.com/files/docs/2026/08/03/1326NPRR-13-TAC-Report-0712926.docx",
+     "posted": "2026-08-03"
+    },
+    {
+     "name": "1326NPRR-10 PRS Ballot 071526",
+     "url": "https://www.ercot.com/files/docs/2026/07/20/1326NPRR-10-PRS-Ballot-071526.xls",
+     "posted": "2026-07-20"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1328",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1328",
+   "title": "Establishment of Generation Firming Program",
+   "next_group": "PUCT",
+   "next_step": "PUCT for consideration",
+   "status": "Pending",
+   "posted": "2026-04-02",
+   "sponsor": "ERCOT",
+   "urgent": "Yes",
+   "description": "This Nodal Protocol Revision Request (NPRR) incorporates the new Generation Firming Program requirements, as required by Public Utility Regulatory Act (PURA) § 39.1592 and the Public Utility Commission of Texas’ (PUCT) rule adopted in 16 Texas Administrative Code § 25.65. The obligation to participate in the Generation Firming Program applies to all Generation Resources with an original Standard Generation Interconnection Agreement (SGIA) executed on or after January 1, 2027, beginning one year after the Generation Resource’s Resource Commissioning Date. Such Generation Resources are required to operate, or be available to operate, at or above the Generation Resource’s Seasonal Average Generation Capability during the Low Operation Reserve Hours in each Firming Season. Generation Resources can satisfy this obligation either through their own performance or via a Firming Transfer with another eligible Resource. This NPRR provides details on the administration of the Generation Firming Program, including definitions, timing requirements, processes for submitting Firming Transfers to ERCOT, specific calculations for measuring performance and applying exemptions, and associated market-facing reporting.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "PUCT for consideration"
+    },
+    {
+     "date": "2026-07-29",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Board for consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "TAC for consideration"
+    },
+    {
+     "date": "2026-04-15",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 20,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1328NPRR-19 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/15/1328NPRR-19-Board-Report-091526.docx",
+     "posted": "2026-09-15"
+    },
+    {
+     "name": "1328NPRR-17 TAC Ballot 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/30/1328NPRR-17-TAC-Ballot-072926.xls",
+     "posted": "2026-07-30"
+    },
+    {
+     "name": "1328NPRR-18 TAC Report 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/30/1328NPRR-18-TAC-Report-072926.docx",
+     "posted": "2026-07-30"
+    },
+    {
+     "name": "1328NPRR-15 PRS Ballot 071526",
+     "url": "https://www.ercot.com/files/docs/2026/07/15/1328NPRR-15-PRS-Ballot-071526.xls",
+     "posted": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1329",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1329",
+   "title": "Resource Entity Requirements for Self-Limiting Facilities",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-04-13",
+   "sponsor": "NextEra",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) establishes a framework whereby two Resource Entities and their associated Qualified Scheduling Entities (QSEs) may jointly share the responsibility for managing the injection and withdrawal limits at a Point of Interconnection (POI) and formalizes the responsible QSE functions through an attestation process that is deemed acceptable to ERCOT.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2026-05-06",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    }
+   ],
+   "document_count": 13,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1329NPRR-13 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/18/1329NPRR-13-Board-Report-091526.docx",
+     "posted": "2026-09-18"
+    },
+    {
+     "name": "1329NPRR-11 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/30/1329NPRR-11-TAC-Ballot-082626.xls",
+     "posted": "2026-08-30"
+    },
+    {
+     "name": "1329NPRR-12 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/30/1329NPRR-12-TAC-Report-082626.docx",
+     "posted": "2026-08-30"
+    },
+    {
+     "name": "1329NPRR-10 PRS Report 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/19/1329NPRR-10-PRS-Report-081226.docx",
+     "posted": "2026-08-19"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1331",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1331",
+   "title": "Unannounced Generation Capacity Testing",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-05-08",
+   "sponsor": "Constellation",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) aligns the allowed timeframe for “Combined Cycle Generators” during an unannounced generation capacity test with their observed performance.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 11,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1331NPRR-11 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1331NPRR-11-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1331NPRR-09 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1331NPRR-09-TAC-Ballot-082626.xls",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1331NPRR-10 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1331NPRR-10-TAC-Report-082626.docx",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1331NPRR-07 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/16/1331NPRR-07-PRS-Ballot-081226.xls",
+     "posted": "2026-08-16"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1332",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1332",
+   "title": "Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
+   "next_group": "TAC",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-05-20",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) renames the stability assessment from quarterly stability assessment to qualifying stability assessment.",
+   "actions": [
+    {
+     "date": "2026-09-16",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 8,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1332NPRR-07 PRS Ballot 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/21/1332NPRR-07-PRS-Ballot-091626.xls",
+     "posted": "2026-09-21"
+    },
+    {
+     "name": "1332NPRR-08 PRS Report 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/21/1332NPRR-08-PRS-Report-091626.docx",
+     "posted": "2026-09-21"
+    },
+    {
+     "name": "1332NPRR-05 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/16/1332NPRR-05-PRS-Ballot-081226.xls",
+     "posted": "2026-08-16"
+    },
+    {
+     "name": "1332NPRR-06 PRS Report 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/16/1332NPRR-06-PRS-Report-081226.docx",
+     "posted": "2026-08-16"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1333",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1333",
+   "title": "Establish an Incentive Program for Advanced Grid Support",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2026-05-26",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) establishes a one-time advanced grid support incentive program to encourage Inverter-Based Resources (IBRs) that would not otherwise be required to provide advanced grid support to implement advanced grid support within 18 months of receiving the award notification.",
+   "actions": [
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 6,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1333NPRR-05 WMS Ballot 070826",
+     "url": "https://www.ercot.com/files/docs/2026/07/10/1333NPRR-05-WMS-Ballot-070826.xls",
+     "posted": "2026-07-10"
+    },
+    {
+     "name": "1333NPRR-06 WMS Comments 070926",
+     "url": "https://www.ercot.com/files/docs/2026/07/10/1333NPRR-06-WMS-Comments-070926.doc",
+     "posted": "2026-07-10"
+    },
+    {
+     "name": "1333NPRR-03 PRS Ballot 061026",
+     "url": "https://www.ercot.com/files/docs/2026/06/15/1333NPRR-03-PRS-Ballot-061026.xls",
+     "posted": "2026-06-15"
+    },
+    {
+     "name": "1333NPRR-04 PRS Report 061026",
+     "url": "https://www.ercot.com/files/docs/2026/06/15/1333NPRR-04-PRS-Report-061026.docx",
+     "posted": "2026-06-15"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1334",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1334",
+   "title": "Revision to Cybersecurity Incident Notification",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2026-05-26",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) expands the scope of Cybersecurity Incidents and requires a Market Participant to notify ERCOT upon determination of a Cybersecurity Incident on: (1) The Market Participant’s vendor’s computer network or system that interfaces with the ERCOT Wide Area Network (WAN), the Market Information System (MIS), or any other ERCOT computer network or system; or (2) The Market Participant’s or its vendor’s computer network or system that could foreseeably jeopardize the Market Participant’s reliable operation under the Protocols, an Other Binding Document, or Agreement.",
+   "actions": [
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 6,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1334NPRR-06 AEPSC Comments 071426",
+     "url": "https://www.ercot.com/files/docs/2026/07/14/1334NPRR-06-AEPSC-Comments-071426.docx",
+     "posted": "2026-07-14"
+    },
+    {
+     "name": "1334NPRR-05 Oncor Comments 071326",
+     "url": "https://www.ercot.com/files/docs/2026/07/13/1334NPRR-05-Oncor-Comments-071326.docx",
+     "posted": "2026-07-13"
+    },
+    {
+     "name": "1334NPRR-03 PRS Ballot 061026",
+     "url": "https://www.ercot.com/files/docs/2026/06/15/1334NPRR-03-PRS-Ballot-061026.xls",
+     "posted": "2026-06-15"
+    },
+    {
+     "name": "1334NPRR-04 PRS Report 061026",
+     "url": "https://www.ercot.com/files/docs/2026/06/15/1334NPRR-04-PRS-Report-061026.docx",
+     "posted": "2026-06-15"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1335",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1335",
+   "title": "Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
+   "next_group": "PUCT",
+   "next_step": "PUCT for consideration",
+   "status": "Pending",
+   "posted": "2026-05-26",
+   "sponsor": "ERCOT",
+   "urgent": "Yes",
+   "description": "This Nodal Protocol Revision Request (NPRR) aligns the Protocols with the Public Utility Commission of Texas’ (PUCT's) recent adoption of a rule to govern Firm Fuel Supply Service (FFSS): 16 Texas Administrative Code (TAC) § 25.520.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "PUCT for consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Board for consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "TAC for consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 17,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1335NPRR-17 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/15/1335NPRR-17-Board-Report-091526.docx",
+     "posted": "2026-09-15"
+    },
+    {
+     "name": "1335NPRR-15 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/27/1335NPRR-15-TAC-Ballot-082626.xls",
+     "posted": "2026-08-27"
+    },
+    {
+     "name": "1335NPRR-16 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/27/1335NPRR-16-TAC-Report-082626.docx",
+     "posted": "2026-08-27"
+    },
+    {
+     "name": "1335NPRR-13 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/13/1335NPRR-13-PRS-Ballot-081226.xls",
+     "posted": "2026-08-13"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1336",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1336",
+   "title": "Language Clean-up for NPRR1188 Implementation",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-05-26",
+   "sponsor": "ERCOT",
+   "urgent": "Yes",
+   "description": "This Nodal Protocol Revision Request (NPRR) corrects language related to the implementation of NPRR1188, Implement Nodal Dispatch and Energy Settlement for Controllable Load Resources. Specific changes include: aligning language with Real-Time Co-optimization plus Batteries (RTC+B) implementation, replacing Updated Desired Base Points with Updated Desired Set Points (UDSPs), in Section 6.5.7.4; correcting a Controllable Load Resource (CLR) meter price formula in Section 6.6.3.1; clarifying the consideration of Unaccounted For Energy (UFE) in bill determinants in Section 6.6.3.1; aligning MEBR variable definitions across Section 6.6.7.1; clarifying the Settlement of calculated auxiliary Load for an Energy Storage Resource (ESR) that is not separately measured in paragraph (5) of Section 11.1.6; and other updates.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 11,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1336NPRR-11 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1336NPRR-11-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1336NPRR-09 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1336NPRR-09-TAC-Ballot-082626.xls",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1336NPRR-10 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1336NPRR-10-TAC-Report-082626.docx",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1336NPRR-07 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/16/1336NPRR-07-PRS-Ballot-081226.xls",
+     "posted": "2026-08-16"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1337",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1337",
+   "title": "ERS Enhancements",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-05-26",
+   "sponsor": "ERCOT",
+   "urgent": "Yes",
+   "description": "This Nodal Protocol Revision Request (NPRR) implements an Alternate Baseline Test to determine if an Emergency Response Service (ERS) Resource can qualify to have its performance based on the alternate baseline and changes the availability performance metric from a Qualified Scheduling Entity (QSE) Portfolio Factor combining all ERS Time Periods to having an individual QSE Portfolio Factor for each ERS Time Period.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 23,
+   "imm_documents": [
+    {
+     "name": "1337NPRR-18 IMM Comments 081126",
+     "url": "https://www.ercot.com/files/docs/2026/08/11/1337NPRR-18-IMM-Comments-081126.docx",
+     "posted": "2026-08-11"
+    }
+   ],
+   "latest_documents": [
+    {
+     "name": "1337NPRR-23 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/18/1337NPRR-23-Board-Report-091526.docx",
+     "posted": "2026-09-18"
+    },
+    {
+     "name": "1337NPRR-21 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/30/1337NPRR-21-TAC-Ballot-082626.xls",
+     "posted": "2026-08-30"
+    },
+    {
+     "name": "1337NPRR-22 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/30/1337NPRR-22-TAC-Report-082626.docx",
+     "posted": "2026-08-30"
+    },
+    {
+     "name": "1337NPRR-19 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/16/1337NPRR-19-PRS-Ballot-081226.xls",
+     "posted": "2026-08-16"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1338",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1338",
+   "title": "Restructure Long-Term Auction Sequence Auctions to Six Monthly Optimizations",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-05-29",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) restructures the Long-Term Auction Sequence auctions, currently structured as three time-of-use optimizations, to six single-month optimizations.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    }
+   ],
+   "document_count": 9,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1338NPRR-09 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1338NPRR-09-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1338NPRR-07 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1338NPRR-07-TAC-Ballot-082626.xls",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1338NPRR-08 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1338NPRR-08-TAC-Report-082626.docx",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1338NPRR-05 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/13/1338NPRR-05-PRS-Ballot-081226.xls",
+     "posted": "2026-08-13"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1339",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1339",
+   "title": "Protocol Clean Up and Alignment with RTC+B Implementation",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-05-29",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) corrects misalignment of Protocol language with the Real-Time Co-optimization plus Batteries (RTC+B) implementation. The proposed changes are summarized below: 1. Corrects the duration requirement of ERCOT Contingency Reserve Service (ECRS). NPRR1282, Ancillary Service Duration under Real-Time Co-Optimization, set the duration requirement for ECRS to one hour, but certain sections were inadvertently omitted from NPRR1282 and still reflect the previous two-hour duration. This NPRR corrects those references to align with the as-built one-hour duration for ECRS. 2. Removes Fast-Responding Regulation Service (FRRS) reference in Section 4.4.7.3, Ancillary Service Trades, since FRRS was deleted with the RTC+B implementation. 3. Removes the requirement for Energy Storage Resources (ESRs) to telemeter the next Operating Hour Ancillary Service Responsibilities, which is no longer applicable following the removal of Ancillary Service Responsibilities under RTC+B. 4. Removes references to Ancillary Service Responsibility and Ancillary Service Schedule, as well language that is no longer applicable under RTC+B, in several sections. Replaces the Ancillary Service Responsibilities with Ancillary Service awards wherever applicable.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    }
+   ],
+   "document_count": 10,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1339NPRR-10 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1339NPRR-10-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1339NPRR-08 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1339NPRR-08-TAC-Ballot-082626.xls",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1339NPRR-09 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1339NPRR-09-TAC-Report-082626.docx",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1339NPRR-07 ERCOT Comments 081426",
+     "url": "https://www.ercot.com/files/docs/2026/08/14/1339NPRR-07-ERCOT-Comments-081426.doc",
+     "posted": "2026-08-14"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1340",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1340",
+   "title": "Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
+   "next_group": "PRS",
+   "next_step": "PRS for consideration",
+   "status": "Pending",
+   "posted": "2026-05-29",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) adds Energy Storage Resource (ESR) participation to the Dispatchable Reliability Reserve Service (DRRS) Ancillary Service. In addition to eligible Off-Line Generation Resources and On-Line Generation Resources, this provides the framework for ESRs to provide DRRS. ESR participation in DRRS would only be permitted using the discharge capability, not the charging capability (i.e., positive High Sustained Limit (HSL)).",
+   "actions": [
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 22,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1340NPRR-21 WMS Ballot 100726",
+     "url": "https://www.ercot.com/files/docs/2026/10/08/1340NPRR-21-WMS-Ballot-100726.xls",
+     "posted": "2026-10-08"
+    },
+    {
+     "name": "1340NPRR-22 WMS Comments 100826",
+     "url": "https://www.ercot.com/files/docs/2026/10/08/1340NPRR-22-WMS-Comments-100826.docx",
+     "posted": "2026-10-08"
+    },
+    {
+     "name": "1340NPRR-19 ROS Ballot 100126",
+     "url": "https://www.ercot.com/files/docs/2026/10/05/1340NPRR-19-ROS-Ballot-100126.xls",
+     "posted": "2026-10-05"
+    },
+    {
+     "name": "1340NPRR-20 ROS Comments 100526",
+     "url": "https://www.ercot.com/files/docs/2026/10/05/1340NPRR-20-ROS-Comments-100526.docx",
+     "posted": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1341",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1341",
+   "title": "Related to LPGRR077, Profile Decision Tree Excel-to-Word Conversion",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-06-23",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) relocates select terms from Load Profiling Guide Section 19.1, Definitions, to Protocol Section 2.1, Definitions, removes the term ‘Time of Use Schedule (TOUS)’, and updates section references related to the Profile Decision Tree.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    }
+   ],
+   "document_count": 11,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1341NPRR-11 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1341NPRR-11-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1341NPRR-09 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1341NPRR-09-TAC-Ballot-082626.xls",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1341NPRR-10 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1341NPRR-10-TAC-Report-082626.docx",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1341NPRR-07 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/16/1341NPRR-07-PRS-Ballot-081226.xls",
+     "posted": "2026-08-16"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1342",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1342",
+   "title": "Mitigated Offer Caps for Contract for Capacity Resources",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-06-30",
+   "sponsor": "ERCOT",
+   "urgent": "Yes",
+   "description": "This Nodal Protocol Revision Request (NPRR) creates a new process for determining the Mitigated Offer Cap (MOC) for Contract for Capacity (C4C) Resources procured through Section 6.5.1.1, ERCOT Control Area Authority. This NPRR proposes using market design principles to allow the C4C Resource to be Dispatched but still be above other Resources that solve the same constraint. This NPRR uses the “last-in-line” principle from NPRR826, Mitigated Offer Caps for RMR Resources, to set the MOC for C4C Resources and minimize their effect on market competition. This NPRR sets clear requirements for using this method. If those requirements aren't fulfilled, mitigation of the C4C Resource is determined by cost. The C4C MOC methodology in this NPRR will only be applied to an active constraint when all of the following three conditions are true: 1) The C4C Resource has an unloading Shift Factor more than 2% on the Transmission Facility; 2) The C4C Resource has a greater than 5% unloading impact* on the Transmission Facility; and 3) At least one other non-C4C Resource has a 5% or more unloading Shift Factor on the Transmission Facility. Unloading impact is reduction of flow on the Transmission Facility and is used in ERCOT’s evaluation of whether the unit would be an effective C4C Resource. The MOC methodology in this NPRR is similar to the NPRR826 approach and works as follows to create the line: 1) Identify all non-Reliability Must-Run (RMR) and non-C4C Resources that have a greater than 5%* unloading Shift Factor on the Transmission Facility; 2) Collect the highest energy offer point (mitigated if applicable) for each Resource in step 1 and convert to a Shadow Price equivalent; 3) Select the highest value from step 2 and ensure it is less than the Shadow Price cap for the constraint by $1; 4) Add $0.01 to the value from step 3, multiply by the Shift Factor of the C4C Resource to convert back to an energy offer equivalent, and set as the C4C MOC; and 5) If there are multiple constraints, use the lowest value from step 4. Finally, if possible, ERCOT should implement this NPRR with NPRR826, stop manual MOC calculations for RMR and C4C, and remove related Protocol language.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 11,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1342NPRR-11 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1342NPRR-11-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1342NPRR-09 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1342NPRR-09-TAC-Ballot-082626.xls",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1342NPRR-10 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/28/1342NPRR-10-TAC-Report-082626.docx",
+     "posted": "2026-08-28"
+    },
+    {
+     "name": "1342NPRR-08 PRS Report 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/18/1342NPRR-08-PRS-Report-081226.docx",
+     "posted": "2026-08-18"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1343",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1343",
+   "title": "Introduction of PTP Obligation Bid Fee in DAM",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2026-06-30",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) proposes the introduction of a bid fee for each inefficient hourly Point-to-Point (PTP) Obligation bid in the Day-Ahead Market (DAM). The fee will be assessed per inefficient PTP hourly bid and will be modifiable. Changes to the fee will be recommended by WMS, approved by TAC, and communicated to Market Participants in advance of the DAM run in which the change will take effect.",
+   "actions": [
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 11,
+   "imm_documents": [
+    {
+     "name": "1343NPRR-09 IMM Comments 100226",
+     "url": "https://www.ercot.com/files/docs/2026/10/02/1343NPRR-09-IMM-Comments-100226.docx",
+     "posted": "2026-10-02"
+    }
+   ],
+   "latest_documents": [
+    {
+     "name": "1343NPRR-10 WMS Ballot 100726",
+     "url": "https://www.ercot.com/files/docs/2026/10/08/1343NPRR-10-WMS-Ballot-100726.xls",
+     "posted": "2026-10-08"
+    },
+    {
+     "name": "1343NPRR-11 WMS Comments 100826",
+     "url": "https://www.ercot.com/files/docs/2026/10/08/1343NPRR-11-WMS-Comments-100826.doc",
+     "posted": "2026-10-08"
+    },
+    {
+     "name": "1343NPRR-08 TCPA Comments 100226",
+     "url": "https://www.ercot.com/files/docs/2026/10/02/1343NPRR-08-TCPA-Comments-100226.docx",
+     "posted": "2026-10-02"
+    },
+    {
+     "name": "1343NPRR-09 IMM Comments 100226",
+     "url": "https://www.ercot.com/files/docs/2026/10/02/1343NPRR-09-IMM-Comments-100226.docx",
+     "posted": "2026-10-02"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1344",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1344",
+   "title": "Move OBD to Section 19 – Texas Market Test Plan",
+   "next_group": "PUCT",
+   "next_step": "Revision Request Consideration",
+   "status": "Pending",
+   "posted": "2026-07-28",
+   "sponsor": "ERCOT",
+   "urgent": "Yes",
+   "description": "This NPRR incorporates the Other Binding Document “Texas Market Test Plan” into the Protocols to standardize the approval process.",
+   "actions": [
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    }
+   ],
+   "document_count": 9,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1344NPRR-09 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/18/1344NPRR-09-Board-Report-091526.docx",
+     "posted": "2026-09-18"
+    },
+    {
+     "name": "1344NPRR-07 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/30/1344NPRR-07-TAC-Ballot-082626.xls",
+     "posted": "2026-08-30"
+    },
+    {
+     "name": "1344NPRR-08 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/30/1344NPRR-08-TAC-Report-082626.docx",
+     "posted": "2026-08-30"
+    },
+    {
+     "name": "1344NPRR-05 PRS Ballot 081226",
+     "url": "https://www.ercot.com/files/docs/2026/08/16/1344NPRR-05-PRS-Ballot-081226.xls",
+     "posted": "2026-08-16"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1345",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1345",
+   "title": "Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
+   "next_group": "PRS",
+   "next_step": "Impact Analysis Consideration",
+   "status": "Pending",
+   "posted": "2026-08-10",
+   "sponsor": "Vistra",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) extends the sunset date established by NPRR1279, Reinstate Enhancements to the Exceptional Fuel Cost Process, from April 1, 2027 to April 1, 2030. The extension preserves the existing review and validation framework for Exceptional Fuel Cost submissions, including supporting documentation and fuel supply contracts submitted under the Exceptional Fuel Cost process, and provides additional time for ERCOT and stakeholders to evaluate long-term enhancements to the treatment of contractual fuel costs while maintaining an existing and operational process that has been actively used since implementation of NPRR1279.",
+   "actions": [
+    {
+     "date": "2026-09-16",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    }
+   ],
+   "document_count": 5,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1345NPRR-05 Impact Analysis 092926",
+     "url": "https://www.ercot.com/files/docs/2026/09/29/1345NPRR-05-Impact-Analysis-092926.docx",
+     "posted": "2026-09-29"
+    },
+    {
+     "name": "1345NPRR-03 PRS Ballot 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/21/1345NPRR-03-PRS-Ballot-091626.xls",
+     "posted": "2026-09-21"
+    },
+    {
+     "name": "1345NPRR-04 PRS Report 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/21/1345NPRR-04-PRS-Report-091626.docx",
+     "posted": "2026-09-21"
+    },
+    {
+     "name": "1345NPRR-02 ERCOT Comments 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/15/1345NPRR-02-ERCOT-Comments-091526.docx",
+     "posted": "2026-09-15"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1346",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1346",
+   "title": "Updates to the Fuel Oil Price (FOP)",
+   "next_group": "PRS",
+   "next_step": "Impact Analysis",
+   "status": "Pending",
+   "posted": "2026-08-17",
+   "sponsor": "Vistra",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) revises the transportation-cost allowance incorporated into the Fuel Oil Price (FOP) by increasing the adder from $0.05 per gallon to $0.10 per gallon. The NPRR updates the FOP definition in Section 2.1, Definitions. The revision maintains the existing fuel oil index methodology and conversion factor while updating a transportation-cost assumption that has remained substantially unchanged since implementation of the Nodal market more than 15 years ago. The proposed change improves the accuracy of fuel oil pricing assumptions used for reliability services and cost recovery calculations by better reflecting current transportation costs associated with the delivery and replenishment of fuel oil inventories.",
+   "actions": [
+    {
+     "date": "2026-09-16",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis"
+    }
+   ],
+   "document_count": 4,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1346NPRR-04 Impact Analysis 100626",
+     "url": "https://www.ercot.com/files/docs/2026/10/06/1346NPRR-04-Impact-Analysis-100626.docx",
+     "posted": "2026-10-06"
+    },
+    {
+     "name": "1346NPRR-02 PRS Ballot 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/21/1346NPRR-02-PRS-Ballot-091626.xls",
+     "posted": "2026-09-21"
+    },
+    {
+     "name": "1346NPRR-03 PRS Report 091626",
+     "url": "https://www.ercot.com/files/docs/2026/09/21/1346NPRR-03-PRS-Report-091626.docx",
+     "posted": "2026-09-21"
+    },
+    {
+     "name": "1346NPRR-01 Update to Fuel Oil Price (FOP) 081726",
+     "url": "https://www.ercot.com/files/docs/2026/08/17/1346NPRR-01-Update-to-Fuel-Oil-Price-FOP-081726.docx",
+     "posted": "2026-08-17"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1348",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1348",
+   "title": "Telemetry Offsetting for Provisional Controllable Load Resources",
+   "next_group": "PRS",
+   "next_step": "PRS for consideration",
+   "status": "Pending",
+   "posted": "2026-09-29",
+   "sponsor": "Global Capacity Alliance",
+   "urgent": "Pending",
+   "description": "This Nodal Protocol Revision Request (NPRR) introduces a Telemetry Offset framework to bridge the attributability gap between co-located Load and generation. It permits a Qualified Scheduling Entity (QSE) to dynamically raise the telemetered Low Power Consumption (LPC) limit of a Provisional Controllable Load Resource (PCLR) to match the Real-Time Market (RTM) availability of a paired, equivalent mitigating Resource (e.g., Energy Storage System (ESR) or natural gas) on a separate meter. This dynamic telemetry pairing temporarily firms the Load from Security-Constrained Economic Dispatch (SCED) curtailment while the offsetting capacity is actively offered on an equivalent, offsetting basis. To clear uninstructed Resource deviation flags resulting from this shielded operation, a post-Operating Day Settlement is run, proving the shielded megawatts (MW) were physically backed by the paired Resource. The paired Resource is subjected to the same automatic bid capping methodology as the paired PCLR, ensuring economic equivalency. Finally, it establishes deterministic yielding Protocols requiring the telemetry shield to drop, exposing the Load to curtailment, during system-wide macro-scarcity events.",
+   "actions": [],
+   "document_count": 8,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1348NPRR-06 Schaper Energy Consulting Comments 100926",
+     "url": "https://www.ercot.com/files/docs/2026/10/09/1348NPRR-06-Schaper-Energy-Consulting-Comments-100926.docx",
+     "posted": "2026-10-09"
+    },
+    {
+     "name": "1348NPRR-07 Cypress Creek Energy Comments 100926",
+     "url": "https://www.ercot.com/files/docs/2026/10/09/1348NPRR-07-Cypress-Creek-Energy-Comments-100926.docx",
+     "posted": "2026-10-09"
+    },
+    {
+     "name": "1348NPRR-08 Habitat Energy Comments 100926",
+     "url": "https://www.ercot.com/files/docs/2026/10/09/1348NPRR-08-Habitat-Energy-Comments-100926.docx",
+     "posted": "2026-10-09"
+    },
+    {
+     "name": "1348NPRR-05 Cipher Digital Comments 100826",
+     "url": "https://www.ercot.com/files/docs/2026/10/08/1348NPRR-05-Cipher-Digital-Comments-100826.docx",
+     "posted": "2026-10-08"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1349",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1349",
+   "title": "765kV Transmission Outage Priority and Modeling Timelines",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2026-09-29",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) establishes timelines for the modeling of new 765kV and its supporting transmission in the ERCOT Network Operations Model and allows ERCOT to give priority to transmission Outages in support of 765kV transmission construction, commissioning, and energization.",
+   "actions": [],
+   "document_count": 2,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1349NPRR-01 765kV Transmission Outage Priority and Modeling Timelines 092926",
+     "url": "https://www.ercot.com/files/docs/2026/09/29/1349NPRR-01-765kV-Transmission-Outage-Priority-and-Modeling-Timelines-092926.docx",
+     "posted": "2026-09-29"
+    },
+    {
+     "name": "1349NPRR-02 Impact Analysis 092926",
+     "url": "https://www.ercot.com/files/docs/2026/09/29/1349NPRR-02-Impact-Analysis-092926.docx",
+     "posted": "2026-09-29"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1350",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1350",
+   "title": "Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2026-09-29",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) continues the automation of outdated email-based form submissions by Market Participants to ERCOT, facilitating streamlined digital processing of these submissions via the Market Participant Service Portal (MPSP). These previously emailed forms will now be entered by MPs directly into the new portal. The forms themselves will remain in the Protocols so that stakeholders can see a visual of the information they will be prompted to enter into the portal and make revisions to the forms as needed. This NPRR also adds a yes/no checkbox and response line to Form 22E, Notification of Suspension of Operations, and Form 22H, Notification of Change of Resource Designation, to indicate a change in Pre-Assigned Congestion Revenue Rights (PCRR) eligibility.",
+   "actions": [],
+   "document_count": 2,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1350NPRR-01 Revisions to Section 22 Attachments A through N for the MPSP 092926",
+     "url": "https://www.ercot.com/files/docs/2026/09/29/1350NPRR-01-Revisions-to-Section-22-Attachments-A-through-N-for-the-MPSP-092926.docx",
+     "posted": "2026-09-29"
+    },
+    {
+     "name": "1350NPRR-02 Impact Analysis 092926",
+     "url": "https://www.ercot.com/files/docs/2026/09/29/1350NPRR-02-Impact-Analysis-092926.docx",
+     "posted": "2026-09-29"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1351",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1351",
+   "title": "Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2026-09-29",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) continues the automation of outdated email-based form submissions by Market Participants to ERCOT, facilitating streamlined digital processing of these submissions via the Market Participant Service Portal (MPSP). These previously emailed forms will now be entered by MPs directly into the new portal. The forms themselves will remain in the Protocols so that stakeholders can see a visual of the information they will be prompted to enter into the portal and make revisions to the forms as needed.",
+   "actions": [],
+   "document_count": 2,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1351NPRR-01 Revisions to Section 23 Forms for the MPSP 092926",
+     "url": "https://www.ercot.com/files/docs/2026/09/29/1351NPRR-01-Revisions-to-Section-23-Forms-for-the-MPSP-092926.docx",
+     "posted": "2026-09-29"
+    },
+    {
+     "name": "1351NPRR-02 Impact Analysis 092926",
+     "url": "https://www.ercot.com/files/docs/2026/09/29/1351NPRR-02-Impact-Analysis-092926.docx",
+     "posted": "2026-09-29"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "_about": "Hand-kept action items, drawn only from the public record. The IMM's real task list is internal, so these show the format and the kind of follow-up the record points to. Status values: Open, Watching, Done. The build adds its own items (attend the next meeting, read new filings that mention the IMM) on every pull.",
+ "actions": [
+  {
+   "id": "a2",
+   "title": "Find out when ERCOT will file the 2027 ancillary service methodology",
+   "detail": "The September 11 exception runs until the 2027 methodology is approved and implemented. Last year's request was filed October 6 and decided November 6. Nothing is on file yet for 2027.",
+   "due": "2026-11-05",
+   "status": "Open",
+   "source": {
+    "type": "project",
+    "id": "54445"
+   }
+  },
+  {
+   "id": "a3",
+   "title": "Prepare for the November 5 vote on 18 protocol revisions",
+   "detail": "ERCOT's Board reports record the IMM as supporting six (NPRR1214, 1292, 1301, 1326, 1337, 1342) and having no opinion on the rest. Staff's memo and proposed order came one week before the vote last year.",
+   "due": "2026-11-05",
+   "status": "Open",
+   "source": {
+    "type": "filing",
+    "control": "54445",
+    "item": 164
+   }
+  },
+  {
+   "id": "a4",
+   "title": "Follow NPRR1343 at the October 14 PRS meeting",
+   "detail": "The point-to-point bid fee is IMM recommendation 2020-4. The IMM filed comments on October 2.",
+   "due": "2026-10-14",
+   "status": "Watching",
+   "source": {
+    "type": "nprr",
+    "id": "NPRR1343"
+   }
+  },
+  {
+   "id": "a5",
+   "title": "Respond to Staff's request for a fuller market power mitigation proposal",
+   "detail": "Staff's August 13 memo asks the IMM for a more complete specification of the three-step test (recommendation 2024-3). The memo sets no deadline.",
+   "due": "",
+   "status": "Open",
+   "source": {
+    "type": "filing",
+    "control": "34677",
+    "item": 27
+   }
+  },
+  {
+   "id": "a6",
+   "title": "Check the offer cap review for requests aimed at the IMM",
+   "detail": "The Advanced Power Alliance and American Clean Power ask the commission to direct ERCOT and the IMM to model pricing under alternative demand curve designs.",
+   "due": "",
+   "status": "Open",
+   "source": {
+    "type": "filing",
+    "control": "59550",
+    "item": 15
+   }
+  },
+  {
+   "id": "a7",
+   "title": "Watch for the transmission cost recovery adoption order",
+   "detail": "Comments closed August 11. Staff expects adoption by the end of 2026.",
+   "due": "2026-12-31",
+   "status": "Watching",
+   "source": {
+    "type": "project",
+    "id": "58000"
+   }
+  },
+  {
+   "id": "a8",
+   "title": "Watch for ERCOT's study in the Comanche Peak co-location docket",
+   "detail": "ERCOT gave notice on October 2 that it will file study results and recommendations.",
+   "due": "",
+   "status": "Watching",
+   "source": {
+    "type": "docket",
+    "id": "59399"
+   }
+  },
+  {
+   "id": "a9",
+   "title": "File comments on the ancillary service good cause exception",
+   "detail": "Filed August 20 (item 278). The commission granted the exception on September 11, the outcome the IMM supported.",
+   "due": "2026-08-20",
+   "status": "Done",
+   "source": {
+    "type": "filing",
+    "control": "55999",
+    "item": 278
+   }
+  },
+  {
+   "id": "a10",
+   "title": "File comments in the system-wide offer cap review",
+   "detail": "Filed September 18 (item 20).",
+   "due": "",
+   "status": "Done",
+   "source": {
+    "type": "filing",
+    "control": "59550",
+    "item": 20
+   }
+  }
+ ],
+ "reviewed": "2026-10-12"
+}

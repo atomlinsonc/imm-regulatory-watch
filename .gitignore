@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Downloaded pages and PDFs. Rebuilt on demand.
+data/cache/
+# Built pages. The workflow builds and publishes these.
+dist/

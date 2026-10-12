@@ -1,0 +1,128 @@
+{
+ "fetched": "2026-10-12 00:54",
+ "notice": {
+  "item": 164,
+  "date": "2026-09-21",
+  "party": "ERCOT",
+  "type": "PL",
+  "description": "NOTICE OF RECOMMENDED APPROVAL OF REVISION REQUESTS BY ERCOT BOARD OF DIRECTORS",
+  "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=164"
+ },
+ "opinions": [
+  {
+   "request": "NPRR1214",
+   "position": "Supports",
+   "statement": "IMM supports NPRR1214. (See 6/22/26 IMM comments)"
+  },
+  {
+   "request": "NPRR1286",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1286."
+  },
+  {
+   "request": "NPRR1292",
+   "position": "Supports",
+   "statement": "IMM supports NPRR1292."
+  },
+  {
+   "request": "NPRR1301",
+   "position": "Supports",
+   "statement": "IMM supports NPRR1301."
+  },
+  {
+   "request": "NPRR1319",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1319."
+  },
+  {
+   "request": "NPRR1320",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1320."
+  },
+  {
+   "request": "NPRR1326",
+   "position": "Supports",
+   "statement": "IMM supports NPRR1326."
+  },
+  {
+   "request": "NPRR1328",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1328 since it is statutory."
+  },
+  {
+   "request": "NPRR1329",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1329."
+  },
+  {
+   "request": "NPRR1331",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1331."
+  },
+  {
+   "request": "NPRR1335",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1335."
+  },
+  {
+   "request": "NPRR1336",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1336."
+  },
+  {
+   "request": "NPRR1337",
+   "position": "Supports",
+   "statement": "IMM supports NPRR1337. (See 8/11/26 IMM comments)"
+  },
+  {
+   "request": "NPRR1338",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1338."
+  },
+  {
+   "request": "NPRR1339",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1339."
+  },
+  {
+   "request": "NPRR1341",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1341."
+  },
+  {
+   "request": "NPRR1342",
+   "position": "Supports",
+   "statement": "IMM supports NPRR1342."
+  },
+  {
+   "request": "NPRR1344",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NPRR1344."
+  },
+  {
+   "request": "COPMGRR051",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on COPMGRR051."
+  },
+  {
+   "request": "NOGRR287",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on NOGRR287."
+  },
+  {
+   "request": "PGRR144",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on PGRR144."
+  },
+  {
+   "request": "SMOGRR031",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on SMOGRR031."
+  },
+  {
+   "request": "VCMRR043",
+   "position": "No opinion",
+   "statement": "IMM has no opinion on VCMRR043."
+  }
+ ]
+}

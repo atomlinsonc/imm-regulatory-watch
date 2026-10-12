@@ -1,0 +1,21 @@
+{
+  "_about": "Dates that are not pulled automatically. 'placeholder: true' marks invented dates that only show how IMM deliverables would appear; real ones would come from the IMM's contract with the PUCT.",
+  "events": [
+    {"date": "2026-11-05", "title": "PUCT open meeting: ERCOT Board-approved revision requests from September 15", "kind": "puct", "basis": "Staff timeline memo, Project 54445 item 163"},
+    {"date": "2026-12-08", "title": "ERCOT Board meeting", "kind": "ercot", "basis": "Staff timeline memo, Project 54445 item 163"},
+    {"date": "2027-01-14", "title": "PUCT open meeting: revision requests from the December 8 Board meeting", "kind": "puct", "basis": "Staff timeline memo, Project 54445 item 163"},
+    {"date": "2027-02-09", "title": "ERCOT Board meeting", "kind": "ercot", "basis": "Staff timeline memo, Project 54445 item 163"},
+    {"date": "2027-03-25", "title": "PUCT open meeting: revision requests from the February 9 Board meeting", "kind": "puct", "basis": "Staff timeline memo, Project 54445 item 163"},
+    {"date": "2026-12-31", "title": "Transmission cost recovery rules expected to be adopted by year end (Project 58000)", "kind": "deadline", "basis": "Staff's August 13 memo, Project 34677 item 27"},
+    {"date": "2026-11-03", "title": "General election", "kind": "legislature", "basis": "Statutory date"},
+    {"date": "2026-11-09", "title": "Bill pre-filing opens for the 90th Legislature", "kind": "legislature", "basis": "First Monday after the general election; confirm against the official calendar"},
+    {"date": "2027-01-12", "title": "90th Legislature convenes", "kind": "legislature", "basis": "Second Tuesday of January; confirm against the official calendar"},
+    {"date": "2027-03-12", "title": "Bill filing deadline (60th day of session)", "kind": "legislature", "basis": "Computed from the convening date; confirm against the official calendar"},
+    {"date": "2027-05-31", "title": "Last day of the regular session (140th day)", "kind": "legislature", "basis": "Computed from the convening date; confirm against the official calendar"},
+    {"date": "2026-10-23", "title": "Monthly check-in with PUCT Market Analysis staff", "kind": "imm", "placeholder": true},
+    {"date": "2026-11-16", "title": "Quarterly market report to the PUCT (third quarter 2026)", "kind": "imm", "placeholder": true},
+    {"date": "2026-12-11", "title": "Contract deliverables review with the PUCT contract manager", "kind": "imm", "placeholder": true},
+    {"date": "2027-02-15", "title": "Quarterly market report to the PUCT (fourth quarter 2026)", "kind": "imm", "placeholder": true},
+    {"date": "2027-05-31", "title": "2026 State of the Market report", "kind": "imm", "placeholder": true, "basis": "Date guessed from the last two reports, filed May 30, 2025 and May 31, 2026"}
+  ]
+}

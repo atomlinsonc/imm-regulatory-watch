@@ -1,0 +1,97 @@
+{
+ "fetched": "2026-10-12 00:54",
+ "since": "2026-08-28",
+ "dockets_checked": 13,
+ "memos": [
+  {
+   "item": 674,
+   "date": "2026-09-30",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58664&itemNumber=674",
+   "control": "58664",
+   "style": "APPLICATION OF SOUTHWESTERN PUBLIC SERVICE COMPANY TO AMEND ITS CERTIFICATE OF CONVENIENCE AND NECESSITY TO CONSTRUCT GENERATION RESOURCES AND ASSOCIATED FACILITIES IN TEXAS AND NEW MEXICO; FOR GOOD-CAUSE EXCEPTIONS; AND FOR RELATED RELIEF"
+  },
+  {
+   "item": 60,
+   "date": "2026-09-30",
+   "party": "PUC OPDM",
+   "type": "PRJ",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59557&itemNumber=60",
+   "control": "59557",
+   "style": "STREAMLINED COMPLAINT PROCESS"
+  },
+  {
+   "item": 19,
+   "date": "2026-09-30",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59612&itemNumber=19",
+   "control": "59612",
+   "style": "PETITION OF TENASKA POWER SERVICES CO. FOR A DECLARATORY ORDER"
+  },
+  {
+   "item": 84,
+   "date": "2026-09-10",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54464&itemNumber=84",
+   "control": "54464",
+   "style": "APPLICATION OF ORANGE COUNTY WATER CONTROL AND IMPROVEMENT DISTRICT NO. 1 (LEXINGTON) AND LEXINGTON WATER SYSTEMS FOR SALE, TRANSFER, OR MERGER OF FACILITIES AND CERTIFICATE RIGHTS IN ORANGE COUNTY"
+  },
+  {
+   "item": 143,
+   "date": "2026-09-10",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=57376&itemNumber=143",
+   "control": "57376",
+   "style": "APPLICATION OF SOUTHWESTERN ELECTRIC POWER COMPANY TO AMEND ITS CERTIFICATE OF CONVENIENCE AND NECESSITY TO CONSTRUCT THE HALLSVILLE NATURAL GAS PLANT IN HARRISON COUNTY, TEXAS AND CONVERT WELSH POWER PLANT UNITS 1 AND 3 TO NATURAL GAS"
+  },
+  {
+   "item": 671,
+   "date": "2026-09-10",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58664&itemNumber=671",
+   "control": "58664",
+   "style": "APPLICATION OF SOUTHWESTERN PUBLIC SERVICE COMPANY TO AMEND ITS CERTIFICATE OF CONVENIENCE AND NECESSITY TO CONSTRUCT GENERATION RESOURCES AND ASSOCIATED FACILITIES IN TEXAS AND NEW MEXICO; FOR GOOD-CAUSE EXCEPTIONS; AND FOR RELATED RELIEF"
+  },
+  {
+   "item": 12,
+   "date": "2026-09-10",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59482&itemNumber=12",
+   "control": "59482",
+   "style": "APPLICATION OF QUIKTRIP CORPORATION FOR A RENEWABLE ENERGY CREDIT GENERATOR CERTIFICATION"
+  },
+  {
+   "item": 21,
+   "date": "2026-09-10",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59708&itemNumber=21",
+   "control": "59708",
+   "style": "APPLICATION OF CENTERPOINT ENERGY HOUSTON ELECTRIC, LLC TO AMEND A CERTIFICATE OF CONVENIENCE AND NECESSITY FOR A SERVICE AREA EXCEPTION IN LIMESTONE COUNTY"
+  },
+  {
+   "item": 600,
+   "date": "2026-09-09",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59182&itemNumber=600",
+   "control": "59182",
+   "style": "JOINT APPLICATION OF ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION TO AMEND THEIR CERTIFICATES OF CONVENIENCE AND NECESSITY FOR THE BIG HILL SUBSTATION TO SAND LAKE SWITCH 765-KV TRANSMISSION LINE PROJECT IN CRANE, CROCKETT, IRION, PECOS, REAGAN, REEVES, SCHLEICHER, TOM GREEN, UPTON, AND WARD COUNTIES"
+  }
+ ]
+}

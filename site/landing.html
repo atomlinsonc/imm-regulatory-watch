@@ -1,0 +1,198 @@
+<title>IMM Regulatory Watch</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: a cover sheet for the docket ledger. One reading column; the live status sits directly under the title. */
+:root {
+  --bg: #f1f4f6; --panel: #ffffff; --ink: #17212b; --muted: #586573; --line: #d6dce2;
+  --accent: #1c5c8c; --accent-soft: #e3edf5;
+  --act: #b0401b; --act-soft: #fbe8e0; --ok: #22704b; --ok-soft: #dcf0e5; --ph: #6a4ea0; --ph-soft: #ece6f6;
+  --none: #66717d; --none-soft: #e8ebee;
+  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f151b; --panel: #172029; --ink: #e4eaf0; --muted: #97a4b1; --line: #2b3643;
+    --accent: #7ab8e3; --accent-soft: #1b3144;
+    --act: #f2906a; --act-soft: #3d2219; --ok: #6dc497; --ok-soft: #17352a; --ph: #b9a4e8; --ph-soft: #2b2440;
+    --none: #94a0ac; --none-soft: #222c36;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f151b; --panel: #172029; --ink: #e4eaf0; --muted: #97a4b1; --line: #2b3643;
+  --accent: #7ab8e3; --accent-soft: #1b3144;
+  --act: #f2906a; --act-soft: #3d2219; --ok: #6dc497; --ok-soft: #17352a; --ph: #b9a4e8; --ph-soft: #2b2440;
+  --none: #94a0ac; --none-soft: #222c36;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.55; }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 20px; padding-block: 44px 72px; display: flex; flex-direction: column; gap: 40px; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+.eyebrow { font-size: 0.76rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ph); margin: 0 0 10px; }
+h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(2rem, 6vw, 2.9rem); line-height: 1.1; letter-spacing: -0.015em; margin: 0 0 14px; text-wrap: balance; }
+.tagline { font-family: var(--serif); font-size: 1.25rem; line-height: 1.45; margin: 0 0 22px; max-width: 36em; }
+.btns { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.primary { display: inline-block; background: var(--ink); color: var(--bg); text-decoration: none; font-weight: 600; padding: 11px 20px; border-radius: 6px; }
+.primary:hover { background: var(--accent); }
+.secondary { font-size: 0.95rem; }
+h2 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; margin: 0 0 12px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+.status { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline; padding: 12px 18px; border-bottom: 1px solid var(--line); font-size: 0.92rem; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--ok); margin-right: 7px; }
+.dot.bad { background: var(--act); }
+.now { padding: 18px 18px 6px; }
+.now p { font-family: var(--serif); font-size: 1.15rem; line-height: 1.5; margin: 0 0 14px; max-width: 36em; }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--line); margin: 0; }
+.facts div { padding: 14px 18px; border-bottom: 1px solid var(--line); min-width: 0; }
+.facts div:nth-child(odd) { border-right: 1px solid var(--line); }
+.facts div:nth-last-child(-n+2) { border-bottom: 0; }
+.facts dt { font-family: var(--serif); font-size: 1.7rem; font-weight: 600; line-height: 1.15; font-variant-numeric: tabular-nums; }
+.facts dd { margin: 2px 0 0; font-size: 0.9rem; color: var(--muted); }
+@media (max-width: 560px) { .facts { grid-template-columns: minmax(0, 1fr); } .facts div:nth-child(odd) { border-right: 0; } .facts div:nth-last-child(2) { border-bottom: 1px solid var(--line); } }
+ol.steps { list-style: none; margin: 0; padding: 0; counter-reset: step; display: flex; flex-direction: column; }
+ol.steps li { counter-increment: step; display: grid; grid-template-columns: 2.2em minmax(0, 1fr); gap: 0 12px; padding: 14px 18px; border-top: 1px solid var(--line); }
+ol.steps li:first-child { border-top: 0; }
+ol.steps li::before { content: counter(step); font-family: var(--mono); color: var(--muted); padding-top: 1px; }
+ol.steps b { display: block; }
+ol.steps span { color: var(--muted); font-size: 0.95rem; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th { text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; padding: 12px 18px 8px; white-space: nowrap; }
+td { padding: 10px 18px; border-top: 1px solid var(--line); vertical-align: top; }
+.pill { display: inline-block; font-size: 0.74rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; white-space: nowrap; background: var(--none-soft); color: var(--none); }
+.pill.ok { background: var(--ok-soft); color: var(--ok); }
+.pill.bad { background: var(--act-soft); color: var(--act); }
+.log { display: grid; grid-template-columns: 12ch minmax(0, 1fr); gap: 2px 14px; padding: 11px 18px; border-top: 1px solid var(--line); font-size: 0.92rem; }
+.log:first-child { border-top: 0; }
+.log .when { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); padding-top: 2px; }
+.log ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 3px; overflow-wrap: anywhere; }
+.muted { color: var(--muted); }
+.kinds { display: grid; grid-template-columns: 7em minmax(0, 1fr); gap: 0 14px; padding: 12px 18px; border-top: 1px solid var(--line); font-size: 0.95rem; }
+.kinds:first-child { border-top: 0; }
+.kinds b { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); padding-top: 3px; }
+.demo { padding: 14px 18px; background: var(--ph-soft); border-radius: 6px; font-size: 0.92rem; }
+footer { font-size: 0.86rem; color: var(--muted); display: flex; flex-direction: column; gap: 6px; }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Demonstration project</p>
+    <h1>IMM Regulatory Watch</h1>
+    <p class="tagline">A daily read of Public Utility Commission of Texas proceedings, sorted for the questions ERCOT’s Independent Market Monitor would ask: what is on the agenda, what matters, and what needs a response.</p>
+    <div class="btns">
+      <a class="primary" href="dashboard.html">Open the dashboard</a>
+      <a class="secondary" id="repo-link" hidden>Code on GitHub</a>
+      <a class="secondary" id="runs-link" hidden>Daily run history</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Right now</h2>
+    <div class="panel">
+      <div class="status" id="status"></div>
+      <div class="now"><p id="headline"></p></div>
+      <dl class="facts" id="facts"></dl>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <div class="panel">
+      <ol class="steps">
+        <li><div><b>Pull</b><span id="step-pull"></span></div></li>
+        <li><div><b>Read</b><span>It downloads new filings in the watched projects, extracts the text, and searches each one for references to the IMM. It also reads the IMM’s stated opinion on each rule change out of ERCOT’s Board reports.</span></div></li>
+        <li><div><b>Sort</b><span>Agenda items go into Action, Watch or Not relevant, each with a reason. Reviewed calls come from reading the filings. Anything new is sorted by keyword rules and marked auto-sorted until a person reviews it.</span></div></li>
+        <li><div><b>Publish</b><span>The pages are rebuilt and published, and the pulled data is saved to the repository, so each day’s changes stay on the record.</span></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <h2>Latest pull, by source</h2>
+    <div class="panel scroll"><table>
+      <thead><tr><th>Source</th><th>Status</th><th>What came back</th><th>Last good pull</th></tr></thead>
+      <tbody id="sources"></tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Update log</h2>
+    <div class="panel" id="log"></div>
+  </section>
+
+  <section>
+    <h2>What is pulled, what is judgment, what is invented</h2>
+    <div class="panel">
+      <div class="kinds"><b>Pulled</b><span>Agenda items, filing lists, dates, parties, document links, quoted passages, ERCOT revision request status, and bill histories.</span></div>
+      <div class="kinds"><b>Judgment</b><span>The relevance sort and its reasons, the suggested action items, how each filing treats the IMM, and where each IMM recommendation stands. These are first drafts written from the public record.</span></div>
+      <div class="kinds"><b>Invented</b><span>IMM deliverable dates on the calendar. They are marked Placeholder wherever they appear.</span></div>
+    </div>
+  </section>
+
+  <div class="demo" id="disclaimer"></div>
+
+  <footer>
+    <span id="byline"></span>
+    <span>An independent demonstration built from public sources. Not a Potomac Economics, PUCT or ERCOT work product.</span>
+  </footer>
+</div>
+
+<script>
+const L = /*__DATA__*/null;
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  if (attrs) for (const [k, v] of Object.entries(attrs)) { if (v == null || v === false) continue; if (k === 'class') el.className = v; else el.setAttribute(k, v); }
+  for (const kid of kids.flat(Infinity)) { if (kid == null || kid === false || kid === '') continue; el.append(kid.nodeType ? kid : document.createTextNode(String(kid))); }
+  return el;
+}
+const pad = n => String(n).padStart(2, '0');
+const toDate = iso => { const [y, m, d] = iso.split('-').map(Number); return new Date(y, m - 1, d); };
+const now = new Date(), TODAY = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
+const fmt = (iso, opts) => toDate(iso).toLocaleDateString('en-US', opts || { month: 'short', day: 'numeric', year: 'numeric' });
+const fmtLong = iso => fmt(iso, { weekday: 'long', month: 'long', day: 'numeric' });
+const clock = t => { const [hh, mm] = t.split(':').map(Number); return ((hh % 12) || 12) + ':' + pad(mm) + (hh < 12 ? ' a.m.' : ' p.m.'); };
+const stamp = s => { if (!s) return 'Never'; const [d, t] = s.split(' '); return fmt(d, { month: 'short', day: 'numeric' }) + ', ' + clock(t); };
+function rel(iso) {
+  const n = Math.round((toDate(iso) - toDate(TODAY)) / 86400000);
+  if (n === 0) return 'today'; if (n === 1) return 'tomorrow'; if (n === -1) return 'yesterday';
+  return n > 0 ? 'in ' + n + ' days' : -n + ' days ago';
+}
+const verb = (n, one, many) => n + ' ' + (n === 1 ? one : many);
+const num = n => Number(n).toLocaleString('en-US');
+
+const reached = L.sources.filter(s => s.ok).length, [day, time] = L.generated.split(' ');
+document.getElementById('status').append(
+  h('span', null, h('span', { class: 'dot' + (reached === L.sources.length ? '' : ' bad') }), h('b', null, 'Last pull ' + fmt(day) + ' at ' + clock(time) + ' Central')),
+  h('span', { class: 'muted' }, reached + ' of ' + L.sources.length + ' sources reached'),
+  h('span', { class: 'muted' }, 'Runs ' + L.site.schedule));
+
+const f = L.focus, c = f.counts, up = f.date >= TODAY, next = L.next_meeting;
+document.getElementById('headline').textContent = up
+  ? 'The next PUCT open meeting is ' + fmtLong(f.date) + ' (' + rel(f.date) + '). Of ' + f.items + ' agenda items, ' + verb(c.action, 'calls', 'call') + ' for IMM attention, ' + verb(c.watch, 'is', 'are') + ' worth watching and ' + verb(c.none, 'falls', 'fall') + ' outside the wholesale market.'
+  : 'The most recent PUCT open meeting was ' + fmtLong(f.date) + ' (' + rel(f.date) + '). Of ' + f.items + ' agenda items, ' + c.action + ' called for IMM attention, ' + verb(c.watch, 'was', 'were') + ' worth watching and ' + c.none + ' fell outside the wholesale market.' + (next && next.date > TODAY ? ' The next meeting is ' + fmtLong(next.date) + '; its agenda is not posted yet.' : '');
+
+const k = L.counts;
+[[num(k.filings_indexed), 'filings indexed across ' + k.watched + ' watched PUCT projects, ' + k.new_week + ' of them in the last 7 days'],
+ [num(k.docs_scanned), 'filed documents read in full; ' + k.mentions + ' refer to the IMM'],
+ [num(k.nprrs), 'pending ERCOT rule changes tracked, ' + k.nprrs_at_puct + ' awaiting PUCT approval'],
+ [num(k.recs), 'IMM recommendations tracked against PUCT Staff’s position on each']]
+  .forEach(([n, label]) => document.getElementById('facts').append(h('div', null, h('dt', null, n), h('dd', null, label))));
+
+document.getElementById('step-pull').textContent = 'A scheduled job runs ' + L.site.schedule + '. It reads the PUCT open meetings page and agenda PDFs, the Interchange filing index, ERCOT’s revision request pages and meeting calendar, and Texas Legislature Online.';
+L.sources.forEach(s => document.getElementById('sources').append(h('tr', null,
+  h('td', null, s.name),
+  h('td', null, s.ok ? h('span', { class: 'pill ok' }, 'Reached') : s.ok === false ? h('span', { class: 'pill bad' }, 'Not reached') : h('span', { class: 'pill' }, 'Not run')),
+  h('td', null, s.detail), h('td', { style: 'white-space: nowrap' }, stamp(s.last_ok)))));
+L.log.forEach(e => document.getElementById('log').append(h('div', { class: 'log' },
+  h('span', { class: 'when' }, stamp(e.at)),
+  e.changes.length ? h('ul', null, e.changes.map(x => h('li', null, x))) : h('span', { class: 'muted' }, 'No changes found'))));
+document.getElementById('disclaimer').textContent = L.site.disclaimer;
+if (L.site.repo) {
+  const repo = document.getElementById('repo-link'), runs = document.getElementById('runs-link');
+  repo.href = L.site.repo; repo.hidden = false; runs.href = L.site.repo + '/actions'; runs.hidden = false;
+}
+document.getElementById('byline').textContent = L.site.author ? 'Built by ' + L.site.author + '.' : '';
+</script>

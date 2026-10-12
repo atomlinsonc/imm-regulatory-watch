@@ -1,0 +1,76 @@
+name: Daily pull and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # 11:30 UTC is 6:30 a.m. Central in summer and 5:30 a.m. in winter.
+    - cron: "30 11 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  TZ: America/Chicago
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Text extracted from filed PDFs is kept between runs so each day only new filings are downloaded.
+      - name: Restore extracted document text
+        uses: actions/cache@v4
+        with:
+          path: data/cache/text
+          key: document-text-${{ github.run_id }}
+          restore-keys: document-text-
+
+      - name: Pull sources and build pages
+        run: python refresh.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Daily data pull [skip ci]"
+            git push || (git pull --rebase && git push)
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

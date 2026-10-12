@@ -1,0 +1,7 @@
+{
+  "_about": "Enacted laws still driving proceedings on this dashboard. Caption, author and last action are pulled from Texas Legislature Online; 'why' is my note.",
+  "bills": [
+    {"session": "89R", "bill": "SB6", "why": "Large load law. It drives the large load rulemakings here (Projects 58481 and 58482) and, per Staff's August 13 memo, the transmission cost recovery review (Projects 58484 and 58000)."},
+    {"session": "88R", "bill": "HB1500", "why": "Per Staff's August 13 memo, this 2023 law directed ERCOT to create Dispatchable Reliability Reserve Service, which is still being built out through NPRR1310 and NPRR1340."}
+  ]
+}

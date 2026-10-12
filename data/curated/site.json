@@ -1,0 +1,11 @@
+{
+ "title": "IMM Regulatory Watch",
+ "author": "",
+ "disclaimer": "This is a demonstration. It updates itself every morning from public PUCT, ERCOT and Texas Legislature sources. The relevance calls, suggested actions and readings of other parties' positions are first drafts by someone outside the IMM, and I would expect to refine them on the job. Anything marked Placeholder is invented to show the layout.",
+ "brief_bottom_line": {
+  "2026-10-15": "Nothing on this agenda asks the commission to decide an IMM issue. The two standing ERCOT items (20 and 21) are where market matters surface, and the 18 protocol revisions the ERCOT Board sent over in September are scheduled for November 5, not this meeting. The item with the most new substance is the energy storage contract rule (item 24), which is up for adoption. Three co-location dockets return after being passed over at three straight meetings."
+ },
+ "repo": "https://github.com/atomlinsonc/imm-regulatory-watch",
+ "schedule": "every morning at about 6:30 Central",
+ "actions_reviewed": "2026-10-12"
+}

@@ -1,0 +1,127 @@
+{
+ "_about": "How each filing treats the IMM, read from the quoted passages only (not the full document). Key = control number # item number. Stances: Supports, Disputes, Mixed, Asks (wants the IMM to do something), Cites (uses IMM work as a reference), Responds (official response to IMM work).",
+ "stances": {
+  "34677#27": {
+   "stance": "Responds",
+   "note": "Staff's position on each of the 12 recommendations in the 2025 State of the Market report.",
+   "prefer": "Starting in 2024"
+  },
+  "34677#28": {
+   "stance": "Supports",
+   "note": "Records that the commission lifted its 2019 constraint on demand curve design, as the IMM recommended."
+  },
+  "54445#164": {
+   "stance": "Cites",
+   "note": "ERCOT's Board reports state the IMM's opinion on each revision request.",
+   "prefer": "Independent Market Monitor Opinion"
+  },
+  "55999#273": {
+   "stance": "Disputes",
+   "note": "Argues the IMM favors market solutions yet opposes ancillary service quantities set by ERCOT's reliability goals.",
+   "prefer": "preference for market-based"
+  },
+  "55999#275": {
+   "stance": "Supports",
+   "note": "Joint Consumers say they and the IMM have consistently opposed the model as over-procuring."
+  },
+  "55999#277": {
+   "stance": "Supports",
+   "note": "Quotes Jeff McDonald's call for an off-ramp from conservative operations."
+  },
+  "55999#280": {
+   "stance": "Cites",
+   "note": "Staff lists the IMM among the parties recommending approval."
+  },
+  "55999#283": {
+   "stance": "Cites",
+   "note": "The order notes the IMM was among seven commenters."
+  },
+  "58000#14": {
+   "stance": "Cites",
+   "note": "Uses the IMM's figure on crypto mining's share of Emergency Response Service."
+  },
+  "58000#31": {
+   "stance": "Supports",
+   "note": "Says the IMM has flagged for years that loads cut usage to avoid transmission charges."
+  },
+  "58000#50": {
+   "stance": "Cites",
+   "note": "Says the IMM has named dynamic line rating a priority for congestion."
+  },
+  "58482#40": {
+   "stance": "Asks",
+   "note": "Supports IMM review of each auction to confirm it was competitive."
+  },
+  "58482#53": {
+   "stance": "Supports",
+   "note": "Notes the IMM also recommended the service be available in any event with material risk of load shed."
+  },
+  "58482#61": {
+   "stance": "Supports",
+   "note": "Concurs with the IMM that a fixed budget does not fit sporadic extreme weather."
+  },
+  "58555#24": {
+   "stance": "Cites",
+   "note": "ERCOT's cost allocation report references IMM statements on Firm Fuel Supply Service.",
+   "prefer": "purpose of FFSS"
+  },
+  "58555#27": {
+   "stance": "Cites",
+   "note": "Uses State of the Market figures on ancillary service costs."
+  },
+  "58555#30": {
+   "stance": "Supports",
+   "note": "Prefers the IMM's ground-up cost causation approach."
+  },
+  "58555#34": {
+   "stance": "Cites",
+   "note": "Cites the IMM's 2025 ancillary service methodology comments."
+  },
+  "58555#35": {
+   "stance": "Supports",
+   "note": "Calls the IMM's earlier work a useful starting point."
+  },
+  "58555#36": {
+   "stance": "Supports",
+   "note": "Says the IMM and consumers have consistently opposed ERCOT's methodology as overstating needs."
+  },
+  "59550#6": {
+   "stance": "Supports",
+   "note": "Backs tying each demand curve to marginal reliability value, citing recommendation 2024-1a."
+  },
+  "59550#7": {
+   "stance": "Cites",
+   "note": "ERCOT says it looks forward to working with the IMM on demand curve changes."
+  },
+  "59550#8": {
+   "stance": "Mixed",
+   "note": "Cites the State of the Market report but wants options beyond those ERCOT and the IMM present.",
+   "prefer": "more robust array"
+  },
+  "59550#9": {
+   "stance": "Cites",
+   "note": "Uses the IMM's analysis of the implied value of lost load."
+  },
+  "59550#10": {
+   "stance": "Disputes",
+   "note": "Says the demand curves are leaner than the old curve because of changes the IMM requested."
+  },
+  "59550#12": {
+   "stance": "Cites",
+   "note": "Notes the IMM backed the original co-optimization design decisions."
+  },
+  "59550#14": {
+   "stance": "Cites",
+   "note": "Cites the IMM's good cause exception comments."
+  },
+  "59550#15": {
+   "stance": "Asks",
+   "note": "Asks the commission to direct ERCOT and the IMM to model pricing under alternative demand curve designs.",
+   "prefer": "analytically model"
+  },
+  "59550#16": {
+   "stance": "Cites",
+   "note": "Uses State of the Market figures on shortage pricing hours."
+  }
+ }
+}

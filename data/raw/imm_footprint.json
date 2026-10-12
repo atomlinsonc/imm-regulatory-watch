@@ -1,0 +1,80 @@
+{
+ "fetched": "2026-10-12 00:54",
+ "party": "Potomac Economics",
+ "since": "2025-01-01",
+ "source": "https://interchange.puc.texas.gov/search/dockets/?UtilityType=A&ItemMatch=Equal&FilingParty=Potomac%20Economics&DateFiledFrom=01/01/2025%2000%3A00%3A00&SortOrder=Ascending",
+ "projects": [
+  {
+   "control": "34677",
+   "imm_filings": 3,
+   "owner": "PUC-ELEC",
+   "style": "REPORTS OF THE INDEPENDENT MARKET MONITOR FOR THE ERCOT REGION"
+  },
+  {
+   "control": "55999",
+   "imm_filings": 2,
+   "owner": "PUC MARKET ANALYSIS",
+   "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"
+  },
+  {
+   "control": "58000",
+   "imm_filings": 1,
+   "owner": "PUC RULES & PROJECTS",
+   "style": "Rulemaking to Update Wholesale and IOU Retail Transmission Cost Recovery in the ERCOT Region"
+  },
+  {
+   "control": "58198",
+   "imm_filings": 1,
+   "owner": "PUC RULES & PROJECTS",
+   "style": "RULEMAKING TO IMPLEMENT FIRMING RELIABILITY REQUIREMENTS FOR ELECTRIC GENERATING FACILITIES IN THE ERCOT REGION UNDER PURA §39.1592"
+  },
+  {
+   "control": "58379",
+   "imm_filings": 1,
+   "owner": "PUC RULES & PROJECTS",
+   "style": "REVIEW OF §25.504 - WHOLESALE MARKET POWER IN THE ERCOT REGION"
+  },
+  {
+   "control": "58434",
+   "imm_filings": 2,
+   "owner": "PUC RULES & PROJECTS",
+   "style": "RULEMAKING FOR FIRM FUEL SUPPLY SERVICE"
+  },
+  {
+   "control": "58482",
+   "imm_filings": 2,
+   "owner": "PUC RULES AND PROJECTS",
+   "style": "Large Load Demand Management Service"
+  },
+  {
+   "control": "58484",
+   "imm_filings": 4,
+   "owner": "PUC RULES & PROJECTS",
+   "style": "EVALUATION OF TRANSMISSION COST RECOVERY"
+  },
+  {
+   "control": "58555",
+   "imm_filings": 1,
+   "owner": "PUC MARKET ANALYSIS",
+   "style": "ERCOT ANCILLARY AND RELIABILITY SERVICES COST ALLOCATION STUDY PURSUANT TO PURA §39.1593"
+  },
+  {
+   "control": "58777",
+   "imm_filings": 1,
+   "owner": "PUC MARKET ANALYSIS",
+   "style": "Triennial Reliability Assessment for the ERCOT Region under §25.508"
+  },
+  {
+   "control": "59550",
+   "imm_filings": 3,
+   "owner": "PUC MARKET ANALYSIS",
+   "style": "QUINQUENNIAL REVIEW OF SYSTEM-WIDE OFFER CAP PROGRAM UNDER 16 TAC 25.509(d)"
+  },
+  {
+   "control": "59772",
+   "imm_filings": 1,
+   "owner": "PUC EXECUTIVE DIRECTOR",
+   "style": "PROCEEDING TO ADJUST THE 2026 LOAD FORECAST USED BY ERCOT"
+  }
+ ]
+}

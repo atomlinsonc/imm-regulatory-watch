@@ -1,0 +1,136 @@
+{
+ "_about": "Reviewed relevance calls and notes. by_control applies wherever that control number appears; items adds notes for one agenda item (key = meeting date # item number). Written from the public record by someone outside the IMM.",
+ "by_control": {
+  "55999": {
+   "tier": "action",
+   "reason": "ERCOT's reports and requests to the commission land here. The IMM filed in this project twice in 2026, including comments on the ancillary service good cause exception."
+  },
+  "54445": {
+   "tier": "action",
+   "reason": "Every ERCOT rule change needs commission approval in this project. The IMM comments on many of them in the ERCOT stakeholder process."
+  },
+  "59523": {
+   "tier": "watch",
+   "reason": "Utility contracts for energy storage touch wholesale competition. The IMM has not filed in this project."
+  },
+  "59115": {
+   "tier": "watch",
+   "reason": "Net metering arrangement between a generator and a co-located large load. Co-location changes how much supply reaches the market."
+  },
+  "59399": {
+   "tier": "watch",
+   "reason": "Net metering arrangement between Comanche Peak Power Company and Amazon Data Services. ERCOT is preparing study results and recommendations."
+  },
+  "59943": {
+   "tier": "watch",
+   "reason": "Net metering arrangement between a wind farm and a co-located data center owner."
+  },
+  "58481": {
+   "tier": "watch",
+   "reason": "Large load interconnection standards shape how fast demand joins the grid. The IMM has not filed in this project."
+  },
+  "59142": {
+   "tier": "watch",
+   "reason": "Review of how ERCOT interconnects large loads. The IMM has not filed in this project."
+  },
+  "56896": {
+   "tier": "watch",
+   "reason": "State-backed loans for new generation affect entry decisions in the energy-only market. The IMM has not filed in this project."
+  },
+  "59212": {
+   "tier": "watch",
+   "reason": "Staff's rulemaking calendar shows which rules are coming and when comments will be due."
+  },
+  "60084": {
+   "tier": "none",
+   "reason": "Private petition for a metering framework for large computational loads. Looks market-related from the title, but the commission denied it on October 1."
+  },
+  "59612": {
+   "tier": "none",
+   "reason": "Sounds wholesale from the company name, but the question is whether a retail provider must link to the rooftop solar guide on its bills."
+  },
+  "58408": {
+   "tier": "none",
+   "reason": "Transmission utility petition; the item concerned a motion to withdraw it."
+  },
+  "59402": {
+   "tier": "none",
+   "reason": "Schedule for utilities to file applications under 16 TAC §25.60. Not a market matter."
+  },
+  "59288": {
+   "tier": "none",
+   "reason": "Rule on retail electric provider certification."
+  },
+  "60154": {
+   "tier": "none",
+   "reason": "Reporting schedule for distributed generation on distribution systems."
+  },
+  "53385": {
+   "tier": "none",
+   "reason": "Emergency operations plan filings."
+  },
+  "59482": {
+   "tier": "none",
+   "reason": "Renewable energy credit certification for one generator."
+  },
+  "59725": {
+   "tier": "none",
+   "reason": "Utility appeal of city ordinances."
+  },
+  "59148": {
+   "tier": "none",
+   "reason": "Administrative catch-all for agenda items without a control number."
+  },
+  "52761": {
+   "tier": "none",
+   "reason": "Internal management of the commission."
+  }
+ },
+ "items": {
+  "2026-10-15#20": {
+   "summary": "No filing asks for a decision. Since the October 1 meeting ERCOT has filed three routine notices here: two transmission project notices and the 2027 cybersecurity monitor fee. The open question is the 2027 ancillary service methodology. Last year ERCOT filed its approval request on October 6 and the commission ruled on November 6. No equivalent filing has appeared yet this year.",
+   "action": "Attend. Listen for when ERCOT will bring the 2027 methodology to the commission."
+  },
+  "2026-10-15#21": {
+   "summary": "On September 21 ERCOT filed notice that its Board recommended 18 protocol revisions (NPRRs) and 14 other revision requests. Staff's August 11 timeline memo puts Board actions from September 15 on the November 5 open meeting. Six of the NPRRs are marked urgent. The IMM filed comments in the ERCOT process on three of the 18: NPRR1214, NPRR1301 and NPRR1337.",
+   "action": "Attend. Note whether any urgent revision is taken up early; otherwise prepare for November 5."
+  },
+  "2026-10-15#24": {
+   "summary": "Staff filed its recommended order adopting new 16 TAC §25.58 on October 8. The rule implements PURA §35.153 on contracts between transmission and distribution utilities and power generation companies for electric energy storage.",
+   "action": "Read Staff's recommended order before the meeting. Flag anything that affects how storage competes in the wholesale market."
+  },
+  "2026-10-15#10": {
+   "summary": "Posted for possible final order. This docket was on the agenda and not taken up at the September 11, September 18 and October 1 meetings.",
+   "action": "Note the outcome and any conditions the commission attaches."
+  },
+  "2026-10-15#13": {
+   "summary": "ERCOT gave notice on October 2 that it will file study results and recommendations, and a procedural schedule was set on October 7. Not taken up at the last three meetings.",
+   "action": "Watch for ERCOT's study filing. It is the first look at how ERCOT weighs a large co-location."
+  },
+  "2026-10-15#17": {
+   "summary": "Not taken up at the September 11, September 18 and October 1 meetings.",
+   "action": "Note the outcome."
+  },
+  "2026-10-15#33": {
+   "summary": "The latest calendar on file is dated July 24 and runs through October, so an update is due.",
+   "action": "Pull the new calendar when it is filed and add its dates to the deadline calendar."
+  },
+  "2026-10-01#14": {
+   "summary": "The commission denied the petition. Chairman Gleeson filed a memo on September 30 recommending denial.",
+   "after": true
+  },
+  "2026-10-01#25": {
+   "summary": "The commission denied the rulemaking petition. Staff recommended denial on September 25.",
+   "after": true
+  },
+  "2026-09-18#11": {
+   "summary": "The commission adopted new 16 TAC §25.194. The Texas Register notice gives an effective date of October 8, 2026.",
+   "after": true
+  },
+  "2026-09-11#20": {
+   "summary": "The commission granted ERCOT's good cause exception. ERCOT keeps the posted ECRS and Non-Spin minimums instead of raising them by about 3,700 MW per hour on average, until the 2027 methodology is approved and implemented. Seven sets of comments were filed. The IMM, the Cities, the Joint Consumers and Goff Policy supported the exception; LCRA, Hunt Energy Network and TCPA opposed it.",
+   "action": "Done. The IMM's August 20 comments are item 278; the order is item 283.",
+   "after": true
+  }
+ }
+}

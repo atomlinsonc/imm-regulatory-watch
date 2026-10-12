@@ -1,0 +1,556 @@
+<title>IMM Regulatory Watch</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: a docket ledger. A rail of sections beside one working column; every row leads with its control number or date. */
+:root {
+  --bg: #f1f4f6; --panel: #ffffff; --ink: #17212b; --muted: #586573; --line: #d6dce2;
+  --accent: #1c5c8c; --accent-soft: #e3edf5;
+  --act: #b0401b; --act-soft: #fbe8e0; --watch: #855f00; --watch-soft: #f7edcd;
+  --none: #66717d; --none-soft: #e8ebee; --ok: #22704b; --ok-soft: #dcf0e5; --ph: #6a4ea0; --ph-soft: #ece6f6;
+  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f151b; --panel: #172029; --ink: #e4eaf0; --muted: #97a4b1; --line: #2b3643;
+    --accent: #7ab8e3; --accent-soft: #1b3144;
+    --act: #f2906a; --act-soft: #3d2219; --watch: #e3b85a; --watch-soft: #3a2f14;
+    --none: #94a0ac; --none-soft: #222c36; --ok: #6dc497; --ok-soft: #17352a; --ph: #b9a4e8; --ph-soft: #2b2440;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f151b; --panel: #172029; --ink: #e4eaf0; --muted: #97a4b1; --line: #2b3643;
+  --accent: #7ab8e3; --accent-soft: #1b3144;
+  --act: #f2906a; --act-soft: #3d2219; --watch: #e3b85a; --watch-soft: #3a2f14;
+  --none: #94a0ac; --none-soft: #222c36; --ok: #6dc497; --ok-soft: #17352a; --ph: #b9a4e8; --ph-soft: #2b2440;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1160px; margin: 0 auto; padding-inline: 20px; padding-block: 22px 64px; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+
+.mast { display: flex; flex-wrap: wrap; gap: 4px 24px; align-items: baseline; justify-content: space-between; }
+.mast h1 { font-family: var(--serif); font-weight: 600; font-size: 1.75rem; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.mast p { margin: 0; color: var(--muted); font-size: 0.86rem; }
+.demo { margin-top: 12px; padding: 10px 14px; background: var(--ph-soft); border-radius: 6px; font-size: 0.88rem; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; }
+.demo strong { color: var(--ph); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.74rem; }
+.demo span { flex: 1 1 320px; min-width: 0; }
+
+.shell { display: grid; grid-template-columns: 196px minmax(0, 1fr); gap: 32px; margin-top: 22px; }
+.rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); align-self: start; display: flex; flex-direction: column; gap: 2px; }
+.rail button { all: unset; box-sizing: border-box; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; padding: 7px 10px; border-radius: 5px; font-size: 0.92rem; color: var(--muted); white-space: nowrap; }
+.rail button:hover { color: var(--ink); background: var(--none-soft); }
+.rail button[aria-current="page"] { color: var(--ink); font-weight: 600; background: var(--panel); box-shadow: inset 0 0 0 1px var(--line); }
+.rail .count { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); }
+@media (max-width: 860px) {
+  .shell { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .rail { position: static; flex-direction: row; overflow-x: auto; padding-bottom: 6px; }
+  .rail button { flex: 0 0 auto; }
+}
+
+.view > h2 { font-family: var(--serif); font-weight: 600; font-size: 1.35rem; margin: 0 0 4px; text-wrap: balance; }
+.lede { color: var(--muted); margin: 0 0 18px; max-width: 70ch; }
+h3.sub { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-weight: 600; margin: 28px 0 8px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 4px 18px; }
+.panel > .row:first-child, .panel > .line:first-child { border-top: 0; }
+.cols { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 28px; }
+@media (max-width: 980px) { .cols { grid-template-columns: minmax(0, 1fr); gap: 0; } }
+.cols > div { min-width: 0; }
+
+.headline { font-family: var(--serif); font-size: 1.22rem; line-height: 1.45; margin: 0 0 12px; max-width: 62ch; }
+.headline b { font-weight: 600; }
+.btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn { all: unset; box-sizing: border-box; cursor: pointer; padding: 6px 12px; border-radius: 5px; font-size: 0.88rem; font-weight: 500; color: var(--accent); box-shadow: inset 0 0 0 1px var(--line); background: var(--panel); }
+.btn:hover { box-shadow: inset 0 0 0 1px var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 12px; }
+.chip { all: unset; box-sizing: border-box; cursor: pointer; padding: 4px 11px; border-radius: 999px; font-size: 0.84rem; color: var(--muted); box-shadow: inset 0 0 0 1px var(--line); background: var(--panel); }
+.chip[aria-pressed="true"] { color: var(--panel); background: var(--ink); box-shadow: none; }
+.chip .n { font-family: var(--mono); font-size: 0.76rem; margin-left: 5px; opacity: 0.8; }
+
+.row { display: grid; grid-template-columns: 2.4ch minmax(0, 1fr); gap: 2px 14px; padding: 14px 0; border-top: 1px solid var(--line); }
+.row .num { font-family: var(--mono); font-size: 0.86rem; color: var(--muted); text-align: right; padding-top: 2px; }
+.row .body { min-width: 0; display: flex; flex-direction: column; gap: 5px; overflow-wrap: anywhere; }
+.head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; justify-content: space-between; }
+.head h4 { font-size: 1rem; font-weight: 600; margin: 0; flex: 1 1 320px; min-width: 0; overflow-wrap: anywhere; }
+.meta { display: flex; flex-wrap: wrap; gap: 2px 14px; color: var(--muted); font-size: 0.84rem; }
+.note { margin: 0; font-size: 0.92rem; max-width: 76ch; }
+.note .lab { font-weight: 600; }
+.why { margin: 0; font-size: 0.88rem; color: var(--muted); max-width: 76ch; }
+.line { display: grid; grid-template-columns: 7.2ch minmax(0, 1fr); gap: 2px 14px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 0.92rem; }
+.line .when { font-family: var(--mono); font-size: 0.82rem; color: var(--muted); padding-top: 2px; }
+.line .what { min-width: 0; display: flex; flex-direction: column; gap: 3px; overflow-wrap: anywhere; }
+.ctl { font-family: var(--mono); font-size: 0.82rem; white-space: nowrap; }
+.small { font-size: 0.84rem; color: var(--muted); }
+.pill { display: inline-block; font-size: 0.74rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; white-space: nowrap; background: var(--none-soft); color: var(--none); }
+.pill.action, .pill.disputes, .pill.disagree, .pill.open { background: var(--act-soft); color: var(--act); }
+.pill.watch, .pill.asks, .pill.mixed, .pill.neutral, .pill.watching, .pill.partial { background: var(--watch-soft); color: var(--watch); }
+.pill.supports, .pill.support, .pill.done, .pill.moving { background: var(--ok-soft); color: var(--ok); }
+.pill.info { background: var(--accent-soft); color: var(--accent); }
+.pill.placeholder { background: var(--ph-soft); color: var(--ph); }
+.tag { font-size: 0.76rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+details > summary { cursor: pointer; color: var(--accent); font-size: 0.86rem; }
+details.fold { border-top: 1px solid var(--line); padding: 12px 0; }
+details.fold > summary { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
+ul.plain { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 4px; font-size: 0.86rem; }
+ul.plain li { overflow-wrap: anywhere; }
+blockquote { overflow-wrap: anywhere; margin: 2px 0 0; padding: 0 0 0 12px; border-left: 2px solid var(--line); font-family: var(--serif); font-size: 0.95rem; color: var(--ink); max-width: 74ch; }
+blockquote cite { font-family: var(--sans); font-style: normal; font-size: 0.78rem; color: var(--muted); }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.88rem; }
+th { text-align: left; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; padding: 10px 14px 8px 0; white-space: nowrap; }
+td { padding: 9px 14px 9px 0; border-top: 1px solid var(--line); vertical-align: top; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: 0.82rem; }
+td:last-child, th:last-child { padding-right: 0; }
+
+.stages { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin: 0 0 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+.stage { padding: 10px 14px; border-left: 1px solid var(--line); min-width: 0; }
+.stage:first-child { border-left: 0; }
+.stage b { display: block; font-family: var(--serif); font-size: 1.5rem; font-weight: 600; line-height: 1.1; }
+.stage span { font-size: 0.8rem; color: var(--muted); }
+@media (max-width: 560px) { .stages { grid-template-columns: repeat(2, minmax(0, 1fr)); } .stage:nth-child(3) { border-left: 0; } .stage:nth-child(n+3) { border-top: 1px solid var(--line); } }
+
+.brief { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 26px 30px; max-width: 800px; }
+.brief .memo { display: grid; grid-template-columns: 5.5em minmax(0, 1fr); gap: 2px 12px; font-size: 0.88rem; padding-bottom: 14px; border-bottom: 2px solid var(--ink); margin-bottom: 16px; }
+.brief .memo dt { font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.76rem; padding-top: 2px; }
+.brief .memo dd { margin: 0; }
+.brief h3 { font-family: var(--serif); font-size: 1.1rem; font-weight: 600; margin: 22px 0 4px; text-wrap: balance; }
+.brief { overflow-wrap: anywhere; }
+.brief p { font-family: var(--serif); font-size: 1rem; line-height: 1.55; margin: 6px 0; max-width: 68ch; }
+.brief p .lab { font-family: var(--sans); font-size: 0.74rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-right: 6px; }
+.brief ul.plain { margin: 2px 0 8px; }
+@media (max-width: 560px) { .brief { padding: 18px 16px; } }
+.month { font-family: var(--serif); font-size: 1.05rem; font-weight: 600; margin: 22px 0 6px; }
+.foot { margin-top: 36px; color: var(--muted); font-size: 0.82rem; }
+@media (prefers-reduced-motion: no-preference) { .rail button, .btn, .chip { transition: background-color 0.12s, color 0.12s; } }
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <h1>IMM Regulatory Watch</h1>
+    <p><span id="asof"></span> · <a href="./">About this project</a></p>
+  </header>
+  <div class="demo"><strong>Demonstration</strong><span id="disclaimer"></span></div>
+  <div class="shell">
+    <nav class="rail" id="rail" aria-label="Sections"></nav>
+    <main id="main"></main>
+  </div>
+  <p class="foot" id="foot"></p>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+
+/* ---------- helpers ---------- */
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  if (attrs) for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === 'class') el.className = v;
+    else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? '' : v);
+  }
+  for (const kid of kids.flat(Infinity)) {
+    if (kid == null || kid === false || kid === '') continue;
+    el.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+  }
+  return el;
+}
+const pad = n => String(n).padStart(2, '0');
+const toDate = iso => { const [y, m, d] = iso.split('-').map(Number); return new Date(y, m - 1, d); };
+const isoOf = dt => dt.getFullYear() + '-' + pad(dt.getMonth() + 1) + '-' + pad(dt.getDate());
+const TODAY = isoOf(new Date());
+const fmt = (iso, opts) => iso ? toDate(iso).toLocaleDateString('en-US', opts || { month: 'short', day: 'numeric', year: 'numeric' }) : '';
+const fmtShort = iso => fmt(iso, { month: 'short', day: 'numeric' });
+const fmtLong = iso => fmt(iso, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+const fmtDay = iso => fmt(iso, { weekday: 'short', month: 'short', day: 'numeric' });
+function addDays(iso, n) { const dt = toDate(iso); dt.setDate(dt.getDate() + n); return isoOf(dt); }
+function rel(iso) {
+  const n = Math.round((toDate(iso) - toDate(TODAY)) / 86400000);
+  if (n === 0) return 'today'; if (n === 1) return 'tomorrow'; if (n === -1) return 'yesterday';
+  return n > 0 ? 'in ' + n + ' days' : -n + ' days ago';
+}
+const ext = (text, url, cls) => h('a', { href: url, target: '_blank', rel: 'noopener', class: cls }, text);
+const pill = (text, cls) => h('span', { class: 'pill ' + (cls || '') }, text);
+const slug = s => String(s).toLowerCase().split(' ')[0];
+const TIER = { action: 'Action', watch: 'Watch', none: 'Not relevant' };
+const tierPill = t => pill(TIER[t], t);
+const IC = 'https://interchange.puc.texas.gov/search/';
+const docket = (control, kind) => ext((kind || 'No.') + ' ' + control, IC + 'filings/?ControlNumber=' + control, 'ctl');
+const filingUrl = (control, item) => IC + 'documents/?controlNumber=' + control + '&itemNumber=' + item;
+const plural = (n, one, many) => n + ' ' + (n === 1 ? one : (many || one + 's'));
+const clip = (s, n) => s.length > n ? s.slice(0, n).replace(/\s+\S*$/, '') + '…' : s;
+const sentence = s => { const t = s.toLowerCase(); return t.charAt(0).toUpperCase() + t.slice(1); };
+const ACR = new Set('ERCOT PUC PUCT IMM TAC LLC LP IOU AS OM CDR DC TCPA TIEC OPUC TPPA OCSC TCAP NPRR RTC FFSS CCN SOAH II III TDU PGC REP ERS LCRA AEP NRG TEBA LNG OPDM US PFP EOP RFI CY FY CPS STEC TNMP GVEC EDF DCC GRIT OXY TSSA LLDMS PURA'.split(' '));
+const SMALL = new Set('OF THE FOR AND TO IN ON A AN BY AT UNDER WITH FROM'.split(' '));
+function tidy(s) {
+  if (/[a-z]{3}/.test(s)) return s;
+  let first = true;
+  return s.replace(/[A-Z][A-Z]*/g, w => {
+    const out = ACR.has(w) ? w : (!first && SMALL.has(w)) ? w.toLowerCase() : w.charAt(0) + w.slice(1).toLowerCase();
+    first = false;
+    return out;
+  }).replace(/([’'])S\b/g, '$1s');
+}
+function chips(options, current, onPick) {
+  return h('div', { class: 'chips' }, options.map(o => h('button', { class: 'chip', type: 'button', 'aria-pressed': String(o.id === current), onclick: () => onPick(o.id) }, o.label, o.n != null ? h('span', { class: 'n' }, o.n) : null)));
+}
+function sourceLink(src) {
+  if (!src) return null;
+  if (src.type === 'filing') return ext('Project ' + src.control + ', item ' + src.item, filingUrl(src.control, src.item));
+  if (src.type === 'project' || src.type === 'docket') return docket(src.id, src.type === 'docket' ? 'Docket' : 'Project');
+  if (src.type === 'nprr') { const n = DATA.nprrs.find(x => x.id === src.id); return n ? ext(src.id, n.url, 'ctl') : src.id; }
+  if (src.type === 'meeting') { const m = DATA.meetings.find(x => x.date === src.date); return m ? ext('Agenda, ' + fmtShort(src.date), m.agenda_url) : null; }
+  return null;
+}
+function filingLine(f, opts) {
+  opts = opts || {};
+  return h('div', { class: 'line' },
+    h('span', { class: 'when' }, fmtShort(f.date)),
+    h('div', { class: 'what' },
+      ext(clip(tidy(f.description), 170), f.url),
+      h('div', { class: 'meta' },
+        h('span', { class: 'tag' }, f.kind),
+        f.control ? docket(f.control, 'No.') : null,
+        h('span', null, clip(tidy(f.party), 60)),
+        opts.style && f.style ? h('span', null, clip(tidy(f.style), 64)) : null,
+        opts.tier ? tierPill(opts.tier) : null)));
+}
+
+/* ---------- shared state ---------- */
+const isUpcoming = m => m.date >= TODAY;
+const upcoming = DATA.meetings.find(m => m.date === DATA.focus_meeting) || DATA.meetings[0];
+const verb = (n, one, many) => n + ' ' + (n === 1 ? one : many);
+let lastVisit = null;
+try {
+  const stored = localStorage.getItem('imm-watch-last'), prev = localStorage.getItem('imm-watch-prev');
+  if (stored && stored < TODAY) { lastVisit = stored; localStorage.setItem('imm-watch-prev', stored); } else if (prev) lastVisit = prev;
+  localStorage.setItem('imm-watch-last', TODAY);
+} catch (e) { lastVisit = null; }
+const sinceDate = lastVisit || addDays(DATA.today, -14);
+const sinceLabel = lastVisit ? 'Since your last visit on ' + fmtShort(lastVisit) : 'In the 14 days before this pull';
+const newFilings = DATA.recent_filings.filter(f => f.date > sinceDate);
+const state = { meeting: upcoming ? upcoming.date : null, tier: 'all', kind: 'all', stance: 'all', rules: 'imm' };
+
+/* ---------- agenda item ---------- */
+function agendaRow(item, meeting) {
+  const meta = [];
+  if (item.control) meta.push(docket(item.control, item.kind));
+  if (item.requested_action) meta.push(h('span', null, 'Posted for: ' + item.requested_action.charAt(0).toLowerCase() + item.requested_action.slice(1)));
+  if (item.staff) meta.push(h('span', null, 'Staff: ' + item.staff));
+  if (item.outcome) meta.push(h('span', null, h('b', null, item.outcome)));
+  if (item.order) meta.push(ext('Order filed ' + fmtShort(item.order.date), item.order.url));
+  if (item.deferred_streak && isUpcoming(meeting)) meta.push(h('span', null, 'Not taken up at the last ' + plural(item.deferred_streak, 'meeting')));
+  const extras = [];
+  if (item.new_filings && item.new_filings.length) extras.push(h('details', null,
+    h('summary', null, plural(item.new_filings.length, 'filing') + ' since the previous meeting'),
+    h('ul', { class: 'plain' }, item.new_filings.map(f => h('li', null, fmtShort(f.date) + ' · ', ext(clip(tidy(f.description), 120), f.url), ' · ' + clip(tidy(f.party), 40))))));
+  if (item.imm_filings && item.imm_filings.length) extras.push(h('details', null,
+    h('summary', null, 'IMM filings on record here'),
+    h('ul', { class: 'plain' }, item.imm_filings.map(f => h('li', null, fmtShort(f.date) + ', ' + f.date.slice(0, 4) + ' · ', ext(clip(f.description, 120), f.url))))));
+  return h('div', { class: 'row' },
+    h('span', { class: 'num' }, item.num),
+    h('div', { class: 'body' },
+      h('div', { class: 'head' }, h('h4', null, item.title), tierPill(item.tier)),
+      meta.length ? h('div', { class: 'meta' }, meta) : null,
+      h('p', { class: 'why' }, h('span', { class: 'tag' }, item.basis === 'Reviewed' ? 'Why (reviewed) ' : 'Why (auto-sorted) '), item.reason),
+      item.summary ? h('p', { class: 'note' }, h('span', { class: 'lab' }, item.note_after ? 'What happened: ' : isUpcoming(meeting) ? 'Where it stands: ' : 'Going in: '), item.summary) : null,
+      item.action ? h('p', { class: 'note' }, h('span', { class: 'lab' }, 'Suggested follow-up: '), item.action) : null,
+      extras));
+}
+
+/* ---------- views ---------- */
+const views = {};
+
+views.overview = () => {
+  const m = upcoming, c = m.counts, up = isUpcoming(m), nextUp = DATA.next_meeting;
+  const open = DATA.actions.filter(a => a.status !== 'Done').sort((a, b) => (a.status === b.status ? (a.due || '9') < (b.due || '9') ? -1 : 1 : a.status === 'Open' ? -1 : 1));
+  const done = DATA.actions.filter(a => a.status === 'Done');
+  const actionLine = a => h('div', { class: 'row', style: 'grid-template-columns: minmax(0, 1fr)' }, h('div', { class: 'body' },
+    h('div', { class: 'head' }, h('h4', null, a.title), a.status === 'Open' && a.due && a.due < TODAY ? pill('Past due', 'open') : pill(a.status, slug(a.status))),
+    h('p', { class: 'note' }, a.detail),
+    h('div', { class: 'meta' }, a.due ? h('span', null, (a.status === 'Done' ? 'Filed ' : 'By ') + fmtShort(a.due) + (a.status === 'Done' ? '' : ' (' + rel(a.due) + ')')) : h('span', null, 'No date set in the record'), sourceLink(a.source), a.auto ? h('span', { class: 'tag' }, 'Generated on this pull') : null)));
+  const stance = {};
+  DATA.mentions.forEach(x => { stance[x.stance] = (stance[x.stance] || 0) + 1; });
+  const attention = m.items.filter(i => i.tier === 'action' || (i.tier === 'watch' && i.summary)).sort((a, b) => (a.tier === b.tier ? a.num - b.num : a.tier === 'action' ? -1 : 1));
+  return [
+    h('h2', null, 'This week'),
+    up
+      ? h('p', { class: 'headline' }, 'The next PUCT open meeting is ', h('b', null, fmtLong(m.date)), ' (' + rel(m.date) + '). Of ' + m.items.length + ' agenda items, ', h('b', null, verb(c.action, 'calls', 'call') + ' for IMM attention'), ', ' + verb(c.watch, 'is', 'are') + ' worth watching and ' + verb(c.none, 'falls', 'fall') + ' outside the wholesale market.')
+      : h('p', { class: 'headline' }, 'The most recent PUCT open meeting was ', h('b', null, fmtLong(m.date)), ' (' + rel(m.date) + '). Of ' + m.items.length + ' agenda items, ', h('b', null, c.action + ' called for IMM attention'), ', ' + verb(c.watch, 'was', 'were') + ' worth watching and ' + c.none + ' fell outside the wholesale market.' + (nextUp && nextUp.date > TODAY ? ' The next meeting is ' + fmtLong(nextUp.date) + '; its agenda is not posted yet.' : '')),
+    h('div', { class: 'btns' },
+      h('button', { class: 'btn', type: 'button', onclick: () => show('meetings') }, 'See how the agenda was sorted'),
+      h('button', { class: 'btn', type: 'button', onclick: () => show('brief') }, up ? 'Read the meeting brief' : 'Read the meeting recap'),
+      ext('Agenda PDF', m.agenda_url, 'btn')),
+    h('div', { class: 'cols' },
+      h('div', null,
+        h('h3', { class: 'sub' }, 'Action items (suggested from the public record)'),
+        h('p', { class: 'small', style: 'margin: 0 0 8px' }, 'Some items are generated on each pull. The rest are kept by hand and were last reviewed ' + fmtShort(DATA.site.actions_reviewed) + '.'),
+        h('div', { class: 'panel' }, open.map(actionLine),
+          h('details', { class: 'fold' }, h('summary', null, plural(done.length, 'completed item')), done.map(actionLine)))),
+      h('div', null,
+        h('h3', { class: 'sub' }, 'On the ' + fmtShort(m.date) + ' agenda'),
+        h('div', { class: 'panel' }, attention.map(i => h('div', { class: 'line', style: 'grid-template-columns: 2.4ch minmax(0, 1fr)' },
+          h('span', { class: 'when' }, i.num),
+          h('div', { class: 'what' }, h('span', null, i.title), h('div', { class: 'meta' }, tierPill(i.tier), i.control ? docket(i.control, i.kind) : null))))),
+        h('h3', { class: 'sub' }, 'Coming up'),
+        h('div', { class: 'panel' }, DATA.calendar.filter(e => e.date >= TODAY).slice(0, 7).map(calendarLine)),
+        h('h3', { class: 'sub' }, 'What others said about the IMM'),
+        h('div', { class: 'panel' }, h('div', { class: 'line', style: 'grid-template-columns: minmax(0, 1fr)' }, h('div', { class: 'what' },
+          h('span', null, plural(DATA.mentions.length, 'filing') + ' since ' + fmtShort(DATA.mentions_meta.since) + ' refer to the IMM.'),
+          h('div', { class: 'meta' }, Object.entries(stance).sort((a, b) => b[1] - a[1]).map(([k, n]) => h('span', null, pill(k, slug(k)), ' ' + n))),
+          h('button', { class: 'btn', type: 'button', style: 'align-self: flex-start; margin-top: 4px', onclick: () => show('mentions') }, 'Read them')))))),
+    h('h3', { class: 'sub' }, sinceLabel + ': ' + plural(newFilings.length, 'new filing') + ' in watched projects'),
+    h('div', { class: 'panel' },
+      newFilings.slice(0, 8).map(f => filingLine(f)),
+      newFilings.length ? null : h('div', { class: 'line', style: 'grid-template-columns: minmax(0, 1fr)' }, h('span', { class: 'small' }, 'Nothing new.')),
+      newFilings.length > 8 ? h('div', { class: 'line', style: 'grid-template-columns: minmax(0, 1fr)' }, h('button', { class: 'btn', type: 'button', style: 'justify-self: start', onclick: () => show('filings') }, 'See all ' + newFilings.length)) : null),
+  ];
+};
+
+views.meetings = () => {
+  const m = DATA.meetings.find(x => x.date === state.meeting) || DATA.meetings[0];
+  const shown = t => state.tier === 'all' || state.tier === t;
+  const group = t => m.items.filter(i => i.tier === t);
+  const pick = date => { state.meeting = date; state.tier = 'all'; render('meetings'); };
+  const none = group('none');
+  return [
+    h('h2', null, 'Open meetings'),
+    h('p', { class: 'lede' }, 'Every agenda item is sorted into one of three groups, with the reason shown. Reviewed calls were made by reading the filings. Auto-sorted calls come from keyword rules and have not been checked by a person.'),
+    chips(DATA.meetings.map(x => ({ id: x.date, label: fmtShort(x.date) + (isUpcoming(x) ? ' (next)' : '') })), m.date, pick),
+    h('div', { class: 'meta', style: 'margin-bottom: 12px' },
+      h('span', null, fmtLong(m.date) + ', ' + rel(m.date)),
+      ext('Agenda PDF', m.agenda_url), ext(isUpcoming(m) ? 'Webcast page' : 'Meeting video', m.video_url)),
+    chips([{ id: 'all', label: 'All', n: m.items.length }, { id: 'action', label: 'Action', n: m.counts.action }, { id: 'watch', label: 'Watch', n: m.counts.watch }, { id: 'none', label: 'Not relevant', n: m.counts.none }], state.tier, t => { state.tier = t; render('meetings'); }),
+    ['action', 'watch'].filter(shown).map(t => group(t).length ? [h('h3', { class: 'sub' }, TIER[t] + ' (' + group(t).length + ')'), h('div', { class: 'panel' }, group(t).map(i => agendaRow(i, m)))] : null),
+    shown('none') && none.length ? (state.tier === 'none'
+      ? [h('h3', { class: 'sub' }, 'Not relevant (' + none.length + ')'), h('div', { class: 'panel' }, none.map(i => agendaRow(i, m)))]
+      : h('details', { class: 'fold', style: 'margin-top: 20px' }, h('summary', null, 'Not relevant (' + none.length + '): water, telecom, retail, rates and non-ERCOT matters'), h('div', { class: 'panel', style: 'margin-top: 10px' }, none.map(i => agendaRow(i, m))))) : null,
+    DATA.archive.length ? [h('h3', { class: 'sub' }, 'Earlier meetings (not sorted in this demonstration)'), h('div', { class: 'meta' }, DATA.archive.map(a => ext(fmt(a.date), a.agenda_url)))] : null,
+  ];
+};
+
+views.brief = () => {
+  const m = upcoming, up = isUpcoming(m), prev = DATA.meetings.filter(x => x.date < m.date)[0];
+  const bottom = (DATA.site.brief_bottom_line || {})[m.date];
+  const order = (a, b) => (a.tier === b.tier ? a.num - b.num : a.tier === 'action' ? -1 : 1);
+  const live = m.items.filter(i => i.tier !== 'none');
+  const lead = live.filter(i => i.summary || i.tier === 'action' || (i.new_filings || []).length).sort(order);
+  const rest = live.filter(i => !lead.includes(i));
+  const item = i => [
+    h('h3', null, 'Item ' + i.num + '. ' + i.title),
+    h('div', { class: 'meta' }, tierPill(i.tier), i.control ? docket(i.control, i.kind) : null, i.requested_action ? h('span', null, 'Posted for: ' + i.requested_action.toLowerCase()) : null),
+    i.outcome ? h('p', null, h('span', { class: 'lab' }, 'Outcome'), i.outcome + (i.order ? '. ' : '.'), i.order ? ext('Order filed ' + fmtShort(i.order.date), i.order.url) : null) : null,
+    h('p', null, h('span', { class: 'lab' }, 'Why it matters'), i.reason),
+    i.summary ? h('p', null, h('span', { class: 'lab' }, i.note_after ? 'What happened' : up ? 'Where it stands' : 'Going in'), i.summary) : null,
+    i.new_filings && i.new_filings.length ? [h('p', null, h('span', { class: 'lab' }, 'Filed since ' + (prev ? fmtShort(prev.date) : 'the last meeting'))), h('ul', { class: 'plain' }, i.new_filings.map(f => h('li', null, fmtShort(f.date) + ' · ', ext(clip(tidy(f.description), 110), f.url), ' · ' + clip(tidy(f.party), 36))))] : null,
+    i.imm_filings && i.imm_filings.length ? [h('p', null, h('span', { class: 'lab' }, 'IMM on record')), h('ul', { class: 'plain' }, i.imm_filings.map(f => h('li', null, fmt(f.date) + ' · ', ext(f.description, f.url))))] : null,
+    i.action && up ? h('p', null, h('span', { class: 'lab' }, 'Suggested follow-up'), i.action) : null,
+  ];
+  return [
+    h('h2', null, up ? 'Meeting brief' : 'Meeting recap'),
+    h('p', { class: 'lede' }, up ? 'A one-page read before walking into the hearing room. The lists of filings update on each pull; the judgment paragraphs are written by hand.' : 'What the agenda held and what the record shows since. A new brief appears here when the next agenda is posted.'),
+    h('div', { class: 'brief' },
+      h('dl', { class: 'memo' },
+        h('dt', null, 'To'), h('dd', null, 'Director of Market Monitoring'),
+        h('dt', null, 'From'), h('dd', null, 'Independent demonstration, prepared from public filings'),
+        h('dt', null, 'Re'), h('dd', null, 'PUCT open meeting, ' + fmtLong(m.date)),
+        h('dt', null, 'Sources'), h('dd', null, ext('Agenda', m.agenda_url), ' and PUCT Interchange filings as of ' + fmt(DATA.generated.split(' ')[0]))),
+      bottom ? h('p', null, h('span', { class: 'lab' }, up ? 'Bottom line' : 'Bottom line going in'), bottom) : null,
+      lead.map(item),
+      rest.length ? [h('h3', null, 'Also worth an ear'), h('ul', { class: 'plain' }, rest.map(i => h('li', null, 'Item ' + i.num + '. ' + clip(i.title, 150) + ' ', h('span', { class: 'small' }, i.reason))))] : null,
+      h('h3', null, 'Set aside'),
+      h('p', null, m.counts.none + ' of ' + m.items.length + ' items are outside the wholesale market: water and sewer cases, telecom, retail complaints, utility rates and siting, and regions outside ERCOT. The full sort with reasons is under Open meetings.')),
+  ];
+};
+
+views.filings = () => {
+  const kinds = {};
+  DATA.recent_filings.forEach(f => { kinds[f.kind] = (kinds[f.kind] || 0) + 1; });
+  const order = ['Commission order', 'Commissioner memo', 'Staff memo', 'IMM filing', 'ERCOT filing', 'Stakeholder filing', 'Commission filing'].filter(k => kinds[k]);
+  const list = DATA.recent_filings.filter(f => state.kind === 'all' || f.kind === state.kind);
+  const memos = DATA.memos, hot = memos.filter(x => x.tier !== 'none');
+  return [
+    h('h2', null, 'Filings and memos'),
+    h('p', { class: 'lede' }, 'Watched projects are the ones where the IMM has filed since ' + fmt(DATA.counts.imm_since, { month: 'long', year: 'numeric' }) + ', plus the agenda items sorted as Action or Watch. Orders and memos are picked out because they signal where a matter is heading.'),
+    h('h3', { class: 'sub' }, 'Commissioner memos, all dockets, last ' + DATA.recent_days + ' days'),
+    h('p', { class: 'small', style: 'margin: 0 0 8px' }, hot.length ? plural(hot.length, 'memo') + ' in a matter sorted as relevant.' : 'None of the ' + plural(memos.length, 'memo') + ' is in a matter sorted as relevant to the IMM. They are listed so the sort can be checked.'),
+    h('div', { class: 'panel' }, memos.map(f => filingLine(Object.assign({ kind: 'Commissioner memo' }, f), { style: true, tier: f.tier }))),
+    h('h3', { class: 'sub' }, 'Recent filings in watched projects (' + DATA.recent_days + ' days, public comments left out)'),
+    chips([{ id: 'all', label: 'All', n: DATA.recent_filings.length }].concat(order.map(k => ({ id: k, label: k + 's', n: kinds[k] }))), state.kind, k => { state.kind = k; render('filings'); }),
+    h('div', { class: 'panel' }, list.slice(0, 120).map(f => filingLine(f, { style: false }))),
+    list.length > 120 ? h('p', { class: 'small' }, 'Showing the newest 120 of ' + list.length + '.') : null,
+    h('h3', { class: 'sub' }, 'Watched projects'),
+    h('div', { class: 'panel scroll' }, h('table', null,
+      h('thead', null, h('tr', null, h('th', null, 'Project'), h('th', null, 'Title'), h('th', null, 'Latest filing'), h('th', { class: 'n' }, 'New'), h('th', { class: 'n' }, 'IMM filings'), h('th', null, 'Last IMM filing'))),
+      h('tbody', null, DATA.watched.map(w => h('tr', null,
+        h('td', null, docket(w.control, 'No.')), h('td', null, clip(tidy(w.style), 80)), h('td', null, fmt(w.last_filing)),
+        h('td', { class: 'n' }, w.recent), h('td', { class: 'n' }, w.imm_filings), h('td', null, w.last_imm_filing ? fmt(w.last_imm_filing) : 'None')))))),
+  ];
+};
+
+views.mentions = () => {
+  const counts = {};
+  DATA.mentions.forEach(x => { counts[x.stance] = (counts[x.stance] || 0) + 1; });
+  const order = ['Asks', 'Disputes', 'Mixed', 'Supports', 'Responds', 'Cites', 'Not yet read'].filter(k => counts[k]);
+  const list = DATA.mentions.filter(x => state.stance === 'all' || x.stance === state.stance);
+  return [
+    h('h2', null, 'Who cites the IMM'),
+    h('p', { class: 'lede' }, 'The pull downloaded ' + DATA.mentions_meta.documents_scanned + ' filings made in watched projects since ' + fmt(DATA.mentions_meta.since) + ' and searched each one for references to the IMM. The quotes are the text as extracted from each PDF, so a few carry scanning errors. The stance label is my reading of the quoted passages, not of the whole document.'),
+    chips([{ id: 'all', label: 'All', n: DATA.mentions.length }].concat(order.map(k => ({ id: k, label: k, n: counts[k] }))), state.stance, k => { state.stance = k; render('mentions'); }),
+    h('div', { class: 'panel' }, list.map(x => h('div', { class: 'row', style: 'grid-template-columns: 7.2ch minmax(0, 1fr)' },
+      h('span', { class: 'num', style: 'text-align: left' }, fmtShort(x.date)),
+      h('div', { class: 'body' },
+        h('div', { class: 'head' }, h('h4', null, clip(tidy(x.party), 70)), pill(x.stance, slug(x.stance))),
+        h('div', { class: 'meta' }, docket(x.control, 'No.'), ext(clip(tidy(x.description), 90), x.url), h('span', null, plural(x.mention_count, 'reference') + ' in ' + plural(x.pages, 'page'))),
+        x.note ? h('p', { class: 'note' }, x.note) : null,
+        x.quotes.map(s => h('blockquote', null, clip(s.text, 330) + ' ', h('cite', null, 'p. ' + s.page))))))),
+  ];
+};
+
+views.rules = () => {
+  const stages = [[1, 'At a subcommittee'], [2, 'At TAC'], [3, 'At the Board'], [4, 'At the PUCT']];
+  const count = s => DATA.nprrs.filter(n => n.stage === s).length;
+  const list = DATA.nprrs.filter(n => state.rules === 'all' || (state.rules === 'imm' ? n.tier === 'action' : n.tier !== 'none'));
+  const notice = DATA.opinions_notice;
+  const immCell = n => {
+    const bits = [];
+    if (n.imm_opinion) bits.push(pill(n.imm_opinion.position, n.imm_opinion.position === 'Supports' ? 'supports' : ''));
+    n.imm_documents.forEach(d => bits.push(ext('Comments ' + fmtShort(d.posted), d.url)));
+    return bits.length ? h('div', { class: 'meta' }, bits) : h('span', { class: 'small' }, 'Nothing on file');
+  };
+  return [
+    h('h2', null, 'ERCOT rule changes'),
+    h('p', { class: 'lede' }, 'Pending Nodal Protocol Revision Requests, from ERCOT’s website. A request moves from a subcommittee to the Technical Advisory Committee, then the Board, then the PUCT for approval in Project 54445.'),
+    h('div', { class: 'stages' }, stages.map(([s, label]) => h('div', { class: 'stage' }, h('b', null, count(s)), h('span', null, label)))),
+    notice ? h('p', { class: 'note', style: 'margin-bottom: 14px' }, 'ERCOT filed its ', ext('notice of Board-recommended revisions', notice.url), ' on ' + fmt(notice.date) + '. Each Board report in it states the IMM’s opinion, shown below. Staff’s timeline memo puts these on the November 5 open meeting.') : null,
+    chips([{ id: 'imm', label: 'IMM involved', n: DATA.nprrs.filter(n => n.tier === 'action').length }, { id: 'market', label: 'IMM involved or market design', n: DATA.nprrs.filter(n => n.tier !== 'none').length }, { id: 'all', label: 'All pending', n: DATA.nprrs.length }], state.rules, k => { state.rules = k; render('rules'); }),
+    h('div', { class: 'panel scroll' }, h('table', null,
+      h('thead', null, h('tr', null, h('th', null, 'Request'), h('th', null, 'What it does'), h('th', null, 'Next stop'), h('th', null, 'Last action'), h('th', null, 'IMM'))),
+      h('tbody', null, list.map(n => h('tr', null,
+        h('td', null, ext(n.id, n.url, 'ctl'), n.urgent === 'Yes' ? h('div', null, pill('Urgent', 'watch')) : null),
+        h('td', { style: 'min-width: 240px' }, h('b', null, n.title), n.note ? h('div', { class: 'small' }, n.note) : null, h('div', { class: 'small' }, 'Sponsor: ' + n.sponsor)),
+        h('td', null, n.next_group),
+        h('td', { style: 'min-width: 130px' }, n.last_action ? [fmt(n.last_action.date), h('div', { class: 'small' }, n.last_action.body + ': ' + n.last_action.action)] : h('span', { class: 'small' }, 'None yet')),
+        h('td', { style: 'min-width: 150px' }, immCell(n))))))),
+    h('p', { class: 'small', style: 'margin-top: 10px' }, 'Only NPRRs are pulled. Other revision request types (operating guides, planning guides and so on) follow the same path and could be added the same way.'),
+  ];
+};
+
+views.recs = () => {
+  const r = DATA.recommendations, counts = {};
+  r.recommendations.forEach(x => { counts[x.status] = (counts[x.status] || 0) + 1; });
+  const cls = s => ({ 'Moving': 'moving', 'Active': 'moving', 'Path cleared': 'moving', 'Partly adopted': 'partial', 'Not adopted': 'disagree', 'Waiting on the IMM': 'open' }[s] || '');
+  const link = l => l.type === 'filing' ? sourceLink(l) : sourceLink(l);
+  return [
+    h('h2', null, 'IMM recommendations'),
+    h('p', { class: 'lede' }, r.note + ' Titles and Staff positions come from ', ext('Staff’s response', filingUrl(r.staff_response.control, r.staff_response.item)), ' to the ', ext('2025 State of the Market report', filingUrl(r.report.control, r.report.item)), '. The status label and next step are my reading.'),
+    h('div', { class: 'meta', style: 'margin-bottom: 14px' }, Object.entries(counts).map(([k, n]) => h('span', null, pill(k, cls(k)), ' ' + n))),
+    h('div', { class: 'panel' }, r.recommendations.map(x => h('div', { class: 'row', style: 'grid-template-columns: 7.2ch minmax(0, 1fr)' },
+      h('span', { class: 'num', style: 'text-align: left' }, x.id),
+      h('div', { class: 'body' },
+        h('div', { class: 'head' }, h('h4', null, x.title), pill(x.status, cls(x.status))),
+        h('div', { class: 'meta' }, h('span', null, 'PUCT Staff: ', pill(x.staff, slug(x.staff) === 'support' && /partial/i.test(x.staff) ? 'partial' : slug(x.staff))), x.links.map(link)),
+        h('p', { class: 'note' }, h('span', { class: 'lab' }, 'Where it stands: '), x.where),
+        h('p', { class: 'note' }, h('span', { class: 'lab' }, 'Next: '), x.next))))),
+  ];
+};
+
+const KIND = { puct: 'PUCT', ercot: 'ERCOT', deadline: 'Deadline', legislature: 'Legislature', imm: 'IMM deliverable' };
+function calendarLine(e) {
+  return h('div', { class: 'line', style: 'grid-template-columns: 9.6ch minmax(0, 1fr)' },
+    h('span', { class: 'when' }, fmtDay(e.date)),
+    h('div', { class: 'what' },
+      e.url ? ext(e.title, e.url) : h('span', null, e.title),
+      h('div', { class: 'meta' }, h('span', { class: 'tag' }, KIND[e.kind] || e.kind), e.placeholder ? pill('Placeholder', 'placeholder') : null, e.basis ? h('span', null, e.basis) : null, e.detail ? h('span', null, e.detail) : null)));
+}
+views.calendar = () => {
+  const months = {};
+  DATA.calendar.forEach(e => { const k = e.date.slice(0, 7); (months[k] = months[k] || []).push(e); });
+  return [
+    h('h2', null, 'Calendar'),
+    h('p', { class: 'lede' }, 'PUCT and ERCOT dates are pulled or come from Staff’s filed timeline. Entries marked Placeholder are invented: the IMM’s real deliverable dates sit in its contract with the PUCT, which I have not seen.'),
+    Object.entries(months).map(([k, list]) => [h('div', { class: 'month' }, fmt(k + '-01', { month: 'long', year: 'numeric' })), h('div', { class: 'panel' }, list.map(calendarLine))]),
+  ];
+};
+
+views.legislature = () => {
+  const L = DATA.legislature, dates = DATA.calendar.filter(e => e.kind === 'legislature');
+  return [
+    h('h2', null, 'Legislature'),
+    h('p', { class: 'lede' }, 'The 90th Legislature convenes in January 2027. Until bills are filed, this section shows the hearing feeds and the enacted laws still driving proceedings here. Once pre-filing opens, the same pull can follow individual bills.'),
+    h('h3', { class: 'sub' }, 'Key dates'),
+    h('div', { class: 'panel' }, dates.map(calendarLine)),
+    h('h3', { class: 'sub' }, 'Committee hearings posted'),
+    h('div', { class: 'panel' },
+      Object.entries(L.feed_status || {}).map(([chamber, status]) => h('div', { class: 'line' }, h('span', { class: 'when' }, chamber), h('div', { class: 'what' }, status))),
+      (L.hearings || []).map(x => h('div', { class: 'line' }, h('span', { class: 'when' }, x.chamber), h('div', { class: 'what' }, ext(x.title, x.url), h('span', { class: 'small' }, clip(x.detail, 200)), x.relevant ? pill('Energy-related', 'watch') : null)))),
+    h('h3', { class: 'sub' }, 'Enacted laws behind current proceedings'),
+    h('div', { class: 'panel' }, (L.bills || []).map(b => h('div', { class: 'row', style: 'grid-template-columns: 9ch minmax(0, 1fr)' },
+      h('span', { class: 'num', style: 'text-align: left' }, ext(b.bill.replace(/(\D+)(\d+)/, '$1 $2'), b.url)),
+      h('div', { class: 'body' },
+        h('p', { class: 'note' }, b.caption || ''),
+        h('div', { class: 'meta' }, h('span', null, b.session.replace('R', 'th regular session')), b.author ? h('span', null, 'Author: ' + clip(b.author, 60)) : null, b.last_action ? h('span', null, 'Last action: ' + b.last_action) : null),
+        h('p', { class: 'why' }, b.why))))),
+  ];
+};
+
+const stampOf = s => { if (!s) return 'Never'; const [d, t] = s.split(' '); const [hh, mm] = t.split(':').map(Number); return fmtShort(d) + ', ' + ((hh % 12) || 12) + ':' + pad(mm) + (hh < 12 ? ' a.m.' : ' p.m.'); };
+views.about = () => [
+  h('h2', null, 'Sources and method'),
+  h('p', { class: 'lede' }, 'Python scripts pull each public source, save what they find, and rebuild this page. A scheduled job on GitHub runs them ' + DATA.site.schedule + '. If a source cannot be reached, the page keeps its last good data and says so here.'),
+  h('h3', { class: 'sub' }, 'Latest pull, by source'),
+  h('div', { class: 'panel scroll' }, h('table', null,
+    h('thead', null, h('tr', null, h('th', null, 'Source'), h('th', null, 'Status'), h('th', null, 'What came back'), h('th', null, 'Last good pull'))),
+    h('tbody', null, DATA.sources.map(s => h('tr', null, h('td', null, s.name),
+      h('td', null, s.ok ? pill('Reached', 'done') : s.ok === false ? pill('Not reached', 'open') : pill('Not run')),
+      h('td', null, s.detail), h('td', { style: 'white-space: nowrap' }, stampOf(s.last_ok))))))),
+  h('p', { class: 'small', style: 'margin-top: 8px' }, DATA.counts.meetings_listed + ' meetings listed; ' + DATA.counts.filings_indexed.toLocaleString('en-US') + ' filings indexed across ' + DATA.counts.watched + ' watched projects; the IMM has filed in ' + DATA.counts.imm_projects + ' projects since ' + fmt(DATA.counts.imm_since) + '. ', DATA.site.repo ? ext('Code and run history on GitHub', DATA.site.repo) : null),
+  h('h3', { class: 'sub' }, 'Update log'),
+  h('div', { class: 'panel' }, DATA.log.map(e => h('div', { class: 'line', style: 'grid-template-columns: 13ch minmax(0, 1fr)' },
+    h('span', { class: 'when' }, stampOf(e.at)),
+    h('div', { class: 'what' }, e.changes.length ? h('ul', { class: 'plain', style: 'margin: 0; font-size: inherit' }, e.changes.map(c => h('li', null, c))) : h('span', { class: 'small' }, 'No changes found'),
+      e.sources_ok < e.sources ? h('span', { class: 'small' }, e.sources_ok + ' of ' + e.sources + ' sources reached') : null)))),
+  h('h3', { class: 'sub' }, 'What is pulled, what is judgment, what is invented'),
+  h('div', { class: 'panel' },
+    [['Pulled', 'Agenda items, filing lists, dates, parties, document links, quoted passages, ERCOT revision request status, the IMM’s opinions as recorded in ERCOT’s Board reports, bill histories.'],
+     ['Judgment', 'The Action, Watch and Not relevant sort; the reasons; the suggested follow-ups and action items; the stance labels; the recommendation status labels. Reviewed calls were made by reading the filings. Anything new is sorted by keyword rules, kept in a plain file that can be edited, and shown as auto-sorted until a person reviews it.'],
+     ['Invented', 'IMM deliverable dates on the calendar, marked Placeholder.']].map(([k, v]) => h('div', { class: 'line' }, h('span', { class: 'when' }, k), h('div', { class: 'what' }, v)))),
+  h('h3', { class: 'sub' }, 'Limits'),
+  h('div', { class: 'panel' },
+    ['Open meetings have video but no transcript. What was said in the room would come from attending or from speech-to-text on the recording.',
+     'Action items come only from the public record. The IMM’s own task list, staff requests and contract deliverables are internal.',
+     'Stance labels were read from the quoted passages, not from each full document. New filings that mention the IMM show as Not yet read.',
+     'The reviewed notes do not update themselves. A new agenda is sorted by the rules until someone reviews it.',
+     'Only NPRRs are tracked on the ERCOT side, and only the five most recent PUCT agendas are sorted.'].map(t => h('div', { class: 'line', style: 'grid-template-columns: minmax(0, 1fr)' }, h('div', { class: 'what' }, t)))),
+];
+
+/* ---------- shell ---------- */
+DATA.memos = DATA.memos || [];
+const NAV = [['overview', 'Overview'], ['meetings', 'Open meetings', upcoming.counts.action + upcoming.counts.watch], ['brief', 'Meeting brief'], ['filings', 'Filings and memos', newFilings.length], ['mentions', 'Who cites the IMM', DATA.mentions.length], ['rules', 'ERCOT rule changes', DATA.nprrs.filter(n => n.tier === 'action').length], ['recs', 'Recommendations', DATA.recommendations.recommendations.length], ['calendar', 'Calendar'], ['legislature', 'Legislature'], ['about', 'Sources and method']];
+const main = document.getElementById('main'), rail = document.getElementById('rail');
+let current = 'overview';
+function render(id) {
+  const section = h('section', { class: 'view', id: 'view-' + id }, views[id]());
+  main.replaceChildren(section);
+}
+function show(id) {
+  if (!views[id]) id = 'overview';
+  current = id;
+  rail.querySelectorAll('button').forEach(b => { if (b.dataset.view === id) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+  render(id);
+  const active = rail.querySelector('[aria-current]');
+  if (active && rail.scrollWidth > rail.clientWidth) rail.scrollLeft = active.offsetLeft - rail.offsetLeft - 16;
+  try { history.replaceState(null, '', '#' + id); } catch (e) { /* hash is a convenience only */ }
+  window.scrollTo(0, 0);
+}
+NAV.forEach(([id, label, n]) => rail.append(h('button', { type: 'button', 'data-view': id, onclick: () => show(id) }, h('span', null, label), n != null ? h('span', { class: 'count' }, n) : null)));
+const stamp = s => { const [d, t] = s.split(' '); const [hh, mm] = t.split(':').map(Number); return fmt(d) + ' at ' + ((hh % 12) || 12) + ':' + pad(mm) + (hh < 12 ? ' a.m.' : ' p.m.'); };
+document.getElementById('asof').textContent = 'Public data pulled ' + stamp(DATA.generated);
+document.getElementById('disclaimer').textContent = DATA.site.disclaimer;
+document.getElementById('foot').textContent = (DATA.site.author ? 'Prepared by ' + DATA.site.author + '. ' : '') + 'An independent demonstration. Not a Potomac Economics, PUCT or ERCOT work product.';
+window.addEventListener('hashchange', () => { const id = location.hash.replace('#', ''); if (id && id !== current) show(id); });
+show((location.hash || '').replace('#', '') || 'overview');
+</script>

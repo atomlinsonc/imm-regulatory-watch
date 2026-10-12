@@ -1,0 +1,19 @@
+{
+  "_about": "Which pending protocol revisions touch market design, pricing or mitigation, judged from each request's title and description. A request the IMM has commented on, or stated a supporting opinion on, is flagged automatically.",
+  "notes": {
+    "NPRR1214": "Changes the real-time reliability deployment price adder to send locational price signals.",
+    "NPRR1255": "Sets mitigated offer caps for energy storage resources.",
+    "NPRR1278": "Would create a new ancillary service for grid support from inverter-based resources.",
+    "NPRR1292": "Creates more granular congestion revenue right products.",
+    "NPRR1296": "Creates a residential demand response program.",
+    "NPRR1310": "Builds out Dispatchable Reliability Reserve Service (IMM recommendation 2021-2).",
+    "NPRR1328": "Implements the generation firming program. The IMM filed in the firming rulemaking (Project 58198).",
+    "NPRR1335": "Implements the commission's Firm Fuel Supply Service rule (IMM recommendation 2025-1).",
+    "NPRR1338": "Restructures the long-term congestion revenue right auctions.",
+    "NPRR1340": "Adds energy storage to Dispatchable Reliability Reserve Service (IMM recommendation 2021-2).",
+    "NPRR1342": "Sets mitigated offer caps for contract-for-capacity resources.",
+    "NPRR1343": "Charges a fee on inefficient point-to-point bids (IMM recommendation 2020-4).",
+    "NPRR1345": "Extends the exceptional fuel cost process, which feeds mitigated offers.",
+    "NPRR1346": "Raises the fuel oil price adder used in cost-based offers."
+  }
+}
