@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-12 15:25",
+ "fetched": "2026-10-13 13:29",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -93,12 +93,12 @@
    "key": false
   },
   {
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "time": "9:30 AM",
-   "name": "PLWG Meeting - Webex Only",
-   "body": "Planning Working Group",
-   "location": "(CANCELLED) Wednesday, Oct 21, 2026",
-   "url": "https://www.ercot.com/calendar/10202026-PLWG-Meeting-_-Webex",
+   "name": "CFSG Meeting - Webex Only",
+   "body": "Credit Finance Sub Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/10212026-CFSG-Meeting-_-Webex",
    "key": false
   },
   {
@@ -273,6 +273,15 @@
    "key": false
   },
   {
+   "date": "2026-11-06",
+   "time": "9:30 AM",
+   "name": "SB6 Large Load Curtailment: Operations Workshop #2",
+   "body": "Critical Infrastructure Protection Working Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/11062026-SB6-Large-Load-Curtailment_",
+   "key": false
+  },
+  {
    "date": "2026-11-10",
    "time": "1:00 PM",
    "name": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
@@ -307,6 +316,15 @@
    "location": "ERCOT Austin and Webex",
    "url": "https://www.ercot.com/calendar/11112026-PRS-Meeting",
    "key": true
+  },
+  {
+   "date": "2026-11-12",
+   "time": "9:00 AM",
+   "name": "OTWG Meeting - Webex Only",
+   "body": "Operations Training Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11122026-OTWG-Meeting-_-Webex",
+   "key": false
   }
  ]
 }

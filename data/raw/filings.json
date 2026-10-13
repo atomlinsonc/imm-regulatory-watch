@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-12 15:24",
+ "fetched": "2026-10-13 13:28",
  "projects": {
   "34677": {
    "control": "34677",
@@ -11335,6 +11335,30 @@
      "type": "PL",
      "description": "Commission Staff's Corrections to Proposed Order",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=112"
+    },
+    {
+     "item": 113,
+     "date": "2026-10-12",
+     "party": "WEST TEXAS SOLAR PROJECT II LLC AND SILVER BASIN DIGITAL INFRASTRUCTURE LLC",
+     "type": "MISC",
+     "description": "WEST TEXAS SOLAR PROJECT II LLC AND SILVER BASIN DIGITAL INFRASTRUCTURE LLC’S JOINT PROPOSED CORRECTIONS TO THE PROPOSED ORDER",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=113"
+    },
+    {
+     "item": 114,
+     "date": "2026-10-12",
+     "party": "Texas-New Mexico Power Company",
+     "type": "MISC",
+     "description": "TNMP’s Exceptions to Proposed Order",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=114"
+    },
+    {
+     "item": 115,
+     "date": "2026-10-13",
+     "party": "PUC OPDM",
+     "type": "PL",
+     "description": "REVISED PROPOSED ORDER WITH MEMORANDUM",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=115"
     }
    ],
    "style": "Joint Application for West Texas Solar Project II LLC and Silver Basin Digital Infrastructure LLC for Approval of a Net Metering Arrangement"

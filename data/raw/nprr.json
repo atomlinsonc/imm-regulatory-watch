@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-12 15:25",
+ "fetched": "2026-10-13 13:29",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -1608,9 +1608,14 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 22,
+   "document_count": 23,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1340NPRR-23 Revised Impact Analysis 101326",
+     "url": "https://www.ercot.com/files/docs/2026/10/13/1340NPRR-23-Revised-Impact-Analysis-101326.docx",
+     "posted": "2026-10-13"
+    },
     {
      "name": "1340NPRR-21 WMS Ballot 100726",
      "url": "https://www.ercot.com/files/docs/2026/10/08/1340NPRR-21-WMS-Ballot-100726.xls",
@@ -1624,11 +1629,6 @@
     {
      "name": "1340NPRR-19 ROS Ballot 100126",
      "url": "https://www.ercot.com/files/docs/2026/10/05/1340NPRR-19-ROS-Ballot-100126.xls",
-     "posted": "2026-10-05"
-    },
-    {
-     "name": "1340NPRR-20 ROS Comments 100526",
-     "url": "https://www.ercot.com/files/docs/2026/10/05/1340NPRR-20-ROS-Comments-100526.docx",
      "posted": "2026-10-05"
     }
    ]
@@ -1963,9 +1963,14 @@
    "urgent": "Pending",
    "description": "This Nodal Protocol Revision Request (NPRR) introduces a Telemetry Offset framework to bridge the attributability gap between co-located Load and generation. It permits a Qualified Scheduling Entity (QSE) to dynamically raise the telemetered Low Power Consumption (LPC) limit of a Provisional Controllable Load Resource (PCLR) to match the Real-Time Market (RTM) availability of a paired, equivalent mitigating Resource (e.g., Energy Storage System (ESR) or natural gas) on a separate meter. This dynamic telemetry pairing temporarily firms the Load from Security-Constrained Economic Dispatch (SCED) curtailment while the offsetting capacity is actively offered on an equivalent, offsetting basis. To clear uninstructed Resource deviation flags resulting from this shielded operation, a post-Operating Day Settlement is run, proving the shielded megawatts (MW) were physically backed by the paired Resource. The paired Resource is subjected to the same automatic bid capping methodology as the paired PCLR, ensuring economic equivalency. Finally, it establishes deterministic yielding Protocols requiring the telemetry shield to drop, exposing the Load to curtailment, during system-wide macro-scarcity events.",
    "actions": [],
-   "document_count": 8,
+   "document_count": 9,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1348NPRR-09 Gridmatic Comments 101326",
+     "url": "https://www.ercot.com/files/docs/2026/10/13/NPRR1348-09-Gridmatic-Comments-101326.docx",
+     "posted": "2026-10-13"
+    },
     {
      "name": "1348NPRR-06 Schaper Energy Consulting Comments 100926",
      "url": "https://www.ercot.com/files/docs/2026/10/09/1348NPRR-06-Schaper-Energy-Consulting-Comments-100926.docx",
@@ -1980,11 +1985,6 @@
      "name": "1348NPRR-08 Habitat Energy Comments 100926",
      "url": "https://www.ercot.com/files/docs/2026/10/09/1348NPRR-08-Habitat-Energy-Comments-100926.docx",
      "posted": "2026-10-09"
-    },
-    {
-     "name": "1348NPRR-05 Cipher Digital Comments 100826",
-     "url": "https://www.ercot.com/files/docs/2026/10/08/1348NPRR-05-Cipher-Digital-Comments-100826.docx",
-     "posted": "2026-10-08"
     }
    ]
   },
