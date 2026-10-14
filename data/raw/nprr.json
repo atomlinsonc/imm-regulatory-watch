@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-13 13:29",
+ "fetched": "2026-10-14 10:58",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -1776,15 +1776,25 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 11,
+   "document_count": 12,
    "imm_documents": [
     {
      "name": "1343NPRR-09 IMM Comments 100226",
      "url": "https://www.ercot.com/files/docs/2026/10/02/1343NPRR-09-IMM-Comments-100226.docx",
      "posted": "2026-10-02"
+    },
+    {
+     "name": "1343NPRR-12 ERCOT and IMM Comments 101326",
+     "url": "https://www.ercot.com/files/docs/2026/10/13/1343NPRR-12-ERCOT-and-IMM-Comments-101326.doc",
+     "posted": "2026-10-13"
     }
    ],
    "latest_documents": [
+    {
+     "name": "1343NPRR-12 ERCOT and IMM Comments 101326",
+     "url": "https://www.ercot.com/files/docs/2026/10/13/1343NPRR-12-ERCOT-and-IMM-Comments-101326.doc",
+     "posted": "2026-10-13"
+    },
     {
      "name": "1343NPRR-10 WMS Ballot 100726",
      "url": "https://www.ercot.com/files/docs/2026/10/08/1343NPRR-10-WMS-Ballot-100726.xls",
@@ -1798,11 +1808,6 @@
     {
      "name": "1343NPRR-08 TCPA Comments 100226",
      "url": "https://www.ercot.com/files/docs/2026/10/02/1343NPRR-08-TCPA-Comments-100226.docx",
-     "posted": "2026-10-02"
-    },
-    {
-     "name": "1343NPRR-09 IMM Comments 100226",
-     "url": "https://www.ercot.com/files/docs/2026/10/02/1343NPRR-09-IMM-Comments-100226.docx",
      "posted": "2026-10-02"
     }
    ]

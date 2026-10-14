@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-13 13:28",
+ "fetched": "2026-10-14 10:56",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12436,6 +12436,38 @@
      "type": "PC",
      "description": "Public comment",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=51"
+    },
+    {
+     "item": 52,
+     "date": "2026-10-13",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=52"
+    },
+    {
+     "item": 53,
+     "date": "2026-10-13",
+     "party": "ERCOT",
+     "type": "PL",
+     "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S STUDY RESULTS AND RECOMMENDATIONS",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=53"
+    },
+    {
+     "item": 54,
+     "date": "2026-10-14",
+     "party": "ERCOT",
+     "type": "CONF",
+     "description": "CONFIDENTIAL - ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S STUDY RESULTS AND RECOMMENDATIONS",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=54"
+    },
+    {
+     "item": 55,
+     "date": "2026-10-14",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=55"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
