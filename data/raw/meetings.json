@@ -1,13 +1,24 @@
 {
- "fetched": "2026-10-14 10:56",
+ "fetched": "2026-10-15 10:42",
  "source": "https://www.puc.texas.gov/agency/calendar/openmeetings/",
  "meetings": [
   {
    "date": "2026-10-15",
    "agenda_url": "https://ftp.puc.texas.gov/public/puct-info/agency/om/101526Final.pdf",
    "video_url": "https://www.adminmonitor.com/tx/puct/open_meeting/20261015/",
-   "consent": [],
-   "not_taken_up": [],
+   "consent": [
+    3,
+    5,
+    6,
+    8,
+    14,
+    15,
+    16
+   ],
+   "not_taken_up": [
+    13,
+    17
+   ],
    "items": [
     {
      "num": 1,

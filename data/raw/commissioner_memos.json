@@ -1,8 +1,68 @@
 {
- "fetched": "2026-10-14 10:57",
- "since": "2026-08-30",
- "dockets_checked": 13,
+ "fetched": "2026-10-15 10:43",
+ "since": "2026-08-31",
+ "dockets_checked": 18,
  "memos": [
+  {
+   "item": 89,
+   "date": "2026-10-14",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54462&itemNumber=89",
+   "control": "54462",
+   "style": "APPLICATION OF ORANGE COUNTY WATER CONTROL & IMPROVEMENT DISTRICT NO. 1 AND WATER NECESSITIES, INC. FOR SALE, TRANSFER, OR MERGER OF FACILITIES AND CERTIFICATE RIGHTS IN ORANGE COUNTY"
+  },
+  {
+   "item": 133,
+   "date": "2026-10-14",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON AND COMMISSIONER COURTNEY HJALTMAN MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=56958&itemNumber=133",
+   "control": "56958",
+   "style": "APPLICATION OF CSWR-TEXAS UTILITY OPERATING COMPANY, LLC AND NORTHSIDE SUBDIVISION WATER PLANT AND DISTRIBUTION CORP. FOR SALE, TRANSFER, OR MERGER OF FACILITIES AND CERTIFICATE RIGHTS IN ERATH COUNTY"
+  },
+  {
+   "item": 529,
+   "date": "2026-10-14",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59029&itemNumber=529",
+   "control": "59029",
+   "style": "APPLICATION OF ONCOR ELECTRIC DELIVERY COMPANY LLC TO AMEND ITS CERTIFICATE OF CONVENIENCE AND NECESSITY FOR THE LONGSHORE SWITCH-DRILL HOLE SWITCH 765 KV TRANSMISSION LINE PROJECT IN ANDREWS, CULBERSON, ECTOR, GLASSCOCK, HOWARD, LOVING, MARTIN, MIDLAND, REEVES, AND WINKLER COUNTIES"
+  },
+  {
+   "item": 116,
+   "date": "2026-10-14",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=116",
+   "control": "59115",
+   "style": "JOINT APPLICATION FOR WEST TEXAS SOLAR PROJECT II LLC AND SILVER BASIN DIGITAL INFRASTRUCTURE LLC FOR APPROVAL OF A NET METERING ARRANGEMENT"
+  },
+  {
+   "item": 174,
+   "date": "2026-10-14",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59245&itemNumber=174",
+   "control": "59245",
+   "style": "APPLICATION OF LONE STAR TRANSMISSION, LLC FOR AUTHORITY TO CHANGE RATES"
+  },
+  {
+   "item": 14,
+   "date": "2026-10-14",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59707&itemNumber=14",
+   "control": "59707",
+   "style": "PETITION OF MOMENTUM GENERATION PARK LLC APPEALING RATES CHARGED BY NORTHWEST HARRIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 49 IN HARRIS COUNTY"
+  },
   {
    "item": 674,
    "date": "2026-09-30",

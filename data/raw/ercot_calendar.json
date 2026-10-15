@@ -1,16 +1,7 @@
 {
- "fetched": "2026-10-14 10:58",
+ "fetched": "2026-10-15 10:44",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-10-14",
-   "time": "9:30 AM",
-   "name": "PDCWG Meeting - Webex Only",
-   "body": "Performance, Disturbance, Compliance Working Group",
-   "location": "(CANCELLED)",
-   "url": "https://www.ercot.com/calendar/10142026-PDCWG-Meeting-_-Webex",
-   "key": false
-  },
   {
    "date": "2026-10-15",
    "time": "1:00 PM",
@@ -77,6 +68,15 @@
   {
    "date": "2026-10-21",
    "time": "9:30 AM",
+   "name": "NERC BES Protection System Misoperation Reduction Workshop",
+   "body": "Planning Working Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/10212026-NERC-BES-Protection-System",
+   "key": false
+  },
+  {
+   "date": "2026-10-21",
+   "time": "9:30 AM",
    "name": "CFSG Meeting - Webex Only",
    "body": "Credit Finance Sub Group",
    "location": "Webex",
@@ -93,15 +93,6 @@
    "key": false
   },
   {
-   "date": "2026-10-21",
-   "time": "9:30 AM",
-   "name": "NERC BES Protection System Misoperation Reduction Workshop",
-   "body": "Steady State Working Group",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/10212026-NERC-BES-Protection-System",
-   "key": false
-  },
-  {
    "date": "2026-10-22",
    "time": "2:00 PM",
    "name": "TWG Meeting - Webex Only",
@@ -114,7 +105,7 @@
    "date": "2026-10-22",
    "time": "9:00 AM",
    "name": "Resource Entity and TSP Winter Weather Preparedness Workshop",
-   "body": "Resource Integration Working Group",
+   "body": "Steady State Working Group",
    "location": "ERCOT Austin and Webex",
    "url": "https://www.ercot.com/calendar/10222026-Resource-Entity-and-TSP",
    "key": false
