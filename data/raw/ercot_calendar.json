@@ -1,34 +1,7 @@
 {
- "fetched": "2026-10-15 10:44",
+ "fetched": "2026-10-16 10:30",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-10-15",
-   "time": "1:00 PM",
-   "name": "Batch/CTP Workshop 3a-Batch Scope Discussion",
-   "body": "Large Load Working Group",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/10152026-Batch_CTP-Workshop-3a_Batch-Scope",
-   "key": false
-  },
-  {
-   "date": "2026-10-15",
-   "time": "9:30 AM",
-   "name": "PUCT Meeting",
-   "body": "The Public Utility Commission of Texas",
-   "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
-   "url": "https://www.ercot.com/calendar/10152026-PUCT-Meeting",
-   "key": true
-  },
-  {
-   "date": "2026-10-15",
-   "time": "9:30 AM",
-   "name": "LLWG Meeting",
-   "body": "Large Load Working Group",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/10152026-LLWG-Meeting",
-   "key": false
-  },
   {
    "date": "2026-10-16",
    "time": "1:00 PM",

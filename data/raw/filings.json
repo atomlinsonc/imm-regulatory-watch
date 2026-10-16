@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-15 10:43",
+ "fetched": "2026-10-16 10:29",
  "projects": {
   "34677": {
    "control": "34677",
@@ -3994,6 +3994,14 @@
      "type": "PRJ",
      "description": "NOTICE OF TEXAS CYBERSECURITY MONITOR PROGRAM FEE FOR THE 2027 CALENDAR YEAR",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=305"
+    },
+    {
+     "item": 306,
+     "date": "2026-10-15",
+     "party": "ERCOT",
+     "type": "PRJ",
+     "description": "ERCOT’S REPORT ON DIRECT CURRENT TIE (DC TIE) ENERGY IMPORTS AND EXPORTS (OCTOBER 2026)",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=306"
     }
    ],
    "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"
@@ -11375,6 +11383,22 @@
      "type": "MISC",
      "description": "WEST TEXAS SOLAR PROJECT II LLC AND SILVER BASIN DIGITAL INFRASTRUCTURE LLC’S JOINT REPLY TO TEXAS-NEW MEXICO POWER COMPANY’S EXCEPTIONS TO THE PROPOSED ORDER",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=117"
+    },
+    {
+     "item": 118,
+     "date": "2026-10-15",
+     "party": "PUC OPDM",
+     "type": "PL",
+     "description": "ORDER",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=118"
+    },
+    {
+     "item": 119,
+     "date": "2026-10-15",
+     "party": "PUC OPDM",
+     "type": "PL",
+     "description": "OUTGOING COMMISSION-SIGNED ORDER MAIL LOG",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=119"
     }
    ],
    "style": "Joint Application for West Texas Solar Project II LLC and Silver Basin Digital Infrastructure LLC for Approval of a Net Metering Arrangement"
@@ -12747,6 +12771,62 @@
      "type": "PRJ",
      "description": "OM Item No. 27 - (Staff Recommendation) Order Adopting New 16 TAC §25.58",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59523&itemNumber=32"
+    },
+    {
+     "item": 33,
+     "date": "2026-10-15",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59523&itemNumber=33"
+    },
+    {
+     "item": 34,
+     "date": "2026-10-15",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59523&itemNumber=34"
+    },
+    {
+     "item": 35,
+     "date": "2026-10-15",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59523&itemNumber=35"
+    },
+    {
+     "item": 36,
+     "date": "2026-10-15",
+     "party": "PUC OPDM",
+     "type": "PRJ",
+     "description": "ORDER ADOPTING NEW 16 TAC §25.58",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59523&itemNumber=36"
+    },
+    {
+     "item": 37,
+     "date": "2026-10-15",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59523&itemNumber=37"
+    },
+    {
+     "item": 38,
+     "date": "2026-10-15",
+     "party": "RULES & PROJECTS",
+     "type": "PRJ",
+     "description": "TEXAS REGISTER ACKNOWLEDGMENT OF RECEIPT - Effective 11.04.2026",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59523&itemNumber=38"
+    },
+    {
+     "item": 39,
+     "date": "2026-10-15",
+     "party": "PUC RULES & PROJECTS",
+     "type": "LTRS",
+     "description": "Comment To Oppose Staff Recommendation (item 32)",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59523&itemNumber=39"
     }
    ],
    "style": "Implementation of PURA §35.153 - TDU and PGC Contracts for Electric Energy Storage"
