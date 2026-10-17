@@ -54,5 +54,13 @@
   ],
   "sources_ok": 7,
   "sources": 7
+ },
+ {
+  "at": "2026-10-17 09:22",
+  "changes": [
+   "NPRR1346 moved from PRS to TAC"
+  ],
+  "sources_ok": 7,
+  "sources": 7
  }
 ]

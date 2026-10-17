@@ -1,14 +1,14 @@
 {
- "fetched": "2026-10-16 10:30",
+ "fetched": "2026-10-17 09:22",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
-   "date": "2026-10-16",
+   "date": "2026-10-19",
    "time": "1:00 PM",
-   "name": "IBRWG Meeting - Webex Only",
-   "body": "IBRWG Inverter-Based Resource Working Group",
-   "location": "(CANCELLED) Monday, Oct 19, 2026",
-   "url": "https://www.ercot.com/calendar/10162026-IBRWG-Meeting-_-Webex",
+   "name": "Advanced Transmission Technologies Workshop",
+   "body": "Advanced Transmission Technologies Workshop",
+   "location": "(CANCELLED)",
+   "url": "https://www.ercot.com/calendar/10192026-Advanced-Transmission-Technologies-Workshop",
    "key": false
   },
   {
@@ -279,6 +279,24 @@
    "body": "Credit Finance Sub Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11132026-CFSG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-11-16",
+   "time": "10:00 AM",
+   "name": "CMWG Meeting - Webex Only",
+   "body": "Congestion Management Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11162026-CMWG-Meeting-_-Webex",
+   "key": true
+  },
+  {
+   "date": "2026-11-16",
+   "time": "1:00 PM",
+   "name": "DSWG Meeting - Webex Only",
+   "body": "Demand Side Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11162026-DSWG-Meeting-_-Webex",
    "key": false
   }
  ]
