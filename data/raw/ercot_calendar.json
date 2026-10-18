@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-17 09:22",
+ "fetched": "2026-10-18 09:48",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -297,6 +297,24 @@
    "body": "Demand Side Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11162026-DSWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-11-17",
+   "time": "9:30 AM",
+   "name": "NDSWG Meeting - Webex Only",
+   "body": "Network Data Support Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11172026-NDSWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-11-17",
+   "time": "9:30 AM",
+   "name": "TXSETLP Meeting",
+   "body": "Texas Standard Electronic Transactions/Load Profiling Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11172026-TXSETLP-Meeting",
    "key": false
   }
  ]
