@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-19 12:43",
+ "fetched": "2026-10-20 10:50",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -619,14 +619,20 @@
    "id": "NPRR1312",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1312",
    "title": "Revisions to the Standard Form Agreement (SFA)",
-   "next_group": "PRS",
-   "next_step": "Impact Analysis Consideration",
+   "next_group": "TAC",
+   "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2025-11-26",
    "sponsor": "ERCOT",
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) amends the Standard Form Market Participant Agreement (“SFA”) for several reasons (see Justification for Revision below) and transfers certain sections of the SFA to the Protocols. Specifically, this NPRR: • Clarifies the definition of the ERCOT Protocols; • Establishes a new section regarding Notice, and modernizes the Notice language; • Transfers Breach and Default language from the SFA to the Protocols; • Amends the definition of a Force Majeure Event; • Amends sections in the SFA to conform with the Texas Supreme Court’s rulings in CPS Energy v. ERCOT; and • Amends the Standard Form Black Start Agreement and Standard Form Must Run Agreement to algin with revisions to the SFA by eliminating any duplicative language.",
    "actions": [
+    {
+     "date": "2026-10-14",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-09-16",
      "body": "PRS",
@@ -640,9 +646,19 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 11,
+   "document_count": 13,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1312NPRR-12 PRS Ballot 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1312NPRR-12-PRS-Ballot-101426.xls",
+     "posted": "2026-10-19"
+    },
+    {
+     "name": "1312NPRR-13 PRS Report 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1312NPRR-13-PRS-Report-101426.docx",
+     "posted": "2026-10-19"
+    },
     {
      "name": "1312NPRR-10 PRS Ballot 091626",
      "url": "https://www.ercot.com/files/docs/2026/09/21/1312NPRR-10-PRS-Ballot-091626.xls",
@@ -652,16 +668,6 @@
      "name": "1312NPRR-11 PRS Report 091626",
      "url": "https://www.ercot.com/files/docs/2026/09/21/1312NPRR-11-PRS-Report-091626.docx",
      "posted": "2026-09-21"
-    },
-    {
-     "name": "1312NPRR-09 ERCOT Comments 090926",
-     "url": "https://www.ercot.com/files/docs/2026/09/09/1312NPRR-09-ERCOT-Comments-090926.docx",
-     "posted": "2026-09-09"
-    },
-    {
-     "name": "1312NPRR-08 ERCOT Comments 060426",
-     "url": "https://www.ercot.com/files/docs/2026/06/04/1312NPRR-08-ERCOT-Comments-060426.docx",
-     "posted": "2026-06-04"
     }
    ]
   },
@@ -1768,7 +1774,7 @@
    "url": "https://www.ercot.com/mktrules/issues/NPRR1343",
    "title": "Introduction of PTP Obligation Bid Fee in DAM",
    "next_group": "PRS",
-   "next_step": "Language Consideration",
+   "next_step": "Impact Analysis Consideration",
    "status": "Pending",
    "posted": "2026-06-30",
    "sponsor": "ERCOT",
@@ -1776,13 +1782,19 @@
    "description": "This Nodal Protocol Revision Request (NPRR) proposes the introduction of a bid fee for each inefficient hourly Point-to-Point (PTP) Obligation bid in the Day-Ahead Market (DAM). The fee will be assessed per inefficient PTP hourly bid and will be modifiable. Changes to the fee will be recommended by WMS, approved by TAC, and communicated to Market Participants in advance of the DAM run in which the change will take effect.",
    "actions": [
     {
+     "date": "2026-10-14",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
      "date": "2026-07-15",
      "body": "PRS",
      "action": "Deferred/Tabled",
      "next": "Language Consideration"
     }
    ],
-   "document_count": 12,
+   "document_count": 14,
    "imm_documents": [
     {
      "name": "1343NPRR-09 IMM Comments 100226",
@@ -1797,6 +1809,16 @@
    ],
    "latest_documents": [
     {
+     "name": "1343NPRR-13 PRS Ballot 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1343NPRR-13-PRS-Ballot-101426.xls",
+     "posted": "2026-10-19"
+    },
+    {
+     "name": "1343NPRR-14 PRS Report 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1343NPRR-14-PRS-Report-101426.docx",
+     "posted": "2026-10-19"
+    },
+    {
      "name": "1343NPRR-12 ERCOT and IMM Comments 101326",
      "url": "https://www.ercot.com/files/docs/2026/10/13/1343NPRR-12-ERCOT-and-IMM-Comments-101326.doc",
      "posted": "2026-10-13"
@@ -1805,16 +1827,6 @@
      "name": "1343NPRR-10 WMS Ballot 100726",
      "url": "https://www.ercot.com/files/docs/2026/10/08/1343NPRR-10-WMS-Ballot-100726.xls",
      "posted": "2026-10-08"
-    },
-    {
-     "name": "1343NPRR-11 WMS Comments 100826",
-     "url": "https://www.ercot.com/files/docs/2026/10/08/1343NPRR-11-WMS-Comments-100826.doc",
-     "posted": "2026-10-08"
-    },
-    {
-     "name": "1343NPRR-08 TCPA Comments 100226",
-     "url": "https://www.ercot.com/files/docs/2026/10/02/1343NPRR-08-TCPA-Comments-100226.docx",
-     "posted": "2026-10-02"
     }
    ]
   },
@@ -1878,8 +1890,8 @@
    "id": "NPRR1345",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1345",
    "title": "Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
-   "next_group": "PRS",
-   "next_step": "Impact Analysis Consideration",
+   "next_group": "TAC",
+   "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2026-08-10",
    "sponsor": "Vistra",
@@ -1887,15 +1899,31 @@
    "description": "This Nodal Protocol Revision Request (NPRR) extends the sunset date established by NPRR1279, Reinstate Enhancements to the Exceptional Fuel Cost Process, from April 1, 2027 to April 1, 2030. The extension preserves the existing review and validation framework for Exceptional Fuel Cost submissions, including supporting documentation and fuel supply contracts submitted under the Exceptional Fuel Cost process, and provides additional time for ERCOT and stakeholders to evaluate long-term enhancements to the treatment of contractual fuel costs while maintaining an existing and operational process that has been actively used since implementation of NPRR1279.",
    "actions": [
     {
+     "date": "2026-10-14",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
      "date": "2026-09-16",
      "body": "PRS",
      "action": "Recommended for Approval",
      "next": "Impact Analysis Consideration"
     }
    ],
-   "document_count": 5,
+   "document_count": 7,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1345NPRR-06 PRS Ballot 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1345NPRR-06-PRS-Ballot-101426.xls",
+     "posted": "2026-10-19"
+    },
+    {
+     "name": "1345NPRR-07 PRS Report 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1345NPRR-07-PRS-Report-101426.docx",
+     "posted": "2026-10-19"
+    },
     {
      "name": "1345NPRR-05 Impact Analysis 092926",
      "url": "https://www.ercot.com/files/docs/2026/09/29/1345NPRR-05-Impact-Analysis-092926.docx",
@@ -1905,16 +1933,6 @@
      "name": "1345NPRR-03 PRS Ballot 091626",
      "url": "https://www.ercot.com/files/docs/2026/09/21/1345NPRR-03-PRS-Ballot-091626.xls",
      "posted": "2026-09-21"
-    },
-    {
-     "name": "1345NPRR-04 PRS Report 091626",
-     "url": "https://www.ercot.com/files/docs/2026/09/21/1345NPRR-04-PRS-Report-091626.docx",
-     "posted": "2026-09-21"
-    },
-    {
-     "name": "1345NPRR-02 ERCOT Comments 091526",
-     "url": "https://www.ercot.com/files/docs/2026/09/15/1345NPRR-02-ERCOT-Comments-091526.docx",
-     "posted": "2026-09-15"
     }
    ]
   },
@@ -2023,10 +2041,27 @@
    "sponsor": "ERCOT",
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) establishes timelines for the modeling of new 765kV and its supporting transmission in the ERCOT Network Operations Model and allows ERCOT to give priority to transmission Outages in support of 765kV transmission construction, commissioning, and energization.",
-   "actions": [],
-   "document_count": 2,
+   "actions": [
+    {
+     "date": "2026-10-14",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 4,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1349NPRR-03 PRS Ballot 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1349NPRR-03-PRS-Ballot-101426.xls",
+     "posted": "2026-10-19"
+    },
+    {
+     "name": "1349NPRR-04 PRS Report 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1349NPRR-04-PRS-Report-101426.docx",
+     "posted": "2026-10-19"
+    },
     {
      "name": "1349NPRR-01 765kV Transmission Outage Priority and Modeling Timelines 092926",
      "url": "https://www.ercot.com/files/docs/2026/09/29/1349NPRR-01-765kV-Transmission-Outage-Priority-and-Modeling-Timelines-092926.docx",
@@ -2044,16 +2079,33 @@
    "url": "https://www.ercot.com/mktrules/issues/NPRR1350",
    "title": "Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
    "next_group": "PRS",
-   "next_step": "Language Consideration",
+   "next_step": "Impact Analysis Consideration",
    "status": "Pending",
    "posted": "2026-09-29",
    "sponsor": "ERCOT",
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) continues the automation of outdated email-based form submissions by Market Participants to ERCOT, facilitating streamlined digital processing of these submissions via the Market Participant Service Portal (MPSP). These previously emailed forms will now be entered by MPs directly into the new portal. The forms themselves will remain in the Protocols so that stakeholders can see a visual of the information they will be prompted to enter into the portal and make revisions to the forms as needed. This NPRR also adds a yes/no checkbox and response line to Form 22E, Notification of Suspension of Operations, and Form 22H, Notification of Change of Resource Designation, to indicate a change in Pre-Assigned Congestion Revenue Rights (PCRR) eligibility.",
-   "actions": [],
-   "document_count": 2,
+   "actions": [
+    {
+     "date": "2026-10-14",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    }
+   ],
+   "document_count": 4,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1350NPRR-03 PRS Ballot 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1350NPRR-03-PRS-Ballot-101426.xls",
+     "posted": "2026-10-19"
+    },
+    {
+     "name": "1350NPRR-04 PRS Report 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1350NPRR-04-PRS-Report-101426.docx",
+     "posted": "2026-10-19"
+    },
     {
      "name": "1350NPRR-01 Revisions to Section 22 Attachments A through N for the MPSP 092926",
      "url": "https://www.ercot.com/files/docs/2026/09/29/1350NPRR-01-Revisions-to-Section-22-Attachments-A-through-N-for-the-MPSP-092926.docx",
@@ -2071,16 +2123,33 @@
    "url": "https://www.ercot.com/mktrules/issues/NPRR1351",
    "title": "Revisions to Section 23 Forms for the Market Participant Service Portal (MPSP)",
    "next_group": "PRS",
-   "next_step": "Language Consideration",
+   "next_step": "Impact Analysis Consideration",
    "status": "Pending",
    "posted": "2026-09-29",
    "sponsor": "ERCOT",
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) continues the automation of outdated email-based form submissions by Market Participants to ERCOT, facilitating streamlined digital processing of these submissions via the Market Participant Service Portal (MPSP). These previously emailed forms will now be entered by MPs directly into the new portal. The forms themselves will remain in the Protocols so that stakeholders can see a visual of the information they will be prompted to enter into the portal and make revisions to the forms as needed.",
-   "actions": [],
-   "document_count": 2,
+   "actions": [
+    {
+     "date": "2026-10-14",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    }
+   ],
+   "document_count": 4,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1351NPRR-03 PRS Ballot 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1351NPRR-03-PRS-Ballot-101426.xls",
+     "posted": "2026-10-19"
+    },
+    {
+     "name": "1351NPRR-04 PRS Report 101426",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1351NPRR-04-PRS-Report-101426.docx",
+     "posted": "2026-10-19"
+    },
     {
      "name": "1351NPRR-01 Revisions to Section 23 Forms for the MPSP 092926",
      "url": "https://www.ercot.com/files/docs/2026/09/29/1351NPRR-01-Revisions-to-Section-23-Forms-for-the-MPSP-092926.docx",

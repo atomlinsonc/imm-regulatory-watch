@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-19 12:42",
+ "fetched": "2026-10-20 10:49",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12508,6 +12508,46 @@
      "type": "PC",
      "description": "Public comment",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=55"
+    },
+    {
+     "item": 56,
+     "date": "2026-10-19",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "TEST",
+     "description": "Direct Testimony of Eldon Jensen",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=56"
+    },
+    {
+     "item": 57,
+     "date": "2026-10-19",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "TEST",
+     "description": "Direct Testimony of William Bojorquez",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=57"
+    },
+    {
+     "item": 58,
+     "date": "2026-10-19",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "TEST",
+     "description": "Direct Testimony and Exhibits of Barry T. Smitherman",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=58"
+    },
+    {
+     "item": 59,
+     "date": "2026-10-19",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "TEST",
+     "description": "Supplemental Direct Testimony of Claudia Morrow",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=59"
+    },
+    {
+     "item": 60,
+     "date": "2026-10-19",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "TEST",
+     "description": "Direct Testimony and Exhibits of Eric W. Goff",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=60"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"

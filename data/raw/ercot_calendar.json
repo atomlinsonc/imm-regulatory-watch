@@ -1,16 +1,7 @@
 {
- "fetched": "2026-10-19 12:43",
+ "fetched": "2026-10-20 10:50",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-10-19",
-   "time": "1:00 PM",
-   "name": "Advanced Transmission Technologies Workshop",
-   "body": "Advanced Transmission Technologies Workshop",
-   "location": "(CANCELLED)",
-   "url": "https://www.ercot.com/calendar/10192026-Advanced-Transmission-Technologies-Workshop",
-   "key": false
-  },
   {
    "date": "2026-10-20",
    "time": "1:00 PM",
@@ -24,7 +15,7 @@
    "date": "2026-10-20",
    "time": "9:30 AM",
    "name": "NERC BES Protection System Misoperation Reduction Workshop",
-   "body": "Demand Side Working Group",
+   "body": "NERC BES Protection System Misoperation Reduction Workshop",
    "location": "ERCOT Austin and Webex",
    "url": "https://www.ercot.com/calendar/10202026-NERC-BES-Protection-System",
    "key": false
@@ -32,19 +23,10 @@
   {
    "date": "2026-10-20",
    "time": "9:30 AM",
-   "name": "TXSETLP Meeting",
-   "body": "Texas Standard Electronic Transactions/Load Profiling Working Group",
-   "location": "(RESCHEDULED TO",
-   "url": "https://www.ercot.com/calendar/10202026-TXSETLP-Meeting",
-   "key": false
-  },
-  {
-   "date": "2026-10-21",
-   "time": "9:00 AM",
-   "name": "RIWG Meeting - Webex Only",
-   "body": "Resource Integration Working Group",
-   "location": "(CANCELLED) Thursday, Oct 22, 2026",
-   "url": "https://www.ercot.com/calendar/10212026-RIWG-Meeting-_-Webex",
+   "name": "RPG Meeting - Webex Only",
+   "body": "Regional Planning Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/10202026-RPG-Meeting-_-Webex",
    "key": false
   },
   {
@@ -59,10 +41,10 @@
   {
    "date": "2026-10-21",
    "time": "9:30 AM",
-   "name": "SSWG Meeting - Webex Only",
-   "body": "Steady State Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/10212026-SSWG-Meeting-_-Webex",
+   "name": "RIWG Meeting - Webex Only",
+   "body": "Resource Integration Working Group",
+   "location": "(CANCELLED)",
+   "url": "https://www.ercot.com/calendar/10212026-RIWG-Meeting-_-Webex",
    "key": false
   },
   {
@@ -72,6 +54,15 @@
    "body": "Technology Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/10222026-TWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-10-22",
+   "time": "9:00 AM",
+   "name": "Resource Entity and TSP Winter Weather Preparedness Workshop",
+   "body": "Credit Finance Sub Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/10222026-Resource-Entity-and-TSP",
    "key": false
   },
   {
@@ -160,17 +151,17 @@
    "time": "9:30 AM",
    "name": "GEWG Meeting",
    "body": "Gas Electric Working Group",
-   "location": "Webex",
+   "location": "Texas RE and Webex",
    "url": "https://www.ercot.com/calendar/11032026-GEWG-Meeting",
    "key": false
   },
   {
    "date": "2026-11-03",
    "time": "9:30 AM",
-   "name": "PLWG Meeting",
+   "name": "PLWG Meeting - Webex Only",
    "body": "Planning Working Group",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11032026-PLWG-Meeting",
+   "location": "(RESCHEDULED TO",
+   "url": "https://www.ercot.com/calendar/11032026-PLWG-Meeting-_-Webex",
    "key": false
   },
   {
@@ -207,6 +198,15 @@
    "body": "Critical Infrastructure Protection Working Group",
    "location": "ERCOT Austin and Webex",
    "url": "https://www.ercot.com/calendar/11062026-SB6-Large-Load-Curtailment_",
+   "key": false
+  },
+  {
+   "date": "2026-11-09",
+   "time": "9:30 AM",
+   "name": "PLWG Meeting - Webex Only",
+   "body": "Critical Infrastructure Protection Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11092026-PLWG-Meeting-_-Webex",
    "key": false
   },
   {
@@ -334,6 +334,33 @@
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11182026-PDCWG-Meeting-_-Webex",
    "key": false
+  },
+  {
+   "date": "2026-11-19",
+   "time": "2:00 PM",
+   "name": "TWG Meeting - Webex Only",
+   "body": "Technology Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11192026-TWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-11-19",
+   "time": "9:30 AM",
+   "name": "LLWG Meeting",
+   "body": "Large Load Working Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/11192026-LLWG-Meeting",
+   "key": false
+  },
+  {
+   "date": "2026-11-19",
+   "time": "9:30 AM",
+   "name": "PUCT Meeting",
+   "body": "The Public Utility Commission of Texas",
+   "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
+   "url": "https://www.ercot.com/calendar/11192026-PUCT-Meeting",
+   "key": true
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
- "fetched": "2026-10-19 12:43",
- "since": "2026-07-21",
- "documents_scanned": 290,
+ "fetched": "2026-10-20 10:50",
+ "since": "2026-07-22",
+ "documents_scanned": 295,
  "mentions": [
   {
    "item": 27,
@@ -532,6 +532,32 @@
     {
      "page": 5,
      "text": "Revisiting ERCOT's \"conservative operations\" posture in its Ancillary Service Methodology, consistent with comments filed by the IMM and consumers, would produce substantial savings and allow the market to function as intended."
+    }
+   ]
+  },
+  {
+   "item": 57,
+   "date": "2026-10-19",
+   "party": "COMANCHE PEAK POWER COMPANY LLC",
+   "type": "TEST",
+   "description": "Direct Testimony of William Bojorquez",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=57",
+   "control": "59399",
+   "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation",
+   "mention_count": 3,
+   "pages": 94,
+   "snippets": [
+    {
+     "page": 26,
+     "text": "Independent Market Monitor Opinion To be determined ERCOT Opinion ERCOT supports approval of NPRR1317."
+    },
+    {
+     "page": 45,
+     "text": "(3) On a monthly basis, ERCOT will report to the Reliability Monitor and IMM any instance where a Self-Limiting Facility' s actual MW Injections exceeded the MW Injection limit or where actual MW Withdrawals exceeded the MW Withdrawal limit established in the Resource Registration data for the Self-Limiting Facility, as described in Section 3.9.1, Current Operating Plan (COP) Criteria."
+    },
+    {
+     "page": 45,
+     "text": "[NPRR1077: Replace paragraph (3) abovewiththefollowing upon systemimplementation:1 (3) On a monthly basis, ERCOT will report to the Reliability Monitor and IMM any instance where a Self-Limiting Facility's actual MW Injections exceeded the MW Injection limit or where actual MW Withdrawals exceeded the MW Withdrawal limit established in the Resource Registration data for the Self-Limiting Facility, based on the telemetry of the injection and withdrawal values provided by the"
     }
    ]
   },

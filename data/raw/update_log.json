@@ -74,5 +74,16 @@
   "changes": [],
   "sources_ok": 7,
   "sources": 7
+ },
+ {
+  "at": "2026-10-20 10:50",
+  "changes": [
+   "5 new filings in watched projects: 59399 (5)",
+   "NPRR1345 moved from PRS to TAC",
+   "NPRR1312 moved from PRS to TAC",
+   "1 new filing that refers to the IMM"
+  ],
+  "sources_ok": 7,
+  "sources": 7
  }
 ]
