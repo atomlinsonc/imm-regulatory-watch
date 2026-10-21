@@ -1,39 +1,12 @@
 {
- "fetched": "2026-10-20 10:50",
+ "fetched": "2026-10-21 11:06",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-10-20",
-   "time": "1:00 PM",
-   "name": "PLWG Meeting - Webex Only",
-   "body": "Planning Working Group",
-   "location": "(CANCELLED)",
-   "url": "https://www.ercot.com/calendar/10202026-PLWG-Meeting-_-Webex",
-   "key": false
-  },
-  {
-   "date": "2026-10-20",
-   "time": "9:30 AM",
-   "name": "NERC BES Protection System Misoperation Reduction Workshop",
-   "body": "NERC BES Protection System Misoperation Reduction Workshop",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/10202026-NERC-BES-Protection-System",
-   "key": false
-  },
-  {
-   "date": "2026-10-20",
-   "time": "9:30 AM",
-   "name": "RPG Meeting - Webex Only",
-   "body": "Regional Planning Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/10202026-RPG-Meeting-_-Webex",
-   "key": false
-  },
   {
    "date": "2026-10-21",
    "time": "9:30 AM",
    "name": "NERC BES Protection System Misoperation Reduction Workshop",
-   "body": "Planning Working Group",
+   "body": "NERC BES Protection System Misoperation Reduction Workshop",
    "location": "ERCOT Austin and Webex",
    "url": "https://www.ercot.com/calendar/10212026-NERC-BES-Protection-System",
    "key": false
@@ -212,18 +185,9 @@
   {
    "date": "2026-11-10",
    "time": "1:00 PM",
-   "name": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
-   "body": "System Protection Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11102026-Q_A-Session-for-Submitting",
-   "key": false
-  },
-  {
-   "date": "2026-11-10",
-   "time": "9:30 AM",
    "name": "RMS Meeting",
    "body": "Retail Market Subcommittee",
-   "location": "ERCOT Austin and Webex",
+   "location": "(CANCELLED)",
    "url": "https://www.ercot.com/calendar/11102026-RMS-Meeting",
    "key": false
   },
@@ -361,6 +325,24 @@
    "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
    "url": "https://www.ercot.com/calendar/11192026-PUCT-Meeting",
    "key": true
+  },
+  {
+   "date": "2026-11-20",
+   "time": "9:30 AM",
+   "name": "IBRWG Meeting - Webex Only",
+   "body": "IBRWG Inverter-Based Resource Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11202026-IBRWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-11-20",
+   "time": "9:30 AM",
+   "name": "SAWG Meeting - Webex Only",
+   "body": "Supply Analysis Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11202026-SAWG-Meeting-_-Webex",
+   "key": false
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-20 10:50",
+ "fetched": "2026-10-21 11:06",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -702,9 +702,14 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 20,
+   "document_count": 21,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1317NPRR-21 TIEC Comments 102026",
+     "url": "https://www.ercot.com/files/docs/2026/10/20/1317NPRR-21-TIEC-Comments-102026.docx",
+     "posted": "2026-10-20"
+    },
     {
      "name": "1317NPRR-19 PRS Ballot 091626",
      "url": "https://www.ercot.com/files/docs/2026/09/16/1317NPRR-19-PRS-Ballot-091626.xls",
@@ -718,11 +723,6 @@
     {
      "name": "1317NPRR-17 PRS Ballot 081226",
      "url": "https://www.ercot.com/files/docs/2026/08/13/1317NPRR-17-PRS-Ballot-081226.xls",
-     "posted": "2026-08-13"
-    },
-    {
-     "name": "1317NPRR-18 PRS Report 081226",
-     "url": "https://www.ercot.com/files/docs/2026/08/13/1317NPRR-18-PRS-Report-081226.docx",
      "posted": "2026-08-13"
     }
    ]
