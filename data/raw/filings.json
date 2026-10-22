@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-21 11:04",
+ "fetched": "2026-10-22 11:00",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12548,6 +12548,22 @@
      "type": "TEST",
      "description": "Direct Testimony and Exhibits of Eric W. Goff",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=60"
+    },
+    {
+     "item": 61,
+     "date": "2026-10-21",
+     "party": "PUC MARKET ANALYSIS",
+     "type": "PL",
+     "description": "Commission Staff's Recommendation on Administrative Completeness and Notice",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=61"
+    },
+    {
+     "item": 62,
+     "date": "2026-10-22",
+     "party": "PUC OPDM",
+     "type": "PL",
+     "description": "ORDER NO. 10 - FINDING APPLICATION ADMINISTRATIVELY COMPLETE AND NOTICE SUFFICIENT, REQUESTING COMMITMENT TO HEARING FORMAT, AND RESTYLING DOCKET",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=62"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"

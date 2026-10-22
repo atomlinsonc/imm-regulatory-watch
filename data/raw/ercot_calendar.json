@@ -1,25 +1,7 @@
 {
- "fetched": "2026-10-21 11:06",
+ "fetched": "2026-10-22 11:01",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-10-21",
-   "time": "9:30 AM",
-   "name": "NERC BES Protection System Misoperation Reduction Workshop",
-   "body": "NERC BES Protection System Misoperation Reduction Workshop",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/10212026-NERC-BES-Protection-System",
-   "key": false
-  },
-  {
-   "date": "2026-10-21",
-   "time": "9:30 AM",
-   "name": "RIWG Meeting - Webex Only",
-   "body": "Resource Integration Working Group",
-   "location": "(CANCELLED)",
-   "url": "https://www.ercot.com/calendar/10212026-RIWG-Meeting-_-Webex",
-   "key": false
-  },
   {
    "date": "2026-10-22",
    "time": "2:00 PM",
@@ -33,7 +15,7 @@
    "date": "2026-10-22",
    "time": "9:00 AM",
    "name": "Resource Entity and TSP Winter Weather Preparedness Workshop",
-   "body": "Credit Finance Sub Group",
+   "body": "Resource Entity and TSP Winter Weather Preparedness Workshop",
    "location": "ERCOT Austin and Webex",
    "url": "https://www.ercot.com/calendar/10222026-Resource-Entity-and-TSP",
    "key": false
@@ -185,10 +167,10 @@
   {
    "date": "2026-11-10",
    "time": "1:00 PM",
-   "name": "RMS Meeting",
-   "body": "Retail Market Subcommittee",
-   "location": "(CANCELLED)",
-   "url": "https://www.ercot.com/calendar/11102026-RMS-Meeting",
+   "name": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
+   "body": "System Protection Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11102026-Q_A-Session-for-Submitting",
    "key": false
   },
   {
@@ -201,13 +183,13 @@
    "key": false
   },
   {
-   "date": "2026-11-11",
+   "date": "2026-11-10",
    "time": "9:30 AM",
-   "name": "PRS Meeting",
-   "body": "Protocol Revisions Subcommittee",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11112026-PRS-Meeting",
-   "key": true
+   "name": "RMS Meeting",
+   "body": "Retail Market Subcommittee",
+   "location": "(CANCELLED) Wednesday, Nov 11, 2026",
+   "url": "https://www.ercot.com/calendar/11102026-RMS-Meeting",
+   "key": false
   },
   {
    "date": "2026-11-12",

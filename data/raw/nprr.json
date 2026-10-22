@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-21 11:06",
+ "fetched": "2026-10-22 11:01",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -656,7 +656,7 @@
     },
     {
      "name": "1312NPRR-13 PRS Report 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/19/1312NPRR-13-PRS-Report-101426.docx",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1312NPRR-13-PRS-Report-101426-v2.docx",
      "posted": "2026-10-19"
     },
     {
@@ -702,9 +702,14 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 21,
+   "document_count": 22,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1317NPRR-22 DCC Comments 102126",
+     "url": "https://www.ercot.com/files/docs/2026/10/21/1317NPRR-22-DCC-Comments-102126.docx",
+     "posted": "2026-10-21"
+    },
     {
      "name": "1317NPRR-21 TIEC Comments 102026",
      "url": "https://www.ercot.com/files/docs/2026/10/20/1317NPRR-21-TIEC-Comments-102026.docx",
@@ -719,11 +724,6 @@
      "name": "1317NPRR-20 PRS Report 091626",
      "url": "https://www.ercot.com/files/docs/2026/09/16/1317NPRR-20-PRS-Report-091626.docx",
      "posted": "2026-09-16"
-    },
-    {
-     "name": "1317NPRR-17 PRS Ballot 081226",
-     "url": "https://www.ercot.com/files/docs/2026/08/13/1317NPRR-17-PRS-Ballot-081226.xls",
-     "posted": "2026-08-13"
     }
    ]
   },
@@ -1794,7 +1794,7 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 14,
+   "document_count": 16,
    "imm_documents": [
     {
      "name": "1343NPRR-09 IMM Comments 100226",
@@ -1809,6 +1809,16 @@
    ],
    "latest_documents": [
     {
+     "name": "1343NPRR-15 CFSG Ballot 102126",
+     "url": "https://www.ercot.com/files/docs/2026/10/21/1343NPRR-15-CFSG-Ballot-102126.xls",
+     "posted": "2026-10-21"
+    },
+    {
+     "name": "1343NPRR-16 CFSG Comments 102126",
+     "url": "https://www.ercot.com/files/docs/2026/10/21/1343NPRR-16-CFSG-Comments-102126.docx",
+     "posted": "2026-10-21"
+    },
+    {
      "name": "1343NPRR-13 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1343NPRR-13-PRS-Ballot-101426.xls",
      "posted": "2026-10-19"
@@ -1817,16 +1827,6 @@
      "name": "1343NPRR-14 PRS Report 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1343NPRR-14-PRS-Report-101426.docx",
      "posted": "2026-10-19"
-    },
-    {
-     "name": "1343NPRR-12 ERCOT and IMM Comments 101326",
-     "url": "https://www.ercot.com/files/docs/2026/10/13/1343NPRR-12-ERCOT-and-IMM-Comments-101326.doc",
-     "posted": "2026-10-13"
-    },
-    {
-     "name": "1343NPRR-10 WMS Ballot 100726",
-     "url": "https://www.ercot.com/files/docs/2026/10/08/1343NPRR-10-WMS-Ballot-100726.xls",
-     "posted": "2026-10-08"
     }
    ]
   },
@@ -1921,7 +1921,7 @@
     },
     {
      "name": "1345NPRR-07 PRS Report 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/19/1345NPRR-07-PRS-Report-101426.docx",
+     "url": "https://www.ercot.com/files/docs/2026/10/19/1345NPRR-07-PRS-Report-101426-v2.docx",
      "posted": "2026-10-19"
     },
     {
