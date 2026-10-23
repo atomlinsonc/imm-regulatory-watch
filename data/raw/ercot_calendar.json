@@ -1,34 +1,7 @@
 {
- "fetched": "2026-10-22 11:01",
+ "fetched": "2026-10-23 10:53",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-10-22",
-   "time": "2:00 PM",
-   "name": "TWG Meeting - Webex Only",
-   "body": "Technology Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/10222026-TWG-Meeting-_-Webex",
-   "key": false
-  },
-  {
-   "date": "2026-10-22",
-   "time": "9:00 AM",
-   "name": "Resource Entity and TSP Winter Weather Preparedness Workshop",
-   "body": "Resource Entity and TSP Winter Weather Preparedness Workshop",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/10222026-Resource-Entity-and-TSP",
-   "key": false
-  },
-  {
-   "date": "2026-10-22",
-   "time": "9:30 AM",
-   "name": "DWG Meeting - Webex Only",
-   "body": "Dynamics Working Group",
-   "location": "",
-   "url": "https://www.ercot.com/calendar/10222026-DWG-Meeting-_-Webex",
-   "key": false
-  },
   {
    "date": "2026-10-23",
    "time": "1:30 PM",
@@ -46,15 +19,6 @@
    "location": "(CANCELLED) Tuesday, Oct 27, 2026",
    "url": "https://www.ercot.com/calendar/10262026-WMWG-Meeting-_-Webex",
    "key": true
-  },
-  {
-   "date": "2026-10-27",
-   "time": "9:30 AM",
-   "name": "TEXAS SET/LP Meeting",
-   "body": "Texas Standard Electronic Transactions/Load Profiling Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/10272026-TEXAS-SET_LP-Meeting",
-   "key": false
   },
   {
    "date": "2026-10-28",
@@ -122,19 +86,19 @@
   {
    "date": "2026-11-05",
    "time": "9:30 AM",
-   "name": "ROS Meeting",
-   "body": "Reliability and Operations Subcommittee",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11052026-ROS-Meeting",
+   "name": "PUCT Meeting",
+   "body": "The Public Utility Commission of Texas",
+   "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
+   "url": "https://www.ercot.com/calendar/11052026-PUCT-Meeting",
    "key": true
   },
   {
    "date": "2026-11-05",
    "time": "9:30 AM",
-   "name": "PUCT Meeting",
-   "body": "The Public Utility Commission of Texas",
-   "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
-   "url": "https://www.ercot.com/calendar/11052026-PUCT-Meeting",
+   "name": "ROS Meeting",
+   "body": "Reliability and Operations Subcommittee",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/11052026-ROS-Meeting",
    "key": true
   },
   {
