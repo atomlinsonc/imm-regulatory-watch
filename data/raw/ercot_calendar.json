@@ -1,24 +1,24 @@
 {
- "fetched": "2026-10-23 10:53",
+ "fetched": "2026-10-24 09:48",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
-   "date": "2026-10-23",
-   "time": "1:30 PM",
-   "name": "SAWG Meeting - Webex Only",
-   "body": "Supply Analysis Working Group",
-   "location": "(CANCELLED) Monday, Oct 26, 2026",
-   "url": "https://www.ercot.com/calendar/10232026-SAWG-Meeting-_-Webex",
-   "key": false
-  },
-  {
    "date": "2026-10-26",
-   "time": "9:30 AM",
+   "time": "1:30 PM",
    "name": "WMWG Meeting - Webex Only",
    "body": "Wholesale Market Working Group",
-   "location": "(CANCELLED) Tuesday, Oct 27, 2026",
+   "location": "(CANCELLED)",
    "url": "https://www.ercot.com/calendar/10262026-WMWG-Meeting-_-Webex",
    "key": true
+  },
+  {
+   "date": "2026-10-27",
+   "time": "9:30 AM",
+   "name": "OWG Meeting - Webex Only",
+   "body": "Operations Working Group",
+   "location": "(CANCELLED)",
+   "url": "https://www.ercot.com/calendar/10272026-OWG-Meeting-_-Webex",
+   "key": false
   },
   {
    "date": "2026-10-28",
@@ -193,6 +193,15 @@
   },
   {
    "date": "2026-11-17",
+   "time": "1:00 PM",
+   "name": "Batch/CTP Workshop 4a-CTP Planning Focus",
+   "body": "Texas Standard Electronic Transactions/Load Profiling Working Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/11172026-Batch_CTP-Workshop-4a_CTP-Planning",
+   "key": false
+  },
+  {
+   "date": "2026-11-17",
    "time": "9:30 AM",
    "name": "NDSWG Meeting - Webex Only",
    "body": "Network Data Support Working Group",
@@ -247,6 +256,15 @@
   },
   {
    "date": "2026-11-19",
+   "time": "1:00 PM",
+   "name": "Batch/CTP Workshop 4b-Batch Planning Focus",
+   "body": "The Public Utility Commission of Texas",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/11192026-Batch_CTP-Workshop-4b_Batch-Planning",
+   "key": false
+  },
+  {
+   "date": "2026-11-19",
    "time": "2:00 PM",
    "name": "TWG Meeting - Webex Only",
    "body": "Technology Working Group",
@@ -289,6 +307,15 @@
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11202026-SAWG-Meeting-_-Webex",
    "key": false
+  },
+  {
+   "date": "2026-11-23",
+   "time": "1:30 PM",
+   "name": "WMWG Meeting - Webex Only",
+   "body": "Wholesale Market Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11232026-WMWG-Meeting-_-Webex",
+   "key": true
   }
  ]
 }

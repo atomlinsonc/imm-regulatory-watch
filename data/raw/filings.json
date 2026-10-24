@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-23 10:51",
+ "fetched": "2026-10-24 09:47",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12564,6 +12564,38 @@
      "type": "PL",
      "description": "ORDER NO. 10 - FINDING APPLICATION ADMINISTRATIVELY COMPLETE AND NOTICE SUFFICIENT, REQUESTING COMMITMENT TO HEARING FORMAT, AND RESTYLING DOCKET",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=62"
+    },
+    {
+     "item": 63,
+     "date": "2026-10-23",
+     "party": "UNITED COOPERATIVE SERVICES, INC.",
+     "type": "PL",
+     "description": "UNITED COOPERATIVE SERVICES’ STATEMENT OF POSITION",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=63"
+    },
+    {
+     "item": 64,
+     "date": "2026-10-23",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "PL",
+     "description": "Unopposed Request for Decision on Written Submission",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=64"
+    },
+    {
+     "item": 65,
+     "date": "2026-10-23",
+     "party": "ONCOR ELECTRIC DELIVERY COMPANY LLC",
+     "type": "PL",
+     "description": "ONCOR ELECTRIC DELIVERY COMPANY LLC’S STATEMENT OF POSITION",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=65"
+    },
+    {
+     "item": 66,
+     "date": "2026-10-23",
+     "party": "TEXAS-NEW MEXICO POWER COMPANY",
+     "type": "MISC",
+     "description": "TNMP’s Statement of Position ( 59399 )",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=66"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
