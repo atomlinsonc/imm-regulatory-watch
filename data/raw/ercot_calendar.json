@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-24 09:48",
+ "fetched": "2026-10-25 10:03",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -316,6 +316,15 @@
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11232026-WMWG-Meeting-_-Webex",
    "key": true
+  },
+  {
+   "date": "2026-11-24",
+   "time": "9:30 AM",
+   "name": "OWG Meeting - Webex Only",
+   "body": "Operations Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11242026-OWG-Meeting-_-Webex",
+   "key": false
   }
  ]
 }

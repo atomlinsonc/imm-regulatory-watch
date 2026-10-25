@@ -1,7 +1,7 @@
 {
- "fetched": "2026-10-24 09:47",
- "since": "2026-09-09",
- "dockets_checked": 18,
+ "fetched": "2026-10-25 10:02",
+ "since": "2026-09-10",
+ "dockets_checked": 17,
  "memos": [
   {
    "item": 89,
@@ -142,16 +142,6 @@
    "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59708&itemNumber=21",
    "control": "59708",
    "style": "APPLICATION OF CENTERPOINT ENERGY HOUSTON ELECTRIC, LLC TO AMEND A CERTIFICATE OF CONVENIENCE AND NECESSITY FOR A SERVICE AREA EXCEPTION IN LIMESTONE COUNTY"
-  },
-  {
-   "item": 600,
-   "date": "2026-09-09",
-   "party": "PUC OPDM",
-   "type": "PL",
-   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59182&itemNumber=600",
-   "control": "59182",
-   "style": "JOINT APPLICATION OF ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION TO AMEND THEIR CERTIFICATES OF CONVENIENCE AND NECESSITY FOR THE BIG HILL SUBSTATION TO SAND LAKE SWITCH 765-KV TRANSMISSION LINE PROJECT IN CRANE, CROCKETT, IRION, PECOS, REAGAN, REEVES, SCHLEICHER, TOM GREEN, UPTON, AND WARD COUNTIES"
   }
  ]
 }
