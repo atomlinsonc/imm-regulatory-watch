@@ -1,16 +1,7 @@
 {
- "fetched": "2026-10-26 12:35",
+ "fetched": "2026-10-27 11:50",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-10-26",
-   "time": "1:30 PM",
-   "name": "WMWG Meeting - Webex Only",
-   "body": "Wholesale Market Working Group",
-   "location": "(CANCELLED)",
-   "url": "https://www.ercot.com/calendar/10262026-WMWG-Meeting-_-Webex",
-   "key": true
-  },
   {
    "date": "2026-10-27",
    "time": "9:30 AM",

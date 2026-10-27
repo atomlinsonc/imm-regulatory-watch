@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-26 12:34",
+ "fetched": "2026-10-27 11:49",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12604,6 +12604,14 @@
      "type": "RFI",
      "description": "Commission Staff's First Request for Information to Oncor Electric Delivery Company LLC",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=67"
+    },
+    {
+     "item": 68,
+     "date": "2026-10-26",
+     "party": "PUC OPDM",
+     "type": "PL",
+     "description": "ORDER NO. 11- GRANTING MOTION FOR DECISION ON WRITTEN SUBMISSION AND CANCELLING PREHEARING CONFERENCE AND HEARING",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=68"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
