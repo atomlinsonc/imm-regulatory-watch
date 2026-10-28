@@ -1,16 +1,7 @@
 {
- "fetched": "2026-10-27 11:50",
+ "fetched": "2026-10-28 12:19",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-10-27",
-   "time": "9:30 AM",
-   "name": "OWG Meeting - Webex Only",
-   "body": "Operations Working Group",
-   "location": "(CANCELLED)",
-   "url": "https://www.ercot.com/calendar/10272026-OWG-Meeting-_-Webex",
-   "key": false
-  },
   {
    "date": "2026-10-28",
    "time": "9:30 AM",
@@ -50,19 +41,19 @@
   {
    "date": "2026-11-03",
    "time": "9:30 AM",
-   "name": "RPG Meeting",
-   "body": "Regional Planning Group",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11032026-RPG-Meeting",
+   "name": "GEWG Meeting",
+   "body": "Gas Electric Working Group",
+   "location": "Texas RE and Webex",
+   "url": "https://www.ercot.com/calendar/11032026-GEWG-Meeting",
    "key": false
   },
   {
    "date": "2026-11-03",
    "time": "9:30 AM",
-   "name": "GEWG Meeting",
-   "body": "Gas Electric Working Group",
-   "location": "Texas RE and Webex",
-   "url": "https://www.ercot.com/calendar/11032026-GEWG-Meeting",
+   "name": "RPG Meeting",
+   "body": "Regional Planning Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/11032026-RPG-Meeting",
    "key": false
   },
   {
@@ -185,10 +176,10 @@
   {
    "date": "2026-11-17",
    "time": "1:00 PM",
-   "name": "Batch/CTP Workshop 4a-CTP Planning Focus",
+   "name": "TXSETLP Meeting",
    "body": "Texas Standard Electronic Transactions/Load Profiling Working Group",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11172026-Batch_CTP-Workshop-4a_CTP-Planning",
+   "location": "(CANCELLED)",
+   "url": "https://www.ercot.com/calendar/11172026-TXSETLP-Meeting",
    "key": false
   },
   {
@@ -198,15 +189,6 @@
    "body": "Network Data Support Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11172026-NDSWG-Meeting-_-Webex",
-   "key": false
-  },
-  {
-   "date": "2026-11-17",
-   "time": "9:30 AM",
-   "name": "TXSETLP Meeting",
-   "body": "Texas Standard Electronic Transactions/Load Profiling Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11172026-TXSETLP-Meeting",
    "key": false
   },
   {

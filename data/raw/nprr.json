@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-27 11:50",
+ "fetched": "2026-10-28 12:19",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -2159,6 +2159,28 @@
      "name": "1351NPRR-02 Impact Analysis 092926",
      "url": "https://www.ercot.com/files/docs/2026/09/29/1351NPRR-02-Impact-Analysis-092926.docx",
      "posted": "2026-09-29"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1352",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1352",
+   "title": "QSE Receipt and Payment of Weatherization Inspection Fee Invoices",
+   "next_group": "PRS",
+   "next_step": "PRS for language consideration",
+   "status": "Pending",
+   "posted": "2026-10-27",
+   "sponsor": "TCPA",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) revises the ERCOT Fee Schedule to permit a Resource Entity to designate a Qualified Scheduling Entity (QSE) representing one or more of its Resources to receive the Resource Entity’s weatherization inspection fee Invoice and make payment on the Resource Entity’s behalf.",
+   "actions": [],
+   "document_count": 1,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1352NPRR-01 QSE Receipt and Payment of Weatherization Inspection Fee Invoices 102726",
+     "url": "https://www.ercot.com/files/docs/2026/10/27/1352NPRR-01-QSE-Receipt-and-Payment-of-Weatherization-Inspection-Fee-Invoices-102726.docx",
+     "posted": "2026-10-27"
     }
    ]
   }
