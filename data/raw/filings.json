@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-28 12:18",
+ "fetched": "2026-10-29 12:30",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12612,6 +12612,22 @@
      "type": "PL",
      "description": "ORDER NO. 11- GRANTING MOTION FOR DECISION ON WRITTEN SUBMISSION AND CANCELLING PREHEARING CONFERENCE AND HEARING",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=68"
+    },
+    {
+     "item": 69,
+     "date": "2026-10-28",
+     "party": "PUC MARKET ANALYSIS",
+     "type": "LTRS",
+     "description": "Commission Staff's Letter Agreement",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=69"
+    },
+    {
+     "item": 70,
+     "date": "2026-10-28",
+     "party": "ERCOT",
+     "type": "PL",
+     "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S RESPONSE TO OTHER PARTIES’ FILINGS",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=70"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"

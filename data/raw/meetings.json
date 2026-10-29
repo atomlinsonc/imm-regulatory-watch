@@ -1,7 +1,546 @@
 {
- "fetched": "2026-10-28 12:18",
+ "fetched": "2026-10-29 12:30",
  "source": "https://www.puc.texas.gov/agency/calendar/openmeetings/",
  "meetings": [
+  {
+   "date": "2026-11-05",
+   "agenda_url": "https://ftp.puc.texas.gov/public/puct-info/agency/om/110526Final.pdf",
+   "video_url": "https://www.adminmonitor.com/tx/puct/open_meeting/20261105/",
+   "consent": [],
+   "not_taken_up": [],
+   "items": [
+    {
+     "num": 1,
+     "section": "Public Comment",
+     "subsection": "",
+     "kind": "",
+     "control": "",
+     "title": "The Commission will receive comments from the public on any matters within the jurisdiction of the Public Utility Commission of Texas in accordance with Utilities Code Section 12.202, except for pending items related to contested cases, which are subject t o the ex parte prohibition found in Texas Government Code Section 2001.061. In the interest of time, speakers will be limited to three minutes each",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 2,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "56664",
+     "title": "Application of BVRT Utility Holding Company LLC (Camino Real Utility Company LLC, Forest Glen Utility Company, Spanish Trail Utility Company LLC, Windy Hill Utility Company LLC, a Texas Limited Liability Company, and Zipp Road Utility Company LLC, a Texas Limited Liability Company) for Authority to Change Rates",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 3,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "57249",
+     "title": "Complaint of a customer against Undine Texas, LLC",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 4,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "57627",
+     "title": "Petition of Cooke 585 Land LP to Amend City of Valley View’s Certificate of Convenience and Necessity in Cooke County by Expedited Release",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 5,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "58477",
+     "title": "Application of Big Easy Agua, LLC for Authority to Change Rates",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 6,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "58540",
+     "title": "Application of Southern Utilities Company for Authority to Change Rates",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 7,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "58572",
+     "title": "Application of Pampa Investment Group LP for Authority to Change Rates",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 8,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "58763",
+     "title": "Application of Quadvest L.P. for a Pass Through Rate Change",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 9,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "58861",
+     "title": "Petition of Dennis P. Patel to Decertify a Portion of the City of Elmendorf’s Certificate of Convenience and Necessity in Bexar County Under Texas Water Code § 13.254(a) and 16 TAC § 24.245",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 10,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "59692",
+     "title": "A customer’s appeal of the Cost of Obtaining Service from Yancey Water Supply Corporation",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 11,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "57501",
+     "title": "Application of El Paso Electric Company to Amend Its Certificate of Convenience and Necessity for a 100 MW Solar/100 MW Battery Storage Facility",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 12,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "57980",
+     "title": "Application of CenterPoint Energy Houston Electric, LLC to Reduce Temporary Emergency Electric Energy Facility Capacity and Rates",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 13,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59080",
+     "title": "Commission Staff’s Petition to Set 2026 Wholesale Transmission Service Charges for the Electric Reliability Council of Texas, Inc",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 14,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59336",
+     "title": "Joint Application of AEP Texas Inc. and City of San Antonio, Acting by and through the City Public Service Board (CPS Energy) to Amend Their Certificates of Convenience and Necessity for the Howard to Solstice 765-kV Single-Circuit Transmission Line in Atascosa, Bandera, Bexar, Crockett, Edwards, Kerr, Kinney, Medina, Pecos, Real, Sutton, Terrell, Uvalde, and Val Verde Counties",
+     "requested_action": "Extension of Time to Act on Motion(s) for Rehearing",
+     "staff": ""
+    },
+    {
+     "num": 15,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59399",
+     "title": "Joint Application o f Comanche Peak Power Company LLC and Amazon Data Services, Inc. for Approval of a Net Metering Arrangement",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 16,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59652",
+     "title": "Application of AEP Texas Inc. to Amend Its Rider Mobile Temporary Emergency Electric Energy Facilities",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 17,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59702",
+     "title": "Application of Southwestern Electric Power Company to Adjust Energy Efficiency Cost Recovery Factor and Related Relief",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 18,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59714",
+     "title": "Application of Southwestern Public Service Company to Adjust Its Energy Efficiency Cost Recovery Factor",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 19,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59725",
+     "title": "Appeal of Oncor Electric Delivery Company LLC from Ordinances of the City of Lufkin and Application for a Declaratory Order",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 20,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59762",
+     "title": "Application of Oncor Electric Delivery Company LLC for Approval of a Wildfire Mitigation Plan",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 21,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59790",
+     "title": "Application of Upshur Rural Electric Cooperative Corporation for Approval of a Wildfire Mitigation Plan",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 22,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59823",
+     "title": "Application of Oncor Electric Delivery Company LLC to Adjust Its Energy Efficiency Cost Recovery Factor",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 23,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59943",
+     "title": "Joint Application of Willow Springs Wind Farm, LLC and Haskell DC Owner LLC for Approval of a Net Metering Arrangement",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 24,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59944",
+     "title": "Texas-New Mexico Power Company’s Election to File a Single Annual Proceeding to Adjust Nonfuel Rates on a System-Wide Basis Under PURA § 36.216",
+     "requested_action": "Preliminary Order",
+     "staff": ""
+    },
+    {
+     "num": 25,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59962",
+     "title": "Complaint of a customer against the Electric Reliability Council of Texas",
+     "requested_action": "Preliminary Order",
+     "staff": ""
+    },
+    {
+     "num": 26,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59981",
+     "title": "Application of CenterPoint Energy Houston Electric, LLC to Amend Its Distribution Cost Recovery Factor",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 27,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "60301",
+     "title": "Application of Entergy Texas, Inc. for Authority to Reconcile Fuel and Purchased Power Costs",
+     "requested_action": "Preliminary Order",
+     "staff": ""
+    },
+    {
+     "num": 28,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "60356",
+     "title": "Medina County Power NR I, LLC’s Complaint and Appeal of the Decisions of the Electric Reliability Council of Texas",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 29,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "60396",
+     "title": "Complaint of a customer against the Electric Reliability Council of Texas, Inc",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 30,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "60410",
+     "title": "Mesquite H2, LLC Complaint and Appeal of the Decisions of the Electric Reliability Council of Texas",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 31,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "60425",
+     "title": "Complaint of a customer against the Electric Reliability Council of Texas, Inc",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 32,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Water",
+     "kind": "Project",
+     "control": "59086",
+     "title": "Implementation of HB 2712 (89R) - Future and Combined Test Years (Water and Sewer)",
+     "requested_action": "Recommended Adoption Order",
+     "staff": "David Smeltzer and Katelyn Lewis"
+    },
+    {
+     "num": 33,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Water",
+     "kind": "Project",
+     "control": "53981",
+     "title": "Review of Wholesale Water and Sewer Rate Appeals",
+     "requested_action": "Recommended Adoption Order",
+     "staff": "Iliana De La Fuente"
+    },
+    {
+     "num": 34,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Water",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding implementation of state legislation affecting water and sewer companies, current and projected rulemakings and other projects, comments to other state agencies, and Commission priorities",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 35,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Communications",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding implementation of state and federal legislation affecting telecommunications markets, current and projected rulemakings and other projects, comments to other state and federal agencies, and Commission priorities",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 36,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "55999",
+     "title": "Reports of the Electric Reliability Council of Texas",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 37,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "58555",
+     "title": "ERCOT Ancillary and Reliability Services Cost Allocation Study Pursuant to PURA §39.1593",
+     "requested_action": "Discussion and possible action",
+     "staff": "Julie Gauldin"
+    },
+    {
+     "num": 38,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "59142",
+     "title": "Review of ERCOT’s Interconnection Processes for Large Loads",
+     "requested_action": "Discussion and possible action",
+     "staff": "Barksdale English"
+    },
+    {
+     "num": 39,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "54445",
+     "title": "Review of Protocols Adopted by the Independent Organization",
+     "requested_action": "Discussion and possible action",
+     "staff": "Floyd Walker and Harika Basaran"
+    },
+    {
+     "num": 40,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "59999",
+     "title": "Rulemaking to Adopt a Standard Large Load Interconnection Agreement",
+     "requested_action": "Proposal for Publication",
+     "staff": "Mackenzie Arthur"
+    },
+    {
+     "num": 41,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "37344",
+     "title": "Information Related to the Entergy Regional State Committee",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 42,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "41211",
+     "title": "Information Related to the Organization of MISO States",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 43,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "41210",
+     "title": "Information Related to the Southwest Power Pool Regional State Committee",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 44,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "51879",
+     "title": "Information Related to the Western Energy Imbalance Market",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 45,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action on electric reliability; electric market development; power-to-choose website; ERCOT oversight; transmission planning, construction, and cost recovery; and electric reliability standards and organizations arising under federal law",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 46,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding implementation of state and federal legislation affecting electricity markets including current and projected rulemaking s and other projects, comments to other state and federal agencies and Commission priorities",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 47,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "Project",
+     "control": "52761",
+     "title": "Statements Regarding Internal Management of the Public Utility Commission",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 48,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "Project",
+     "control": "59212",
+     "title": "CY 2026 Rulemaking Calendar",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 49,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "Project",
+     "control": "45319",
+     "title": "Interest Rates Set Under Texas Utilities Code §183.003 and Set for Overcharges and Undercharges Under 16 Texas Administrative Code §§25.28, 25.480, and 26.27",
+     "requested_action": "Discussion and possible action",
+     "staff": "Steven Cole and Jorge Ordonez"
+    },
+    {
+     "num": 50,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding agency review by Sunset Advisory Commission, operating budget, strategic plan, appropriations request, project assignments, correspondence, staff reports, agency administrative issues, agency organization, fiscal matters and personnel policy",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 51,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding customer service issues, including but not limited to correspondence and complaint issues",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 52,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action on infrastructure reliability, emergency man agement, and homeland security",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 53,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Closed Session",
+     "kind": "",
+     "control": "",
+     "title": "Adjournment for closed session",
+     "requested_action": "",
+     "staff": ""
+    }
+   ]
+  },
   {
    "date": "2026-10-15",
    "agenda_url": "https://ftp.puc.texas.gov/public/puct-info/agency/om/101526Final.pdf",
@@ -1470,61 +2009,7 @@
   {
    "date": "2026-08-28",
    "agenda_url": "https://ftp.puc.texas.gov/public/puct-info/agency/om/082826Final.pdf",
-   "video_url": "https://www.adminmonitor.com/tx/puct/open_meeting/20260828/",
-   "consent": [],
-   "not_taken_up": [],
-   "items": [
-    {
-     "num": 1,
-     "section": "Public Comment",
-     "subsection": "",
-     "kind": "",
-     "control": "",
-     "title": "The Commission will receive comments from the public on any matters within the jurisdiction of the Public Utility Commission of Texas in accordance with Utilities Code Section 12.202, except for pending items related to contested cases, which are subject to the ex parte prohibition found in Texas Government Code Section 2001.061. In the interest of time, speakers will be limited to three minutes each",
-     "requested_action": "",
-     "staff": ""
-    },
-    {
-     "num": 2,
-     "section": "Contested Case Items",
-     "subsection": "Electric",
-     "kind": "Docket",
-     "control": "59029",
-     "title": "Application of Oncor Electric Delivery Company LLC to Amend Its Certificate of Convenience and Necessity for the Longshore Switch-Drill Hole Switch 765-kV Transmission Line Project in Andrews, Culberson, Ector, Glasscock, Howard, Loving, Martin, Midland, Reeves, and Winkler Counties",
-     "requested_action": "Discussion and possible action",
-     "staff": ""
-    },
-    {
-     "num": 3,
-     "section": "Contested Case Items",
-     "subsection": "Electric",
-     "kind": "Docket",
-     "control": "59315",
-     "title": "Application of Oncor Electric Delivery Company LLC to Amend Its Certificate of Convenience and Necessity for the Dinosaur Switch – Longshore Switch 765-kV Transmission Line Project in Borden, Bosque, Brown, Callahan, Coke, Coleman, Comanche, Eastland, E rath, Glasscock, Hamilton, Hood, Howard, Jones, Mitchell, Nolan, Runnels, Shackelford, Somervell, Stephens, Sterling, and Taylor Counties",
-     "requested_action": "Discussion and possible action",
-     "staff": ""
-    },
-    {
-     "num": 4,
-     "section": "Contested Case Items",
-     "subsection": "Electric",
-     "kind": "Docket",
-     "control": "59336",
-     "title": "Joint Application of AEP Texas Inc. and City of San Antonio, Acting by and through the City Public Service Board (CPS Energy) to Amend Their Certificates of Convenience and Necessity for the Howard to Solstice 765-kV Single-Circuit Transmission Line in Atascosa, Bandera, Bexar, Crockett, Edwards, Kerr, Kinney, Medina, Pecos, Real, Sutton, Terrell, Uvalde, and Val Verde Counties",
-     "requested_action": "Discussion and possible action",
-     "staff": ""
-    },
-    {
-     "num": 5,
-     "section": "Contested Case Items",
-     "subsection": "Closed Session",
-     "kind": "",
-     "control": "",
-     "title": "Adjournment for closed session",
-     "requested_action": "",
-     "staff": ""
-    }
-   ]
+   "video_url": "https://www.adminmonitor.com/tx/puct/open_meeting/20260828/"
   },
   {
    "date": "2026-08-21",
