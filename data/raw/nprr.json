@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-29 12:31",
+ "fetched": "2026-10-30 12:08",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -676,13 +676,19 @@
    "url": "https://www.ercot.com/mktrules/issues/NPRR1317",
    "title": "Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
    "next_group": "TAC",
-   "next_step": "TAC for consideration",
+   "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2025-12-19",
    "sponsor": "ERCOT",
    "urgent": "No",
    "description": "This NPRR clarifies the term “Distributed Generator” (DG) and, introduces the categories of “Distributed Generator,” which include: Unregistered Distributed Generator; Distribution Generation Resource; Settlement Only Distribution Energy Storage System; Settlement Only Distribution Generator; and Non-Settled Distribution Generator. This NPRR also clarifies the Resource Registration process for Resource Entities. Additionally, this NPRR updates DG interconnection, registration, and reporting requirements to ensure consistency throughout the ERCOT System as it relates to DG.",
    "actions": [
+    {
+     "date": "2026-10-28",
+     "body": "TAC",
+     "action": "Deferred/Tabled",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-09-16",
      "body": "PRS",
@@ -702,9 +708,19 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 22,
+   "document_count": 24,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1317NPRR-23 TAC Ballot 102826",
+     "url": "https://www.ercot.com/files/docs/2026/10/29/1317NPRR-23-TAC-Ballot-102826.xls",
+     "posted": "2026-10-29"
+    },
+    {
+     "name": "1317NPRR-24 TAC Report 102826",
+     "url": "https://www.ercot.com/files/docs/2026/10/29/1317NPRR-24-TAC-Report-102826.docx",
+     "posted": "2026-10-29"
+    },
     {
      "name": "1317NPRR-22 DCC Comments 102126",
      "url": "https://www.ercot.com/files/docs/2026/10/21/1317NPRR-22-DCC-Comments-102126.docx",
@@ -714,16 +730,6 @@
      "name": "1317NPRR-21 TIEC Comments 102026",
      "url": "https://www.ercot.com/files/docs/2026/10/20/1317NPRR-21-TIEC-Comments-102026.docx",
      "posted": "2026-10-20"
-    },
-    {
-     "name": "1317NPRR-19 PRS Ballot 091626",
-     "url": "https://www.ercot.com/files/docs/2026/09/16/1317NPRR-19-PRS-Ballot-091626.xls",
-     "posted": "2026-09-16"
-    },
-    {
-     "name": "1317NPRR-20 PRS Report 091626",
-     "url": "https://www.ercot.com/files/docs/2026/09/16/1317NPRR-20-PRS-Report-091626.docx",
-     "posted": "2026-09-16"
     }
    ]
   },

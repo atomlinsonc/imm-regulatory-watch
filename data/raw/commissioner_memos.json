@@ -1,8 +1,18 @@
 {
- "fetched": "2026-10-29 12:31",
- "since": "2026-09-14",
- "dockets_checked": 12,
+ "fetched": "2026-10-30 12:07",
+ "since": "2026-09-15",
+ "dockets_checked": 13,
  "memos": [
+  {
+   "item": 84,
+   "date": "2026-10-29",
+   "party": "PUC OPDM",
+   "type": "PRJ",
+   "description": "COMMISSIONER HJALTMAN RECUSAL MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=52761&itemNumber=84",
+   "control": "52761",
+   "style": "STATEMENTS REGARDING INTERNAL MANAGEMENT OF THE PUBLIC UTILITY COMMISSION"
+  },
   {
    "item": 89,
    "date": "2026-10-14",

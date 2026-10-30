@@ -1,16 +1,7 @@
 {
- "fetched": "2026-10-29 12:31",
+ "fetched": "2026-10-30 12:08",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-10-29",
-   "time": "2:00 PM",
-   "name": "Getting Started with Weatherization & Inspection Compliance in ERCOT",
-   "body": "Getting Started with Weatherization & Inspection Compliance in ERCOT",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/10292026-Getting-Started-with-Weatherization",
-   "key": false
-  },
   {
    "date": "2026-11-02",
    "time": "9:00 AM",
@@ -31,11 +22,11 @@
   },
   {
    "date": "2026-11-03",
-   "time": "9:30 AM",
-   "name": "RPG Meeting",
+   "time": "10:00 AM",
+   "name": "RPG Meeting - Webex Only",
    "body": "Regional Planning Group",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11032026-RPG-Meeting",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11032026-RPG-Meeting-_-Webex",
    "key": false
   },
   {

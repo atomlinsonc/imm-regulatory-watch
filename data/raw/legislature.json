@@ -1,10 +1,18 @@
 {
- "fetched": "2026-10-29 12:32",
+ "fetched": "2026-10-30 12:08",
  "feed_status": {
-  "House": "No committee meetings scheduled",
+  "House": "1 hearing(s) posted",
   "Senate": "No committee meetings scheduled"
  },
- "hearings": [],
+ "hearings": [
+  {
+   "chamber": "House",
+   "title": "S/C-Maternal Hlth/Menopause/Access-Evidence-Based Medicine - 11/6/2026",
+   "detail": "Time: 10:00 AM, Location: E2.030",
+   "url": "https://capitol.texas.gov/tlodocs/89R/schedules/html/C4132026110610001.htm",
+   "relevant": false
+  }
+ ],
  "bills": [
   {
    "session": "89R",

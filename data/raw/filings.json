@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-29 12:30",
+ "fetched": "2026-10-30 12:07",
  "projects": {
   "34677": {
    "control": "34677",
@@ -1547,6 +1547,14 @@
      "type": "PL",
      "description": "NOTICE OF RECOMMENDED APPROVAL OF REVISION REQUESTS BY ERCOT BOARD OF DIRECTORS",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=164"
+    },
+    {
+     "item": 165,
+     "date": "2026-10-29",
+     "party": "PUC MARKET ANALYSIS",
+     "type": "MISC",
+     "description": "Staff Memo and Proposed Order",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=165"
     }
    ],
    "style": "Review of Protocols Adopted by the Independent Organization"
@@ -10105,6 +10113,14 @@
      "type": "COM",
      "description": "Texas Public Policy Foundation's Comments on ERCOT Ancillary and Reliability Services Cost Allocation Study",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58555&itemNumber=37"
+    },
+    {
+     "item": 38,
+     "date": "2026-10-29",
+     "party": "MARKET ANALYSIS",
+     "type": "MISC",
+     "description": "Staff Cover Memo summarizing Staff recommendations. Attachment A: Staff Recommended Findings and Next Steps Attachment B: ERCOT Final Study Report",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58555&itemNumber=38"
     }
    ],
    "style": "ERCOT ANCILLARY AND RELIABILITY SERVICES COST ALLOCATION STUDY PURSUANT TO PURA §39.1593"
@@ -12628,6 +12644,14 @@
      "type": "PL",
      "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S RESPONSE TO OTHER PARTIES’ FILINGS",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=70"
+    },
+    {
+     "item": 71,
+     "date": "2026-10-29",
+     "party": "ERCOT",
+     "type": "PL",
+     "description": "ERCOT’S ERRATA TO STUDY REPORT AND DIRECT TESTIMONY OF PETE WARNKEN",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=71"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"

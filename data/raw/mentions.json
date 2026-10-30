@@ -1,7 +1,7 @@
 {
- "fetched": "2026-10-29 12:32",
- "since": "2026-07-31",
- "documents_scanned": 287,
+ "fetched": "2026-10-30 12:08",
+ "since": "2026-08-01",
+ "documents_scanned": 288,
  "mentions": [
   {
    "item": 27,
@@ -102,6 +102,44 @@
     {
      "page": 166,
      "text": "Independent Market Monitor Opinion IMM supports NPRR1292."
+    }
+   ]
+  },
+  {
+   "item": 165,
+   "date": "2026-10-29",
+   "party": "PUC MARKET ANALYSIS",
+   "type": "MISC",
+   "description": "Staff Memo and Proposed Order",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=165",
+   "control": "54445",
+   "style": "Review of Protocols Adopted by the Independent Organization",
+   "mention_count": 11,
+   "pages": 20,
+   "snippets": [
+    {
+     "page": 3,
+     "text": "Staff Recommendation Board Action Related Commission/Legislative Directive TAC Opposition ERCOT Market Impact Statement Sponsor IMM Opinion Approve Unanimously Approved N/A None ERCOT Staff has reviewed NPRR-1214 and believes the market impact for NPRR-1214 introduces a Reliability Deployment Indifference Payment/Charge, which is intended to make Resources indifferent to any difference between their dispatch levels from the SCED dispatch run and t"
+    },
+    {
+     "page": 3,
+     "text": "udes cleanups to ERCOT Nodal Protocols § 3.11.2 to address the inconsistent use of terminology and delete certain obsolete language Staff Recommendation Board Action Related Commission/Legislative Directive TAC Opposition ERCOT Market Impact Statement Sponsor IMM Opinion Approve Unanimously Approved 16 TAC § 25.101 None ERCOT Staff has reviewed NPRR-1286 and believes that it provides a positive market impact by leading industry grid reliability and resilience through the establishment of new planning criteria to address the process for determining whether a project that addres"
+    },
+    {
+     "page": 5,
+     "text": "54445 Staff Recommendation Board Action Related Commission/Legislative Directive TAC Opposition ERCOT Market Impact Statement Sponsor IMM Opinion Staff Recommendation Memo Page 4 of 15 Approve Unanimously Approved N/A None ERCOT Staff has reviewed NPRR-1319 and believes it provides a positive market impact by clarifying that ERCOT may, but is not required to, go through the MRA RFP process upon notice of a seasonal mothball request, and also clarifying"
+    },
+    {
+     "page": 6,
+     "text": "54445 Staff Recommendation Memo Page 5 of 15 TAC Opposition ERCOT Market Impact Statement Sponsor IMM Opinion None ERCOT Staff has reviewed NPRR-1326 and believes it provides a positive market impact by increasing transparency of aggregate ESR SOC information in Real- Time and efficient market response to system conditions."
+    },
+    {
+     "page": 9,
+     "text": "54445 Staff Recommendation Memo Page 8 of 15 Sponsor ERCOT IMM Opinion No Opinion • NPRR1339, Protocol Clean Uj, andA/ignment with RTC+B Implementation - This NPRR corrects misalignment of Protocol language with the Real-Time Co-optimization plus Batteries (RTC+B) implementation."
+    },
+    {
+     "page": 10,
+     "text": "Sponsor ERCOT IMM Opinion Supports • NPRR1344, Move OBD to Section 19 - Texas Market Test Plan - This NPRR incorporates the Other Binding Document \"Texas Market Test Plan\" into the Protocols to standardize the approval process."
     }
    ]
   },
@@ -532,6 +570,44 @@
     {
      "page": 5,
      "text": "Revisiting ERCOT's \"conservative operations\" posture in its Ancillary Service Methodology, consistent with comments filed by the IMM and consumers, would produce substantial savings and allow the market to function as intended."
+    }
+   ]
+  },
+  {
+   "item": 38,
+   "date": "2026-10-29",
+   "party": "MARKET ANALYSIS",
+   "type": "MISC",
+   "description": "Staff Cover Memo summarizing Staff recommendations. Attachment A: Staff Recommended Findings and Next Steps Attachment B: ERCOT Final Study Report",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58555&itemNumber=38",
+   "control": "58555",
+   "style": "ERCOT ANCILLARY AND RELIABILITY SERVICES COST ALLOCATION STUDY PURSUANT TO PURA §39.1593",
+   "mention_count": 10,
+   "pages": 91,
+   "snippets": [
+    {
+     "page": 2,
+     "text": "1 Commission Staff collaborated with ERCOT, stakeholders, and the Independent Market Monitor to devise the evaluation."
+    },
+    {
+     "page": 5,
+     "text": "Study Methodology Staff worked with ERCOT market stakeholders, including TAC members, ERCOT staff, and the Independent Market Monitor (IMM) to define the project scope.1 This detailed the specific services and cost allocation methodsto be studied, the analytical techniquesto be applied, and the anticipated projectschedule."
+    },
+    {
+     "page": 11,
+     "text": "ERS - Emergency Response Service FFSS - Firm Fuel Supply Service IMM - Independent Market Monitor LEI - London Economics International LSE - Load Serving Entity MW - M eg awatt Non-Spin - Non-Spinning Reserve Service NPRR- Nodal Protocol Revision Request PRC- Physical Responsive Capability PUCT - Public Utility Commission of Texas PURA - Public Utility Regulatory Act QSE - Qualified Sc"
+    },
+    {
+     "page": 60,
+     "text": "28 potomac Economics."
+    },
+    {
+     "page": 61,
+     "text": "29 Potomac Economics."
+    },
+    {
+     "page": 65,
+     "text": "ge HSL of gas-fired generators MW 46,458 46,176 45,754 MW of FFSS cleared MW 3,320 4,195 4,250 MW of gas-fired generators with FFSS cost allocation MW 43,138 41,981 41,504 Allocated FFSS costs $/MW-year 682 1,010 1,090 In terms of costs of providing FFSS, the Independent Market Monitor (IMM) for the ERCOT Region stated that the purpose of FFSS is to \"incentivize fuel storage inventories\" and that resources require FFSS payments to \"procure and maintain infrastructure to store large volumes of fuel oil\".33 The Team noticed that in 2023-24 and 2024-25, the total FFSS procurement cost (before subtracti"
     }
    ]
   },
