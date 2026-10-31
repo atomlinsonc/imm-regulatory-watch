@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-30 12:08",
+ "fetched": "2026-10-31 11:18",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -279,6 +279,15 @@
    "body": "Operations Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11242026-OWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-11-26",
+   "time": "11:00 AM",
+   "name": "ERCOT observed holiday as defined by Protocol Section 2",
+   "body": "Operations Working Group",
+   "location": "",
+   "url": "https://www.ercot.com/calendar/11262026-ERCOT-observed-holiday-as",
    "key": false
   }
  ]

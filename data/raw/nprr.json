@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-30 12:08",
+ "fetched": "2026-10-31 11:18",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -384,7 +384,7 @@
    "id": "NPRR1295",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1295",
    "title": "GTC Exit Solutions",
-   "next_group": "TAC",
+   "next_group": "BOARD",
    "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2025-08-19",
@@ -392,6 +392,12 @@
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) requires ERCOT to review Generic Transmission Constraint (GTC) exit alternatives filed on or after January 1, 2025 at least once every three years and to update the exit alternatives for the GTC if appropriate. ERCOT will review reports filed before January 1, 2025 at its discretion.",
    "actions": [
+    {
+     "date": "2026-10-28",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-09-16",
      "body": "PRS",
@@ -411,9 +417,19 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 15,
+   "document_count": 17,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1295NPRR-16 TAC Ballot 102826",
+     "url": "https://www.ercot.com/files/docs/2026/10/30/1295NPRR-16-TAC-Ballot-102826.xls",
+     "posted": "2026-10-30"
+    },
+    {
+     "name": "1295NPRR-17 TAC Report 102826",
+     "url": "https://www.ercot.com/files/docs/2026/10/30/1295NPRR-17-TAC-Report-102826.docx",
+     "posted": "2026-10-30"
+    },
     {
      "name": "1295NPRR-14 PRS Ballot 091626",
      "url": "https://www.ercot.com/files/docs/2026/09/18/1295NPRR-14-PRS-Ballot-091626.xls",
@@ -423,16 +439,6 @@
      "name": "1295NPRR-15 PRS Report 091626",
      "url": "https://www.ercot.com/files/docs/2026/09/18/1295NPRR-15-PRS-Report-091626.docx",
      "posted": "2026-09-18"
-    },
-    {
-     "name": "1295NPRR-13 Impact Analysis 090826",
-     "url": "https://www.ercot.com/files/docs/2026/09/08/1295NPRR-13-Impact-Analysis-090826.docx",
-     "posted": "2026-09-08"
-    },
-    {
-     "name": "1295NPRR-11 PRS Ballot 081226",
-     "url": "https://www.ercot.com/files/docs/2026/08/17/1295NPRR-11-PRS-Ballot-081226.xls",
-     "posted": "2026-08-17"
     }
    ]
   },
@@ -2011,9 +2017,14 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 11,
+   "document_count": 12,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1348NPRR-12 Google Comments 103026",
+     "url": "https://www.ercot.com/files/docs/2026/10/30/1348NPRR-12-Google-Comments-103026.docx",
+     "posted": "2026-10-30"
+    },
     {
      "name": "1348NPRR-10 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/16/1348NPRR-10-PRS-Ballot-101426.xls",
@@ -2028,11 +2039,6 @@
      "name": "1348NPRR-09 Gridmatic Comments 101326",
      "url": "https://www.ercot.com/files/docs/2026/10/13/NPRR1348-09-Gridmatic-Comments-101326.docx",
      "posted": "2026-10-13"
-    },
-    {
-     "name": "1348NPRR-06 Schaper Energy Consulting Comments 100926",
-     "url": "https://www.ercot.com/files/docs/2026/10/09/1348NPRR-06-Schaper-Energy-Consulting-Comments-100926.docx",
-     "posted": "2026-10-09"
     }
    ]
   },

@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-30 12:07",
+ "fetched": "2026-10-31 11:17",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12652,6 +12652,14 @@
      "type": "PL",
      "description": "ERCOT’S ERRATA TO STUDY REPORT AND DIRECT TESTIMONY OF PETE WARNKEN",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=71"
+    },
+    {
+     "item": 72,
+     "date": "2026-10-30",
+     "party": "PUC MARKET ANALYSIS",
+     "type": "PL",
+     "description": "Commission Staff's Statement of Position and Recommendation",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=72"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
