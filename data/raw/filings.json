@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-01 11:14",
+ "fetched": "2026-11-02 14:52",
  "projects": {
   "34677": {
    "control": "34677",
@@ -4010,6 +4010,14 @@
      "type": "PRJ",
      "description": "ERCOT’S REPORT ON DIRECT CURRENT TIE (DC TIE) ENERGY IMPORTS AND EXPORTS (OCTOBER 2026)",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=306"
+    },
+    {
+     "item": 307,
+     "date": "2026-11-02",
+     "party": "ERCOT",
+     "type": "PRJ",
+     "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S NOTICE OF ACCEPTANCE OF A TIER 3 TRANSMISSION PROJECT",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=307"
     }
    ],
    "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"
@@ -12660,6 +12668,14 @@
      "type": "PL",
      "description": "Commission Staff's Statement of Position and Recommendation",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=72"
+    },
+    {
+     "item": 73,
+     "date": "2026-11-01",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=73"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"

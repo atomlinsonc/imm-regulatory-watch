@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-01 11:15",
+ "fetched": "2026-11-02 14:53",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -289,6 +289,15 @@
    "location": "",
    "url": "https://www.ercot.com/calendar/11262026-ERCOT-observed-holiday-as",
    "key": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "9:30 AM",
+   "name": "WMS Meeting",
+   "body": "Wholesale Market Subcommittee",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/12022026-WMS-Meeting",
+   "key": true
   }
  ]
 }
