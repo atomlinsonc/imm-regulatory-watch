@@ -1,25 +1,7 @@
 {
- "fetched": "2026-11-02 14:53",
+ "fetched": "2026-11-03 12:39",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-11-02",
-   "time": "9:00 AM",
-   "name": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
-   "body": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11022026-Q_A-Session-for-Submitting",
-   "key": false
-  },
-  {
-   "date": "2026-11-02",
-   "time": "9:30 AM",
-   "name": "VPWG Meeting - Webex Only",
-   "body": "Voltage Profile Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11022026-VPWG-Meeting-_-Webex",
-   "key": false
-  },
   {
    "date": "2026-11-03",
    "time": "10:00 AM",
@@ -297,6 +279,24 @@
    "body": "Wholesale Market Subcommittee",
    "location": "ERCOT Austin and Webex",
    "url": "https://www.ercot.com/calendar/12022026-WMS-Meeting",
+   "key": true
+  },
+  {
+   "date": "2026-12-03",
+   "time": "9:30 AM",
+   "name": "ROS Meeting",
+   "body": "Reliability and Operations Subcommittee",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/12032026-ROS-Meeting",
+   "key": true
+  },
+  {
+   "date": "2026-12-03",
+   "time": "9:30 AM",
+   "name": "PUCT Meeting",
+   "body": "The Public Utility Commission of Texas",
+   "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
+   "url": "https://www.ercot.com/calendar/12032026-PUCT-Meeting",
    "key": true
   }
  ]

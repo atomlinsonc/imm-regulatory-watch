@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-02 14:53",
+ "fetched": "2026-11-03 12:39",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -1952,7 +1952,7 @@
    "id": "NPRR1346",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1346",
    "title": "Updates to the Fuel Oil Price (FOP)",
-   "next_group": "TAC",
+   "next_group": "BOARD",
    "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2026-08-17",
@@ -1960,6 +1960,12 @@
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) revises the transportation-cost allowance incorporated into the Fuel Oil Price (FOP) by increasing the adder from $0.05 per gallon to $0.10 per gallon. The NPRR updates the FOP definition in Section 2.1, Definitions. The revision maintains the existing fuel oil index methodology and conversion factor while updating a transportation-cost assumption that has remained substantially unchanged since implementation of the Nodal market more than 15 years ago. The proposed change improves the accuracy of fuel oil pricing assumptions used for reliability services and cost recovery calculations by better reflecting current transportation costs associated with the delivery and replenishment of fuel oil inventories.",
    "actions": [
+    {
+     "date": "2026-10-28",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-10-14",
      "body": "PRS",
@@ -1973,9 +1979,19 @@
      "next": "Impact Analysis"
     }
    ],
-   "document_count": 6,
+   "document_count": 8,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1346NPRR-07 TAC Ballot 102826",
+     "url": "https://www.ercot.com/files/docs/2026/11/02/1346NPRR-07-TAC-Ballot-102826.xls",
+     "posted": "2026-11-02"
+    },
+    {
+     "name": "1346NPRR-08 TAC Report 102826",
+     "url": "https://www.ercot.com/files/docs/2026/11/02/1346NPRR-08-TAC-Report-102826.docx",
+     "posted": "2026-11-02"
+    },
     {
      "name": "1346NPRR-05 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/16/1346NPRR-05-PRS-Ballot-101426.xls",
@@ -1985,16 +2001,6 @@
      "name": "1346NPRR-06 PRS Report 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/16/1346NPRR-06-PRS-Report-101426.docx",
      "posted": "2026-10-16"
-    },
-    {
-     "name": "1346NPRR-04 Impact Analysis 100626",
-     "url": "https://www.ercot.com/files/docs/2026/10/06/1346NPRR-04-Impact-Analysis-100626.docx",
-     "posted": "2026-10-06"
-    },
-    {
-     "name": "1346NPRR-02 PRS Ballot 091626",
-     "url": "https://www.ercot.com/files/docs/2026/09/21/1346NPRR-02-PRS-Ballot-091626.xls",
-     "posted": "2026-09-21"
     }
    ]
   },
