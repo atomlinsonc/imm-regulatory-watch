@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-03 12:39",
+ "fetched": "2026-11-04 12:49",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -1806,7 +1806,7 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 16,
+   "document_count": 17,
    "imm_documents": [
     {
      "name": "1343NPRR-09 IMM Comments 100226",
@@ -1821,6 +1821,11 @@
    ],
    "latest_documents": [
     {
+     "name": "1343NPRR-17 TCPA Comments 110326",
+     "url": "https://www.ercot.com/files/docs/2026/11/03/1343NPRR-17-TCPA-Comments-110326.docx",
+     "posted": "2026-11-03"
+    },
+    {
      "name": "1343NPRR-15 CFSG Ballot 102126",
      "url": "https://www.ercot.com/files/docs/2026/10/21/1343NPRR-15-CFSG-Ballot-102126.xls",
      "posted": "2026-10-21"
@@ -1833,11 +1838,6 @@
     {
      "name": "1343NPRR-13 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1343NPRR-13-PRS-Ballot-101426.xls",
-     "posted": "2026-10-19"
-    },
-    {
-     "name": "1343NPRR-14 PRS Report 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/19/1343NPRR-14-PRS-Report-101426.docx",
      "posted": "2026-10-19"
     }
    ]

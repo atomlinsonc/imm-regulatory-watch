@@ -1,8 +1,28 @@
 {
- "fetched": "2026-11-03 12:38",
- "since": "2026-09-19",
- "dockets_checked": 13,
+ "fetched": "2026-11-04 12:48",
+ "since": "2026-09-20",
+ "dockets_checked": 15,
  "memos": [
+  {
+   "item": 85,
+   "date": "2026-11-04",
+   "party": "PUC OPDM",
+   "type": "PRJ",
+   "description": "COMMISSIONER JOHNSON RECUSAL MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=52761&itemNumber=85",
+   "control": "52761",
+   "style": "STATEMENTS REGARDING INTERNAL MANAGEMENT OF THE PUBLIC UTILITY COMMISSION"
+  },
+  {
+   "item": 31,
+   "date": "2026-11-04",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59790&itemNumber=31",
+   "control": "59790",
+   "style": "APPLICATION OF UPSHUR RURAL ELECTRIC COOPERATIVE CORPORATION FOR APPROVAL OF A WILDFIRE MITIGATION PLAN"
+  },
   {
    "item": 84,
    "date": "2026-10-29",

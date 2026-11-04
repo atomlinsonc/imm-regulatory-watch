@@ -1,33 +1,15 @@
 {
- "fetched": "2026-11-03 12:39",
+ "fetched": "2026-11-04 12:49",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
-   "date": "2026-11-03",
-   "time": "10:00 AM",
-   "name": "RPG Meeting - Webex Only",
-   "body": "Regional Planning Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11032026-RPG-Meeting-_-Webex",
-   "key": false
-  },
-  {
-   "date": "2026-11-03",
+   "date": "2026-11-04",
    "time": "9:30 AM",
-   "name": "GEWG Meeting",
-   "body": "Gas Electric Working Group",
-   "location": "Texas RE and Webex",
-   "url": "https://www.ercot.com/calendar/11032026-GEWG-Meeting",
-   "key": false
-  },
-  {
-   "date": "2026-11-03",
-   "time": "9:30 AM",
-   "name": "PLWG Meeting - Webex Only",
-   "body": "Planning Working Group",
-   "location": "(RESCHEDULED TO",
-   "url": "https://www.ercot.com/calendar/11032026-PLWG-Meeting-_-Webex",
-   "key": false
+   "name": "WMS Meeting",
+   "body": "Wholesale Market Subcommittee",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/11042026-WMS-Meeting",
+   "key": true
   },
   {
    "date": "2026-11-05",
@@ -230,19 +212,19 @@
   {
    "date": "2026-11-20",
    "time": "9:30 AM",
-   "name": "IBRWG Meeting - Webex Only",
-   "body": "IBRWG Inverter-Based Resource Working Group",
+   "name": "SAWG Meeting - Webex Only",
+   "body": "Supply Analysis Working Group",
    "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11202026-IBRWG-Meeting-_-Webex",
+   "url": "https://www.ercot.com/calendar/11202026-SAWG-Meeting-_-Webex",
    "key": false
   },
   {
    "date": "2026-11-20",
    "time": "9:30 AM",
-   "name": "SAWG Meeting - Webex Only",
-   "body": "Supply Analysis Working Group",
+   "name": "IBRWG Meeting - Webex Only",
+   "body": "IBRWG Inverter-Based Resource Working Group",
    "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11202026-SAWG-Meeting-_-Webex",
+   "url": "https://www.ercot.com/calendar/11202026-IBRWG-Meeting-_-Webex",
    "key": false
   },
   {
@@ -298,6 +280,15 @@
    "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
    "url": "https://www.ercot.com/calendar/12032026-PUCT-Meeting",
    "key": true
+  },
+  {
+   "date": "2026-12-04",
+   "time": "9:00 AM",
+   "name": "CIPWG Meeting - Webex Only",
+   "body": "Critical Infrastructure Protection Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/12042026-CIPWG-Meeting-_-Webex",
+   "key": false
   }
  ]
 }

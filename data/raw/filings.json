@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-03 12:38",
+ "fetched": "2026-11-04 12:48",
  "projects": {
   "34677": {
    "control": "34677",
@@ -3799,7 +3799,7 @@
      "item": 280,
      "date": "2026-09-03",
      "party": "MARKET ANALYSIS",
-     "type": "MISC",
+     "type": "PL",
      "description": "Staff Memo and Proposed Order regarding ERCOT Request for Good Cause Exception for 2026 Ancillary Services Methodology",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=280"
     },
@@ -9998,7 +9998,7 @@
      "item": 22,
      "date": "2026-07-02",
      "party": "PUC MARKET ANALYSIS",
-     "type": "MISC",
+     "type": "PL",
      "description": "Staff Update on the Study",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58555&itemNumber=22"
     },
