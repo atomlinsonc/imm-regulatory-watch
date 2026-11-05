@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-04 12:48",
- "since": "2026-09-20",
- "dockets_checked": 15,
+ "fetched": "2026-11-05 12:56",
+ "since": "2026-09-21",
+ "dockets_checked": 20,
  "memos": [
   {
    "item": 85,
@@ -14,6 +14,46 @@
    "style": "STATEMENTS REGARDING INTERNAL MANAGEMENT OF THE PUBLIC UTILITY COMMISSION"
   },
   {
+   "item": 294,
+   "date": "2026-11-04",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "COMMISSIONER JOHNSON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=56664&itemNumber=294",
+   "control": "56664",
+   "style": "APPLICATION OF BVRT UTILITY HOLDING COMPANY LLC (CAMINO REAL UTILITY COMPANY LLC, FOREST GLEN UTILITY COMPANY, SPANISH TRAIL UTILITY COMPANY LLC, WINDY HILL UTILITY COMPANY LLC, A TEXAS LIMITED LIABILITY COMPANY, AND ZIPP ROAD UTILITY COMPANY LLC, A TEXAS LIMITED LIABILITY COMPANY) FOR AUTHORITY TO CHANGE RATES"
+  },
+  {
+   "item": 245,
+   "date": "2026-11-04",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=57501&itemNumber=245",
+   "control": "57501",
+   "style": "APPLICATION OF EL PASO ELECTRIC COMPANY TO AMEND ITS CERTIFICATE OF CONVENIENCE AND NECESSITY FOR A 100 MW SOLAR/100 MW BATTERY STORAGE FACILITY"
+  },
+  {
+   "item": 53,
+   "date": "2026-11-04",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58763&itemNumber=53",
+   "control": "58763",
+   "style": "APPLICATION OF QUADVEST L.P. FOR A PASS THROUGH RATE CHANGE"
+  },
+  {
+   "item": 56,
+   "date": "2026-11-04",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59762&itemNumber=56",
+   "control": "59762",
+   "style": "APPLICATION OF ONCOR ELECTRIC DELIVERY COMPANY LLC FOR APPROVAL OF A WILDFIRE MITIGATION PLAN"
+  },
+  {
    "item": 31,
    "date": "2026-11-04",
    "party": "PUC OPDM",
@@ -22,6 +62,16 @@
    "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59790&itemNumber=31",
    "control": "59790",
    "style": "APPLICATION OF UPSHUR RURAL ELECTRIC COOPERATIVE CORPORATION FOR APPROVAL OF A WILDFIRE MITIGATION PLAN"
+  },
+  {
+   "item": 72,
+   "date": "2026-11-04",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59981&itemNumber=72",
+   "control": "59981",
+   "style": "APPLICATION OF CENTERPOINT ENERGY HOUSTON ELECTRIC, LLC TO AMEND ITS DISTRIBUTION COST RECOVERY FACTOR"
   },
   {
    "item": 84,

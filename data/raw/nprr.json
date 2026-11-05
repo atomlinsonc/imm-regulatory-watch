@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-04 12:49",
+ "fetched": "2026-11-05 12:57",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -2155,9 +2155,14 @@
      "next": "Impact Analysis Consideration"
     }
    ],
-   "document_count": 4,
+   "document_count": 5,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1351NPRR-05 ERCOT Comments 110426",
+     "url": "https://www.ercot.com/files/docs/2026/11/04/1351NPRR-05-ERCOT-Comments-110426.docx",
+     "posted": "2026-11-04"
+    },
     {
      "name": "1351NPRR-03 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1351NPRR-03-PRS-Ballot-101426.xls",
@@ -2171,11 +2176,6 @@
     {
      "name": "1351NPRR-01 Revisions to Section 23 Forms for the MPSP 092926",
      "url": "https://www.ercot.com/files/docs/2026/09/29/1351NPRR-01-Revisions-to-Section-23-Forms-for-the-MPSP-092926.docx",
-     "posted": "2026-09-29"
-    },
-    {
-     "name": "1351NPRR-02 Impact Analysis 092926",
-     "url": "https://www.ercot.com/files/docs/2026/09/29/1351NPRR-02-Impact-Analysis-092926.docx",
      "posted": "2026-09-29"
     }
    ]

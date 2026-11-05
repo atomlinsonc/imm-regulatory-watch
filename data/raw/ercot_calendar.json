@@ -1,16 +1,7 @@
 {
- "fetched": "2026-11-04 12:49",
+ "fetched": "2026-11-05 12:57",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-11-04",
-   "time": "9:30 AM",
-   "name": "WMS Meeting",
-   "body": "Wholesale Market Subcommittee",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11042026-WMS-Meeting",
-   "key": true
-  },
   {
    "date": "2026-11-05",
    "time": "9:30 AM",

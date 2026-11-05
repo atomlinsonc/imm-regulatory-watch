@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-04 12:49",
- "since": "2026-08-06",
- "documents_scanned": 292,
+ "fetched": "2026-11-05 12:57",
+ "since": "2026-08-07",
+ "documents_scanned": 290,
  "mentions": [
   {
    "item": 27,
@@ -144,6 +144,40 @@
    ]
   },
   {
+   "item": 166,
+   "date": "2026-11-04",
+   "party": "ERCOT",
+   "type": "PL",
+   "description": "ERCOT’S REQUEST FOR APPROVAL OF 2027 ERCOT METHODOLOGIES FOR DETERMINING MINIMUM ANCILLARY SERVICE REQUIREMENTS",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=166",
+   "control": "54445",
+   "style": "Review of Protocols Adopted by the Independent Organization",
+   "mention_count": 5,
+   "pages": 36,
+   "snippets": [
+    {
+     "page": 6,
+     "text": "19 See Reports of the Independent Market Monitor for the ERCOT Region , Project No ."
+    },
+    {
+     "page": 34,
+     "text": "operate the system more conservatively with limited RUCs) and J resources? OR ParameterX (in hours) 3Hour (IMM, 1 hour preferred) ~-L What is the level of risk ERCOT should try to avoid by procuring AS to cover forecast error? 3,000 i.e."
+    },
+    {
+     "page": 34,
+     "text": "Watch (ERCOT) OR Or 1,500 ie Load Shed (IMM) ERCOT has noticed minimal difference in outcomes between ZZ = 3,000, 2,500 and 1,500 MW since quantities for most hours are a function of the amount of Reg Up plus RRS that these reserves have to replace."
+    },
+    {
+     "page": 34,
+     "text": "response reserves is critical to maintaining reliability and staying compliant with NERC BAL Less than 100% (IMM, Consumers) I ~ requirements."
+    },
+    {
+     "page": 34,
+     "text": "ERCOT expects the trend of having higher available (online + offline) headroom capacity during night hours to continue 100% Credit and 1 Hour duration (IMM) Parameter Y (in %), W (in hours ) '."
+    }
+   ]
+  },
+  {
    "item": 273,
    "date": "2026-08-20",
    "party": "HUNT ENERGY NETWORK L.L.C.",
@@ -278,20 +312,32 @@
    ]
   },
   {
-   "item": 14,
-   "date": "2026-08-06",
-   "party": "American Bitcoin Corp.",
-   "type": "COM",
-   "description": "Comments of American Bitcoin Corp.",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=14",
-   "control": "58000",
-   "style": "Rulemaking to Update Wholesale and IOU Retail Transmission Cost Recovery in the ERCOT Region",
-   "mention_count": 1,
-   "pages": 7,
+   "item": 308,
+   "date": "2026-11-04",
+   "party": "ERCOT",
+   "type": "PL",
+   "description": "ERCOT’S 2026 BIENNIAL REPORT ON OPERATING RESERVE DEMAND CURVE AND ANCILLARY SERVICES DEMAND CURVE",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=308",
+   "control": "55999",
+   "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS",
+   "mention_count": 4,
+   "pages": 65,
    "snippets": [
     {
      "page": 3,
-     "text": "The Independent Market Monitor has reported that cryptocurrency mining accounted for more than half of all Emergency Response Service capacity by end of 2025; EIA has documented that these loads routinely curtail in response to high prices and scarcity."
+     "text": "See Reports of the Independent Market Monitor for the ERCOT Region, Project No."
+    },
+    {
+     "page": 15,
+     "text": "Following the PUCT's determination that the AORDC is no longer binding on ASDC design, ERCOT will work with the PUCT, Independent Market Monitor (IMM), and stakeholders to consider whether the ASDC design."
+    },
+    {
+     "page": 63,
+     "text": "Nodal Protocols Revision Request (NPRR) 1268, proposed by the Independent Market Monitor (IMM) and approved by the PUCT in May 2025, replaced the original sequential © 2026 ERCOT."
+    },
+    {
+     "page": 64,
+     "text": "The IMM identified two concerns with the original construction."
     }
    ]
   },

@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-04 12:48",
+ "fetched": "2026-11-05 12:55",
  "projects": {
   "34677": {
    "control": "34677",
@@ -1555,6 +1555,14 @@
      "type": "MISC",
      "description": "Staff Memo and Proposed Order",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=165"
+    },
+    {
+     "item": 166,
+     "date": "2026-11-04",
+     "party": "ERCOT",
+     "type": "PL",
+     "description": "ERCOT’S REQUEST FOR APPROVAL OF 2027 ERCOT METHODOLOGIES FOR DETERMINING MINIMUM ANCILLARY SERVICE REQUIREMENTS",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=166"
     }
    ],
    "style": "Review of Protocols Adopted by the Independent Organization"
@@ -4018,6 +4026,14 @@
      "type": "PRJ",
      "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S NOTICE OF ACCEPTANCE OF A TIER 3 TRANSMISSION PROJECT",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=307"
+    },
+    {
+     "item": 308,
+     "date": "2026-11-04",
+     "party": "ERCOT",
+     "type": "PL",
+     "description": "ERCOT’S 2026 BIENNIAL REPORT ON OPERATING RESERVE DEMAND CURVE AND ANCILLARY SERVICES DEMAND CURVE",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=308"
     }
    ],
    "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"
@@ -12046,6 +12062,14 @@
      "type": "PC",
      "description": "Public comment",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=77"
+    },
+    {
+     "item": 78,
+     "date": "2026-11-04",
+     "party": "ERCOT",
+     "type": "PRJ",
+     "description": "ERCOT UPDATES: BATCH ZERO VERIFICATION AND AUDIT PROCESS, DATA CENTER STATE AND COMMUNITY IMPACT RFI, AND MEDIUM LOAD RFI",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=78"
     }
    ],
    "style": "Review of ERCOT’s Interconnection Processes for Large Loads"
@@ -12321,7 +12345,7 @@
      "item": 29,
      "date": "2026-06-29",
      "party": "COMANCHE PEAK POWER COMPANY LLC",
-     "type": "RFI",
+     "type": "PL",
      "description": "Comanche Peak Power Company LLC's Response to United Cooperative Services' First Request for Information",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=29"
     },
@@ -12708,6 +12732,14 @@
      "type": "CONF",
      "description": "HSPM - ERCOT’S SUBMISSION OF PROPOSED EXHIBITS AND EXHIBIT LIST",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=77"
+    },
+    {
+     "item": 78,
+     "date": "2026-11-05",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=78"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
