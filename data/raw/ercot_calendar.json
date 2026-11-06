@@ -1,25 +1,7 @@
 {
- "fetched": "2026-11-05 12:57",
+ "fetched": "2026-11-06 12:20",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-11-05",
-   "time": "9:30 AM",
-   "name": "PUCT Meeting",
-   "body": "The Public Utility Commission of Texas",
-   "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
-   "url": "https://www.ercot.com/calendar/11052026-PUCT-Meeting",
-   "key": true
-  },
-  {
-   "date": "2026-11-05",
-   "time": "9:30 AM",
-   "name": "ROS Meeting",
-   "body": "Reliability and Operations Subcommittee",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11052026-ROS-Meeting",
-   "key": true
-  },
   {
    "date": "2026-11-06",
    "time": "9:00 AM",

@@ -1,10 +1,18 @@
 {
- "fetched": "2026-11-05 12:57",
+ "fetched": "2026-11-06 12:20",
  "feed_status": {
-  "House": "could not load: https://capitol.texas.gov/MyTLO/RSS/RSS.aspx?Type=upcomingmeetingshouse -> HTTP 000 curl: (7) Failed to connect to capitol.texas.gov port 443 after 188 ms: Couldn't connect to server",
-  "Senate": "could not load: https://capitol.texas.gov/MyTLO/RSS/RSS.aspx?Type=upcomingmeetingssenate -> HTTP 000 curl: (7) Failed to connect to capitol.texas.gov port 443 after 75 ms: Couldn't connect to server"
+  "House": "1 hearing(s) posted",
+  "Senate": "No committee meetings scheduled"
  },
- "hearings": [],
+ "hearings": [
+  {
+   "chamber": "House",
+   "title": "S/C-Maternal Hlth/Menopause/Access-Evidence-Based Medicine - 11/6/2026",
+   "detail": "Time: 10:00 AM, Location: E2.030",
+   "url": "https://capitol.texas.gov/tlodocs/89R/schedules/html/C4132026110610001.htm",
+   "relevant": false
+  }
+ ],
  "bills": [
   {
    "session": "89R",

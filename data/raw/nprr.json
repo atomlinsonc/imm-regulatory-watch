@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-05 12:57",
+ "fetched": "2026-11-06 12:20",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -714,9 +714,14 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 24,
+   "document_count": 25,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1317NPRR-25 ERCOT Comments 110526",
+     "url": "https://www.ercot.com/files/docs/2026/11/05/1317NPRR-25-ERCOT-Comments-110526.docx",
+     "posted": "2026-11-05"
+    },
     {
      "name": "1317NPRR-23 TAC Ballot 102826",
      "url": "https://www.ercot.com/files/docs/2026/10/29/1317NPRR-23-TAC-Ballot-102826.xls",
@@ -731,11 +736,6 @@
      "name": "1317NPRR-22 DCC Comments 102126",
      "url": "https://www.ercot.com/files/docs/2026/10/21/1317NPRR-22-DCC-Comments-102126.docx",
      "posted": "2026-10-21"
-    },
-    {
-     "name": "1317NPRR-21 TIEC Comments 102026",
-     "url": "https://www.ercot.com/files/docs/2026/10/20/1317NPRR-21-TIEC-Comments-102026.docx",
-     "posted": "2026-10-20"
     }
    ]
   },
@@ -2199,6 +2199,28 @@
      "name": "1352NPRR-01 QSE Receipt and Payment of Weatherization Inspection Fee Invoices 102726",
      "url": "https://www.ercot.com/files/docs/2026/10/27/1352NPRR-01-QSE-Receipt-and-Payment-of-Weatherization-Inspection-Fee-Invoices-102726.docx",
      "posted": "2026-10-27"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1353",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1353",
+   "title": "SCED Constraint Data and Shift Factor Reports",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2026-11-05",
+   "sponsor": "Vistra",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) revises the posting timeline on the Market Information System (MIS) Secure Area of Security-Constrained Economic Dispatch (SCED) output from hourly to after every SCED interval in Section 6.5.7.1.13. The proposed change would improve market transparency and operational efficiency by publishing data ERCOT already calculates at the same cadence as the underlying SCED process, enabling Market Participants to respond to system conditions in Real-Time.",
+   "actions": [],
+   "document_count": 1,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1353NPRR-01 SCED Constraint and Shift Factor Reports 110526",
+     "url": "https://www.ercot.com/files/docs/2026/11/05/1353NPRR-01-SCED-Constraint-and-Shift-Factor-Reports-110526.docx",
+     "posted": "2026-11-05"
     }
    ]
   }

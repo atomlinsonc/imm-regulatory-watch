@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-05 12:55",
+ "fetched": "2026-11-06 12:18",
  "projects": {
   "34677": {
    "control": "34677",
@@ -1563,6 +1563,14 @@
      "type": "PL",
      "description": "ERCOT’S REQUEST FOR APPROVAL OF 2027 ERCOT METHODOLOGIES FOR DETERMINING MINIMUM ANCILLARY SERVICE REQUIREMENTS",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=166"
+    },
+    {
+     "item": 167,
+     "date": "2026-11-05",
+     "party": "PUC OPDM",
+     "type": "PL",
+     "description": "ORDER APPROVING ERCOT REVISION REQUESTS",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=167"
     }
    ],
    "style": "Review of Protocols Adopted by the Independent Organization"
@@ -4034,6 +4042,14 @@
      "type": "PL",
      "description": "ERCOT’S 2026 BIENNIAL REPORT ON OPERATING RESERVE DEMAND CURVE AND ANCILLARY SERVICES DEMAND CURVE",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=308"
+    },
+    {
+     "item": 309,
+     "date": "2026-11-05",
+     "party": "ERCOT",
+     "type": "PL",
+     "description": "ERCOT’S STATUS UPDATE REGARDING PROTOCOL VIOLATIONS RELATED TO LAUNCH OF REAL-TIME CO-OPTIMIZATION PLUS BATTERIES",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=309"
     }
    ],
    "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"
@@ -12740,6 +12756,22 @@
      "type": "PC",
      "description": "Public comment",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=78"
+    },
+    {
+     "item": 79,
+     "date": "2026-11-05",
+     "party": "ONCOR ELECTRIC DELIVERY COMPANY LLC",
+     "type": "PL",
+     "description": "RESPONSE OF ONCOR ELECTRIC DELIVERY COMPANY LLC TO COMMISSION STAFF’S FIRST REQUEST FOR INFORMATION",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=79"
+    },
+    {
+     "item": 80,
+     "date": "2026-11-05",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "EX",
+     "description": "Applicants' Errata to Direct Testimony of Eldon Jensen and Updated Exhibit List",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=80"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
