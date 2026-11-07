@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-06 12:18",
+ "fetched": "2026-11-07 10:58",
  "projects": {
   "34677": {
    "control": "34677",
@@ -10496,6 +10496,14 @@
      "type": "PL",
      "description": "Staff Memo with Final Assumptions and Revised Timelines",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=41"
+    },
+    {
+     "item": 42,
+     "date": "2026-11-06",
+     "party": "ERCOT",
+     "type": "PRJ",
+     "description": "ERCOT’S MOTION FOR GOOD CAUSE EXCEPTION REGARDING 2027 MAGNITUDE",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=42"
     }
    ],
    "style": "Triennial Reliability Assessment for the ERCOT Region under §25.508"

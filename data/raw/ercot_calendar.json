@@ -1,30 +1,12 @@
 {
- "fetched": "2026-11-06 12:20",
+ "fetched": "2026-11-07 11:00",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-11-06",
-   "time": "9:00 AM",
-   "name": "CIPWG Meeting - Webex Only",
-   "body": "Critical Infrastructure Protection Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11062026-CIPWG-Meeting-_-Webex",
-   "key": false
-  },
-  {
-   "date": "2026-11-06",
-   "time": "9:30 AM",
-   "name": "SB6 Large Load Curtailment: Operations Workshop #2",
-   "body": "Critical Infrastructure Protection Working Group",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11062026-SB6-Large-Load-Curtailment_",
-   "key": false
-  },
   {
    "date": "2026-11-09",
    "time": "9:30 AM",
    "name": "PLWG Meeting - Webex Only",
-   "body": "Critical Infrastructure Protection Working Group",
+   "body": "PLWG Meeting - Webex Only",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11092026-PLWG-Meeting-_-Webex",
    "key": false
@@ -85,10 +67,10 @@
   },
   {
    "date": "2026-11-16",
-   "time": "1:00 PM",
+   "time": "9:30 AM",
    "name": "DSWG Meeting - Webex Only",
    "body": "Demand Side Working Group",
-   "location": "Webex",
+   "location": "(CANCELLED) Tuesday, Nov 17, 2026",
    "url": "https://www.ercot.com/calendar/11162026-DSWG-Meeting-_-Webex",
    "key": false
   },
@@ -99,15 +81,6 @@
    "body": "Texas Standard Electronic Transactions/Load Profiling Working Group",
    "location": "(CANCELLED)",
    "url": "https://www.ercot.com/calendar/11172026-TXSETLP-Meeting",
-   "key": false
-  },
-  {
-   "date": "2026-11-17",
-   "time": "9:30 AM",
-   "name": "NDSWG Meeting - Webex Only",
-   "body": "Network Data Support Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11172026-NDSWG-Meeting-_-Webex",
    "key": false
   },
   {
@@ -261,6 +234,15 @@
    "body": "Critical Infrastructure Protection Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/12042026-CIPWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-12-07",
+   "time": "4:30 PM",
+   "name": "Technology & Security Committee Meeting",
+   "body": "Technology and Security Committee",
+   "location": "ERCOT Austin",
+   "url": "https://www.ercot.com/calendar/12072026-Technology-_-Security-Committee",
    "key": false
   }
  ]

@@ -223,5 +223,16 @@
   ],
   "sources_ok": 7,
   "sources": 7
+ },
+ {
+  "at": "2026-11-07 11:00",
+  "changes": [
+   "1 new filing in watched projects: 58777 (1)",
+   "NPRR1345 moved from TAC to BOARD",
+   "NPRR1312 moved from TAC to BOARD",
+   "NPRR1332 moved from TAC to BOARD"
+  ],
+  "sources_ok": 7,
+  "sources": 7
  }
 ]

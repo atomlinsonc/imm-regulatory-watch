@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-06 12:20",
+ "fetched": "2026-11-07 11:00",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -625,7 +625,7 @@
    "id": "NPRR1312",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1312",
    "title": "Revisions to the Standard Form Agreement (SFA)",
-   "next_group": "TAC",
+   "next_group": "BOARD",
    "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2025-11-26",
@@ -633,6 +633,12 @@
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) amends the Standard Form Market Participant Agreement (“SFA”) for several reasons (see Justification for Revision below) and transfers certain sections of the SFA to the Protocols. Specifically, this NPRR: • Clarifies the definition of the ERCOT Protocols; • Establishes a new section regarding Notice, and modernizes the Notice language; • Transfers Breach and Default language from the SFA to the Protocols; • Amends the definition of a Force Majeure Event; • Amends sections in the SFA to conform with the Texas Supreme Court’s rulings in CPS Energy v. ERCOT; and • Amends the Standard Form Black Start Agreement and Standard Form Must Run Agreement to algin with revisions to the SFA by eliminating any duplicative language.",
    "actions": [
+    {
+     "date": "2026-10-28",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-10-14",
      "body": "PRS",
@@ -652,9 +658,19 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 13,
+   "document_count": 15,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1312NPRR-14 TAC Ballot 102826",
+     "url": "https://www.ercot.com/files/docs/2026/11/06/1312NPRR-14-TAC-Ballot-102826.xls",
+     "posted": "2026-11-06"
+    },
+    {
+     "name": "1312NPRR-15 TAC Report 102826",
+     "url": "https://www.ercot.com/files/docs/2026/11/06/1312NPRR-15-TAC-Report-102826.docx",
+     "posted": "2026-11-06"
+    },
     {
      "name": "1312NPRR-12 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1312NPRR-12-PRS-Ballot-101426.xls",
@@ -664,16 +680,6 @@
      "name": "1312NPRR-13 PRS Report 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1312NPRR-13-PRS-Report-101426-v2.docx",
      "posted": "2026-10-19"
-    },
-    {
-     "name": "1312NPRR-10 PRS Ballot 091626",
-     "url": "https://www.ercot.com/files/docs/2026/09/21/1312NPRR-10-PRS-Ballot-091626.xls",
-     "posted": "2026-09-21"
-    },
-    {
-     "name": "1312NPRR-11 PRS Report 091626",
-     "url": "https://www.ercot.com/files/docs/2026/09/21/1312NPRR-11-PRS-Report-091626.docx",
-     "posted": "2026-09-21"
     }
    ]
   },
@@ -1151,7 +1157,7 @@
    "id": "NPRR1332",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1332",
    "title": "Related to PGRR146, Rename Quarterly Stability Assessment and Modify the Assessment Schedule",
-   "next_group": "TAC",
+   "next_group": "BOARD",
    "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2026-05-20",
@@ -1159,6 +1165,12 @@
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) renames the stability assessment from quarterly stability assessment to qualifying stability assessment.",
    "actions": [
+    {
+     "date": "2026-10-28",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-09-16",
      "body": "PRS",
@@ -1178,9 +1190,19 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 8,
+   "document_count": 10,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1332NPRR-09 TAC Ballot 102826",
+     "url": "https://www.ercot.com/files/docs/2026/11/06/1332NPRR-09-TAC-Ballot-102826.xls",
+     "posted": "2026-11-06"
+    },
+    {
+     "name": "1332NPRR-10 TAC Report 102826",
+     "url": "https://www.ercot.com/files/docs/2026/11/06/1332NPRR-10-TAC-Report-102826.docx",
+     "posted": "2026-11-06"
+    },
     {
      "name": "1332NPRR-07 PRS Ballot 091626",
      "url": "https://www.ercot.com/files/docs/2026/09/21/1332NPRR-07-PRS-Ballot-091626.xls",
@@ -1190,16 +1212,6 @@
      "name": "1332NPRR-08 PRS Report 091626",
      "url": "https://www.ercot.com/files/docs/2026/09/21/1332NPRR-08-PRS-Report-091626.docx",
      "posted": "2026-09-21"
-    },
-    {
-     "name": "1332NPRR-05 PRS Ballot 081226",
-     "url": "https://www.ercot.com/files/docs/2026/08/16/1332NPRR-05-PRS-Ballot-081226.xls",
-     "posted": "2026-08-16"
-    },
-    {
-     "name": "1332NPRR-06 PRS Report 081226",
-     "url": "https://www.ercot.com/files/docs/2026/08/16/1332NPRR-06-PRS-Report-081226.docx",
-     "posted": "2026-08-16"
     }
    ]
   },
@@ -1902,7 +1914,7 @@
    "id": "NPRR1345",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1345",
    "title": "Extend NPRR1279 Sunset Date for Exceptional Fuel Cost Process",
-   "next_group": "TAC",
+   "next_group": "BOARD",
    "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2026-08-10",
@@ -1910,6 +1922,12 @@
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) extends the sunset date established by NPRR1279, Reinstate Enhancements to the Exceptional Fuel Cost Process, from April 1, 2027 to April 1, 2030. The extension preserves the existing review and validation framework for Exceptional Fuel Cost submissions, including supporting documentation and fuel supply contracts submitted under the Exceptional Fuel Cost process, and provides additional time for ERCOT and stakeholders to evaluate long-term enhancements to the treatment of contractual fuel costs while maintaining an existing and operational process that has been actively used since implementation of NPRR1279.",
    "actions": [
+    {
+     "date": "2026-10-28",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-10-14",
      "body": "PRS",
@@ -1923,9 +1941,19 @@
      "next": "Impact Analysis Consideration"
     }
    ],
-   "document_count": 7,
+   "document_count": 9,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1345NPRR-08 TAC Ballot 102826",
+     "url": "https://www.ercot.com/files/docs/2026/11/06/1345NPRR-08-TAC-Ballot-102826.xls",
+     "posted": "2026-11-06"
+    },
+    {
+     "name": "1345NPRR-09 TAC Report 102826",
+     "url": "https://www.ercot.com/files/docs/2026/11/06/1345NPRR-09-TAC-Report-102826.docx",
+     "posted": "2026-11-06"
+    },
     {
      "name": "1345NPRR-06 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1345NPRR-06-PRS-Ballot-101426.xls",
@@ -1935,16 +1963,6 @@
      "name": "1345NPRR-07 PRS Report 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1345NPRR-07-PRS-Report-101426-v2.docx",
      "posted": "2026-10-19"
-    },
-    {
-     "name": "1345NPRR-05 Impact Analysis 092926",
-     "url": "https://www.ercot.com/files/docs/2026/09/29/1345NPRR-05-Impact-Analysis-092926.docx",
-     "posted": "2026-09-29"
-    },
-    {
-     "name": "1345NPRR-03 PRS Ballot 091626",
-     "url": "https://www.ercot.com/files/docs/2026/09/21/1345NPRR-03-PRS-Ballot-091626.xls",
-     "posted": "2026-09-21"
     }
    ]
   },
