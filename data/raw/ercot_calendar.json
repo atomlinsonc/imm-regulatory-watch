@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-08 11:14",
+ "fetched": "2026-11-09 15:37",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -58,21 +58,12 @@
   },
   {
    "date": "2026-11-16",
-   "time": "10:00 AM",
+   "time": "9:30 AM",
    "name": "CMWG Meeting - Webex Only",
    "body": "Congestion Management Working Group",
-   "location": "Webex",
+   "location": "(CANCELLED)",
    "url": "https://www.ercot.com/calendar/11162026-CMWG-Meeting-_-Webex",
    "key": true
-  },
-  {
-   "date": "2026-11-16",
-   "time": "9:30 AM",
-   "name": "DSWG Meeting - Webex Only",
-   "body": "Demand Side Working Group",
-   "location": "(CANCELLED) Tuesday, Nov 17, 2026",
-   "url": "https://www.ercot.com/calendar/11162026-DSWG-Meeting-_-Webex",
-   "key": false
   },
   {
    "date": "2026-11-17",
@@ -243,6 +234,24 @@
    "body": "Technology and Security Committee",
    "location": "ERCOT Austin",
    "url": "https://www.ercot.com/calendar/12072026-Technology-_-Security-Committee",
+   "key": false
+  },
+  {
+   "date": "2026-12-08",
+   "time": "9:30 AM",
+   "name": "Board of Directors Meeting",
+   "body": "Board of Directors",
+   "location": "ERCOT Austin",
+   "url": "https://www.ercot.com/calendar/12082026-Board-of-Directors-Meeting",
+   "key": true
+  },
+  {
+   "date": "2026-12-09",
+   "time": "9:30 AM",
+   "name": "SSWG Meeting - Webex Only",
+   "body": "Steady State Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/12092026-SSWG-Meeting-_-Webex",
    "key": false
   }
  ]

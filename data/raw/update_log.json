@@ -240,5 +240,16 @@
   "changes": [],
   "sources_ok": 7,
   "sources": 7
+ },
+ {
+  "at": "2026-11-09 15:37",
+  "changes": [
+   "NPRR1214 moved from PUCT to ",
+   "NPRR1301 moved from PUCT to ",
+   "NPRR1328 moved from PUCT to ",
+   "NPRR1335 moved from PUCT to "
+  ],
+  "sources_ok": 7,
+  "sources": 7
  }
 ]

@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-08 11:14",
+ "fetched": "2026-11-09 15:37",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -43,104 +43,6 @@
      "name": "956NPRR-01 Designation of Providers of Transmission Additions 070219",
      "url": "https://www.ercot.com/files/docs/2019/07/05/956NPRR-01_Designation_of_Providers_of_Transmission_Additions_070219.doc",
      "posted": "2019-07-05"
-    }
-   ]
-  },
-  {
-   "id": "NPRR1214",
-   "url": "https://www.ercot.com/mktrules/issues/NPRR1214",
-   "title": "Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
-   "next_group": "PUCT",
-   "next_step": "PUCT for consideration",
-   "status": "Pending",
-   "posted": "2023-12-07",
-   "sponsor": "Joint Sponsors",
-   "urgent": "No",
-   "description": "This Nodal Protocol Revision Request (NPRR) revises the Real-Time On-Line Reliability Deployment Price Adder (RTRDPA) to: send appropriate locational price signals to avoid counterproductive Load and Resource responses to RTRDPA price signals under Real-Time Co-optimization (RTC); limit Resource payment to the actual “indifference payment” (consistent with its definition), thereby reducing associated uplift by eliminating the future need for RTRDPA payments to Resources that exacerbate constraints and eliminating payments to available capacity not requiring an indifference payment; eliminate any future need for the Ancillary Service Imbalance Payments or Charges (ASIP/C) type of indifference payment associated with RTRDPA, thereby reducing the risk associated with providing Ancillary Services; provide Resources an indifference payment under RTC to eliminate the potentially large incentive to ignore Base Point instructions that would likely cause serious reliability issues; and provide a stronger locational price signal around Resources committed by the Reliability Unit Commitment (RUC) process or other reliability actions for congestion, thereby reducing RUC Make-Whole Payment-related charges and uplifts and appropriately compensating impacted Qualified Scheduling Entities (QSEs).",
-   "actions": [
-    {
-     "date": "2026-09-15",
-     "body": "BOARD",
-     "action": "Recommended for Approval",
-     "next": "PUCT for consideration"
-    },
-    {
-     "date": "2026-08-26",
-     "body": "TAC",
-     "action": "Recommended for Approval",
-     "next": "Board for consideration"
-    },
-    {
-     "date": "2026-08-12",
-     "body": "PRS",
-     "action": "Recommended for Approval",
-     "next": "TAC for consideration"
-    },
-    {
-     "date": "2026-07-15",
-     "body": "PRS",
-     "action": "Deferred/Tabled",
-     "next": "PRS for consideration"
-    },
-    {
-     "date": "2026-06-10",
-     "body": "PRS",
-     "action": "Recommended for Approval",
-     "next": "PRS for consideration"
-    },
-    {
-     "date": "2025-05-14",
-     "body": "PRS",
-     "action": "Deferred/Tabled",
-     "next": "PRS for consideration"
-    },
-    {
-     "date": "2025-04-09",
-     "body": "PRS",
-     "action": "Deferred/Tabled",
-     "next": "PRS for consideration"
-    },
-    {
-     "date": "2025-03-12",
-     "body": "PRS",
-     "action": "Recommended for Approval",
-     "next": "PRS for Impact Analysis consideration"
-    },
-    {
-     "date": "2024-01-11",
-     "body": "PRS",
-     "action": "Deferred/Tabled",
-     "next": "PRS for consideration"
-    }
-   ],
-   "document_count": 33,
-   "imm_documents": [
-    {
-     "name": "1214NPRR-24 IMM Comments 062226",
-     "url": "https://www.ercot.com/files/docs/2026/06/22/1214NPRR-24-IMM-Comments-062226.docx",
-     "posted": "2026-06-22"
-    }
-   ],
-   "latest_documents": [
-    {
-     "name": "1214NPRR-33 Board Report 091526",
-     "url": "https://www.ercot.com/files/docs/2026/09/15/1214NPRR-33-Board-Report-091526.docx",
-     "posted": "2026-09-15"
-    },
-    {
-     "name": "1214NPRR-31 TAC Ballot 082626",
-     "url": "https://www.ercot.com/files/docs/2026/08/27/1214NPRR-31-TAC-Ballot-082626.xls",
-     "posted": "2026-08-27"
-    },
-    {
-     "name": "1214NPRR-32 TAC Report 082626",
-     "url": "https://www.ercot.com/files/docs/2026/08/27/1214NPRR-32-TAC-Report-082626.docx",
-     "posted": "2026-08-27"
-    },
-    {
-     "name": "1214NPRR-29 PRS Ballot 081226",
-     "url": "https://www.ercot.com/files/docs/2026/08/13/1214NPRR-29-PRS-Ballot-081226.xls",
-     "posted": "2026-08-13"
     }
    ]
   },
@@ -494,80 +396,6 @@
      "name": "1296NPRR-16 IMM Comments 022426",
      "url": "https://www.ercot.com/files/docs/2026/02/24/1296NPRR-16-IMM-Comments-022426.docx",
      "posted": "2026-02-24"
-    }
-   ]
-  },
-  {
-   "id": "NPRR1301",
-   "url": "https://www.ercot.com/mktrules/issues/NPRR1301",
-   "title": "Align Protocols to Constraint Activation Procedure",
-   "next_group": "PUCT",
-   "next_step": "Revision Request Consideration",
-   "status": "Pending",
-   "posted": "2025-09-12",
-   "sponsor": "LCRA",
-   "urgent": "No",
-   "description": "This Nodal Protocol Revision Request (NPRR) aligns the Protocols to ERCOT’s Transmission Security and Operating Procedure for constraint activation.",
-   "actions": [
-    {
-     "date": "2026-09-15",
-     "body": "BOARD",
-     "action": "Recommended for Approval",
-     "next": "Revision Request Consideration"
-    },
-    {
-     "date": "2026-07-29",
-     "body": "TAC",
-     "action": "Recommended for Approval",
-     "next": "Revision Request Consideration"
-    },
-    {
-     "date": "2026-07-15",
-     "body": "PRS",
-     "action": "Recommended for Approval",
-     "next": "Revision Request Consideration"
-    },
-    {
-     "date": "2026-06-10",
-     "body": "PRS",
-     "action": "Recommended for Approval",
-     "next": "Impact Analysis Consideration"
-    },
-    {
-     "date": "2025-10-08",
-     "body": "PRS",
-     "action": "Deferred/Tabled",
-     "next": "Language Consideration"
-    }
-   ],
-   "document_count": 22,
-   "imm_documents": [
-    {
-     "name": "1301NPRR-17 IMM Comments 070926",
-     "url": "https://www.ercot.com/files/docs/2026/07/09/1301NPRR-17-IMM-Comments-070926.docx",
-     "posted": "2026-07-09"
-    }
-   ],
-   "latest_documents": [
-    {
-     "name": "1301NPRR-22 Board Report 091526",
-     "url": "https://www.ercot.com/files/docs/2026/09/17/1301NPRR-22-Board-Report-091526.docx",
-     "posted": "2026-09-17"
-    },
-    {
-     "name": "1301NPRR-20 TAC Ballot 072926",
-     "url": "https://www.ercot.com/files/docs/2026/07/31/1301NPRR-20-TAC-Ballot-072926.xls",
-     "posted": "2026-07-31"
-    },
-    {
-     "name": "1301NPRR-21 TAC Report 072926",
-     "url": "https://www.ercot.com/files/docs/2026/07/31/1301NPRR-21-TAC-Report-072926.docx",
-     "posted": "2026-07-31"
-    },
-    {
-     "name": "1301NPRR-18 PRS Ballot 071526",
-     "url": "https://www.ercot.com/files/docs/2026/07/16/1301NPRR-18-PRS-Ballot-071526.xls",
-     "posted": "2026-07-16"
     }
    ]
   },
@@ -956,68 +784,6 @@
    ]
   },
   {
-   "id": "NPRR1328",
-   "url": "https://www.ercot.com/mktrules/issues/NPRR1328",
-   "title": "Establishment of Generation Firming Program",
-   "next_group": "PUCT",
-   "next_step": "PUCT for consideration",
-   "status": "Pending",
-   "posted": "2026-04-02",
-   "sponsor": "ERCOT",
-   "urgent": "Yes",
-   "description": "This Nodal Protocol Revision Request (NPRR) incorporates the new Generation Firming Program requirements, as required by Public Utility Regulatory Act (PURA) § 39.1592 and the Public Utility Commission of Texas’ (PUCT) rule adopted in 16 Texas Administrative Code § 25.65. The obligation to participate in the Generation Firming Program applies to all Generation Resources with an original Standard Generation Interconnection Agreement (SGIA) executed on or after January 1, 2027, beginning one year after the Generation Resource’s Resource Commissioning Date. Such Generation Resources are required to operate, or be available to operate, at or above the Generation Resource’s Seasonal Average Generation Capability during the Low Operation Reserve Hours in each Firming Season. Generation Resources can satisfy this obligation either through their own performance or via a Firming Transfer with another eligible Resource. This NPRR provides details on the administration of the Generation Firming Program, including definitions, timing requirements, processes for submitting Firming Transfers to ERCOT, specific calculations for measuring performance and applying exemptions, and associated market-facing reporting.",
-   "actions": [
-    {
-     "date": "2026-09-15",
-     "body": "BOARD",
-     "action": "Recommended for Approval",
-     "next": "PUCT for consideration"
-    },
-    {
-     "date": "2026-07-29",
-     "body": "TAC",
-     "action": "Recommended for Approval",
-     "next": "Board for consideration"
-    },
-    {
-     "date": "2026-07-15",
-     "body": "PRS",
-     "action": "Recommended for Approval",
-     "next": "TAC for consideration"
-    },
-    {
-     "date": "2026-04-15",
-     "body": "PRS",
-     "action": "Deferred/Tabled",
-     "next": "PRS for consideration"
-    }
-   ],
-   "document_count": 20,
-   "imm_documents": [],
-   "latest_documents": [
-    {
-     "name": "1328NPRR-19 Board Report 091526",
-     "url": "https://www.ercot.com/files/docs/2026/09/15/1328NPRR-19-Board-Report-091526.docx",
-     "posted": "2026-09-15"
-    },
-    {
-     "name": "1328NPRR-17 TAC Ballot 072926",
-     "url": "https://www.ercot.com/files/docs/2026/07/30/1328NPRR-17-TAC-Ballot-072926.xls",
-     "posted": "2026-07-30"
-    },
-    {
-     "name": "1328NPRR-18 TAC Report 072926",
-     "url": "https://www.ercot.com/files/docs/2026/07/30/1328NPRR-18-TAC-Report-072926.docx",
-     "posted": "2026-07-30"
-    },
-    {
-     "name": "1328NPRR-15 PRS Ballot 071526",
-     "url": "https://www.ercot.com/files/docs/2026/07/15/1328NPRR-15-PRS-Ballot-071526.xls",
-     "posted": "2026-07-15"
-    }
-   ]
-  },
-  {
    "id": "NPRR1329",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1329",
    "title": "Resource Entity Requirements for Self-Limiting Facilities",
@@ -1300,68 +1066,6 @@
      "name": "1334NPRR-04 PRS Report 061026",
      "url": "https://www.ercot.com/files/docs/2026/06/15/1334NPRR-04-PRS-Report-061026.docx",
      "posted": "2026-06-15"
-    }
-   ]
-  },
-  {
-   "id": "NPRR1335",
-   "url": "https://www.ercot.com/mktrules/issues/NPRR1335",
-   "title": "Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
-   "next_group": "PUCT",
-   "next_step": "PUCT for consideration",
-   "status": "Pending",
-   "posted": "2026-05-26",
-   "sponsor": "ERCOT",
-   "urgent": "Yes",
-   "description": "This Nodal Protocol Revision Request (NPRR) aligns the Protocols with the Public Utility Commission of Texas’ (PUCT's) recent adoption of a rule to govern Firm Fuel Supply Service (FFSS): 16 Texas Administrative Code (TAC) § 25.520.",
-   "actions": [
-    {
-     "date": "2026-09-15",
-     "body": "BOARD",
-     "action": "Recommended for Approval",
-     "next": "PUCT for consideration"
-    },
-    {
-     "date": "2026-08-26",
-     "body": "TAC",
-     "action": "Recommended for Approval",
-     "next": "Board for consideration"
-    },
-    {
-     "date": "2026-08-12",
-     "body": "PRS",
-     "action": "Recommended for Approval",
-     "next": "TAC for consideration"
-    },
-    {
-     "date": "2026-06-10",
-     "body": "PRS",
-     "action": "Deferred/Tabled",
-     "next": "PRS for consideration"
-    }
-   ],
-   "document_count": 17,
-   "imm_documents": [],
-   "latest_documents": [
-    {
-     "name": "1335NPRR-17 Board Report 091526",
-     "url": "https://www.ercot.com/files/docs/2026/09/15/1335NPRR-17-Board-Report-091526.docx",
-     "posted": "2026-09-15"
-    },
-    {
-     "name": "1335NPRR-15 TAC Ballot 082626",
-     "url": "https://www.ercot.com/files/docs/2026/08/27/1335NPRR-15-TAC-Ballot-082626.xls",
-     "posted": "2026-08-27"
-    },
-    {
-     "name": "1335NPRR-16 TAC Report 082626",
-     "url": "https://www.ercot.com/files/docs/2026/08/27/1335NPRR-16-TAC-Report-082626.docx",
-     "posted": "2026-08-27"
-    },
-    {
-     "name": "1335NPRR-13 PRS Ballot 081226",
-     "url": "https://www.ercot.com/files/docs/2026/08/13/1335NPRR-13-PRS-Ballot-081226.xls",
-     "posted": "2026-08-13"
     }
    ]
   },
@@ -2239,6 +1943,326 @@
      "name": "1353NPRR-01 SCED Constraint and Shift Factor Reports 110526",
      "url": "https://www.ercot.com/files/docs/2026/11/05/1353NPRR-01-SCED-Constraint-and-Shift-Factor-Reports-110526.docx",
      "posted": "2026-11-05"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1335",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1335",
+   "title": "Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
+   "next_group": "",
+   "next_step": "",
+   "status": "Approved on 11/05/2026",
+   "posted": "2026-05-26",
+   "sponsor": "ERCOT",
+   "urgent": "Yes",
+   "description": "This Nodal Protocol Revision Request (NPRR) aligns the Protocols with the Public Utility Commission of Texas’ (PUCT's) recent adoption of a rule to govern Firm Fuel Supply Service (FFSS): 16 Texas Administrative Code (TAC) § 25.520.",
+   "actions": [
+    {
+     "date": "2026-11-05",
+     "body": "PUCT",
+     "action": "Approved",
+     "next": ""
+    },
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "PUCT for consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Board for consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "TAC for consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 18,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1335NPRR-18 PUCT Report 110526",
+     "url": "https://www.ercot.com/files/docs/2026/11/09/1335NPRR-18-PUCT-Report-110526.docx",
+     "posted": "2026-11-09"
+    },
+    {
+     "name": "1335NPRR-17 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/15/1335NPRR-17-Board-Report-091526.docx",
+     "posted": "2026-09-15"
+    },
+    {
+     "name": "1335NPRR-15 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/27/1335NPRR-15-TAC-Ballot-082626.xls",
+     "posted": "2026-08-27"
+    },
+    {
+     "name": "1335NPRR-16 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/27/1335NPRR-16-TAC-Report-082626.docx",
+     "posted": "2026-08-27"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1328",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1328",
+   "title": "Establishment of Generation Firming Program",
+   "next_group": "",
+   "next_step": "",
+   "status": "Approved on 11/05/2026",
+   "posted": "2026-04-02",
+   "sponsor": "ERCOT",
+   "urgent": "Yes",
+   "description": "This Nodal Protocol Revision Request (NPRR) incorporates the new Generation Firming Program requirements, as required by Public Utility Regulatory Act (PURA) § 39.1592 and the Public Utility Commission of Texas’ (PUCT) rule adopted in 16 Texas Administrative Code § 25.65. The obligation to participate in the Generation Firming Program applies to all Generation Resources with an original Standard Generation Interconnection Agreement (SGIA) executed on or after January 1, 2027, beginning one year after the Generation Resource’s Resource Commissioning Date. Such Generation Resources are required to operate, or be available to operate, at or above the Generation Resource’s Seasonal Average Generation Capability during the Low Operation Reserve Hours in each Firming Season. Generation Resources can satisfy this obligation either through their own performance or via a Firming Transfer with another eligible Resource. This NPRR provides details on the administration of the Generation Firming Program, including definitions, timing requirements, processes for submitting Firming Transfers to ERCOT, specific calculations for measuring performance and applying exemptions, and associated market-facing reporting.",
+   "actions": [
+    {
+     "date": "2026-11-05",
+     "body": "PUCT",
+     "action": "Approved",
+     "next": ""
+    },
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "PUCT for consideration"
+    },
+    {
+     "date": "2026-07-29",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Board for consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "TAC for consideration"
+    },
+    {
+     "date": "2026-04-15",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 21,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1328NPRR-20 PUCT Report 110526",
+     "url": "https://www.ercot.com/files/docs/2026/11/09/1328NPRR-20-PUCT-Report-110526.docx",
+     "posted": "2026-11-09"
+    },
+    {
+     "name": "1328NPRR-19 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/15/1328NPRR-19-Board-Report-091526.docx",
+     "posted": "2026-09-15"
+    },
+    {
+     "name": "1328NPRR-17 TAC Ballot 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/30/1328NPRR-17-TAC-Ballot-072926.xls",
+     "posted": "2026-07-30"
+    },
+    {
+     "name": "1328NPRR-18 TAC Report 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/30/1328NPRR-18-TAC-Report-072926.docx",
+     "posted": "2026-07-30"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1301",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1301",
+   "title": "Align Protocols to Constraint Activation Procedure",
+   "next_group": "",
+   "next_step": "",
+   "status": "Approved on 11/05/2026",
+   "posted": "2025-09-12",
+   "sponsor": "LCRA",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) aligns the Protocols to ERCOT’s Transmission Security and Operating Procedure for constraint activation.",
+   "actions": [
+    {
+     "date": "2026-11-05",
+     "body": "PUCT",
+     "action": "Approved",
+     "next": ""
+    },
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-29",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Impact Analysis Consideration"
+    },
+    {
+     "date": "2025-10-08",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Language Consideration"
+    }
+   ],
+   "document_count": 23,
+   "imm_documents": [
+    {
+     "name": "1301NPRR-17 IMM Comments 070926",
+     "url": "https://www.ercot.com/files/docs/2026/07/09/1301NPRR-17-IMM-Comments-070926.docx",
+     "posted": "2026-07-09"
+    }
+   ],
+   "latest_documents": [
+    {
+     "name": "1301NPRR-23 PUCT Report 110526",
+     "url": "https://www.ercot.com/files/docs/2026/11/09/1301NPRR-23-PUCT-Report-110526.docx",
+     "posted": "2026-11-09"
+    },
+    {
+     "name": "1301NPRR-22 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/17/1301NPRR-22-Board-Report-091526.docx",
+     "posted": "2026-09-17"
+    },
+    {
+     "name": "1301NPRR-20 TAC Ballot 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/31/1301NPRR-20-TAC-Ballot-072926.xls",
+     "posted": "2026-07-31"
+    },
+    {
+     "name": "1301NPRR-21 TAC Report 072926",
+     "url": "https://www.ercot.com/files/docs/2026/07/31/1301NPRR-21-TAC-Report-072926.docx",
+     "posted": "2026-07-31"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1214",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1214",
+   "title": "Reliability Deployment Price Adder Fix to Provide Locational Price Signals, Reduce Uplift and Risk",
+   "next_group": "",
+   "next_step": "",
+   "status": "Approved on 11/05/2026",
+   "posted": "2023-12-07",
+   "sponsor": "Joint Sponsors",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) revises the Real-Time On-Line Reliability Deployment Price Adder (RTRDPA) to: send appropriate locational price signals to avoid counterproductive Load and Resource responses to RTRDPA price signals under Real-Time Co-optimization (RTC); limit Resource payment to the actual “indifference payment” (consistent with its definition), thereby reducing associated uplift by eliminating the future need for RTRDPA payments to Resources that exacerbate constraints and eliminating payments to available capacity not requiring an indifference payment; eliminate any future need for the Ancillary Service Imbalance Payments or Charges (ASIP/C) type of indifference payment associated with RTRDPA, thereby reducing the risk associated with providing Ancillary Services; provide Resources an indifference payment under RTC to eliminate the potentially large incentive to ignore Base Point instructions that would likely cause serious reliability issues; and provide a stronger locational price signal around Resources committed by the Reliability Unit Commitment (RUC) process or other reliability actions for congestion, thereby reducing RUC Make-Whole Payment-related charges and uplifts and appropriately compensating impacted Qualified Scheduling Entities (QSEs).",
+   "actions": [
+    {
+     "date": "2026-11-05",
+     "body": "PUCT",
+     "action": "Approved",
+     "next": ""
+    },
+    {
+     "date": "2026-09-15",
+     "body": "BOARD",
+     "action": "Recommended for Approval",
+     "next": "PUCT for consideration"
+    },
+    {
+     "date": "2026-08-26",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Board for consideration"
+    },
+    {
+     "date": "2026-08-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "TAC for consideration"
+    },
+    {
+     "date": "2026-07-15",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    },
+    {
+     "date": "2026-06-10",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "PRS for consideration"
+    },
+    {
+     "date": "2025-05-14",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    },
+    {
+     "date": "2025-04-09",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    },
+    {
+     "date": "2025-03-12",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "PRS for Impact Analysis consideration"
+    },
+    {
+     "date": "2024-01-11",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 34,
+   "imm_documents": [
+    {
+     "name": "1214NPRR-24 IMM Comments 062226",
+     "url": "https://www.ercot.com/files/docs/2026/06/22/1214NPRR-24-IMM-Comments-062226.docx",
+     "posted": "2026-06-22"
+    }
+   ],
+   "latest_documents": [
+    {
+     "name": "1214NPRR-34 PUCT Report 110526",
+     "url": "https://www.ercot.com/files/docs/2026/11/09/1214NPRR-34-PUCT-Report-110526.docx",
+     "posted": "2026-11-09"
+    },
+    {
+     "name": "1214NPRR-33 Board Report 091526",
+     "url": "https://www.ercot.com/files/docs/2026/09/15/1214NPRR-33-Board-Report-091526.docx",
+     "posted": "2026-09-15"
+    },
+    {
+     "name": "1214NPRR-31 TAC Ballot 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/27/1214NPRR-31-TAC-Ballot-082626.xls",
+     "posted": "2026-08-27"
+    },
+    {
+     "name": "1214NPRR-32 TAC Report 082626",
+     "url": "https://www.ercot.com/files/docs/2026/08/27/1214NPRR-32-TAC-Report-082626.docx",
+     "posted": "2026-08-27"
     }
    ]
   }
