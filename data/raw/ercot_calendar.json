@@ -1,16 +1,7 @@
 {
- "fetched": "2026-11-09 15:37",
+ "fetched": "2026-11-10 12:48",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-11-09",
-   "time": "9:30 AM",
-   "name": "PLWG Meeting - Webex Only",
-   "body": "PLWG Meeting - Webex Only",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11092026-PLWG-Meeting-_-Webex",
-   "key": false
-  },
   {
    "date": "2026-11-10",
    "time": "1:00 PM",
@@ -252,6 +243,42 @@
    "body": "Steady State Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/12092026-SSWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-12-10",
+   "time": "9:00 AM",
+   "name": "OTWG Meeting - Webex Only",
+   "body": "Operations Training Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/12102026-OTWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-12-10",
+   "time": "9:30 AM",
+   "name": "BSWG Meeting - Webex Only",
+   "body": "Black Start Working Group",
+   "location": "",
+   "url": "https://www.ercot.com/calendar/12102026-BSWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-12-10",
+   "time": "9:30 AM",
+   "name": "DWG Meeting - Webex Only",
+   "body": "Dynamics Working Group",
+   "location": "",
+   "url": "https://www.ercot.com/calendar/12102026-DWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-12-10",
+   "time": "9:30 AM",
+   "name": "RMS Meeting - Webex Only",
+   "body": "Retail Market Subcommittee",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/12102026-RMS-Meeting-_-Webex",
    "key": false
   }
  ]

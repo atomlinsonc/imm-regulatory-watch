@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-09 15:36",
+ "fetched": "2026-11-10 12:47",
  "projects": {
   "34677": {
    "control": "34677",
@@ -4050,6 +4050,14 @@
      "type": "PL",
      "description": "ERCOT’S STATUS UPDATE REGARDING PROTOCOL VIOLATIONS RELATED TO LAUNCH OF REAL-TIME CO-OPTIMIZATION PLUS BATTERIES",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=309"
+    },
+    {
+     "item": 310,
+     "date": "2026-11-10",
+     "party": "ERCOT",
+     "type": "PRJ",
+     "description": "ERCOT’S REPORT ON DIRECT CURRENT TIE (DC TIE) ENERGY IMPORTS AND EXPORTS (NOVEMBER 2026)",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=310"
     }
    ],
    "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"

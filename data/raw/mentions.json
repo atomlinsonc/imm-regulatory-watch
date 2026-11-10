@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-09 15:37",
- "since": "2026-08-11",
- "documents_scanned": 285,
+ "fetched": "2026-11-10 12:48",
+ "since": "2026-08-12",
+ "documents_scanned": 240,
  "mentions": [
   {
    "item": 27,
@@ -338,42 +338,6 @@
     {
      "page": 64,
      "text": "The IMM identified two concerns with the original construction."
-    }
-   ]
-  },
-  {
-   "item": 31,
-   "date": "2026-08-11",
-   "party": "H-E-B, LP and South Texas Electric Cooperative, Inc.",
-   "type": "COM",
-   "description": "H-E-B, LP and South Texas Electric Cooperative, Inc.'s Joint Comments on the PFP",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=31",
-   "control": "58000",
-   "style": "Rulemaking to Update Wholesale and IOU Retail Transmission Cost Recovery in the ERCOT Region",
-   "mention_count": 1,
-   "pages": 9,
-   "snippets": [
-    {
-     "page": 3,
-     "text": "That further erodes the energy-only market because loads will game the system in more months, and decrease usage to avoid transmission costs, rather than in response to generation costs-a problem that has been highlighted by the Independent Market Monitor for many years."
-    }
-   ]
-  },
-  {
-   "item": 50,
-   "date": "2026-08-11",
-   "party": "Treaty Oak Clean Energy, LLC",
-   "type": "COM",
-   "description": "Treaty Oak Clean Energy, LLC Comments on Proposal for Publication",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=50",
-   "control": "58000",
-   "style": "Rulemaking to Update Wholesale and IOU Retail Transmission Cost Recovery in the ERCOT Region",
-   "mention_count": 1,
-   "pages": 13,
-   "snippets": [
-    {
-     "page": 8,
-     "text": "The Independent Market Monitor has repeatedly identified dynamic line rating as a top-priority tool for congestion management in ERCOT."
     }
    ]
   },
