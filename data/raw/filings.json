@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-10 12:47",
+ "fetched": "2026-11-11 12:51",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12788,6 +12788,46 @@
      "type": "EX",
      "description": "Applicants' Errata to Direct Testimony of Eldon Jensen and Updated Exhibit List",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=80"
+    },
+    {
+     "item": 81,
+     "date": "2026-11-10",
+     "party": "ONCOR ELECTRIC DELIVERY COMPANY LLC",
+     "type": "BR",
+     "description": "ONCOR ELECTRIC DELIVERY COMPANY LLC’S INITIAL BRIEF",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=81"
+    },
+    {
+     "item": 82,
+     "date": "2026-11-10",
+     "party": "UNITED COOPERATIVE SERVICES, INC.",
+     "type": "BR",
+     "description": "UNITED COOPERATIVE SERVICES’ INITIAL BRIEF",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=82"
+    },
+    {
+     "item": 83,
+     "date": "2026-11-10",
+     "party": "PUC MARKET ANALYSIS",
+     "type": "PL",
+     "description": "Commission Staff's Initial Brief",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=83"
+    },
+    {
+     "item": 84,
+     "date": "2026-11-10",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "BR",
+     "description": "Applicants' Initial Brief",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=84"
+    },
+    {
+     "item": 85,
+     "date": "2026-11-10",
+     "party": "ERCOT",
+     "type": "BR",
+     "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S INITIAL BRIEF",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=85"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"

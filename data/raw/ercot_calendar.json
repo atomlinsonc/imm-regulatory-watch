@@ -1,33 +1,15 @@
 {
- "fetched": "2026-11-10 12:48",
+ "fetched": "2026-11-11 12:53",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
-   "date": "2026-11-10",
-   "time": "1:00 PM",
-   "name": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
-   "body": "System Protection Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11102026-Q_A-Session-for-Submitting",
-   "key": false
-  },
-  {
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "time": "9:30 AM",
-   "name": "SPWG Meeting",
-   "body": "System Protection Working Group",
+   "name": "PRS Meeting",
+   "body": "Protocol Revisions Subcommittee",
    "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11102026-SPWG-Meeting",
-   "key": false
-  },
-  {
-   "date": "2026-11-10",
-   "time": "9:30 AM",
-   "name": "RMS Meeting",
-   "body": "Retail Market Subcommittee",
-   "location": "(CANCELLED) Wednesday, Nov 11, 2026",
-   "url": "https://www.ercot.com/calendar/11102026-RMS-Meeting",
-   "key": false
+   "url": "https://www.ercot.com/calendar/11112026-PRS-Meeting",
+   "key": true
   },
   {
    "date": "2026-11-12",
@@ -279,6 +261,15 @@
    "body": "Retail Market Subcommittee",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/12102026-RMS-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-12-11",
+   "time": "9:30 AM",
+   "name": "RIWG Meeting - Webex Only",
+   "body": "Resource Integration Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/12112026-RIWG-Meeting-_-Webex",
    "key": false
   }
  ]

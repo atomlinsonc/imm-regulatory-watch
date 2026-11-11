@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-10 12:48",
+ "fetched": "2026-11-11 12:53",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -656,7 +656,7 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 17,
+   "document_count": 18,
    "imm_documents": [
     {
      "name": "1343NPRR-09 IMM Comments 100226",
@@ -671,6 +671,11 @@
    ],
    "latest_documents": [
     {
+     "name": "1343NPRR-18 ERCOT Comments 111026",
+     "url": "https://www.ercot.com/files/docs/2026/11/10/1343NPRR-18-ERCOT-Comments-111026.docx",
+     "posted": "2026-11-10"
+    },
+    {
      "name": "1343NPRR-17 TCPA Comments 110326",
      "url": "https://www.ercot.com/files/docs/2026/11/03/1343NPRR-17-TCPA-Comments-110326.docx",
      "posted": "2026-11-03"
@@ -684,11 +689,6 @@
      "name": "1343NPRR-16 CFSG Comments 102126",
      "url": "https://www.ercot.com/files/docs/2026/10/21/1343NPRR-16-CFSG-Comments-102126.docx",
      "posted": "2026-10-21"
-    },
-    {
-     "name": "1343NPRR-13 PRS Ballot 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/19/1343NPRR-13-PRS-Ballot-101426.xls",
-     "posted": "2026-10-19"
     }
    ]
   },
@@ -992,9 +992,14 @@
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) revises the ERCOT Fee Schedule to permit a Resource Entity to designate a Qualified Scheduling Entity (QSE) representing one or more of its Resources to receive the Resource Entity’s weatherization inspection fee Invoice and make payment on the Resource Entity’s behalf.",
    "actions": [],
-   "document_count": 1,
+   "document_count": 2,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1352NPRR-02 ERCOT Comments 111026",
+     "url": "https://www.ercot.com/files/docs/2026/11/10/1352NPRR-02-ERCOT-Comments-111026.docx",
+     "posted": "2026-11-10"
+    },
     {
      "name": "1352NPRR-01 QSE Receipt and Payment of Weatherization Inspection Fee Invoices 102726",
      "url": "https://www.ercot.com/files/docs/2026/10/27/1352NPRR-01-QSE-Receipt-and-Payment-of-Weatherization-Inspection-Fee-Invoices-102726.docx",
