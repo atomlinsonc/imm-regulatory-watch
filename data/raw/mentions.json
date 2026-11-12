@@ -1,46 +1,8 @@
 {
- "fetched": "2026-11-11 12:53",
- "since": "2026-08-13",
- "documents_scanned": 245,
+ "fetched": "2026-11-12 13:05",
+ "since": "2026-08-14",
+ "documents_scanned": 241,
  "mentions": [
-  {
-   "item": 27,
-   "date": "2026-08-13",
-   "party": "PUC MARKET ANALYSIS",
-   "type": "MISC",
-   "description": "Staff's Response to the 2025 State of the Market Report",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=34677&itemNumber=27",
-   "control": "34677",
-   "style": "REPORTS OF THE INDEPENDENT MARKET MONITOR FOR THE ERCOT REGION",
-   "mention_count": 51,
-   "pages": 13,
-   "snippets": [
-    {
-     "page": 2,
-     "text": "24 Project-No.34611 - Reports ofthe IndependentMarketMonitorforthe ERCOTRegion Staff' s response to the 2025 State of the Market Report Background Each year, the Independent Market Monitor for the ERCOT power region (IMM) issues a report on the state of the electric wholesale markets."
-    },
-    {
-     "page": 2,
-     "text": "1 In this report, the IMM provides detailed analyses related to the efficiency and competitiveness ofthe markets and assesses whetheranyinappropriate incentives or market inefficiencies exist."
-    },
-    {
-     "page": 2,
-     "text": "If the IMM finds any such flaws, it must offer recommendations on how to address them."
-    },
-    {
-     "page": 2,
-     "text": "34677, and the IMM filed its 2025 SOM reporton May 31,2026.2 Starting in 2024 with the 2023 SOM Report, Staff has filed a response to the SOM to facilitate the commission's review of the report."
-    },
-    {
-     "page": 3,
-     "text": "34677 Staff's Response to the 2025 Stale of the Market Report Page 2 of 12 Summary of Staff's Positions on IMM Recommendations Rec."
-    },
-    {
-     "page": 3,
-     "text": "llary services based on shadow price of service 2015-1 Modify TCOS away from 4CP method Commission declare that the ASDCs must Support equal AORDC is no longer binding Neutral None Disagree None Additional analysis Neutral needed for cost and benefits Support IMM to monitor and Partially report Additional analysis Neutral needed for cost and benefits Support None Additional analysis Neutral needed for cost and benefits Protocol revision in Support progress Support Protocol revision Support SB 6 89th session Consider as part of review of §25.509 in P-59550 and before the 2026 R"
-    }
-   ]
-  },
   {
    "item": 28,
    "date": "2026-08-21",

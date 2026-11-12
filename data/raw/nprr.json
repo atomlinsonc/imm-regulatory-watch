@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-11 12:53",
+ "fetched": "2026-11-12 13:05",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -585,14 +585,20 @@
    "id": "NPRR1340",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1340",
    "title": "Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
-   "next_group": "PRS",
-   "next_step": "PRS for Impact Analysis consideration",
+   "next_group": "TAC",
+   "next_step": "TAC for consideration",
    "status": "Pending",
    "posted": "2026-05-29",
    "sponsor": "ERCOT",
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) adds Energy Storage Resource (ESR) participation to the Dispatchable Reliability Reserve Service (DRRS) Ancillary Service. In addition to eligible Off-Line Generation Resources and On-Line Generation Resources, this provides the framework for ESRs to provide DRRS. ESR participation in DRRS would only be permitted using the discharge capability, not the charging capability (i.e., positive High Sustained Limit (HSL)).",
    "actions": [
+    {
+     "date": "2026-11-11",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "TAC for consideration"
+    },
     {
      "date": "2026-10-14",
      "body": "PRS",
@@ -606,9 +612,19 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 25,
+   "document_count": 27,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1340NPRR-26 PRS Ballot 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/12/1340NPRR-26-PRS-Ballot-111126.xls",
+     "posted": "2026-11-12"
+    },
+    {
+     "name": "1340NPRR-27 PRS Report 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/12/1340NPRR-27-PRS-Report-111126.docx",
+     "posted": "2026-11-12"
+    },
     {
      "name": "1340NPRR-24 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/16/1340NPRR-24-PRS-Ballot-101426.xls",
@@ -618,16 +634,6 @@
      "name": "1340NPRR-25 PRS Report 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/16/1340NPRR-25-PRS-Report-101426.docx",
      "posted": "2026-10-16"
-    },
-    {
-     "name": "1340NPRR-23 Revised Impact Analysis 101326",
-     "url": "https://www.ercot.com/files/docs/2026/10/13/1340NPRR-23-Revised-Impact-Analysis-101326.docx",
-     "posted": "2026-10-13"
-    },
-    {
-     "name": "1340NPRR-21 WMS Ballot 100726",
-     "url": "https://www.ercot.com/files/docs/2026/10/08/1340NPRR-21-WMS-Ballot-100726.xls",
-     "posted": "2026-10-08"
     }
    ]
   },
@@ -985,16 +991,33 @@
    "url": "https://www.ercot.com/mktrules/issues/NPRR1352",
    "title": "QSE Receipt and Payment of Weatherization Inspection Fee Invoices",
    "next_group": "PRS",
-   "next_step": "PRS for language consideration",
+   "next_step": "PRS for consideration",
    "status": "Pending",
    "posted": "2026-10-27",
    "sponsor": "TCPA",
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) revises the ERCOT Fee Schedule to permit a Resource Entity to designate a Qualified Scheduling Entity (QSE) representing one or more of its Resources to receive the Resource Entity’s weatherization inspection fee Invoice and make payment on the Resource Entity’s behalf.",
-   "actions": [],
-   "document_count": 2,
+   "actions": [
+    {
+     "date": "2026-11-11",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "PRS for consideration"
+    }
+   ],
+   "document_count": 4,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1352NPRR-03 PRS Ballot 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/12/1352NPRR-03-PRS-Ballot-111126.xls",
+     "posted": "2026-11-12"
+    },
+    {
+     "name": "1352NPRR-04 PRS Report 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/12/1352NPRR-04-PRS-Report-111126.docx",
+     "posted": "2026-11-12"
+    },
     {
      "name": "1352NPRR-02 ERCOT Comments 111026",
      "url": "https://www.ercot.com/files/docs/2026/11/10/1352NPRR-02-ERCOT-Comments-111026.docx",

@@ -1,16 +1,7 @@
 {
- "fetched": "2026-11-11 12:53",
+ "fetched": "2026-11-12 13:05",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-11-11",
-   "time": "9:30 AM",
-   "name": "PRS Meeting",
-   "body": "Protocol Revisions Subcommittee",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11112026-PRS-Meeting",
-   "key": true
-  },
   {
    "date": "2026-11-12",
    "time": "9:00 AM",
@@ -51,9 +42,18 @@
    "date": "2026-11-18",
    "time": "2:00 PM",
    "name": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
-   "body": "Performance, Disturbance, Compliance Working Group",
+   "body": "Steady State Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11182026-Q_A-Session-for-Submitting",
+   "key": false
+  },
+  {
+   "date": "2026-11-18",
+   "time": "9:30 AM",
+   "name": "PDCWG Meeting - Webex Only",
+   "body": "Performance, Disturbance, Compliance Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11182026-PDCWG-Meeting-_-Webex",
    "key": false
   },
   {
@@ -72,15 +72,6 @@
    "body": "Steady State Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11182026-SSWG-Meeting-_-Webex",
-   "key": false
-  },
-  {
-   "date": "2026-11-18",
-   "time": "9:30 AM",
-   "name": "PDCWG Meeting - Webex Only",
-   "body": "Performance, Disturbance, Compliance Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11182026-PDCWG-Meeting-_-Webex",
    "key": false
   },
   {

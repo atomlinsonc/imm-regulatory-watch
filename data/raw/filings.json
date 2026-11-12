@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-11 12:51",
+ "fetched": "2026-11-12 13:04",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12102,6 +12102,22 @@
      "type": "PRJ",
      "description": "ERCOT UPDATES: BATCH ZERO VERIFICATION AND AUDIT PROCESS, DATA CENTER STATE AND COMMUNITY IMPACT RFI, AND MEDIUM LOAD RFI",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=78"
+    },
+    {
+     "item": 79,
+     "date": "2026-11-11",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=79"
+    },
+    {
+     "item": 80,
+     "date": "2026-11-12",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=80"
     }
    ],
    "style": "Review of ERCOT’s Interconnection Processes for Large Loads"
