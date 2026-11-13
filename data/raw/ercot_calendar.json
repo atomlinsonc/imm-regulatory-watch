@@ -1,16 +1,7 @@
 {
- "fetched": "2026-11-12 13:05",
+ "fetched": "2026-11-13 12:43",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-11-12",
-   "time": "9:00 AM",
-   "name": "OTWG Meeting - Webex Only",
-   "body": "Operations Training Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11122026-OTWG-Meeting-_-Webex",
-   "key": false
-  },
   {
    "date": "2026-11-13",
    "time": "9:30 AM",
@@ -42,7 +33,7 @@
    "date": "2026-11-18",
    "time": "2:00 PM",
    "name": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
-   "body": "Steady State Working Group",
+   "body": "Technical Advisory Committee",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11182026-Q_A-Session-for-Submitting",
    "key": false
@@ -59,20 +50,20 @@
   {
    "date": "2026-11-18",
    "time": "9:30 AM",
-   "name": "TAC Meeting",
-   "body": "Technical Advisory Committee",
-   "location": "ERCOT Austin and Webex",
-   "url": "https://www.ercot.com/calendar/11182026-TAC-Meeting",
-   "key": true
-  },
-  {
-   "date": "2026-11-18",
-   "time": "9:30 AM",
    "name": "SSWG Meeting - Webex Only",
    "body": "Steady State Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/11182026-SSWG-Meeting-_-Webex",
    "key": false
+  },
+  {
+   "date": "2026-11-18",
+   "time": "9:30 AM",
+   "name": "TAC Meeting",
+   "body": "Technical Advisory Committee",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/11182026-TAC-Meeting",
+   "key": true
   },
   {
    "date": "2026-11-19",

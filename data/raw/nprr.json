@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-12 13:05",
+ "fetched": "2026-11-13 12:43",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -641,14 +641,20 @@
    "id": "NPRR1343",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1343",
    "title": "Introduction of PTP Obligation Bid Fee in DAM",
-   "next_group": "PRS",
-   "next_step": "Impact Analysis Consideration",
+   "next_group": "TAC",
+   "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2026-06-30",
    "sponsor": "ERCOT",
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) proposes the introduction of a bid fee for each inefficient hourly Point-to-Point (PTP) Obligation bid in the Day-Ahead Market (DAM). The fee will be assessed per inefficient PTP hourly bid and will be modifiable. Changes to the fee will be recommended by WMS, approved by TAC, and communicated to Market Participants in advance of the DAM run in which the change will take effect.",
    "actions": [
+    {
+     "date": "2026-11-11",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-10-14",
      "body": "PRS",
@@ -662,7 +668,7 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 18,
+   "document_count": 20,
    "imm_documents": [
     {
      "name": "1343NPRR-09 IMM Comments 100226",
@@ -677,6 +683,16 @@
    ],
    "latest_documents": [
     {
+     "name": "1343NPRR-19 PRS Ballot 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/13/1343NPRR-19-PRS-Ballot-111126.xls",
+     "posted": "2026-11-13"
+    },
+    {
+     "name": "1343NPRR-20 PRS Report 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/13/1343NPRR-20-PRS-Report-111126.docx",
+     "posted": "2026-11-13"
+    },
+    {
      "name": "1343NPRR-18 ERCOT Comments 111026",
      "url": "https://www.ercot.com/files/docs/2026/11/10/1343NPRR-18-ERCOT-Comments-111026.docx",
      "posted": "2026-11-10"
@@ -685,16 +701,6 @@
      "name": "1343NPRR-17 TCPA Comments 110326",
      "url": "https://www.ercot.com/files/docs/2026/11/03/1343NPRR-17-TCPA-Comments-110326.docx",
      "posted": "2026-11-03"
-    },
-    {
-     "name": "1343NPRR-15 CFSG Ballot 102126",
-     "url": "https://www.ercot.com/files/docs/2026/10/21/1343NPRR-15-CFSG-Ballot-102126.xls",
-     "posted": "2026-10-21"
-    },
-    {
-     "name": "1343NPRR-16 CFSG Comments 102126",
-     "url": "https://www.ercot.com/files/docs/2026/10/21/1343NPRR-16-CFSG-Comments-102126.docx",
-     "posted": "2026-10-21"
     }
    ]
   },
@@ -829,9 +835,14 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 12,
+   "document_count": 13,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1348NPRR-13 Voltus Comments 111326",
+     "url": "https://www.ercot.com/files/docs/2026/11/13/1348NPRR-13-Voltus-Comments-111326.docx",
+     "posted": "2026-11-13"
+    },
     {
      "name": "1348NPRR-12 Google Comments 103026",
      "url": "https://www.ercot.com/files/docs/2026/10/30/1348NPRR-12-Google-Comments-103026.docx",
@@ -846,11 +857,6 @@
      "name": "1348NPRR-11 PRS Report 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/16/1348NPRR-11-PRS-Report-101426.docx",
      "posted": "2026-10-16"
-    },
-    {
-     "name": "1348NPRR-09 Gridmatic Comments 101326",
-     "url": "https://www.ercot.com/files/docs/2026/10/13/NPRR1348-09-Gridmatic-Comments-101326.docx",
-     "posted": "2026-10-13"
     }
    ]
   },
@@ -902,8 +908,8 @@
    "id": "NPRR1350",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1350",
    "title": "Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
-   "next_group": "PRS",
-   "next_step": "Impact Analysis Consideration",
+   "next_group": "TAC",
+   "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2026-09-29",
    "sponsor": "ERCOT",
@@ -911,15 +917,31 @@
    "description": "This Nodal Protocol Revision Request (NPRR) continues the automation of outdated email-based form submissions by Market Participants to ERCOT, facilitating streamlined digital processing of these submissions via the Market Participant Service Portal (MPSP). These previously emailed forms will now be entered by MPs directly into the new portal. The forms themselves will remain in the Protocols so that stakeholders can see a visual of the information they will be prompted to enter into the portal and make revisions to the forms as needed. This NPRR also adds a yes/no checkbox and response line to Form 22E, Notification of Suspension of Operations, and Form 22H, Notification of Change of Resource Designation, to indicate a change in Pre-Assigned Congestion Revenue Rights (PCRR) eligibility.",
    "actions": [
     {
+     "date": "2026-11-11",
+     "body": "PRS",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
+    {
      "date": "2026-10-14",
      "body": "PRS",
      "action": "Recommended for Approval",
      "next": "Impact Analysis Consideration"
     }
    ],
-   "document_count": 4,
+   "document_count": 6,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1350NPRR-05 PRS Ballot 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/13/1350NPRR-05-PRS-Ballot-111126.xls",
+     "posted": "2026-11-13"
+    },
+    {
+     "name": "1350NPRR-06 PRS Report 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/13/1350NPRR-06-PRS-Report-111126.docx",
+     "posted": "2026-11-13"
+    },
     {
      "name": "1350NPRR-03 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1350NPRR-03-PRS-Ballot-101426.xls",
@@ -929,16 +951,6 @@
      "name": "1350NPRR-04 PRS Report 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1350NPRR-04-PRS-Report-101426.docx",
      "posted": "2026-10-19"
-    },
-    {
-     "name": "1350NPRR-01 Revisions to Section 22 Attachments A through N for the MPSP 092926",
-     "url": "https://www.ercot.com/files/docs/2026/09/29/1350NPRR-01-Revisions-to-Section-22-Attachments-A-through-N-for-the-MPSP-092926.docx",
-     "posted": "2026-09-29"
-    },
-    {
-     "name": "1350NPRR-02 Impact Analysis 092926",
-     "url": "https://www.ercot.com/files/docs/2026/09/29/1350NPRR-02-Impact-Analysis-092926.docx",
-     "posted": "2026-09-29"
     }
    ]
   },

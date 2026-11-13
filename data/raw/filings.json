@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-12 13:04",
+ "fetched": "2026-11-13 12:42",
  "projects": {
   "34677": {
    "control": "34677",
@@ -4058,6 +4058,14 @@
      "type": "PRJ",
      "description": "ERCOT’S REPORT ON DIRECT CURRENT TIE (DC TIE) ENERGY IMPORTS AND EXPORTS (NOVEMBER 2026)",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=310"
+    },
+    {
+     "item": 311,
+     "date": "2026-11-13",
+     "party": "ERCOT",
+     "type": "PRJ",
+     "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC. REPORT FOR THE THIRD QUARTER OF 2026",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=311"
     }
    ],
    "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"
@@ -12118,6 +12126,22 @@
      "type": "PC",
      "description": "Public comment",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=80"
+    },
+    {
+     "item": 81,
+     "date": "2026-11-12",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=81"
+    },
+    {
+     "item": 82,
+     "date": "2026-11-12",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=82"
     }
    ],
    "style": "Review of ERCOT’s Interconnection Processes for Large Loads"
