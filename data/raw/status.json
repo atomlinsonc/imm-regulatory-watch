@@ -1,44 +1,44 @@
 {
  "puct_meetings": {
-  "last_attempt": "2026-11-13 12:41",
+  "last_attempt": "2026-11-14 11:16",
   "ok": true,
   "detail": "49 meetings listed, 5 agendas read",
-  "last_ok": "2026-11-13 12:41"
+  "last_ok": "2026-11-14 11:16"
  },
  "puct_filings": {
-  "last_attempt": "2026-11-13 12:42",
+  "last_attempt": "2026-11-14 11:16",
   "ok": true,
   "detail": "21 projects read",
-  "last_ok": "2026-11-13 12:42"
+  "last_ok": "2026-11-14 11:16"
  },
  "puct_memos": {
-  "last_attempt": "2026-11-13 12:42",
+  "last_attempt": "2026-11-14 11:17",
   "ok": true,
   "detail": "17 memos found",
-  "last_ok": "2026-11-13 12:42"
+  "last_ok": "2026-11-14 11:17"
  },
  "ercot_nprr": {
-  "last_attempt": "2026-11-13 12:43",
+  "last_attempt": "2026-11-14 11:18",
   "ok": true,
   "detail": "39 pending revision requests read",
-  "last_ok": "2026-11-13 12:43"
+  "last_ok": "2026-11-14 11:18"
  },
  "ercot_calendar": {
-  "last_attempt": "2026-11-13 12:43",
+  "last_attempt": "2026-11-14 11:18",
   "ok": true,
-  "detail": "28 upcoming events",
-  "last_ok": "2026-11-13 12:43"
+  "detail": "31 upcoming events",
+  "last_ok": "2026-11-14 11:18"
  },
  "tlo": {
-  "last_attempt": "2026-11-13 12:43",
+  "last_attempt": "2026-11-14 11:18",
   "ok": true,
   "detail": "0 hearings posted, 2 of 2 bill histories read",
-  "last_ok": "2026-11-13 12:43"
+  "last_ok": "2026-11-14 11:18"
  },
  "documents": {
-  "last_attempt": "2026-11-13 12:43",
+  "last_attempt": "2026-11-14 11:18",
   "ok": true,
   "detail": "240 filings read, 31 refer to the IMM",
-  "last_ok": "2026-11-13 12:43"
+  "last_ok": "2026-11-14 11:18"
  }
 }
