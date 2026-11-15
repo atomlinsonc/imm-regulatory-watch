@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-14 11:18",
+ "fetched": "2026-11-15 11:57",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -279,6 +279,24 @@
    "body": "Texas Standard Electronic Transactions/Load Profiling Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/12142026-TXSETLP-Meeting",
+   "key": false
+  },
+  {
+   "date": "2026-12-15",
+   "time": "9:30 AM",
+   "name": "RPG Meeting",
+   "body": "Regional Planning Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/12152026-RPG-Meeting",
+   "key": false
+  },
+  {
+   "date": "2026-12-15",
+   "time": "9:30 AM",
+   "name": "NDSWG Meeting - Webex Only",
+   "body": "Network Data Support Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/12152026-NDSWG-Meeting-_-Webex",
    "key": false
   }
  ]

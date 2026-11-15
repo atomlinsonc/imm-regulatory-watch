@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-14 11:17",
- "since": "2026-09-30",
- "dockets_checked": 21,
+ "fetched": "2026-11-15 11:57",
+ "since": "2026-10-01",
+ "dockets_checked": 18,
  "memos": [
   {
    "item": 85,
@@ -142,36 +142,6 @@
    "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59707&itemNumber=14",
    "control": "59707",
    "style": "PETITION OF MOMENTUM GENERATION PARK LLC APPEALING RATES CHARGED BY NORTHWEST HARRIS COUNTY MUNICIPAL UTILITY DISTRICT NO. 49 IN HARRIS COUNTY"
-  },
-  {
-   "item": 674,
-   "date": "2026-09-30",
-   "party": "PUC OPDM",
-   "type": "PL",
-   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58664&itemNumber=674",
-   "control": "58664",
-   "style": "APPLICATION OF SOUTHWESTERN PUBLIC SERVICE COMPANY TO AMEND ITS CERTIFICATE OF CONVENIENCE AND NECESSITY TO CONSTRUCT GENERATION RESOURCES AND ASSOCIATED FACILITIES IN TEXAS AND NEW MEXICO; FOR GOOD-CAUSE EXCEPTIONS; AND FOR RELATED RELIEF"
-  },
-  {
-   "item": 60,
-   "date": "2026-09-30",
-   "party": "PUC OPDM",
-   "type": "PRJ",
-   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59557&itemNumber=60",
-   "control": "59557",
-   "style": "STREAMLINED COMPLAINT PROCESS"
-  },
-  {
-   "item": 19,
-   "date": "2026-09-30",
-   "party": "PUC OPDM",
-   "type": "PL",
-   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59612&itemNumber=19",
-   "control": "59612",
-   "style": "PETITION OF TENASKA POWER SERVICES CO. FOR A DECLARATORY ORDER"
   }
  ]
 }
