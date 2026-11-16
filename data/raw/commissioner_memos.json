@@ -1,8 +1,18 @@
 {
- "fetched": "2026-11-15 11:57",
- "since": "2026-10-01",
+ "fetched": "2026-11-16 15:12",
+ "since": "2026-10-02",
  "dockets_checked": 18,
  "memos": [
+  {
+   "item": 86,
+   "date": "2026-11-16",
+   "party": "PUC OPDM",
+   "type": "PRJ",
+   "description": "COMMISSIONER JOHNSON RECUSAL MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=52761&itemNumber=86",
+   "control": "52761",
+   "style": "STATEMENTS REGARDING INTERNAL MANAGEMENT OF THE PUBLIC UTILITY COMMISSION"
+  },
   {
    "item": 85,
    "date": "2026-11-04",

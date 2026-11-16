@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-15 11:57",
+ "fetched": "2026-11-16 15:13",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -297,6 +297,24 @@
    "body": "Network Data Support Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/12152026-NDSWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-12-15",
+   "time": "9:30 AM",
+   "name": "PLWG Meeting",
+   "body": "Planning Working Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/12152026-PLWG-Meeting",
+   "key": false
+  },
+  {
+   "date": "2026-12-16",
+   "time": "9:30 AM",
+   "name": "PDCWG Meeting - Webex Only",
+   "body": "Performance, Disturbance, Compliance Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/12162026-PDCWG-Meeting-_-Webex",
    "key": false
   }
  ]

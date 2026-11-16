@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-15 11:56",
+ "fetched": "2026-11-16 15:12",
  "projects": {
   "34677": {
    "control": "34677",
@@ -4066,6 +4066,14 @@
      "type": "PRJ",
      "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC. REPORT FOR THE THIRD QUARTER OF 2026",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=311"
+    },
+    {
+     "item": 312,
+     "date": "2026-11-16",
+     "party": "ERCOT",
+     "type": "CONF",
+     "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC. REPORT FOR THE THIRD QUARTER OF 2026 - CONFIDENTIAL ATTACHMENTS",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=312"
     }
    ],
    "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"
