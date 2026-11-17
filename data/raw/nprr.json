@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-16 15:13",
+ "fetched": "2026-11-17 14:00",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -668,7 +668,7 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 21,
+   "document_count": 22,
    "imm_documents": [
     {
      "name": "1343NPRR-09 IMM Comments 100226",
@@ -683,6 +683,11 @@
    ],
    "latest_documents": [
     {
+     "name": "1343NPRR-22 Revised Impact Analysis 111726",
+     "url": "https://www.ercot.com/files/docs/2026/11/17/1343NPRR-22-Revised-Impact-Analysis-111726.docx",
+     "posted": "2026-11-17"
+    },
+    {
      "name": "1343NPRR-21 TCPA Comments 111626",
      "url": "https://www.ercot.com/files/docs/2026/11/16/1343NPRR-21-TCPA-Comments-111626.docx",
      "posted": "2026-11-16"
@@ -696,11 +701,6 @@
      "name": "1343NPRR-20 PRS Report 111126",
      "url": "https://www.ercot.com/files/docs/2026/11/13/1343NPRR-20-PRS-Report-111126.docx",
      "posted": "2026-11-13"
-    },
-    {
-     "name": "1343NPRR-18 ERCOT Comments 111026",
-     "url": "https://www.ercot.com/files/docs/2026/11/10/1343NPRR-18-ERCOT-Comments-111026.docx",
-     "posted": "2026-11-10"
     }
    ]
   },
@@ -967,15 +967,31 @@
    "description": "This Nodal Protocol Revision Request (NPRR) continues the automation of outdated email-based form submissions by Market Participants to ERCOT, facilitating streamlined digital processing of these submissions via the Market Participant Service Portal (MPSP). These previously emailed forms will now be entered by MPs directly into the new portal. The forms themselves will remain in the Protocols so that stakeholders can see a visual of the information they will be prompted to enter into the portal and make revisions to the forms as needed.",
    "actions": [
     {
+     "date": "2026-11-11",
+     "body": "PRS",
+     "action": "Deferred/Tabled",
+     "next": "Impact Analysis Consideration"
+    },
+    {
      "date": "2026-10-14",
      "body": "PRS",
      "action": "Recommended for Approval",
      "next": "Impact Analysis Consideration"
     }
    ],
-   "document_count": 5,
+   "document_count": 7,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1351NPRR-06 PRS Ballot 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/16/1351NPRR-06-PRS-Ballot-111126.xls",
+     "posted": "2026-11-16"
+    },
+    {
+     "name": "1351NPRR-07 PRS Report 111126",
+     "url": "https://www.ercot.com/files/docs/2026/11/16/1351NPRR-07-PRS-Report-111126.docx",
+     "posted": "2026-11-16"
+    },
     {
      "name": "1351NPRR-05 ERCOT Comments 110426",
      "url": "https://www.ercot.com/files/docs/2026/11/04/1351NPRR-05-ERCOT-Comments-110426.docx",
@@ -985,16 +1001,6 @@
      "name": "1351NPRR-03 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/19/1351NPRR-03-PRS-Ballot-101426.xls",
      "posted": "2026-10-19"
-    },
-    {
-     "name": "1351NPRR-04 PRS Report 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/19/1351NPRR-04-PRS-Report-101426.docx",
-     "posted": "2026-10-19"
-    },
-    {
-     "name": "1351NPRR-01 Revisions to Section 23 Forms for the MPSP 092926",
-     "url": "https://www.ercot.com/files/docs/2026/09/29/1351NPRR-01-Revisions-to-Section-23-Forms-for-the-MPSP-092926.docx",
-     "posted": "2026-09-29"
     }
    ]
   },

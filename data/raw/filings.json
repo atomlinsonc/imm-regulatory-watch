@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-16 15:12",
+ "fetched": "2026-11-17 13:59",
  "projects": {
   "34677": {
    "control": "34677",
@@ -4074,6 +4074,14 @@
      "type": "CONF",
      "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC. REPORT FOR THE THIRD QUARTER OF 2026 - CONFIDENTIAL ATTACHMENTS",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=312"
+    },
+    {
+     "item": 313,
+     "date": "2026-11-17",
+     "party": "ERCOT",
+     "type": "PL",
+     "description": "ERCOT’S MOTION FOR GOOD CAUSE EXCEPTIONS FOR DECEMBER 2026 CAPACITY, DEMAND, & RESERVES REPORT",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=313"
     }
    ],
    "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"
@@ -12150,6 +12158,14 @@
      "type": "PC",
      "description": "Public comment",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=82"
+    },
+    {
+     "item": 83,
+     "date": "2026-11-17",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=83"
     }
    ],
    "style": "Review of ERCOT’s Interconnection Processes for Large Loads"
@@ -12876,6 +12892,14 @@
      "type": "BR",
      "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S INITIAL BRIEF",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=85"
+    },
+    {
+     "item": 86,
+     "date": "2026-11-17",
+     "party": "UNITED COOPERATIVE SERVICES, INC.",
+     "type": "BR",
+     "description": "REPLY BRIEF",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=86"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"

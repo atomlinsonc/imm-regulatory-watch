@@ -1,19 +1,19 @@
 {
- "fetched": "2026-11-16 15:13",
+ "fetched": "2026-11-17 14:00",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
-   "date": "2026-11-16",
-   "time": "9:30 AM",
-   "name": "CMWG Meeting - Webex Only",
-   "body": "Congestion Management Working Group",
-   "location": "(CANCELLED)",
-   "url": "https://www.ercot.com/calendar/11162026-CMWG-Meeting-_-Webex",
-   "key": true
+   "date": "2026-11-17",
+   "time": "1:00 PM",
+   "name": "Batch/CTP Workshop 4a-CTP Planning Focus",
+   "body": "Network Data Support Working Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/11172026-Batch_CTP-Workshop-4a_CTP-Planning",
+   "key": false
   },
   {
    "date": "2026-11-17",
-   "time": "1:00 PM",
+   "time": "9:30 AM",
    "name": "TXSETLP Meeting",
    "body": "Texas Standard Electronic Transactions/Load Profiling Working Group",
    "location": "(CANCELLED)",
@@ -24,18 +24,9 @@
    "date": "2026-11-18",
    "time": "2:00 PM",
    "name": "Q&A Session for Submitting a Winter 2026-27 Declaration of Weather Preparedness",
-   "body": "Technical Advisory Committee",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11182026-Q_A-Session-for-Submitting",
-   "key": false
-  },
-  {
-   "date": "2026-11-18",
-   "time": "9:30 AM",
-   "name": "PDCWG Meeting - Webex Only",
    "body": "Performance, Disturbance, Compliance Working Group",
    "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11182026-PDCWG-Meeting-_-Webex",
+   "url": "https://www.ercot.com/calendar/11182026-Q_A-Session-for-Submitting",
    "key": false
   },
   {
@@ -55,6 +46,15 @@
    "location": "ERCOT Austin and Webex",
    "url": "https://www.ercot.com/calendar/11182026-TAC-Meeting",
    "key": true
+  },
+  {
+   "date": "2026-11-18",
+   "time": "9:30 AM",
+   "name": "PDCWG Meeting - Webex Only",
+   "body": "Performance, Disturbance, Compliance Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/11182026-PDCWG-Meeting-_-Webex",
+   "key": false
   },
   {
    "date": "2026-11-19",
@@ -316,6 +316,33 @@
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/12162026-PDCWG-Meeting-_-Webex",
    "key": false
+  },
+  {
+   "date": "2026-12-17",
+   "time": "2:00 PM",
+   "name": "TWG Meeting - Webex Only",
+   "body": "Technology Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/12172026-TWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-12-17",
+   "time": "9:30 AM",
+   "name": "LLWG Meeting",
+   "body": "Large Load Working Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/12172026-LLWG-Meeting",
+   "key": false
+  },
+  {
+   "date": "2026-12-17",
+   "time": "9:30 AM",
+   "name": "PUCT Meeting",
+   "body": "The Public Utility Commission of Texas",
+   "location": "Public Utility Commission of Texas: William B. Travis Building (Austin, TX) and Webex",
+   "url": "https://www.ercot.com/calendar/12172026-PUCT-Meeting",
+   "key": true
   }
  ]
 }
