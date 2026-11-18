@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-17 13:59",
+ "fetched": "2026-11-18 13:31",
  "projects": {
   "34677": {
    "control": "34677",
@@ -12166,6 +12166,14 @@
      "type": "PC",
      "description": "Public comment",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=83"
+    },
+    {
+     "item": 84,
+     "date": "2026-11-18",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=84"
     }
    ],
    "style": "Review of ERCOT’s Interconnection Processes for Large Loads"
@@ -12900,6 +12908,46 @@
      "type": "BR",
      "description": "REPLY BRIEF",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=86"
+    },
+    {
+     "item": 87,
+     "date": "2026-11-17",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=87"
+    },
+    {
+     "item": 88,
+     "date": "2026-11-17",
+     "party": "PUC MARKET ANALYSIS",
+     "type": "BR",
+     "description": "Commission Staff's Reply Brief",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=88"
+    },
+    {
+     "item": 89,
+     "date": "2026-11-17",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "BR",
+     "description": "Applicants' Reply Brief",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=89"
+    },
+    {
+     "item": 90,
+     "date": "2026-11-17",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "PL",
+     "description": "Applicants' Proposed Findings of Fact, Conclusions of Law, and Ordering Paragraphs",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=90"
+    },
+    {
+     "item": 91,
+     "date": "2026-11-17",
+     "party": "ERCOT",
+     "type": "BR",
+     "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S REPLY BRIEF",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=91"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
@@ -13581,7 +13629,7 @@
      "item": 5,
      "date": "2026-07-17",
      "party": "WILLOW SPRINGS WIND FARM, LLC",
-     "type": "MISC",
+     "type": "PL",
      "description": "WILLOW SPRINGS WIND FARM, LLC’S PROTECTIVE ORDER CERTIFICATIONS",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59943&itemNumber=5"
     },
