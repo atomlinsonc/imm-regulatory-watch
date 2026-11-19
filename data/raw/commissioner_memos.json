@@ -1,8 +1,58 @@
 {
- "fetched": "2026-11-18 13:31",
- "since": "2026-10-04",
- "dockets_checked": 20,
+ "fetched": "2026-11-19 13:36",
+ "since": "2026-10-05",
+ "dockets_checked": 25,
  "memos": [
+  {
+   "item": 42,
+   "date": "2026-11-18",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=60356&itemNumber=42",
+   "control": "60356",
+   "style": "MEDINA COUNTY POWER NR I, LLC'S COMPLAINT AND APPEAL OF THE DECISIONS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC."
+  },
+  {
+   "item": 32,
+   "date": "2026-11-18",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=60396&itemNumber=32",
+   "control": "60396",
+   "style": "COMPLAINT OF ROWAN STAMPEDE LLC AGAINST THE ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC."
+  },
+  {
+   "item": 32,
+   "date": "2026-11-18",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=60410&itemNumber=32",
+   "control": "60410",
+   "style": "MESQUITE H2, LLC COMPLAINT AND APPEAL OF THE DECISIONS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC."
+  },
+  {
+   "item": 26,
+   "date": "2026-11-18",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=60425&itemNumber=26",
+   "control": "60425",
+   "style": "COMPLAINT OF ACS DC HICKS FIELD ROAD, LLC AGAINST THE ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC."
+  },
+  {
+   "item": 25,
+   "date": "2026-11-18",
+   "party": "PUC OPDM",
+   "type": "PL",
+   "description": "CHAIRMAN THOMAS GLEESON MEMORANDUM",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=60431&itemNumber=25",
+   "control": "60431",
+   "style": "COMPLAINT OF SKYBOX DATACENTERS, LLC AGAINST THE ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC."
+  },
   {
    "item": 86,
    "date": "2026-11-16",

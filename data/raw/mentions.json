@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-18 13:32",
- "since": "2026-08-20",
- "documents_scanned": 238,
+ "fetched": "2026-11-19 13:37",
+ "since": "2026-08-21",
+ "documents_scanned": 229,
  "mentions": [
   {
    "item": 28,
@@ -136,96 +136,6 @@
     {
      "page": 34,
      "text": "ERCOT expects the trend of having higher available (online + offline) headroom capacity during night hours to continue 100% Credit and 1 Hour duration (IMM) Parameter Y (in %), W (in hours ) '."
-    }
-   ]
-  },
-  {
-   "item": 273,
-   "date": "2026-08-20",
-   "party": "HUNT ENERGY NETWORK L.L.C.",
-   "type": "COM",
-   "description": "Comments of Hunt Energy Network LLC.",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=273",
-   "control": "55999",
-   "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS",
-   "mention_count": 11,
-   "pages": 18,
-   "snippets": [
-    {
-     "page": 5,
-     "text": "he IMM has stated its preference for market-based solutions to resolving the missing money problem2 and yet opposes determining AS quantities that result from ERCOT's operational reliability goals.3 The graph below from the IMM' s 2025 SOM Report illustrates this issue: Figm'e 29: Annual Probability of Firm Load Shed vs Ente"
-    },
-    {
-     "page": 5,
-     "text": "i FE I 4h ESR 0.8 - * 0.7 i 0.6 140% increase \"Q £0.5- \\ ~0.4- ERCOT < 0 3 - -0% Firm Load Shed No additional Proposal Probability reliability value <~; 0.2 - A 0.1 - »-21 ji-0.0 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 ECRS+NSRS Average GW Procurement Source: Potomac Economics, 2025 State of the Market Reportfor the ERCOT Electricity Markets (June 2026), Figure 29 (Annual Probability of Firm Load Shed vs."
-    },
-    {
-     "page": 5,
-     "text": "The IMM recommended a less conservative standard, based on an annual firm load shed probability of 0.1."
-    },
-    {
-     "page": 5,
-     "text": "2„ Focus should be on shortage pricing and new products in-market where needed to provide revenue signals for new investment.\" IMM Report, ERCOT Board of Directors, Reliability and Markets Committee, Feb 9-10, 2026."
-    },
-    {
-     "page": 5,
-     "text": "3 The IMM would calibrate ECRS and Non-Spin to the probability of firm load shed rather than to the Watch-based criterion under which ERCOT operates, and estimates that ERCOT's proposal exceeds its own base case by approximately 140 percent."
-    },
-    {
-     "page": 5,
-     "text": "Potomac Economics, 2025 State of the Market Report for the ERCOT Electricity Markets (June 2026), Fig."
-    }
-   ]
-  },
-  {
-   "item": 275,
-   "date": "2026-08-20",
-   "party": "TIEC",
-   "type": "COM",
-   "description": "JOINT CONSUMERS’ COMMENTS REGARDING ERCOT’S REQUEST FOR GOOD CAUSE EXCEPTION FOR THE 2026 ANCILLARY SERVICES METHODOLOGY",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=275",
-   "control": "55999",
-   "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS",
-   "mention_count": 4,
-   "pages": 8,
-   "snippets": [
-    {
-     "page": 3,
-     "text": "The Independent Market Monitor (IMM) estimated that the 2026 methodology would procure approximately two gigawatts of Ancillary Services without reducing the probability of 1 August 27,2025 TAC Meeting at 3:27:06 https://ercot.new.swagit.com/videos/353857 (August 2025 TAC Meeting)."
-    },
-    {
-     "page": 4,
-     "text": "onfirms that ERCOT's conservative assumptions overstate reliability needs.7 Although ERCOT's request reflects its position that ECRS plus Non-Spin should at least equal Reg-Up plus RRS, Joint Consumers support the exception not because the posted quantities 4 IMM Memo on 2026 AS Methodology, at 2, available at https://www.ercot.com/calendar/08272025-TAC-Meeting, Item No."
-    },
-    {
-     "page": 5,
-     "text": "Joint Consumers and the IMM have consistently opposed that model as over-procuring Ancillary Services-particularly ECRS and Non-Spin, with no additional reliability benefit."
-    },
-    {
-     "page": 8,
-     "text": "Joint Consumers support the exception not because the posted quantities are optimal, but because denial would require immediate reversion to the corrected probabilistic model, which Joint Consumers and the IMM have consistently opposed as over-procuring ancillary services - particularly ECRS and Non-Spin - without any corresponding reliability benefit."
-    }
-   ]
-  },
-  {
-   "item": 277,
-   "date": "2026-08-20",
-   "party": "Goff Policy",
-   "type": "COM",
-   "description": "Goff Policy Comments on ERCOT's Request for Good Cause Exception for the 2026 Ancillary Services Methodology",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=277",
-   "control": "55999",
-   "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS",
-   "mention_count": 2,
-   "pages": 8,
-   "snippets": [
-    {
-     "page": 6,
-     "text": "We believe exploring an off-ramp is also in alignment with the perspective of both the market monitor and the Commission."
-    },
-    {
-     "page": 6,
-     "text": "At the September 2025 ERCOT Board of Directors meeting, Independent Market Monitor Jeff McDonald argued for model inputs that would result in lower ancillary service procurement, stating that ERCOT needs to determine \"what the off ramp is from conservative operations\" so the market does not remain in a state of over-procurement indefinitely."
     }
    ]
   },

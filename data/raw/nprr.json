@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-18 13:32",
+ "fetched": "2026-11-19 13:37",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -373,14 +373,20 @@
    "id": "NPRR1317",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1317",
    "title": "Creation of Non-Settled Generator (NSG) and Clarification of the Types, Usage, and Registration of Distributed Generation",
-   "next_group": "TAC",
-   "next_step": "Revision Request Consideration",
+   "next_group": "BOARD",
+   "next_step": "Board for consideration",
    "status": "Pending",
    "posted": "2025-12-19",
    "sponsor": "ERCOT",
    "urgent": "No",
    "description": "This NPRR clarifies the term “Distributed Generator” (DG) and, introduces the categories of “Distributed Generator,” which include: Unregistered Distributed Generator; Distribution Generation Resource; Settlement Only Distribution Energy Storage System; Settlement Only Distribution Generator; and Non-Settled Distribution Generator. This NPRR also clarifies the Resource Registration process for Resource Entities. Additionally, this NPRR updates DG interconnection, registration, and reporting requirements to ensure consistency throughout the ERCOT System as it relates to DG.",
    "actions": [
+    {
+     "date": "2026-11-18",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Board for consideration"
+    },
     {
      "date": "2026-10-28",
      "body": "TAC",
@@ -406,9 +412,19 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 25,
+   "document_count": 27,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1317NPRR-26 TAC Ballot 111826",
+     "url": "https://www.ercot.com/files/docs/2026/11/18/1317NPRR-26-TAC-Ballot-111826.xls",
+     "posted": "2026-11-18"
+    },
+    {
+     "name": "1317NPRR-27 TAC Report 111826",
+     "url": "https://www.ercot.com/files/docs/2026/11/18/1317NPRR-27-TAC-Report-111826.docx",
+     "posted": "2026-11-18"
+    },
     {
      "name": "1317NPRR-25 ERCOT Comments 110526",
      "url": "https://www.ercot.com/files/docs/2026/11/05/1317NPRR-25-ERCOT-Comments-110526.docx",
@@ -418,16 +434,6 @@
      "name": "1317NPRR-23 TAC Ballot 102826",
      "url": "https://www.ercot.com/files/docs/2026/10/29/1317NPRR-23-TAC-Ballot-102826.xls",
      "posted": "2026-10-29"
-    },
-    {
-     "name": "1317NPRR-24 TAC Report 102826",
-     "url": "https://www.ercot.com/files/docs/2026/10/29/1317NPRR-24-TAC-Report-102826.docx",
-     "posted": "2026-10-29"
-    },
-    {
-     "name": "1317NPRR-22 DCC Comments 102126",
-     "url": "https://www.ercot.com/files/docs/2026/10/21/1317NPRR-22-DCC-Comments-102126.docx",
-     "posted": "2026-10-21"
     }
    ]
   },
@@ -908,7 +914,7 @@
    "id": "NPRR1350",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1350",
    "title": "Revisions to Section 22 Attachments A through N for the Market Participant Service Portal (MPSP)",
-   "next_group": "TAC",
+   "next_group": "BOARD",
    "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2026-09-29",
@@ -916,6 +922,12 @@
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) continues the automation of outdated email-based form submissions by Market Participants to ERCOT, facilitating streamlined digital processing of these submissions via the Market Participant Service Portal (MPSP). These previously emailed forms will now be entered by MPs directly into the new portal. The forms themselves will remain in the Protocols so that stakeholders can see a visual of the information they will be prompted to enter into the portal and make revisions to the forms as needed. This NPRR also adds a yes/no checkbox and response line to Form 22E, Notification of Suspension of Operations, and Form 22H, Notification of Change of Resource Designation, to indicate a change in Pre-Assigned Congestion Revenue Rights (PCRR) eligibility.",
    "actions": [
+    {
+     "date": "2026-11-18",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-11-11",
      "body": "PRS",
@@ -929,9 +941,19 @@
      "next": "Impact Analysis Consideration"
     }
    ],
-   "document_count": 6,
+   "document_count": 8,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1350NPRR-07 TAC Ballot 111826",
+     "url": "https://www.ercot.com/files/docs/2026/11/18/1350NPRR-07-TAC-Ballot-111826.xls",
+     "posted": "2026-11-18"
+    },
+    {
+     "name": "1350NPRR-08 TAC Report 111826",
+     "url": "https://www.ercot.com/files/docs/2026/11/18/1350NPRR-08-TAC-Report-111826.docx",
+     "posted": "2026-11-18"
+    },
     {
      "name": "1350NPRR-05 PRS Ballot 111126",
      "url": "https://www.ercot.com/files/docs/2026/11/13/1350NPRR-05-PRS-Ballot-111126.xls",
@@ -941,16 +963,6 @@
      "name": "1350NPRR-06 PRS Report 111126",
      "url": "https://www.ercot.com/files/docs/2026/11/13/1350NPRR-06-PRS-Report-111126.docx",
      "posted": "2026-11-13"
-    },
-    {
-     "name": "1350NPRR-03 PRS Ballot 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/19/1350NPRR-03-PRS-Ballot-101426.xls",
-     "posted": "2026-10-19"
-    },
-    {
-     "name": "1350NPRR-04 PRS Report 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/19/1350NPRR-04-PRS-Report-101426.docx",
-     "posted": "2026-10-19"
     }
    ]
   },
