@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-19 13:36",
+ "fetched": "2026-11-20 13:14",
  "projects": {
   "34677": {
    "control": "34677",
@@ -4098,6 +4098,14 @@
      "type": "MISC",
      "description": "ACCESS TO AND NON-DISCLOSURE OF CONFIDENTIAL INFORMATION IN NON-CONTESTED PROCEEDINGS",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=315"
+    },
+    {
+     "item": 316,
+     "date": "2026-11-19",
+     "party": "PUC OPDM",
+     "type": "PL",
+     "description": "ORDER APPROVING APPOINTMENT OF ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC. CHIEF EXECUTIVE OFFICER AND COMPENSATION",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=55999&itemNumber=316"
     }
    ],
    "style": "REPORTS OF THE ELECTRIC RELIABILITY COUNCIL OF TEXAS"
@@ -5528,6 +5536,14 @@
      "type": "COM",
      "description": "TEBA and JPI Response Comments on Minimum Billing Demand Study",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=70"
+    },
+    {
+     "item": 71,
+     "date": "2026-11-19",
+     "party": "ONCOR ELECTRIC DELIVERY COMPANY LLC",
+     "type": "PRJ",
+     "description": "ONCOR ELECTRIC DELIVERY COMPANY LLC'S ANALYSIS OF RESIDENTIAL RATE IMPACTS FROM THE IMPLEMENTATION OF THE COMMISSION'S PROPOSAL FOR PUBLICATION IN THE DOCKET NO. 58000",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=71"
     }
    ],
    "style": "Rulemaking to Update Wholesale and IOU Retail Transmission Cost Recovery in the ERCOT Region"
@@ -10748,7 +10764,7 @@
      "item": 23,
      "date": "2026-07-27",
      "party": "ERCOT",
-     "type": "MISC",
+     "type": "PL",
      "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S PROTECTIVE ORDER CERTIFICATIONS",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59115&itemNumber=23"
     },
@@ -12980,6 +12996,14 @@
      "type": "BR",
      "description": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S REPLY BRIEF",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=91"
+    },
+    {
+     "item": 92,
+     "date": "2026-11-20",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=92"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
@@ -13669,7 +13693,7 @@
      "item": 6,
      "date": "2026-07-24",
      "party": "WILLOW SPRINGS WIND FARM, LLC",
-     "type": "MISC",
+     "type": "PL",
      "description": "Errata to Joint Application and Direct Testimony of Bharath Kumar Ravulapati",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59943&itemNumber=6"
     },

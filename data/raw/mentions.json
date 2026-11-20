@@ -1,34 +1,8 @@
 {
- "fetched": "2026-11-19 13:37",
- "since": "2026-08-21",
- "documents_scanned": 229,
+ "fetched": "2026-11-20 13:15",
+ "since": "2026-08-22",
+ "documents_scanned": 227,
  "mentions": [
-  {
-   "item": 28,
-   "date": "2026-08-21",
-   "party": "PUC MARKET ANALYSIS",
-   "type": "MISC",
-   "description": "Staff memo on ASDC design",
-   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=34677&itemNumber=28",
-   "control": "34677",
-   "style": "REPORTS OF THE INDEPENDENT MARKET MONITOR FOR THE ERCOT REGION",
-   "mention_count": 3,
-   "pages": 2,
-   "snippets": [
-    {
-     "page": 2,
-     "text": "34611 - Reports of the Independent Market Monitorfor the ERCOT Region Project No."
-    },
-    {
-     "page": 2,
-     "text": "48540 - Review of Real-Time Co-Optimization in the ERCOT Market At the Commission' s August 20,2026 open meeting, Commission Staff presented its response to the Independent Market Monitor's 2025 State ofthe ERCOT Market Report."
-    },
-    {
-     "page": 2,
-     "text": "Staff files this memorandum to memorialize the open meeting discussion, which further clarified that ERCOT, the Independent Market Monitor, and market participants may seek alterations to the ASDC design and are not constrained by the guidance the Commission provided in 2019."
-    }
-   ]
-  },
   {
    "item": 164,
    "date": "2026-09-21",

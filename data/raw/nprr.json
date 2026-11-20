@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-19 13:37",
+ "fetched": "2026-11-20 13:15",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -591,14 +591,20 @@
    "id": "NPRR1340",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1340",
    "title": "Dispatchable Reliability Reserve Service Ancillary Service with Energy Storage Resource Participation",
-   "next_group": "TAC",
-   "next_step": "TAC for consideration",
+   "next_group": "BOARD",
+   "next_step": "Board for consideration",
    "status": "Pending",
    "posted": "2026-05-29",
    "sponsor": "ERCOT",
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) adds Energy Storage Resource (ESR) participation to the Dispatchable Reliability Reserve Service (DRRS) Ancillary Service. In addition to eligible Off-Line Generation Resources and On-Line Generation Resources, this provides the framework for ESRs to provide DRRS. ESR participation in DRRS would only be permitted using the discharge capability, not the charging capability (i.e., positive High Sustained Limit (HSL)).",
    "actions": [
+    {
+     "date": "2026-11-18",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Board for consideration"
+    },
     {
      "date": "2026-11-11",
      "body": "PRS",
@@ -618,9 +624,19 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 27,
+   "document_count": 29,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1340NPRR-28 TAC Ballot 111826",
+     "url": "https://www.ercot.com/files/docs/2026/11/20/1340NPRR-28-TAC-Ballot-111826.xls",
+     "posted": "2026-11-20"
+    },
+    {
+     "name": "1340NPRR-29 TAC Report 111826",
+     "url": "https://www.ercot.com/files/docs/2026/11/20/1340NPRR-29-TAC-Report-111826.docx",
+     "posted": "2026-11-20"
+    },
     {
      "name": "1340NPRR-26 PRS Ballot 111126",
      "url": "https://www.ercot.com/files/docs/2026/11/12/1340NPRR-26-PRS-Ballot-111126.xls",
@@ -630,16 +646,6 @@
      "name": "1340NPRR-27 PRS Report 111126",
      "url": "https://www.ercot.com/files/docs/2026/11/12/1340NPRR-27-PRS-Report-111126.docx",
      "posted": "2026-11-12"
-    },
-    {
-     "name": "1340NPRR-24 PRS Ballot 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/16/1340NPRR-24-PRS-Ballot-101426.xls",
-     "posted": "2026-10-16"
-    },
-    {
-     "name": "1340NPRR-25 PRS Report 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/16/1340NPRR-25-PRS-Report-101426.docx",
-     "posted": "2026-10-16"
     }
    ]
   },
@@ -841,9 +847,14 @@
      "next": "PRS for consideration"
     }
    ],
-   "document_count": 13,
+   "document_count": 14,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1348NPRR-14 HGP Storage Comments 112026",
+     "url": "https://www.ercot.com/files/docs/2026/11/20/1348NPRR-14-HGP-Storage-Comments-112026.docx",
+     "posted": "2026-11-20"
+    },
     {
      "name": "1348NPRR-13 Voltus Comments 111326",
      "url": "https://www.ercot.com/files/docs/2026/11/13/1348NPRR-13-Voltus-Comments-111326.docx",
@@ -857,11 +868,6 @@
     {
      "name": "1348NPRR-10 PRS Ballot 101426",
      "url": "https://www.ercot.com/files/docs/2026/10/16/1348NPRR-10-PRS-Ballot-101426.xls",
-     "posted": "2026-10-16"
-    },
-    {
-     "name": "1348NPRR-11 PRS Report 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/16/1348NPRR-11-PRS-Report-101426.docx",
      "posted": "2026-10-16"
     }
    ]
