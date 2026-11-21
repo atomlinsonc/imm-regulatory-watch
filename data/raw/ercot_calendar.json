@@ -1,25 +1,7 @@
 {
- "fetched": "2026-11-20 13:15",
+ "fetched": "2026-11-21 12:11",
  "source": "https://www.ercot.com/calendar",
  "events": [
-  {
-   "date": "2026-11-20",
-   "time": "9:30 AM",
-   "name": "SAWG Meeting - Webex Only",
-   "body": "Supply Analysis Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11202026-SAWG-Meeting-_-Webex",
-   "key": false
-  },
-  {
-   "date": "2026-11-20",
-   "time": "9:30 AM",
-   "name": "IBRWG Meeting - Webex Only",
-   "body": "IBRWG Inverter-Based Resource Working Group",
-   "location": "Webex",
-   "url": "https://www.ercot.com/calendar/11202026-IBRWG-Meeting-_-Webex",
-   "key": false
-  },
   {
    "date": "2026-11-23",
    "time": "11:00 AM",

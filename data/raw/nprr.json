@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-20 13:15",
+ "fetched": "2026-11-21 12:11",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -653,7 +653,7 @@
    "id": "NPRR1343",
    "url": "https://www.ercot.com/mktrules/issues/NPRR1343",
    "title": "Introduction of PTP Obligation Bid Fee in DAM",
-   "next_group": "TAC",
+   "next_group": "BOARD",
    "next_step": "Revision Request Consideration",
    "status": "Pending",
    "posted": "2026-06-30",
@@ -661,6 +661,12 @@
    "urgent": "No",
    "description": "This Nodal Protocol Revision Request (NPRR) proposes the introduction of a bid fee for each inefficient hourly Point-to-Point (PTP) Obligation bid in the Day-Ahead Market (DAM). The fee will be assessed per inefficient PTP hourly bid and will be modifiable. Changes to the fee will be recommended by WMS, approved by TAC, and communicated to Market Participants in advance of the DAM run in which the change will take effect.",
    "actions": [
+    {
+     "date": "2026-11-18",
+     "body": "TAC",
+     "action": "Recommended for Approval",
+     "next": "Revision Request Consideration"
+    },
     {
      "date": "2026-11-11",
      "body": "PRS",
@@ -680,7 +686,7 @@
      "next": "Language Consideration"
     }
    ],
-   "document_count": 22,
+   "document_count": 24,
    "imm_documents": [
     {
      "name": "1343NPRR-09 IMM Comments 100226",
@@ -695,6 +701,16 @@
    ],
    "latest_documents": [
     {
+     "name": "1343NPRR-23 TAC Ballot 111826",
+     "url": "https://www.ercot.com/files/docs/2026/11/20/1343NPRR-23-TAC-Ballot-111826.xls",
+     "posted": "2026-11-20"
+    },
+    {
+     "name": "1343NPRR-24 TAC Report 111826",
+     "url": "https://www.ercot.com/files/docs/2026/11/20/1343NPRR-24-TAC-Report-111826.docx",
+     "posted": "2026-11-20"
+    },
+    {
      "name": "1343NPRR-22 Revised Impact Analysis 111726",
      "url": "https://www.ercot.com/files/docs/2026/11/17/1343NPRR-22-Revised-Impact-Analysis-111726.docx",
      "posted": "2026-11-17"
@@ -703,16 +719,6 @@
      "name": "1343NPRR-21 TCPA Comments 111626",
      "url": "https://www.ercot.com/files/docs/2026/11/16/1343NPRR-21-TCPA-Comments-111626.docx",
      "posted": "2026-11-16"
-    },
-    {
-     "name": "1343NPRR-19 PRS Ballot 111126",
-     "url": "https://www.ercot.com/files/docs/2026/11/13/1343NPRR-19-PRS-Ballot-111126.xls",
-     "posted": "2026-11-13"
-    },
-    {
-     "name": "1343NPRR-20 PRS Report 111126",
-     "url": "https://www.ercot.com/files/docs/2026/11/13/1343NPRR-20-PRS-Report-111126.docx",
-     "posted": "2026-11-13"
     }
    ]
   },
@@ -997,9 +1003,14 @@
      "next": "Impact Analysis Consideration"
     }
    ],
-   "document_count": 7,
+   "document_count": 8,
    "imm_documents": [],
    "latest_documents": [
+    {
+     "name": "1351NPRR-08 Vistra Comments 112026",
+     "url": "https://www.ercot.com/files/docs/2026/11/20/1351NPRR-08-Vistra-Comments-112026.docx",
+     "posted": "2026-11-20"
+    },
     {
      "name": "1351NPRR-06 PRS Ballot 111126",
      "url": "https://www.ercot.com/files/docs/2026/11/16/1351NPRR-06-PRS-Ballot-111126.xls",
@@ -1014,11 +1025,6 @@
      "name": "1351NPRR-05 ERCOT Comments 110426",
      "url": "https://www.ercot.com/files/docs/2026/11/04/1351NPRR-05-ERCOT-Comments-110426.docx",
      "posted": "2026-11-04"
-    },
-    {
-     "name": "1351NPRR-03 PRS Ballot 101426",
-     "url": "https://www.ercot.com/files/docs/2026/10/19/1351NPRR-03-PRS-Ballot-101426.xls",
-     "posted": "2026-10-19"
     }
    ]
   },

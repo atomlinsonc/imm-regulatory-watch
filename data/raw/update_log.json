@@ -359,5 +359,13 @@
   ],
   "sources_ok": 7,
   "sources": 7
+ },
+ {
+  "at": "2026-11-21 12:11",
+  "changes": [
+   "NPRR1343 moved from TAC to BOARD"
+  ],
+  "sources_ok": 7,
+  "sources": 7
  }
 ]
