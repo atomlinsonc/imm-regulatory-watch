@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-22 12:39",
+ "fetched": "2026-11-23 16:54",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
@@ -180,6 +180,15 @@
    "body": "Network Data Support Working Group",
    "location": "Webex",
    "url": "https://www.ercot.com/calendar/12152026-NDSWG-Meeting-_-Webex",
+   "key": false
+  },
+  {
+   "date": "2026-12-16",
+   "time": "1:00 PM",
+   "name": "Future-Ready Identity and Access Management (IAM) and Market Participant Service Portal (MPSP) Workshop 2",
+   "body": "Performance, Disturbance, Compliance Working Group",
+   "location": "ERCOT Austin and Webex",
+   "url": "https://www.ercot.com/calendar/12162026-Future_Ready-Identity-and-Access",
    "key": false
   },
   {
