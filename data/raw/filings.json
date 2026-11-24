@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-23 16:52",
+ "fetched": "2026-11-24 15:27",
  "projects": {
   "34677": {
    "control": "34677",
@@ -4681,6 +4681,14 @@
      "type": "PRJ",
      "description": "ONCOR ELECTRIC DELIVERY COMPANY LLC'S ANALYSIS OF RESIDENTIAL RATE IMPACTS FROM THE IMPLEMENTATION OF THE COMMISSION'S PROPOSAL FOR PUBLICATION IN THE DOCKET NO. 58000",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=71"
+    },
+    {
+     "item": 72,
+     "date": "2026-11-24",
+     "party": "PUC RULES & PROJECTS",
+     "type": "PRJ",
+     "description": "Staff Memo with Proposed Redline Rule Language",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=72"
     }
    ],
    "style": "Rulemaking to Update Wholesale and IOU Retail Transmission Cost Recovery in the ERCOT Region"
@@ -9931,7 +9939,7 @@
      "item": 36,
      "date": "2026-07-24",
      "party": "UNITED COOPERATIVE SERVICES",
-     "type": "RFI",
+     "type": "PL",
      "description": "United Cooperative Services’ Withdrawal of Motion to Compel Response to Request for Information 1-14",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=36"
     },
@@ -9955,7 +9963,7 @@
      "item": 39,
      "date": "2026-07-28",
      "party": "COMANCHE PEAK POWER COMPANY LLC",
-     "type": "RFI",
+     "type": "PL",
      "description": "Comanche Peak Power Company LLC’s Supplemental Response to United Cooperative Services’ First Request for Information - Redacted",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=39"
     },
@@ -10384,7 +10392,7 @@
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=92"
     }
    ],
-   "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation"
+   "style": "Application for Comanche Peak Power Company LLC and Amazon Data Services, Inc. for Approval of a Net Metering Arrangement"
   },
   "59523": {
    "control": "59523",

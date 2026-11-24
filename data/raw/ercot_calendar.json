@@ -1,15 +1,15 @@
 {
- "fetched": "2026-11-23 16:54",
+ "fetched": "2026-11-24 15:29",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "time": "11:00 AM",
-   "name": "WMWG Meeting - Webex Only",
-   "body": "Wholesale Market Working Group",
-   "location": "(CANCELLED) Tuesday, Nov 24, 2026",
-   "url": "https://www.ercot.com/calendar/11232026-WMWG-Meeting-_-Webex",
-   "key": true
+   "name": "OWG Meeting - Webex Only",
+   "body": "Operations Working Group",
+   "location": "(CANCELLED) Thursday, Nov 26, 2026",
+   "url": "https://www.ercot.com/calendar/11242026-OWG-Meeting-_-Webex",
+   "key": false
   },
   {
    "date": "2026-12-02",
@@ -109,6 +109,15 @@
    "location": "(CANCELLED) Friday, Dec 11, 2026",
    "url": "https://www.ercot.com/calendar/12102026-RMS-Meeting-_-Webex",
    "key": false
+  },
+  {
+   "date": "2026-12-11",
+   "time": "9:30 AM",
+   "name": "WMWG Meeting",
+   "body": "Wholesale Market Working Group",
+   "location": "Webex",
+   "url": "https://www.ercot.com/calendar/12112026-WMWG-Meeting",
+   "key": true
   },
   {
    "date": "2026-12-14",

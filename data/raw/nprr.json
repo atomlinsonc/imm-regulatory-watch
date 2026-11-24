@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-23 16:54",
+ "fetched": "2026-11-24 15:29",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -1091,6 +1091,60 @@
      "name": "1353NPRR-01 SCED Constraint and Shift Factor Reports 110526",
      "url": "https://www.ercot.com/files/docs/2026/11/05/1353NPRR-01-SCED-Constraint-and-Shift-Factor-Reports-110526.docx",
      "posted": "2026-11-05"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1354",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1354",
+   "title": "General Improvements to the Firm Fuel Supply Service",
+   "next_group": "PRS",
+   "next_step": "PRS for language consideration",
+   "status": "Pending",
+   "posted": "2026-11-24",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) makes general improvements to the Firm Fuel Supply Service (FFSS) based on lessons learned from initial implementation and the first FFSS Obligation Period under Phase 3. One of the primary improvements is that it allows a Qualified Scheduling Entity (QSE) to restore an FFSS Resource’s (FFSSR’s) emissions credits or permit allowances after its third FFSS deployment, either by purchasing additional allowances or by reallocating existing allowances from other Resources in the QSE’s fleet, with ERCOT approval and control room notifications. It also creates new Section 6.6.14.2, Firm Fuel Supply Service Emissions Credits or Permit Allowance Replacement Costs Recovery, so these costs are recovered and reported separately from fuel replacement costs. The NPRR also revises timelines and program requirements in Section 3.14.5, Firm Fuel Supply Service. A QSE must give 24 hours’ notice, instead of six, before it exhausts its emissions credits or permit allowances. ERCOT’s deployment report to the Technical Advisory Committee is due 50 days, instead of 45, after the end of the FFSS Obligation Period. Alternate FFSSRs must share the same substation and the same pipeline and storage system as the primary Resource, and the NPRR adds ERCOT audit and site-access provisions. Section 8.1.1.2.1.6, Firm Fuel Supply Service Resource Qualification, Testing, Decertification, and Recertification, is clarified so that an FFSSR is not subject to Hourly Standby Fee claw back or withholding for unavailability after exhausting its fuel or emissions credits or permit allowance. The NPRR also clarifies decertification timing and the process for replacement of decertified capacity. The NPRR revises Section 22, Attachment F, Firm Fuel Supply Service Agreement, to streamline certain aspects. The Agreement becomes effective when the last Party signs it, and its term runs through the FFSS Obligation Period End Date. References to subsection (c)(2) of 16 Texas Administrative Code § 25.52 are removed in order to allow for alternate means of designation as a Critical Natural Gas Facility under subsection (h)(2). The NPRR also adds the Firm Gas Storage Agreement requirement for contractual off-site Resources, aligns the language with current Protocols, PURA, and PUCT rules, and makes other clean-up edits. The NPRR does not change the FFSS Offer Cap methodology or the eligibility, qualification, or performance requirements for Resources providing FFSS.",
+   "actions": [],
+   "document_count": 2,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1354NPRR-01 General Improvements to the Firm Fuel Supply Service 112426",
+     "url": "https://www.ercot.com/files/docs/2026/11/24/1354NPRR-01-General-Improvements-to-the-Firm-Fuel-Supply-Service-112426.docx",
+     "posted": "2026-11-24"
+    },
+    {
+     "name": "1354NPRR-02 Impact Analysis 112426",
+     "url": "https://www.ercot.com/files/docs/2026/11/24/1354NPRR-02-Impact-Analysis-112426.docx",
+     "posted": "2026-11-24"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1355",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1355",
+   "title": "Implementation of Electronic Real-Time Operations Communications",
+   "next_group": "PRS",
+   "next_step": "Language Consideration",
+   "status": "Pending",
+   "posted": "2026-11-24",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) addresses the implementation of an electronic Real-Time operations communication tool under System Change Request (SCR) 820, Operator Real-Time Messaging During Emergency, which facilitated the development of the system/tool without revising the Protocols. Therefore, this NPRR (together with companion NOGRR292) makes the revisions needed for SCR820's implementation. This NPRR: 1) Adds the new, defined term \"Electronic Real-Time Operations Communications\"; 2) Updates references that currently require verbal/voice/Hotline notifications such that these obligations will no longer be tied exclusively to these methods; and 3) Adds Electronic Real-Time Operations Communications as a recognized communication channel for each Qualified Scheduling Entity (QSE), Data Agent-Only QSE, and Transmission Operator (TO).",
+   "actions": [],
+   "document_count": 2,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1355NPRR-01 Implementation of Electronic Real-Time Operations Communications 112426",
+     "url": "https://www.ercot.com/files/docs/2026/11/24/1355NPRR-01-Implementation-of-Electronic-Real-Time-Operations-Communications-112426.docx",
+     "posted": "2026-11-24"
+    },
+    {
+     "name": "1355NPRR-02 Impact Analysis 112426",
+     "url": "https://www.ercot.com/files/docs/2026/11/24/1355NPRR-02-Impact-Analysis-112426.docx",
+     "posted": "2026-11-24"
     }
    ]
   },

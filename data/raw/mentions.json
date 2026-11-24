@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-23 16:54",
- "since": "2026-08-25",
- "documents_scanned": 212,
+ "fetched": "2026-11-24 15:29",
+ "since": "2026-08-26",
+ "documents_scanned": 208,
  "mentions": [
   {
    "item": 164,
@@ -475,7 +475,7 @@
    "description": "Direct Testimony of William Bojorquez",
    "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=57",
    "control": "59399",
-   "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation",
+   "style": "Application for Comanche Peak Power Company LLC and Amazon Data Services, Inc. for Approval of a Net Metering Arrangement",
    "mention_count": 3,
    "pages": 94,
    "snippets": [
@@ -501,7 +501,7 @@
    "description": "Applicants' Joint Exhibit List and Exhibits",
    "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=75",
    "control": "59399",
-   "style": "Application for Comanche Peak Power Company LLC for Approval of a Net Metering Arrangement Implementation",
+   "style": "Application for Comanche Peak Power Company LLC and Amazon Data Services, Inc. for Approval of a Net Metering Arrangement",
    "mention_count": 3,
    "pages": 430,
    "snippets": [

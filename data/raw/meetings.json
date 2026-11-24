@@ -1,13 +1,415 @@
 {
- "fetched": "2026-11-23 16:52",
+ "fetched": "2026-11-24 15:27",
  "source": "https://www.puc.texas.gov/agency/calendar/openmeetings/",
  "meetings": [
   {
    "date": "2026-12-03",
-   "agenda_url": "https://ftp.puc.texas.gov/public/puct-info/agency/om/120326Final.pdf",
+   "agenda_url": "https://ftp.puc.texas.gov/public/puct-info/agency/om/120326Final2.pdf",
    "video_url": "https://www.adminmonitor.com/tx/puct/open_meeting/20261203/",
-   "error": "Cannot read an empty file",
-   "items": []
+   "consent": [],
+   "not_taken_up": [],
+   "items": [
+    {
+     "num": 1,
+     "section": "Public Comment",
+     "subsection": "",
+     "kind": "",
+     "control": "",
+     "title": "The Commission will receive comments from the public on any matters within the jurisdiction of the Public Utility Commission of Texas in accordance with Utilities Code Section 12.202, except for pending items related to contested cases, which are subject t o the ex parte prohibition found in Texas Government Code Section 2001.061. In the interest of time, speakers will be limited to three minutes each",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 2,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "55969",
+     "title": "Application of Beulah Water Supply Corporation to Amend and Decertify a Portion of Its Certificate of Convenience and Necessity in Angelina County",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 3,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "56617",
+     "title": "Compliance Filing for Docket No. 54947 (Application of Emerald Hills Water for a Certificate of Convenience and Necessity in San Patricio County)",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 4,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "56753",
+     "title": "Petition of Stonetown Spring Oaks Utilities, LLC, Stonetown Windfern Utilities, LLC, and Stonetown Royal Coach Utilities, LLC to Cancel Certificates of Convenience and Necessity in Harris County",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 5,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "59072",
+     "title": "A customer’s appeal of the Cost of Obtaining Service from View-Caps Water Supply Corporation",
+     "requested_action": "Preliminary Order",
+     "staff": ""
+    },
+    {
+     "num": 6,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "59366",
+     "title": "Complaint of a customer against Undine Texas, LLC and Undine Texas Environmental, LLC",
+     "requested_action": "Preliminary Order",
+     "staff": ""
+    },
+    {
+     "num": 7,
+     "section": "Contested Case Items",
+     "subsection": "Water",
+     "kind": "Docket",
+     "control": "60124",
+     "title": "Petition of Undine Texas Environmental, LLC for a Cease and Desist Order Against Rick Wagner Farms, LLC",
+     "requested_action": "Preliminary Order",
+     "staff": ""
+    },
+    {
+     "num": 8,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "58664",
+     "title": "Application of Southwestern Public Service Company to Amend Its Certificate of Convenience and Necessity to Construct Generation Resources and Associated Facilities in Texas and New Mexico; for Good-Cause Exceptions; and for Related Relief",
+     "requested_action": "Extension of Time to Act on Motion for Rehearing",
+     "staff": ""
+    },
+    {
+     "num": 9,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59076",
+     "title": "Application of El Paso Electric Company to Amend Its Certificate of Convenience and Necessity for a 366 MW Natural Gas Generation Facility",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 10,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59399",
+     "title": "Application for Comanche Peak Power Company LLC and Amazon Data Services, Inc. for Approval of a Net Metering Arrangement",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 11,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59639",
+     "title": "Petition to Revoke Rio Nogales Project, LP’s Power Generation Company Certificate of Registration",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 12,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59788",
+     "title": "Application of AEP Texas Inc. to Adjust Its Energy Efficiency Cost Recovery Factor and Related Relief",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 13,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59790",
+     "title": "Application of Upshur Rural Electric Cooperative Corporation for Approval of a Wildfire Mitigation Plan",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 14,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59791",
+     "title": "Application of Texas-New Mexico Power Company to Adjust Its Energy Efficiency Cost Recovery Factor and Related Relief",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 15,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59936",
+     "title": "Application of El Paso Electric Company to Amend Its Distribution Cost Recovery Factor",
+     "requested_action": "Final Order",
+     "staff": ""
+    },
+    {
+     "num": 16,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59943",
+     "title": "Joint Application of Willow Springs Wind Farm, LLC and Haskell DC Owner LLC for Approval of a Net Metering Arrangement",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 17,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59955",
+     "title": "Complaint of a customer against Pedernales Electric Cooperative, Inc",
+     "requested_action": "Order on Appeal of Order No. 4",
+     "staff": ""
+    },
+    {
+     "num": 18,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "59968",
+     "title": "Application of CPS Energy to Change Wholesale Transmission Service Rates",
+     "requested_action": "Preliminary Order",
+     "staff": ""
+    },
+    {
+     "num": 19,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "60077",
+     "title": "Complaint of a customer against TXU Energy Retail Company, LLC",
+     "requested_action": "Preliminary Order",
+     "staff": ""
+    },
+    {
+     "num": 20,
+     "section": "Contested Case Items",
+     "subsection": "Electric",
+     "kind": "Docket",
+     "control": "60096",
+     "title": "Application of Southwestern Electric Power Company to Implement a Fuel Factor Formula",
+     "requested_action": "Preliminary Order",
+     "staff": ""
+    },
+    {
+     "num": 21,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Water",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding implementation of state legislation affecting water and sewer companies, current and projected rulemakings and other projects, comments to other state agencies, and Commission priorities",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 22,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Communications",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding implementation of state and federal legislation affecting telecommunications markets, current and projected rulemakings and other projects, comments to other state and federal agencies, and Commission priorities",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 23,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "55999",
+     "title": "Reports of the Electric Reliability Council of Texas",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 24,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "55845",
+     "title": "Review of Ancillary Services in the ERCOT Market",
+     "requested_action": "Discussion and possible action",
+     "staff": "Julie Gauldin"
+    },
+    {
+     "num": 25,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "58000",
+     "title": "Rulemaking to Update Wholesale and IOU Retail Transmission Cost Recovery in the ERCOT Region",
+     "requested_action": "Recommended Adoption Order",
+     "staff": "Jessie Horn"
+    },
+    {
+     "num": 26,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "54445",
+     "title": "Review of Protocols Adopted by the Independent Organization",
+     "requested_action": "Discussion and possible action including approval of 2027 AS Methodology",
+     "staff": "Julie Gauldin"
+    },
+    {
+     "num": 27,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "59142",
+     "title": "Review of ERCOT’s Interconnection Processes for Large Loads",
+     "requested_action": "Discussion and possible action",
+     "staff": "Barksdale English"
+    },
+    {
+     "num": 28,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "37344",
+     "title": "Information Related to the Entergy Regional State Committee",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 29,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "41211",
+     "title": "Information Related to the Organization of MISO States",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 30,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "41210",
+     "title": "Information Related to the Southwest Power Pool Regional State Committee",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 31,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "Project",
+     "control": "51879",
+     "title": "Information Related to the Western Energy Imbalance Market",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 32,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action on electric reliability; electric market development; power-to-choose website; ERCOT oversight; transmission planning, construction, and cost recovery; and electric reliability standards and organizations arising under federal law",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 33,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Electric",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding implementation of state and federal legislation affecting electricity markets including current and projected rulemaking s and other projects, comments to other state and federal agencies and Commission priorities",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 34,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "Project",
+     "control": "52761",
+     "title": "Statements Regarding Internal Management of the Public Utility Commission",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 35,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "Project",
+     "control": "58847",
+     "title": "Agency Reports to the 90 th Texas Legislature",
+     "requested_action": "Discussion and possible action",
+     "staff": "Logan Harrison"
+    },
+    {
+     "num": 36,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "Project",
+     "control": "59212",
+     "title": "CY 2026 Rulemaking Calendar",
+     "requested_action": "Discussion and possible action",
+     "staff": ""
+    },
+    {
+     "num": 37,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding agency review by Sunset Advisory Commission, operating budget, strategic plan, appropriations request, project assignments, correspondence, staff reports, agency administrative issues, agency organization, fiscal matters and personnel policy",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 38,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action regarding customer service issues, including but not limited to correspondence and complaint issues",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 39,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "General",
+     "kind": "",
+     "control": "",
+     "title": "Discussion and possible action on infrastructure reliability, emergency man agement, and homeland security",
+     "requested_action": "",
+     "staff": ""
+    },
+    {
+     "num": 40,
+     "section": "Rules, Projects, And Miscellaneous Items",
+     "subsection": "Closed Session",
+     "kind": "",
+     "control": "",
+     "title": "Adjournment for closed session",
+     "requested_action": "",
+     "staff": ""
+    }
+   ]
   },
   {
    "date": "2026-11-19",
