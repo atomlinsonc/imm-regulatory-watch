@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-24 15:29",
+ "fetched": "2026-11-25 14:38",
  "source": "https://www.ercot.com/mktrules/issues/nprr",
  "nprrs": [
   {
@@ -1144,6 +1144,33 @@
     {
      "name": "1355NPRR-02 Impact Analysis 112426",
      "url": "https://www.ercot.com/files/docs/2026/11/24/1355NPRR-02-Impact-Analysis-112426.docx",
+     "posted": "2026-11-24"
+    }
+   ]
+  },
+  {
+   "id": "NPRR1356",
+   "url": "https://www.ercot.com/mktrules/issues/NPRR1356",
+   "title": "Protocol Cleanup of Section 16.11, Financial Security for Counter-Parties",
+   "next_group": "PRS",
+   "next_step": "PRS for language consideration",
+   "status": "Pending",
+   "posted": "2026-11-24",
+   "sponsor": "ERCOT",
+   "urgent": "No",
+   "description": "This Nodal Protocol Revision Request (NPRR) simplifies and clarifies the Counter-Party credit exposure and Financial Security provisions by consolidating Total Potential Exposure Any (TPEA) and Total Potential Exposure Secured (TPES) into a single Total Potential Exposure (TPE) structure. The NPRR restructures the Minimum Current Exposure (MCE) provisions to more clearly identify the applicable exposure components and formulas and simplifies the corresponding Financial Security and Available Credit Limit (ACL) provisions. The NPRR also makes related clarifying and conforming revisions to CRR Future Credit Exposure (CRRFCE), Initial Estimated Liability (IEL), Estimated Aggregate Liability (EAL), credit monitoring, and other affected credit provisions. These revisions do not change the underlying credit exposure calculation methodology.",
+   "actions": [],
+   "document_count": 2,
+   "imm_documents": [],
+   "latest_documents": [
+    {
+     "name": "1356NPRR-01 Protocol Cleanup of Section 16.11, Financial Security for Counter-Parties 112426",
+     "url": "https://www.ercot.com/files/docs/2026/11/24/1356NPRR-01-Protocol-Cleanup-of-Section-16.11-Financial-Security-for-Counter-Parties-112426.docx",
+     "posted": "2026-11-24"
+    },
+    {
+     "name": "1356NPRR-02 Impact Analysis 112426",
+     "url": "https://www.ercot.com/files/docs/2026/11/24/1356NPRR-02-Impact-Analysis-112426.docx",
      "posted": "2026-11-24"
     }
    ]

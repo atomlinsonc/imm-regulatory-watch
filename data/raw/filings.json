@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-24 15:27",
+ "fetched": "2026-11-25 14:36",
  "projects": {
   "34677": {
    "control": "34677",
@@ -1571,6 +1571,14 @@
      "type": "PL",
      "description": "ORDER APPROVING ERCOT REVISION REQUESTS",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=167"
+    },
+    {
+     "item": 168,
+     "date": "2026-11-24",
+     "party": "MARKET ANALYSIS",
+     "type": "MISC",
+     "description": "Staff Recommendation on 2027 ERCOT Methodologies for Determining Minimum Ancillary Service Requirements and accompanying Draft Proposed Order.",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=168"
     }
    ],
    "style": "Review of Protocols Adopted by the Independent Organization"
@@ -9608,6 +9616,22 @@
      "type": "PC",
      "description": "Public comment",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=85"
+    },
+    {
+     "item": 86,
+     "date": "2026-11-24",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=86"
+    },
+    {
+     "item": 87,
+     "date": "2026-11-24",
+     "party": "Member of the public",
+     "type": "PC",
+     "description": "Public comment",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=87"
     }
    ],
    "style": "Review of ERCOT’s Interconnection Processes for Large Loads"
@@ -10390,6 +10414,14 @@
      "type": "PC",
      "description": "Public comment",
      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=92"
+    },
+    {
+     "item": 93,
+     "date": "2026-11-25",
+     "party": "COMANCHE PEAK POWER COMPANY LLC",
+     "type": "PL",
+     "description": "Joint Motion to Admit Evidence",
+     "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59399&itemNumber=93"
     }
    ],
    "style": "Application for Comanche Peak Power Company LLC and Amazon Data Services, Inc. for Approval of a Net Metering Arrangement"

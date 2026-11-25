@@ -1,14 +1,14 @@
 {
- "fetched": "2026-11-24 15:29",
+ "fetched": "2026-11-25 14:38",
  "source": "https://www.ercot.com/calendar",
  "events": [
   {
-   "date": "2026-11-24",
+   "date": "2026-11-26",
    "time": "11:00 AM",
-   "name": "OWG Meeting - Webex Only",
-   "body": "Operations Working Group",
-   "location": "(CANCELLED) Thursday, Nov 26, 2026",
-   "url": "https://www.ercot.com/calendar/11242026-OWG-Meeting-_-Webex",
+   "name": "ERCOT observed holiday as defined by Protocol Section 2",
+   "body": "ERCOT observed holiday as defined by Protocol Section 2",
+   "location": "",
+   "url": "https://www.ercot.com/calendar/11262026-ERCOT-observed-holiday-as",
    "key": false
   },
   {

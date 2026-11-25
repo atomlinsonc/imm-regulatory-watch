@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-24 15:29",
- "since": "2026-08-26",
- "documents_scanned": 208,
+ "fetched": "2026-11-25 14:38",
+ "since": "2026-08-27",
+ "documents_scanned": 206,
  "mentions": [
   {
    "item": 164,
@@ -110,6 +110,36 @@
     {
      "page": 34,
      "text": "ERCOT expects the trend of having higher available (online + offline) headroom capacity during night hours to continue 100% Credit and 1 Hour duration (IMM) Parameter Y (in %), W (in hours ) '."
+    }
+   ]
+  },
+  {
+   "item": 168,
+   "date": "2026-11-24",
+   "party": "MARKET ANALYSIS",
+   "type": "MISC",
+   "description": "Staff Recommendation on 2027 ERCOT Methodologies for Determining Minimum Ancillary Service Requirements and accompanying Draft Proposed Order.",
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=54445&itemNumber=168",
+   "control": "54445",
+   "style": "Review of Protocols Adopted by the Independent Organization",
+   "mention_count": 4,
+   "pages": 7,
+   "snippets": [
+    {
+     "page": 3,
+     "text": "The Independent Market Monitor (IMM) recommended the methodology use less-conservative assumptions including a shorter risk horizon, one-hour Energy Storage Resource (ESR) minimum discharge duration, no restoration requirement for Regulation Up or RRS, and a target reserve threshold designed to avoid load shed."
+    },
+    {
+     "page": 3,
+     "text": "IMM also raised its concern about the impact of procuring excess reserves on proper price formation, which is necessary for long-term incentives for investment."
+    },
+    {
+     "page": 4,
+     "text": "More Use of Historical Data Staff will work with ERCOT, the IMM, and stakeholders to define key market information and model parameters that should be further studied as part ofthe 2028 AS Methodology development."
+    },
+    {
+     "page": 5,
+     "text": "55845, the following improvements to the AS Methodology are already underway for 2028: • ImprovedASDCs - Staff, ERCOT, and the IMM are working together to create a roadmap for ASDC improvements that can be implemented in concert with the 2028 AS Methodology to improve the valuation of reserves and reduce the need for out of market actions by operators."
     }
    ]
   },
